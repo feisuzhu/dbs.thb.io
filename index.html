@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>dbs.thb.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>幻想梦斗符 资料站</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
-  </body>
+    <div id="page">
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+      new Vue({
+        el: "#page",
+      })
+    </script>
+
+    <c-header></c-header>
+
+    <!-- Start of slider wrapper -->
+    <div id="slider_wrapper">
+      <!-- Start of breadcrumb wrapper -->
+      <div id="breadcrumb_wrapper">
+        <h1>符卡图鉴</h1>
+
+        <!-- Start of breadcrumb -->
+        <div id="breadcrumb">
+          <!-- Start of breadcrumb ul -->
+          <ul>
+            <li><a href="index.html">首页</a> </li>
+            <li>&#8250;&nbsp; <a href="library.html">资料库</a></li>
+            <li>&#8250;&nbsp; <a href="cardlist.html">符卡图鉴</a></li>
+            <li>&#8250;&nbsp; 灵梦</li>
+          </ul>
+          <!-- End of breadcrumb ul -->
+        </div>
+        <!-- End of breadcrumb -->
+      </div>
+      <!-- End of breadcrumb wrapper -->
+    </div>
+    <!-- End of slider wrapper -->
+
+    <!-- Start of wrapper -->
+    <div id="wrapper">
+      <!-- Start of left content wrapper -->
+      <div class="left_content_wrapper">
+        <!-- Start of post -->
+      <!-- End of post -->
+      <div class="post">
+       	<h2><a href="blog_single.html">灵符「梦想妙珠」</a></h2>
+
+        <!-- Start of post image -->
+        <div class="intro">
+          <div class="intro">
+            <a href="#">
+              <! -- sc:image --><img class="alignleft" src="card/RM-001.jpg" width="300" height="409" alt="left aligned" />
+            </a>
+
+            <div class="form_submit">
+              <! -- sc:no -->编号：RM001 &nbsp;/&nbsp;
+              <! -- sc:rare -->稀有度：R &nbsp;/&nbsp;
+              <! -- sc:illust -->画师：镜_Area &nbsp;/&nbsp;
+              <! -- sc:version -->版本：DBSC-SD01
+            </div>
+          </div>
+          <div class="post_comments">
+            <! -- sc:gorgeous -->华丽度：2</br>
+            <! -- sc:cost -->消耗灵力：1</br>
+            <! -- sc:property -->战斗符卡：1500 弹幕伤害</br>
+            <! -- sc:special cost -->需要：N/A</br>
+            <! -- sc:standard skill -->特性：N/A</br>
+            <! -- sc:skill -->本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力</br>
+          </div>
+        </div>
+        <!-- End of post image -->
+        <!-- Start of post details date wrapper -->
+        <div class="post_content_wrapper">
+          <! -- sc:faq1 -->
+          <p>Q:This is Question 1？</p>
+          <p>A:This is the answer 1.</p>
+          <! -- sc:faq2 -->
+          <p>Q:This is Question 2？</p>
+          <p>A:This is the answer 2.</p>
+        </div>
+        <!-- End of post details date wrapper -->
+        <!-- Start of other post details wrapper -->
+        <div class="other_post_details_wrapper">
+          <div class="post_content_wrapper">
+            <! -- sc:history -->
+            <p>*This Card is come from <a href="http://baike.baidu.com/view/7358422.htm">东方永夜抄</a>
+
+            </p>
+          </div>
+        </div>
+        <!-- End of other post details wrapper -->
+        <hr />
+      </div>
+      <!-- End of post -->
+    </div>
+    <!-- End of left content wrapper -->
+
+    <!-- Start of right content wrapper -->
+    <div class="right_content_wrapper">
+      <!-- Start of text widget -->
+      <iframe style="width:100px；height:800px" src="cardlist_right_content.html" frameborder=0 scrolling=no allowtransparency></iframe>
+    </div>
+    <!-- End of wrapper -->
+    <div class="clear"></div>
+    <c-footer></c-footer>
+</body>
 </html>

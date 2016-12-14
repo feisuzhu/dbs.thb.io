@@ -1,7 +1,3 @@
 import Vue from 'vue'
-import App from './App.vue'
-
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
