@@ -1,5 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
+var multi = require('multi-loader')
 
 module.exports = {
   entry: './src/main.js',
@@ -33,14 +34,35 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          // name: 'images/[name].[ext]?[hash]',
+          name: 'images/[hash].[ext]',
         }
+      },
+      {
+        test: /\.html$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        }
+      },
+      {
+        test: /\.ya?ml$/,
+        loader: multi([
+          'loader/require-images!yaml-loader',
+          'json-loader!yaml-loader',
+        ]),
       }
     ]
   },
+  resolveLoader: {
+    alias: {
+      'loader': path.join(__dirname, 'src', 'loader'),
+    }
+  },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.common.js'
+      'vue$': 'vue/dist/vue.common.js',
+      'assets': path.join(__dirname, 'src', 'assets'),
     }
   },
   devServer: {
@@ -59,6 +81,7 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+    /*
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
@@ -68,5 +91,6 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })
+    // */
   ])
 }

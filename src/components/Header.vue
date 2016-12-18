@@ -64,7 +64,7 @@
 
 <script>
   export default {
-    name: 'c-header',
+    name: 'header',
   }
 </script>
 

@@ -1,10 +1,11 @@
-- character: 博丽霊梦
-  cards:
+- name: 博丽霊梦
+  characters:
     - title: 乐园的奇妙巫女
       sku: C001
+      image: assets/images/C001.jpg
       version: DBSC-EP01
       rarity: R
-      line: 每天生活仅靠运气就能成立的家伙
+      line: 侍奉着一家没什么人参拜的破落神社
       illustrator: 霏茶
       origin: 东方红魔乡
       skills:
@@ -21,6 +22,7 @@
   spellcards:
     - title: 灵符「梦想妙珠」
       sku: RM001
+      image: assets/images/RM001.jpg
       version: DBSC-SD01
       rarity: R
       origin: 东方永夜抄
@@ -33,7 +35,7 @@
       attributes: [高速, 汲引, 破坏]
       line: 吃我一击扫把星啦！
       special:
-        - 需要：赛钱箱满，以及丢弃节操
+        - "需要：赛钱箱满，以及丢弃节操"
       faq:
         - question: meh
           answer: Whoa!

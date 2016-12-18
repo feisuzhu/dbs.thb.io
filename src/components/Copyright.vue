@@ -3,6 +3,6 @@
 
 <script>
 export default {
-  name: 'c-copyright'
+  name: 'copyright'
 }
 </script>

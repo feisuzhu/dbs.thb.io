@@ -47,6 +47,6 @@
 
 <script>
   export default {
-    name: 'c-footer',
+    name: 'footer',
   }
 </script>
