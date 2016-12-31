@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-var multi = require('multi-loader')
 
 module.exports = {
   entry: './src/main.js',
@@ -47,23 +46,19 @@ module.exports = {
       },
       {
         test: /\.ya?ml$/,
-        loader: multi([
-          'loader/require-images!yaml-loader',
-          'json-loader!yaml-loader',
-        ]),
+        loader: 'json-loader!yaml-loader',
       }
     ]
-  },
-  resolveLoader: {
-    alias: {
-      'loader': path.join(__dirname, 'src', 'loader'),
-    }
   },
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.common.js',
-      'assets': path.join(__dirname, 'src', 'assets'),
-    }
+      // 'assets': path.join(__dirname, 'src', 'assets'),
+    },
+    modules: [
+      path.resolve('./src'),
+      path.resolve('./node_modules'),
+    ],
   },
   devServer: {
     historyApiFallback: true,

@@ -1,8 +1,9 @@
 - name: 博丽霊梦
+  id: Reimu
   characters:
     - title: 乐园的奇妙巫女
+      name: 博丽霊梦
       sku: C001
-      image: assets/images/C001.jpg
       version: DBSC-EP01
       rarity: R
       line: 侍奉着一家没什么人参拜的破落神社
@@ -21,8 +22,8 @@
 
   spellcards:
     - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
       sku: RM001
-      image: assets/images/RM001.jpg
       version: DBSC-SD01
       rarity: R
       origin: 东方永夜抄

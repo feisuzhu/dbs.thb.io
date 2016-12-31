@@ -2,7 +2,7 @@
   <div class="post">
     <h2>{{ card.title }}</h2>
     <div class="intro">
-      <a href="#"><img class="alignleft" :src="require(card.image)" width="300" height="409" alt="left aligned" /></a>
+      <a href="#"><img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" /></a>
       <div class="form_submit">
         <ul>
           <li>编号：{{ card.sku }}</li>
@@ -25,8 +25,8 @@
     </div>
     <div class="post_content_wrapper">
       <div v-for="faq in card.faq">
-        <p>Q: {{ s.question }}</p>
-        <p>A: {{ s.answer }}</p>
+        <p>Q: {{ faq.question }}</p>
+        <p>A: {{ faq.answer }}</p>
         <hr>
       </div>
     </div>
@@ -38,8 +38,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <hr>
   </div>
 </template>
 

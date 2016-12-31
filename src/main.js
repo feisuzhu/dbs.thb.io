@@ -1,12 +1,21 @@
 import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import Character from './components/Character.vue'
-import Spellcard from './components/Spellcard.vue'
+import List from 'view/List.vue'
 
-import './index.html'
+import HeaderSection from 'components/common/Header.vue'
+import FooterSection from 'components/common/Footer.vue'
 
-Data = {
-  'cards': require('./data/cards.yaml'),
-}
+import 'index.html'
+
+Vue.use(VueRouter);
+
+var app = new Vue({
+  el: '#app',
+  router: new VueRouter({
+    routes: [
+      {path: '/list', component: List},
+    ]
+  }),
+  components: { HeaderSection, FooterSection },
+})
