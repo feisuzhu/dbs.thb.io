@@ -1,6 +1,7 @@
 # dbs.thb.io
 
 > Zephyr DBS
+> It's awesome!
 
 ## Build Setup
 
