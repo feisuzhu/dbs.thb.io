@@ -1,0 +1,504 @@
+- title: 恋符「Master Spark」
+  owner: MISSING
+  sku: MS-001
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: 镜_Area
+  gorgeousness: 3
+  cost: 2
+  effect: 攻击阶段宣言本卡时，本卡战力+1500
+  type: 弹幕
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 魔炮「Final Spark」
+  owner: MISSING
+  sku: MS-002
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: 镜_Area
+  gorgeousness: 5
+  cost: 3
+  effect: 攻击阶段宣言本卡时，本卡战力+2000。
+  type: 弹幕
+  intensity: 3000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 恋符「Non-Directional Laser」
+  owner: MISSING
+  sku: MS-003
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: POPPY
+  gorgeousness: 4
+  cost: 3
+  effect: 本卡位于你宣言区顶部时，华丽度始终视为2
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: 光符「Earthlight-Ray」
+  owner: MISSING
+  sku: MS-004
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 千夜
+  gorgeousness: 2
+  cost: 2
+  effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: 光符「Luminous Strike」
+  owner: MISSING
+  sku: MS-005
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 吹风姬
+  gorgeousness: 1
+  cost: 1
+  effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
+  type: 弹幕
+  intensity: 1000
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: 仪符「Orrery's Sun」
+  owner: MISSING
+  sku: MS-006
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 吹风姬
+  gorgeousness: 0
+  cost: 1
+  effect: 攻击阶段开始时，可发动此状态：本回合，你宣言的所有魔理沙战斗符卡在宣言时战力+500。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 魔符「Milky Way」
+  owner: MISSING
+  sku: MS-007
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 镜_Area
+  gorgeousness: 1
+  cost: 1
+  effect: 攻击阶段宣言本卡时，若你弃牌堆有3张或更多“魔符”，本卡获得“诱导”特性。
+  type: 弹幕
+  intensity: 500
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: 魔符「Stardust Reveiry」
+  owner: MISSING
+  sku: MS-008
+  version: MISSING
+  rarity: UC（SP）
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: 本卡结算完毕后，你可从卡组中展示一张“魔符”并弃置之。
+  type: 体术
+  intensity: 2000
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq:
+  - ''
+- title: 魔符「Ultimate Short Wave」
+  owner: MISSING
+  sku: MS-009
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 吹风姬
+  gorgeousness: 4
+  cost: 4
+  effect: 对手相杀本卡时，须额外支付1点灵力。
+  type: 弹幕
+  intensity: 3500
+  attributes: []
+  special:
+  - 雾雨魔理沙Center
+  faq:
+  - ''
+- title: 星符「Gravity Beat」
+  owner: MISSING
+  sku: MS-010
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: 吹风姬
+  gorgeousness: 0
+  cost: 0
+  effect: 攻击阶段，当你宣言的一张不带有“贯通”特性的魔理沙战斗符卡命中时，可发动此陷阱：对对手造成1000点特殊伤害。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 星符「Meteoric Shower」
+  owner: MISSING
+  sku: MS-011
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: 宣言本卡时，你可从卡组展示一张“恋符”、“恋心”、“恋心”、“恋风”或“邪恋”并加入手牌。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 星符「Escape Velocity」
+  owner: MISSING
+  sku: MS-012
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: POPPY
+  gorgeousness: 3
+  cost: 3
+  effect: 防御阶段，若本卡被对阵符卡击破：本卡结算完毕后，结束当前回合。
+  type: 体术
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 星符「Dragon Meteor」
+  owner: MISSING
+  sku: MS-013
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: 青冥童子
+  gorgeousness: 5
+  cost: 2
+  effect: 防御阶段，本卡造成的伤害不可被防止。
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 反制
+  special:
+  - 从你弃牌堆将2张“星符”移出游戏。
+  faq:
+  - ''
+- title: 天仪「Orrenrie's Solar System」
+  owner: MISSING
+  sku: MS-014
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: POPPY
+  gorgeousness: 0
+  cost: 1
+  effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行：横置一张你宣言区的魔理沙符卡。每如此做，视为你宣言了一张战力为500且具有“贯通”特性的魔理沙弹幕符卡。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 流光「Shooting Echo」
+  owner: MISSING
+  sku: MS-015
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: 本卡命中时，你可将你宣言区的一张横置符卡加入手牌。
+  type: 弹幕
+  intensity: 2000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 彗星「Blazing Star」
+  owner: MISSING
+  sku: MS-016
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: LSC
+  effect: 宣言本卡后，弃置双方符力区、宣言区全部卡片，随后，令对手崩坏1枚灵珠。
+  type: 体术
+  intensity: 0
+  attributes:
+  - 终符
+  special:
+  - ''
+  faq:
+  - ''
+- title: 光击「Shoot the Moon」
+  owner: MISSING
+  sku: MS-017
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 2
+  effect: 攻击阶段，你可将位于宣言区的本卡弃置。你每如此做，你弃置对手宣言区的一张牌。
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: ' 星符「Eccentric Asteroid」'
+  owner: MISSING
+  sku: MS-018
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: 当本卡从你弃牌堆被移出游戏时，你可回复1点灵力或抽1张牌。
+  type: 弹幕
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 魔废「Deep Ecological Bomb」
+  owner: MISSING
+  sku: MS-019
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: POPPY
+  gorgeousness: 0
+  cost: 1
+  effect: 防御阶段，当对方宣言一张体术符卡时，可发动此陷阱：破坏该符卡，并对双方造成2000点特殊伤害。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 邪恋「容易命中的Master spark」
+  owner: MISSING
+  sku: MS-020
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: aoi
+  gorgeousness: 5
+  cost: 1
+  effect: 攻击阶段，你可将宣言区的本卡弃置。若如此做，你可立即从手牌不消耗灵力宣言一张“Master Spark”
+  type: 弹幕
+  intensity: 1000
+  attributes:
+  - 贯通
+  special:
+  - 魔理沙Hyper
+  faq:
+  - ''
+- title: 星符「Satellite Illusion」
+  owner: MISSING
+  sku: MS-021
+  version: MISSING
+  rarity: UC（SP）
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: 宣言本卡时，你可以从卡组展示两张“星符”，由对手选择其一加入你的手牌，然后你弃置剩余的。
+  type: 弹幕
+  intensity: 500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 恋符「Wide Master」
+  owner: MISSING
+  sku: MS-022
+  version: MISSING
+  rarity: SSR
+  origin: MISSING
+  illustrator: 天小二
+  gorgeousness: 5
+  cost: 3
+  effect: 本卡命中后，你可以将你弃牌区所有「SPARK」符卡洗回卡组。防御阶段开始时，你可以将宣言区的本卡移出游戏。若如此做，你从卡组展示一张「Master
+    Spark」并加入手牌。
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: null
+  owner: MISSING
+  sku: null
+  version: MISSING
+  rarity: null
+  origin: MISSING
+  illustrator: null
+  gorgeousness: null
+  cost: null
+  effect: null
+  type: null
+  intensity: null
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''

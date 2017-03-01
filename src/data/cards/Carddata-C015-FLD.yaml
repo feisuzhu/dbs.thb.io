@@ -1,0 +1,413 @@
+- title: '禁忌「Catadioptric」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-001
+  version: MISSING
+  rarity: SP
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 3
+  cost: 3
+  effect: 本卡战力+X*500。（X=对手符力区卡片数量，且至多为5）
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 破坏
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Forbidden Fruit」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-002
+  version: MISSING
+  rarity: SP
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 5
+  cost: 3
+  effect: '宣言本卡时，你每有一枚「血」标记，本卡战力+1000。当本卡最终战力不小于3000时，本卡获得破坏特性。_x000d_
+
+    '
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Cranberry Trap」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-003
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: N/A
+  cost: 1
+  effect: 当对手对你造成一次伤害时，可发动此陷阱：弃置对手一张手牌，且你获得一枚「血」标记。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Black Cat」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-004
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 1
+  cost: 1
+  effect: 宣言本卡时，你可弃置一枚「血」标记。
+  type: 体术
+  intensity: 500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Under a Ladder」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-005
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 2
+  cost: 2
+  effect: 宣言本卡时，你可弃置一枚「血」标记。
+  type: 体术
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Destroy Impulse」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-006
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 3
+  cost: 3
+  effect: 宣言本卡时，你可弃置一枚「血」标记。
+  type: 体术
+  intensity: 2000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁弹「Border Interception」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-007
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 3
+  cost: 2
+  effect: （本卡命中时，你可弃置对手一张符力区或装备区的卡片。）
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 破坏
+  special:
+  - ''
+  faq:
+  - ''
+- title: 禁忌「Soul Switching」
+  owner: MISSING
+  sku: FLD-008
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: N/A
+  cost: 1
+  effect: 战斗阶段开始时，可发动此状态：本回合，每当你的「血」标记发生变化时，你可以进行一次角色区切换。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 禁忌「Treif Gifts」
+  owner: MISSING
+  sku: FLD-009
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: N/A
+  cost: 3
+  effect: 当你需消耗一次灵力时，你可将本卡从装备区弃置，并回复两点灵力。
+  type: 延时
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Kagome Kagome」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-010
+  version: MISSING
+  rarity: SP
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 1
+  cost: 0
+  effect: null
+  type: 弹幕
+  intensity: 2000
+  attributes: []
+  special:
+  - 对手符力区没有卡片
+  faq:
+  - ''
+- title: '禁忌「被禁止的游戏」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-011
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: N/A
+  cost: 0
+  effect: 战斗阶段开始时，可发动此状态：本回合，双方角色不可发动即时道具卡。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Broken Teddy」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-012
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 2
+  cost: 1
+  effect: 宣言本卡时，你可从卡组展示一张芙兰朵露的带有禁忌的符卡并加入手牌。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: 禁忌「Bird in Cage」
+  owner: MISSING
+  sku: FLD-013
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 4
+  cost: 3
+  effect: 攻击阶段，你可以横置位于宣言区的本卡。若你这么做，你获得一枚「血」标记。
+  type: 弹幕
+  intensity: 3000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Untouchables」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-014
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 2
+  cost: 2
+  effect: 防御阶段宣言本卡时，对对手造成500点弹幕伤害，且你获得一枚「血」标记。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁弹「Starbow Break」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-015
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 5
+  cost: 3
+  effect: 本卡战力+X*500。（X=你宣言本卡所弃置的手牌数量）当该X不小于5时，本卡获得破坏特性。
+  type: 弹幕
+  intensity: 2500
+  attributes:
+  - 高速
+  special:
+  - 弃置你的手牌至剩一张。
+  faq:
+  - ''
+- title: 'QED「495年的波纹」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-016
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 5
+  cost: LSC
+  effect: 宣言本卡后，终止当前的所有结算，结束此阶段，然后进入你的攻击阶段。（跳过回合开始和准备阶段）
+  type: 弹幕
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Laevatein」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-017
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 2
+  cost: 0
+  effect: 你每有1000点体力，宣言本卡消耗灵力+1。
+  type: 体术
+  intensity: 1000
+  attributes:
+  - 破坏、贯通、高速
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁忌「Friday the 13th」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-018
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 3
+  cost: 1
+  effect: 宣言本卡时，你可以额外消耗一点灵力，然后你选择令本卡获得以下三种特性中的一种：「诱导」、「贯通」、「破坏」。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '禁弹「刻着过去的钟表」_x000d_
+
+    '
+  owner: MISSING
+  sku: FLD-019
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 3
+  cost: 2
+  effect: 战斗阶段限一次，宣言本卡后，将你手牌数量补至与本回合开始时相同。在这个效果发动后，本回合结束时你须弃置你的所有手牌。
+  type: 弹幕
+  intensity: 500
+  attributes: []
+  special:
+  - 芙兰朵露HYPER限定
+  faq:
+  - ''
+- title: 禁忌「恋之迷宫」
+  owner: MISSING
+  sku: FLD-020
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 4
+  cost: 2
+  effect: 宣言本卡时，你可以指定对手宣言区的一张战斗符卡，令本卡战力+X。（X=指定符卡的原始战力）
+  type: 弹幕
+  intensity: 0
+  attributes:
+  - 破坏、狂视
+  special:
+  - ''
+  faq:
+  - ''
+- title: 禁忌「Soul puncture」
+  owner: MISSING
+  sku: FLD-021
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 5
+  cost: 2
+  effect: null
+  type: 体术
+  intensity: 3500
+  attributes: []
+  special:
+  - 你的符力区和道具区没有卡片
+  faq:
+  - ''
+- title: 禁忌「Psychic Scream」
+  owner: MISSING
+  sku: FLD-022
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: MISSING
+  gorgeousness: 1
+  cost: 2
+  effect: 本卡结算完毕后，若你没有手牌，你抽一张卡。
+  type: 弹幕
+  intensity: 2500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''

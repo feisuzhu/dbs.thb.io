@@ -1,0 +1,452 @@
+- title: 死符「Ghastly Dream」
+  owner: MISSING
+  sku: UU-001
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: '攻击阶段，本卡命中时：你可从卡组展示一张“死蝶”，将之加入手牌或置于你的符力区。_x000d_
+
+    _x000d_
+
+    '
+  type: 弹幕
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '死蝶「华胥的永眠」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-002
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 4
+  cost: 2
+  effect: 当本卡从手牌被弃置时：你可以将你卡组顶的一张卡置于你符力区或加入手牌。
+  type: 弹幕
+  intensity: 3000
+  attributes: []
+  special:
+  - '你弃牌堆存在5种或更多符卡名有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡_x000d_
+
+    _x000d_
+
+    '
+  faq:
+  - ''
+- title: '灵符「无寿之梦」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-003
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 0
+  effect: 宣言本卡时：若对手体力值大于0，令对手扣减500体力。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '亡乡「亡我乡 -宿罪-」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-004
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 1
+  cost: 1
+  effect: null
+  type: 弹幕
+  intensity: 1000
+  attributes:
+  - 枯萎
+  special:
+  - ''
+  faq:
+  - ''
+- title: '亡舞「生者必灭之理 -死蝶-」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-005
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: null
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 枯萎
+  special:
+  - ''
+  faq:
+  - ''
+- title: '幽曲「Repository Of Hirokawa -亡灵-」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-006
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 3
+  effect: null
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 枯萎
+  special:
+  - ''
+  faq:
+  - ''
+- title: '灵蝶「蝶之羽风暂留此世」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-007
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 1
+  effect: 八云紫参战时，本卡战力+500。
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 枯萎
+  - 扭曲
+  special:
+  - ''
+  faq:
+  - ''
+- title: '华灵「Swallowtail Butterfly」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-008
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: '当本卡于宣言区被横置时，将卡组中一张含有“灵”字的幽幽子或紫的符卡加入手牌。_x000d_
+
+    _x000d_
+
+    '
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq:
+  - ''
+- title: '冥符「黄泉平坂行路」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-009
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 0
+  effect: '当你造成一次弹幕伤害时，可发动此陷阱：将你弃牌堆一张带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡置于你符力区。_x000d_
+
+    _x000d_
+
+    '
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '幽雅「死亡的诱蛾灯」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-010
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 1
+  effect: 防御阶段开始时，可发动此状态：本回合内，每当对手宣言战力不小于1000的符卡时，令其扣减500点体力。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '樱符「西行樱吹雪」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-011
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: 宣言本卡时，展示你卡组顶三张牌，将一张枯萎特性的符卡加入手牌，并将剩余卡片弃置。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '樱符「Sense of Cherry Blossom」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-012
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: 2
+  effect: 本卡不可被战力小于3000的符卡相杀。
+  type: 体术
+  intensity: 2000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '寿命「通向无寿国的期票」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-013
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 2
+  effect: 攻击阶段，可发动此状态：你指定对手当前场上的一张角色卡；直到该角色卡离场为止，每个回合结束阶段，对手须扣减500点体力。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - '弃置二张带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡_x000d_
+
+    _x000d_
+
+    '
+  faq:
+  - ''
+- title: '幽符「冥界Mysterious Spot」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-014
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 0
+  effect: 你具有枯萎特性的符卡从卡组被弃置时，可发动此陷阱：扣减对手1500点体力。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '符牒「死蝶之舞」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-015
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: 3
+  effect: 攻击阶段宣言本卡时，从卡组中找出任意种不同的幽幽子符卡并展示，再从你弃牌堆找出等量张数的相同符卡并展示，随后将所有展示的卡片移出；你每移出一种符卡，本卡战力+1000。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '「死蝶浮月」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-016
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: LSC
+  effect: '宣言本卡后，你可无视“需要”发动西行寺幽幽子的符卡；且对手不可回复体力，直到本局游戏结束。_x000d_
+
+    _x000d_
+
+    '
+  type: 弹幕
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '亡乡「亡我乡 -无道之路-」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-017
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 2
+  effect: 本卡从卡组被弃置时，你回复一点灵力，对手失去一点灵力。
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 枯萎
+  special:
+  - ''
+  faq:
+  - ''
+- title: '亡舞「生者必灭之理 -毒蛾-」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-018
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 4
+  cost: 3
+  effect: 本卡从卡组被弃置时，对对手造成500点弹幕伤害。
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 枯萎
+  special:
+  - ''
+  faq:
+  - ''
+- title: '死符「醉生梦死」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-019
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 0
+  effect: 攻击阶段你即将受到一次伤害时，可发动此陷阱：防止此伤害，将你卡组顶两张卡片置于你的符力区或弃置。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '「紫色的彼岸乃迟到的光辉」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: UU-020
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 0
+  effect: 攻击阶段开始时，可发动此状态：你可从弃牌堆直接发动卡名中带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡；每当你以此法发动符卡时，灵力消耗至少为1。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - '幽幽子HYPER；弃置你符力区5种符卡名带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡_x000d_
+
+    _x000d_
+
+    '
+  faq:
+  - ''

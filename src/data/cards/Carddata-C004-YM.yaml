@@ -1,0 +1,441 @@
+- title: 人符「现世斩」
+  owner: MISSING
+  sku: YM-001
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: '攻击阶段，本卡命中后，本回合你宣言的下一张“未来永劫斩”不需消耗灵力。_x000d_
+
+    _x000d_
+
+    '
+  type: 体术
+  intensity: 1500
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq:
+  - ''
+- title: '人鬼「未来永劫斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-002
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: 2
+  effect: 本卡命中后，追加2500点体术伤害。
+  type: 体术
+  intensity: 1500
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq:
+  - ''
+- title: '天星剑「宛若涅槃寂静」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-003
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 2
+  effect: 当对手发动一张状态或陷阱符卡时，可发动此陷阱：破坏之，然后对对手造成1000点特殊伤害。
+  type: 陷阱
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '幽鬼剑「妖童饿鬼之断食」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-004
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 1
+  cost: 1
+  effect: null
+  type: 弹幕
+  intensity: 1000
+  attributes:
+  - 连击
+  special:
+  - ''
+  faq:
+  - ''
+- title: '狱界剑「二百由旬之一闪」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-005
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 2
+  effect: null
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 连击
+  special:
+  - ''
+  faq:
+  - ''
+- title: '畜趣剑「无为无策的冥罚」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-006
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 3
+  effect: null
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 连击
+  special:
+  - ''
+  faq:
+  - ''
+- title: '魂符「幽冥的苦轮」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-007
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 0
+  effect: 攻击阶段，可发动此状态：本回合内，你宣言的下一张妖梦的战斗符卡消耗灵力加倍，原始战力加倍。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '剑伎「樱花闪闪」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-008
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 1
+  effect: 攻击阶段，你可消耗一点灵力，并将本卡置于你的宣言区底部。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '断命剑「冥想斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-009
+  version: MISSING
+  rarity: C
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 2
+  effect: 若你当前华丽度为4，你仍可以宣言本卡。
+  type: 体术
+  intensity: 2500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '转生剑「円心流转斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-010
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 2
+  effect: 攻击阶段，本卡战力值+X*500。（X=你当前总华丽度-你此回合开始时总华丽度，且至多为5）
+  type: 体术
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '六道剑「一念无量劫」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-011
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: 3
+  effect: 本卡战力+X*500。（X为当前场上你与对手总华丽度之差，且至多为9）
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '人智剑「天女返」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-012
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 1
+  cost: 1
+  effect: 宣言本卡时，你可从卡组中展示一张连击特性的符卡并加入手卡。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '魂魄「幽明求闻持聪明之法」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-013
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 1
+  effect: 战斗阶段开始时，可发动此状态：本回合宣言的所有妖梦战斗符卡原始战力*2。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - 将你宣言区中3张带有连击特性的符卡移出游戏
+  faq:
+  - ''
+- title: '人界剑「悟入幻想」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-014
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 0
+  cost: 2
+  effect: 攻击阶段开始时，可发动此状态：你可将弃牌堆任意张不同华丽度的妖梦战斗符卡按由小到大的顺序依次横置于你的宣言区顶部，然后结束本回合。
+  type: 状态
+  intensity: 0
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '狱神剑「业风神闪斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-015
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 3
+  cost: 2
+  effect: 以本卡相杀时，若对阵符卡不具有高速特性，破坏之，并对对手造成500点特殊伤害。
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 连击
+  special:
+  - '从你弃牌堆移出一张“狱界剑”_x000d_
+
+    _x000d_
+
+    '
+  faq:
+  - ''
+- title: '空观剑「六根清净斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-016
+  version: MISSING
+  rarity: SR
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 5
+  cost: LSC
+  effect: 本卡结算完毕后，对对手造成一次与对阵符卡原始战力相同的体术伤害。
+  type: 体术
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '断想剑「草木成佛斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-017
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 2
+  cost: 1
+  effect: 攻击阶段，你可将宣言区的本卡弃置，并从弃牌堆将一张妖梦的弹幕符卡加入手卡。
+  type: 体术
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq:
+  - ''
+- title: '修罗剑「现世妄执」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-018
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 4
+  cost: 3
+  effect: '当本卡被移出时，你可从弃牌堆将一张“人符”及一张“人鬼”加入手卡。_x000d_
+
+    _x000d_
+
+    '
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 连击
+  special:
+  - ''
+  faq:
+  - ''
+- title: '断灵剑「迷津慈航斩」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-019
+  version: MISSING
+  rarity: UC
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 4
+  cost: 3
+  effect: '你宣言区内每有一张“冥想斩”，宣言本卡耗灵-1。_x000d_
+
+    _x000d_
+
+    '
+  type: 体术
+  intensity: 2500
+  attributes:
+  - 连击
+  special:
+  - ''
+  faq:
+  - ''
+- title: '天上剑「天人亦五衰」_x000d_
+
+    _x000d_
+
+    '
+  owner: MISSING
+  sku: YM-020
+  version: MISSING
+  rarity: R
+  origin: MISSING
+  illustrator: null
+  gorgeousness: 4
+  cost: 3
+  effect: 攻击阶段限一次，你可从你弃牌堆宣言本卡。
+  type: 弹幕
+  intensity: 3500
+  attributes:
+  - 连击
+  special:
+  - 魂魄妖梦HYPER
+  faq:
+  - ''
