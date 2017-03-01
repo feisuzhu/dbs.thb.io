@@ -47,6 +47,10 @@ module.exports = {
       {
         test: /\.ya?ml$/,
         loader: 'json-loader!yaml-loader',
+      },
+      {
+        test: /\.css$/,
+        loader: 'css-loader',
       }
     ]
   },
