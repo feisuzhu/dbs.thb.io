@@ -7,12 +7,12 @@ import HeaderSection from 'components/common/Header.vue'
 import FooterSection from 'components/common/Footer.vue'
 
 import 'index.html'
-import 'css/bootstrap.css'
-import 'css/bootstrap-responsive.css'
-import 'css/camera.css'
-import 'css/docs.css'
-import 'css/prettyPhoto.css'
-import 'css/theme.css'
+import 'jessica/css/bootstrap.css'
+import 'jessica/css/bootstrap-responsive.css'
+import 'jessica/css/camera.css'
+import 'jessica/css/docs.css'
+import 'jessica/css/prettyPhoto.css'
+import 'jessica/css/theme.css'
 
 Vue.use(VueRouter);
 
