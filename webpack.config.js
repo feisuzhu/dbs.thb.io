@@ -5,7 +5,8 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: 'dist/',
+    // publicPath: 'dist/',
+    publicPath: '',
     filename: 'main.js'
   },
   module: {
@@ -31,10 +32,12 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
           // name: 'images/[name].[ext]?[hash]',
-          name: 'images/[name].[ext]',
+          // name: 'images/[name].[ext]',
+          name: 'images/[hash].[ext]',
+          limit: 4096,
         }
       },
       {

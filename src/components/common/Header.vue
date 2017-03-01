@@ -6,7 +6,7 @@
               <div class="container">
                     <div class="row">
                         <div class="span4">
-                          <div class="logo"><a href="index.html"><img src="img/logo.png" alt="" /></a></div>                        
+                          <div class="logo"><a href="index.html"><img :src="require('jessica/img/logo.png')" alt="" /></a></div>
                         </div>
                         <div class="span8">
                           <div class="follow_us">
@@ -29,33 +29,33 @@
                                               <li><a href="scaffolding.html"><span>-</span>Scaffolding</a></li>
                                               <li><a href="typography.html"><span>-</span>Typography</a></li>
                                               <li><a href="shortcodes.html"><span>-</span>Shortcodes</a></li>
-                                              <li><a href="tables.html"><span>-</span>Tables</a></li>                                          
-                                          </ul>                                          
+                                              <li><a href="tables.html"><span>-</span>Tables</a></li>
+                                          </ul>
                                       </li>
                                       <li class="sub-menu"><a href="javascript:{}">Portfolio</a>
                                            <ul>
                                               <li><a href="portfolio_2columns.html"><span>-</span>2 Columns</a></li>
                                               <li><a href="portfolio_3columns.html"><span>-</span>3 Columns</a></li>
-                                              <li><a href="portfolio_4columns.html"><span>-</span>4 Columns</a></li>                                      
+                                              <li><a href="portfolio_4columns.html"><span>-</span>4 Columns</a></li>
                                           </ul>
-                                      </li>                                  
+                                      </li>
                                       <li class="sub-menu"><a href="javascript:{}">Blog</a>
                                            <ul>
                                               <li><a href="blog.html"><span>-</span>Blog with right sidebar</a></li>
-                                              <li><a href="blog_post.html"><span>-</span>Blog post</a></li>                                      
+                                              <li><a href="blog_post.html"><span>-</span>Blog post</a></li>
                                           </ul>
                                       </li>
                                       <li><a href="contacts.html">Contacts</a></li>
                                     </ul>
                                 </div>
-                             </nav>                            
+                             </nav>
                         </div>
-                    </div>                
+                    </div>
                 </div>
              </div>
-        </div>    
+        </div>
     </div>
-    <!--//header-->    
+    <!--//header-->
 </template>
 
 
