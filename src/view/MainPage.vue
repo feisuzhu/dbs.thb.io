@@ -3,7 +3,7 @@
     <div class="page_container">
         <!--slider-->
         <div id="main_slider">
-          <Slider :height="513" :speed="5000" :show-arrow="true">
+          <Slider :speed="5000" :show-arrow="true">
             <li :data-bg="require('jessica/img/slider/1.jpg')"></li>
             <li :data-bg="require('jessica/img/slider/2.jpg')"></li>
             <li :data-bg="require('jessica/img/slider/3.jpg')"></li>

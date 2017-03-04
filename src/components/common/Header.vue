@@ -21,8 +21,6 @@
                             <div class="clear"></div>
                             <nav id="main_menu">
                                 <div class="menu_wrap">
-                                    <ul class="nav sf-menu">
-                                    </ul>
                                     <Superfish class="nav">
                                       <li class="current"><a href="index.html">Home</a></li>
                                       <li><a href="about.html">About</a></li>
