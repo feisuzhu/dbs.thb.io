@@ -24,9 +24,9 @@
         <!--slider-->
         <div id="main_slider">
             <div class="camera_wrap" id="camera_wrap_1">
-                <div :data-src="require('jessica/img/slider/1.jpg)'"></div>
-                <div :data-src="require('jessica/img/slider/2.jpg)'"></div>
-                <div :data-src="require('jessica/img/slider/3.jpg)'"></div>                                        
+                <div :data-src="require('jessica/img/slider/1.jpg')"></div>
+                <div :data-src="require('jessica/img/slider/2.jpg')"></div>
+                <div :data-src="require('jessica/img/slider/3.jpg')"></div>                                        
             </div><!-- #camera_wrap_1 -->
             <div class="clear"></div> 
         </div>        
