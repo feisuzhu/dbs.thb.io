@@ -20,16 +20,16 @@ import 'jessica/js/bootstrap.js'
 import 'jessica/js/camera.js'
 import 'jessica/js/jquery.easing.1.3.js'
 import 'jessica/js/jquery.isotope.min.js'
-#import 'jessica/js/jquery.jcarousel.js'
-#import 'jessica/js/jquery.mobile.customized.min.js'
-#import 'jessica/js/jquery.preloader.js'
-#import 'jessica/js/jquery.prettyPhoto.js'
-#import 'jessica/js/jquery.tweet.js'
-#import 'jessica/js/myscript.js'
-#import 'jessica/js/sorting.js'
-#import 'jessica/js/superfish.js'
-#import 'jessica/js/google-code-prettify/prettify.css'
-#import 'jessica/js/google-code-prettify/prettify.js'*/
+import 'jessica/js/jquery.jcarousel.js'
+import 'jessica/js/jquery.mobile.customized.min.js'
+import 'jessica/js/jquery.preloader.js'
+import 'jessica/js/jquery.prettyPhoto.js'
+import 'jessica/js/jquery.tweet.js'
+import 'jessica/js/myscript.js'
+import 'jessica/js/sorting.js'
+import 'jessica/js/superfish.js'
+import 'jessica/js/google-code-prettify/prettify.css'
+import 'jessica/js/google-code-prettify/prettify.js'*/
 
 Vue.use(VueRouter);
 
