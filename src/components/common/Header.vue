@@ -22,6 +22,8 @@
                             <nav id="main_menu">
                                 <div class="menu_wrap">
                                     <ul class="nav sf-menu">
+                                    </ul>
+                                    <Superfish class="nav">
                                       <li class="current"><a href="index.html">Home</a></li>
                                       <li><a href="about.html">About</a></li>
                                       <li class="sub-menu"><a href="javascript:{}">Features</a>
@@ -46,7 +48,7 @@
                                           </ul>
                                       </li>
                                       <li><a href="contacts.html">Contacts</a></li>
-                                    </ul>
+                                    </Superfish>
                                 </div>
                              </nav>
                         </div>
@@ -58,12 +60,12 @@
     <!--//header-->
 </template>
 
-
 <script>
+  import Superfish from 'components/common/menu/Superfish.vue'
   export default {
     name: 'header',
+    components: {
+      Superfish,
+    },
   }
 </script>
-
-<style>
-</style>

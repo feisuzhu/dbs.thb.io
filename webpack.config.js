@@ -31,7 +31,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,
         loader: 'url-loader',
         options: {
           // name: 'images/[name].[ext]?[hash]',
@@ -67,6 +67,13 @@ module.exports = {
       path.resolve('./node_modules'),
     ],
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      '$': 'jquery',
+      'jQuery': 'jquery',
+      'window.jQuery': 'jquery',
+    }),
+  ],
   devServer: {
     historyApiFallback: true,
     noInfo: true
