@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>幻想梦斗符 资料站</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DBS.Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+<link href="jessica/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" id="camera-css"  href="jessica/css/camera.css" type="text/css" media="all">
+<link href="jessica/css/bootstrap.css" rel="stylesheet">
+<link href="jessica/css/theme.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+<link href="jessica/css/bootstrap-responsive.css" rel="stylesheet">
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->    
+</head>
 
   <body>
     <div id="app">
@@ -12,6 +27,26 @@
       <router-view></router-view>
       <footer-section></footer-section>
     </div>
+    
     <script type="text/javascript" src="main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){ 
+      //Slider
+      $('#camera_wrap_1').camera();
+      
+      //Featured works & latest posts
+      $('#mycarousel, #mycarousel2, #newscarousel').jcarousel();                          
+    });   
+  </script>
   </body>
 </html>

@@ -1,48 +1,48 @@
 <template>
-  <div>
-    <div id="footer_wrapper">
-      <div id="footer">
-        <div id="footer_widget"> <a href="index.html"><img src="img/footer_logo.png" height="34" width="209" alt="bottom logo" /></a>
-
-          <p>丝风|ProjectZephyr是在中国上海活动的非营利性非商业性的同人社团。
-            <br/>《幻想梦斗符TCG》是以上海アリス幻楽団创作的东方Project系列为基础世界观的同人集换式卡牌游戏。
-            <br/>thb.io是大型幻想对撞机社团创作的同人在线桌游《东方符斗祭》的资料库。
-            <br/>dbs.thb.io是挂靠于符斗祭资料库下的子站，作为梦斗符资料库使用。</p>
+        <div class="footer_bottom">
+            <div class="wrap">
+              <div class="container">
+                  <div class="row">
+                    <div class="span5">
+                          <div class="foot_logo"><a href="index.html"><img src="img/foot_logo.png" alt="" /></a></div>    
+                          <div class="copyright">&copy; 2020 Jessica White. Professional Fashion Photography. All Rights Reserved.</div>                        
+                        </div>
+                        <div class="span7">
+                          <div class="foot_right_block">
+                              <div class="fright">
+                                  <form action="#" method="post">
+                                        <input class="inp_search" name="name" type="text" value="Search the Site" onfocus="if (this.value == 'Search the Site') this.value = '';" onblur="if (this.value == '') this.value = 'Search the Site';" />                                        
+                                    </form>
+                                </div>
+                                <div class="follow_us">
+                                  <ul>
+                                        <li><a rel="tooltip" href="#" title="Facebook" class="facebook">Facebook</a></li>
+                                        <li><a rel="tooltip" href="#" title="Twitter" class="twitter">Twitter</a></li>
+                                        <li><a rel="tooltip" href="#" title="Tumbrl" class="tumbrl">Tumbrl</a></li>
+                                        <li><a rel="tooltip" href="#" title="Vimeo" class="vimeo">Vimeo</a></li>
+                                        <li><a rel="tooltip" href="#" title="Delicious" class="delicious">Delicious</a></li>
+                                    </ul>
+                                </div>
+                                <div class="clear"></div>
+                            
+                              <div class="clear"></div>
+                              <div class="foot_menu">
+                                <ul>
+                                        <li><a href="index.html" class="current">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="scaffolding.html">features</a></li>
+                                        <li><a href="portfolio_2columns.html">Portfolio</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                    </ul>
+                              </div>
+                            </div>                            
+                        </div>
+                    </div>  
+                </div>
+            </div>
         </div>
-        <div class="footer_right">
-           <h5>丝风的其他站点</h5>
-
-          <ul>
-            <li><a href="http://projectzephyr.lofter.com">LOFTER社团博客</a>
-
-            </li>
-            <li><a href="http://projectzephyr.taobao.com">丝风淘宝店</a>
-
-            </li>
-          </ul>
-           <h5>友情链接</h5>
-
-          <ul>
-            <li> <a href="http://thbattle.net">东方符斗祭 Thbattle.net</a>
-
-            </li>
-            <li><a href="http://irindesign.lofter.com">风の幻工房 - iRin设计博客</a>
-
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-    <div id="bottom_footer_wrapper">
-      <div id="bottom_footer">
-        <img src="img/logo_emblem.png" height="27" width="39" alt="bottom logo emblem"
-        />
-        <p>&copy; 2016. ProjectZephyr DBS. All rights reserved. Powered by iRin &amp;
-          Proton</p>
-      </div>
-    </div>
-  </div>
+    <!--//footer-->    
 </template>
 
 <script>
