@@ -12,6 +12,7 @@ import 'jessica/css/bootstrap.css'
 import 'jessica/css/bootstrap-responsive.css'
 import 'jessica/css/camera.css'
 import 'jessica/css/docs.css'
+import 'jessica/css/skins/tango/skin.css'
 import 'jessica/css/prettyPhoto.css'
 import 'jessica/css/theme.css'
 

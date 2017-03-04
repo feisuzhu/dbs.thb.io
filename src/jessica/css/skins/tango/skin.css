@@ -95,7 +95,7 @@
 
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
     right:24px;
-    background-image: url(prev-horizontal.png);
+    /* background-image: url(prev-horizontal.png); */
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal:hover,
@@ -121,7 +121,7 @@
 }
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
     right:0;
-    background-image: url(next-horizontal.png);
+    /* background-image: url(next-horizontal.png); */
 }
 .jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:focus {background-position: 0 -21px;
