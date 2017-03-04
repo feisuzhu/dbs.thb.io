@@ -4,7 +4,7 @@
               <div class="container">
                   <div class="row">
                     <div class="span5">
-                          <div class="foot_logo"><a href="index.html"><img :src="require('img/foot_logo.png'）" alt="" /></a></div>    
+                          <div class="foot_logo"><a href="index.html"><img :src="require('jessica/img/foot_logo.png')" alt="" /></a></div>    
                           <div class="copyright">&copy; 2020 Jessica White. Professional Fashion Photography. All Rights Reserved.</div>                        
                         </div>
                         <div class="span7">

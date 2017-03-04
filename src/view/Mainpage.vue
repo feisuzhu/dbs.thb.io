@@ -88,32 +88,32 @@
                         <ul id="mycarousel" class="jcarousel-skin-tango">
                             <li>
                               <div class="hover_img">
-                                  <a href="jessica/img/featured_works/1.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/1.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/1.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/1.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li>
                             <li>
                               <div class="hover_img">
-                                  <a href="jessica/img/featured_works/2.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/2.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/2.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/2.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li>
                             <li>
                                 <div class="hover_img">
-                                  <a href="jessica/img/featured_works/3.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/3.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/3.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/3.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li> 
                             <li>
                                 <div class="hover_img">
-                                  <a href="jessica/img/featured_works/4.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/4.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/4.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/4.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li>
                             <li>
                               <div class="hover_img">
-                                  <a href="jessica/img/featured_works/1.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/1.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/1.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/1.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li>
                             <li>
                               <div class="hover_img">
-                                  <a href="jessica/img/featured_works/2.jpg')" rel="prettyPhoto[portfolio1]"><:src="require('jessica/img/featured_works/2.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
+                                  <a href="jessica/img/featured_works/2.jpg')" rel="prettyPhoto[portfolio1]"><img :src="require('jessica/img/featured_works/2.jpg')" alt="" /><span class="portfolio_zoom1"></span></a>                                    
                                 </div>
                             </li>                                                       
                         </ul>                         
@@ -186,7 +186,7 @@
                         <ul id="mycarousel2" class="jcarousel-skin-tango">
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/1.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/1.jpg')" alt="" />
                                   <div class="title_t"><a href="#">ipsum dolor ac egestas mas</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
@@ -196,7 +196,7 @@
                             </li>
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/2.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/2.jpg')" alt="" />
                                   <div class="title_t"><a href="#">vestibulum egestas tortor</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
@@ -206,7 +206,7 @@
                             </li>
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/3.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/3.jpg')" alt="" />
                                   <div class="title_t"><a href="#">Quisque sodales dolor</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
@@ -216,7 +216,7 @@
                             </li>
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/4.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/4.jpg')" alt="" />
                                   <div class="title_t"><a href="#">ipsum dolor ac egestas mas</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
@@ -226,7 +226,7 @@
                             </li> 
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/1.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/1.jpg')" alt="" />
                                   <div class="title_t"><a href="#">Tristique cursus tincidunt</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
@@ -236,7 +236,7 @@
                             </li>
                             <li>
                               <div class="post_carousel">
-                                  <:src="require('jessica/img/home_blog/2.jpg')" alt="" />
+                                  <img :src="require('jessica/img/home_blog/2.jpg')" alt="" />
                                   <div class="title_t"><a href="#">ipsum dolor ac egestas mas</a></div>
                                     <div class="post_meta">
                                     Posted by <a href="#">John Doe</a>  /  15 apr  / In <a href="#">Vacation</a>
