@@ -1,36 +1,18 @@
 <template>
-  <div>
-    <div id="slider_wrapper">
-      <div id="breadcrumb_wrapper">
-        <h1>符卡图鉴</h1>
-
-        <div id="breadcrumb">
-          <ul>
-            <li><a href="index.html">首页</a> </li>
-            <li>&#8250;&nbsp; <a href="library.html">资料库</a></li>
-            <li>&#8250;&nbsp; <a href="cardlist.html">符卡图鉴</a></li>
-            <li>&#8250;&nbsp; 灵梦</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div id="wrapper">
-      <div class="left_content_wrapper">
+  <div class="page_container">
         <div v-for="c in cards[0].characters">
           <character :card="c"></character>
         </div>
+
         <div v-for="c in cards[0].spellcards">
           <spellcard :card="c"></spellcard>
         </div>
-      </div>
-    </div>
-
-    <div class="right_content_wrapper">
+    <div>
       <character-affix :cards="cards"></character-affix>
     </div>
-    <div class="clear"></div>
-  </div>
+
+
+ </div>
 </template>
 
 <script>

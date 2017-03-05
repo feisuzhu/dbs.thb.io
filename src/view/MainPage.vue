@@ -66,7 +66,7 @@
               <div class="row mainpage-carousel">
                   <Slick>
                     <div class="post_carousel">
-                      <img :src="require('jessica/img/products/sd02.jpg')" alt="" />
+                      <img :src="require('assets/product-images/sd02.jpg')" alt="" />
                       <div class="title_t"><a href="#">初战之舞 妖星闪奏曲</a></div>
                         <div class="post_meta">
                         即将于 ComicUP20 上市
@@ -75,7 +75,7 @@
                         </br><a href="#SD02" class="arrow_link">了解更多...</a>
                     </div>  
                     <div class="post_carousel">
-                        <img :src="require('jessica/img/products/yyyh.jpg')" alt="" />
+                        <img :src="require('assets/product-images/yyyh.jpg')" alt="" />
                         <div class="title_t"><a href="#">随机扩充包 永夜月华之章</a></div>
                           <div class="post_meta">
                           即将于 ComicUP20 上市
@@ -84,7 +84,7 @@
                           </br><a href="#yyyh" class="arrow_link">了解更多...</a>
                     </div>  
                      <div class="post_carousel">
-                        <img :src="require('jessica/img/products/qslw.jpg')" alt="" />
+                        <img :src="require('assets/product-images/qslw.jpg')" alt="" />
                         <div class="title_t"><a href="#">随机扩充包  七色轮舞之章</a></div>
                           <div class="post_meta">
                           已于 ComicUP19 上市
@@ -93,7 +93,7 @@
                           </br><a href="#qslw" class="arrow_link">了解更多...</a>
                     </div>  
                     <div class="post_carousel">
-                        <img :src="require('jessica/img/products/mlxy.jpg')" alt="" />
+                        <img :src="require('assets/product-images/mlxy.jpg')" alt="" />
                         <div class="title_t"><a href="#">随机扩充包  梦恋星愿之章</a></div>
                           <div class="post_meta">
                           已于 ComicUP19 上市

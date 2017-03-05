@@ -1,10 +1,10 @@
 <template>
-  <div class="post">
+  <div>
     <h2>{{ card.title }} {{ card.name }}</h2>
     <!-- Start of post image -->
-    <div class="intro">
+    <div>
       <a href="#"><img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" /></a>
-      <div class="form_submit">
+      <div>
         <ul>
           <li>编号：{{ card.sku }}</li>
           <li>稀有度：{{ card.rarity }}</li>
@@ -13,7 +13,7 @@
         </ul>
       </div>
     </div>
-    <div class="post_comments">
+    <div>
       <div v-for="s in card.skills">
         <p>{{ s.type }}</p>
         <p>{{ s.name }}</p>
@@ -21,7 +21,7 @@
         <hr>
       </div>
     </div>
-    <div class="post_content_wrapper">
+    <div>
       <div v-for="faq in card.faq">
         <p>Q: {{ faq.question }}</p>
         <p>A: {{ faq.answer }}</p>
@@ -29,10 +29,10 @@
       </div>
     </div>
 
-    <div class="other_post_details_wrapper">
+    <div>
       <!-- Start of post content -->
-      <div class="post_content">
-        <div class="post_content_wrapper">
+      <div>
+        <div>
           <p>*This Card is come from {{ card.origin }}</p>
         </div>
       </div>
