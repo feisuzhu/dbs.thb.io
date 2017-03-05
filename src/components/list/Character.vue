@@ -8,16 +8,16 @@
 
 
 
-      <div class="span5">
-             <h2 class="title">{{ card.title }} {{ card.name }}</h2>
+      <div class="span5" align="center">
+             <h2 class="title" style="text-align:center">{{ card.title }} {{ card.name }}</h2>
 
-             <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" />
+             <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" align="middle"/>
       </div>
-      <div class="span7">
+      <div class="span7" align="center">
             <div class="btn btn-primary disabled" style="width:14%">
               {{ card.sku }}
             </div>
-            <div class="btn btn-inverse disabled" style="width:70%">
+            <div class="btn btn-inverse disabled" style="width:67%">
              画师：{{ card.illustrator }}
                |
              版本：{{ card.version }}            

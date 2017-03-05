@@ -5,16 +5,16 @@
 
 
 
-       <div class="span5">
-             <h2 class="title">{{ card.title }}</h2>
+       <div class="span5" align="center">
+             <h2 class="title" style="text-align:center">{{ card.title }}</h2>
 
-             <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" />
+             <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" />
       </div>
-      <div class="span7">
+      <div class="span7" align="center">
             <div class="btn btn-primary disabled" style="width:14%">
               {{ card.sku }}
             </div>
-            <div class="btn btn-inverse disabled" style="width:70%">
+            <div class="btn btn-inverse disabled" style="width:67%">
              画师：{{ card.illustrator }}
                |
              版本：{{ card.version }}            
@@ -24,7 +24,7 @@
             </div>
             <table class="table table-bordered table-striped">
             <tbody>
-            <tr><td style="width:17%">华丽度</td><td>{{ card.gorgeousness }}</td></tr>
+            <tr><td style="width:20%">华丽度</td><td>{{ card.gorgeousness }}</td></tr>
             <tr><td>消耗灵力</td><td>{{ card.cost }}</td></tr>
             <tr><td>符卡类型</td><td>{{ card.type }}</td></tr>
             <tr><td>战力</td><td>{{ card.intensity }}</td></tr>
