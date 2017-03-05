@@ -32,7 +32,7 @@
                   </character-affix>
                 </div>
         </div>
-        <section/>
+        </section>
         </div>
 
  </div>
