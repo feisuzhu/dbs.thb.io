@@ -3,11 +3,11 @@
     <div class="page_container">
         <!--slider-->
         <div id="main_slider">
-          <Slider :speed="5000" :show-arrow="true">
+          <slider :speed="5000" :show-arrow="true">
             <li :data-bg="require('jessica/img/slider/1.jpg')"></li>
             <li :data-bg="require('jessica/img/slider/2.jpg')"></li>
             <li :data-bg="require('jessica/img/slider/3.jpg')"></li>
-          </Slider>
+          </slider>
           <div class="clear"></div>
         </div>
         <!--//slider-->
@@ -21,7 +21,6 @@
             </div>
         </div>
         <!--//Welcome-->
-        
         <!--planning-->
         <div class="wrap planning">
             <div class="container">
@@ -64,7 +63,7 @@
             <div class="container">
               <h2 class="upper">作品一览</h2>
               <div class="row mainpage-carousel">
-                  <Slick>
+                  <slick>
                     <div class="post_carousel">
                       <img :src="require('assets/product-images/sd02.jpg')" alt="" />
                       <div class="title_t"><a href="#">初战之舞 妖星闪奏曲</a></div>
@@ -98,10 +97,16 @@
                           <div class="post_meta">
                           已于 ComicUP19 上市
                           </div>
+<<<<<<< HEAD
                           博丽的巫女、黑白的魔法使、祝风的现人神……幻想乡的故事，由此开始！
                           </br><a href="#mlxy" class="arrow_link">了解更多...</a>
                     </div>  
                   </Slick>
+=======
+                          博丽的巫女、黑白的魔法使、祝风的现人神……幻想乡的故事，由此开始！<a href="#mlxy" class="arrow_link">了解更多...</a>
+                    </div>
+                  </slick>
+>>>>>>> origin/master
                 </div>
             </div>
         </div>
@@ -114,9 +119,9 @@
 .mainpage-carousel {
   margin-left: -15px !important;
 }
+
 .mainpage-carousel .slick-slide{
   margin: 0 15px;
-
 }
 </style>
 

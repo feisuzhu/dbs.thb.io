@@ -21,7 +21,7 @@
                             <div class="clear"></div>
                             <nav id="main_menu">
                                 <div class="menu_wrap">
-                                    <Superfish class="nav">
+                                    <superfish class="nav">
                                       <li><a href="#">首页</a></li>
                                       <li><a href="#about">简介</a></li>
                                       <li class="sub-menu"><a href="#products">作品</a>
@@ -42,7 +42,7 @@
                                       <li><a href="#blog">公告</a>
                                       </li>
                                       <li><a href="#contacts">社团</a></li>
-                                    </Superfish>
+                                    </superfish>
                                 </div>
                              </nav>
                         </div>
