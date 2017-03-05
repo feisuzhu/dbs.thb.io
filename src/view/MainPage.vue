@@ -52,18 +52,18 @@
                             <span class="link_title">丰富活动</span>
                           TCG的生命力在于比赛，因此丝风自始至终关注梦斗符的竞赛模式，定期举办并颁发奖励，并以位于上海的聚游桌游吧为固定活动据点，方便线下聚会。除此之外，还有线上贴吧、论坛、Q 群的丰富社群活动以及新符卡的设计讨论等待你的参与！
                         </a>
-                    </div>                            
+                    </div>
                 </div>
             </div>
         </div>
         <!--//planning-->
-        
         <!--latest posts-->
         <div class="wrap block carousel_block">
             <div class="container">
               <h2 class="upper">作品一览</h2>
               <div class="row mainpage-carousel">
                   <slick>
+<<<<<<< HEAD
                     <div class="post_carousel">
                       <img :src="require('assets/product-images/sd02.jpg')" alt="" />
                       <div class="title_t"><a href="#">初战之舞 妖星闪奏曲</a></div>
@@ -104,6 +104,16 @@
 
                   </slick>
 
+=======
+                    <div class="post_carousel" v-for="ep in episodes">
+                      <img :src="require('assets/episode-images/' + ep.id + '.jpg')" alt="" />
+                      <div class="title_t"><router-link :to="'/episodes/' + ep.id">{{ ep.title }}</router-link></div>
+                        <div class="post_meta">{{ ep.meta }}</div>
+                        {{ ep.desc }}
+                        </br><router-link :to="'/episodes/' + ep.id">了解更多...</router-link>
+                    </div>
+                  </slick>
+>>>>>>> origin/master
                 </div>
             </div>
         </div>
@@ -132,8 +142,10 @@ import Slick from 'components/common/slick/Slick.vue'
 export default {
   name: 'List',
   data() {
-    var cards = require('data/cards.yaml');
-    return { cards: cards };
+    return {
+      cards: require('data/cards.yaml'),
+      episodes: require('data/episodes.yaml'),
+    }
   },
   components: {
     Slider,
