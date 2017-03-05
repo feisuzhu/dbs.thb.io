@@ -4,9 +4,9 @@
         <!--slider-->
         <div id="main_slider">
           <slider :speed="5000" :show-arrow="true">
-            <li :data-bg="require('jessica/img/slider/1.jpg')"></li>
-            <li :data-bg="require('jessica/img/slider/2.jpg')"></li>
-            <li :data-bg="require('jessica/img/slider/3.jpg')"></li>
+            <li :data-bg="require('assets/mainpage/slider/1.jpg')"></li>
+            <li :data-bg="require('assets/mainpage/slider/2.jpg')"></li>
+            <li :data-bg="require('assets/mainpage/slider/3.jpg')"></li>
           </slider>
           <div class="clear"></div>
         </div>

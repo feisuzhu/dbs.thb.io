@@ -4,8 +4,8 @@
               <div class="container">
                   <div class="row">
                     <div class="span5">
-                          <div class="foot_logo"><a href="index.html"><img :src="require('jessica/img/foot_logo.png')" alt="" /></a></div>    
-                          <div class="copyright">&copy; 2017.Project DBS. All rights reserved. </br>  Powered by iRinwind & Proton@Thbattle.net</div>                        
+                          <div class="foot_logo"><a href="index.html"><img :src="require('./foot_logo.png')" alt="" /></a></div>
+                          <div class="copyright">&copy; 2017.Project DBS. All rights reserved. </br>  Powered by iRinwind &amp; Proton</div>
                         </div>
                         <div class="span7">
                           <div class="foot_right_block">
@@ -20,7 +20,6 @@
                                     </ul>
                                 </div>
                                 <div class="clear"></div>
-                            
                               <div class="clear"></div>
                               <div class="foot_menu">
                                 <ul>
@@ -32,13 +31,13 @@
                                         <li><a href="#contacts">社团</a></li>
                                     </ul>
                               </div>
-                            </div>                            
+                            </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
-    <!--//footer-->    
+    <!--//footer-->
 </template>
 
 <script>

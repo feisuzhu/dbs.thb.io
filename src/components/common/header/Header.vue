@@ -6,7 +6,7 @@
               <div class="container">
                     <div class="row">
                         <div class="span4">
-                          <div class="logo"><a href="index.html"><img :src="require('jessica/img/logo.png')" alt="" /></a></div>
+                          <div class="logo"><a href="index.html"><img :src="require('assets/common/logo.png')" alt="" /></a></div>
                         </div>
                         <div class="span8">
                           <div class="follow_us">
@@ -52,6 +52,39 @@
     </div>
     <!--//header-->
 </template>
+
+<style>
+    .follow_us {
+        text-align:right;
+        padding:3px 4px 9px 0;
+    }
+
+    .follow_us ul li {
+        padding:0;
+        margin:0 0 0 5px;
+        display:inline-block;
+        line-height:30px;
+    }
+    .follow_us a {
+        background-image:url(top_socials.png);
+        background-repeat:no-repeat;
+        height:30px;
+        width:30px;
+        display:block;
+        text-indent:-9999px;
+        text-align:left;
+    }
+    .follow_us a.taobao       { background-position: 0      0;     }
+    .follow_us a.taobao:hover { background-position: 0      -30px; }
+    .follow_us a.weibo        { background-position: -35px  0;     }
+    .follow_us a.weibo:hover  { background-position: -35px  -30px; }
+    .follow_us a.qq           { background-position: -70px  0;     }
+    .follow_us a.qq:hover     { background-position: -70px  -30px; }
+    .follow_us a.cpp          { background-position: -105px 0;     }
+    .follow_us a.cpp:hover    { background-position: -105px -30px; }
+    .follow_us a.zhihu        { background-position: -140px 0;     }
+    .follow_us a.zhihu:hover  { background-position: -140px -30px; }
+</style>
 
 <script>
   import Superfish from 'components/common/menu/Superfish.vue'

@@ -4,8 +4,8 @@ import VueRouter from 'vue-router'
 import List from 'view/List.vue'
 import MainPage from 'view/MainPage.vue'
 
-import HeaderSection from 'components/common/Header.vue'
-import FooterSection from 'components/common/Footer.vue'
+import HeaderSection from 'components/common/header/Header.vue'
+import FooterSection from 'components/common/footer/Footer.vue'
 
 import 'jessica/css/bootstrap.css'
 import 'jessica/css/bootstrap-responsive.css'
