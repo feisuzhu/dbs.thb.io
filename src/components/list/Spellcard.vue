@@ -5,40 +5,58 @@
 
 
 
-         <div class="span6">
-         <h2 class="title">{{ card.title }}</h2>
-         <a href="#"><img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" /></a>
-                <div>
-                <ul>
-                <li>编号：{{ card.sku }}</li>
-                <li>稀有度：{{ card.rarity }}</li>
-                <li>画师：{{ card.illustrator }}</li>
-                <li>版本：{{ card.version }}</li>
-                </ul>
-                </div>
-         </div>
-         <div>
-            <ul>
-            <li>华丽度：{{ card.gorgeousness }}</li>
-            <li>消耗灵力：{{ card.cost }}</li>
-            <li>战斗符卡：{{ card.type }} {{ card.intensity }}</li>
-            <li>特性：<span v-for="a in card.attributes">{{ a }}</span></li>
-            <li v-for="s in card.special">{{ s }}</li>
-            <li>{{ card.effect }}</li>
-            <li>“{{ card.line }}”</li>
-            </ul>
-        </div>
-        <div>
-            <div v-for="faq in card.faq">
-            <p>Q: {{ faq.question }}</p>
-            <p>A: {{ faq.answer }}</p>
-            <hr>
-            </div>
-        </div>
+       <div class="span5">
+             <h2 class="title">{{ card.title }}</h2>
 
-        <div>
-          <p>*This Card is come from {{ card.origin }}</p>
-        </div>
+             <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" />
+      </div>
+      <div class="span7">
+            <div class="btn btn-primary disabled" style="width:14%">
+              {{ card.sku }}
+            </div>
+            <div class="btn btn-inverse disabled" style="width:70%">
+             画师：{{ card.illustrator }}
+               |
+             版本：{{ card.version }}            
+            </div>
+            <div class="btn btn-danger disabled" style="width:10%">
+              {{ card.rarity }}
+            </div>
+            <table class="table table-bordered table-striped">
+            <tbody>
+            <tr><td style="width:17%">华丽度</td><td>{{ card.gorgeousness }}</td></tr>
+            <tr><td>消耗灵力</td><td>{{ card.cost }}</td></tr>
+            <tr><td>符卡类型</td><td>{{ card.type }}</td></tr>
+            <tr><td>战力</td><td>{{ card.intensity }}</td></tr>
+            <tr><td>特性</td><td><span v-for="a in card.attributes" class="badge badge-inverse">{{ a }}</span></td></tr>
+            <tr><td>发动需要</td><td v-for="s in card.special">{{ s }}</td></tr>
+            <tr><td colspan="2">{{ card.effect }}</td></tr>
+            <tr><td colspan="2">“{{ card.line }}”</td></tr>
+            </tbody>
+            </table>
+
+
+            <table class="table table-bordered table-striped">
+            <tbody v-for="faq in card.faq">
+            <tr >
+            <td>Q: {{ faq.question }}</td>
+            </tr>
+            <tr>
+            <td>A: {{ faq.answer }}</td>
+            </tr>
+            </tbody>
+          </table>
+
+        <table class="table table-bordered table-striped">
+          <tbody v-for="faq in card.faq">
+            <tr >
+            <td>
+              *This Card is come from {{ card.origin }}
+              </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
   </div>
 

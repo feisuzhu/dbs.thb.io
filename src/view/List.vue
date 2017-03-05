@@ -13,18 +13,21 @@
         
         <section id="gridSystem">
         <div class="row show-grid">
-                <div class="span9">
+        </br>
+                <div class="span10">
                   <div v-for="c in cards[0].characters">
                   <character :card="c"></character>
+                  <hr>
                   </div>
                   <div v-for="c in cards[0].spellcards">
                   <spellcard :card="c"></spellcard>
+                  <hr>
                 </div>
 
 
                 </div>
 
-                <div class="span3">     
+                <div class="span2">     
                   <character-affix :cards="cards">
                   </character-affix>
                 </div>

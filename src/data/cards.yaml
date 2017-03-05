@@ -36,7 +36,7 @@
       attributes: [高速, 汲引, 破坏]
       line: 吃我一击扫把星啦！
       special:
-        - "需要：赛钱箱满，以及丢弃节操"
+        - "赛钱箱满，以及丢弃节操"
       faq:
         - question: meh
           answer: Whoa!
