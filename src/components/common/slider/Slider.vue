@@ -35,9 +35,9 @@
 
 .slider .dots {
   position: absolute;
-  left: 0;
+  left: -35px;
   right: 0;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
   z-index: 3;
   text-align: center;

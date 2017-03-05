@@ -11,41 +11,37 @@
                         <div class="span8">
                           <div class="follow_us">
                                 <ul>
-                                    <li><a href="#" class="facebook">Facebook</a></li>
-                                    <li><a href="#" class="vimeo">Vimeo</a></li>
-                                    <li><a href="#" class="tumbrl">Tumbrl</a></li>
-                                    <li><a href="#" class="twitter">Twitter</a></li>
-                                    <li><a href="#" class="delicious">Delicious</a></li>
+                                    <li><a href="https://projectzephyr.taobao.com/" class="taobao">taobao</a></li>
+                                    <li><a href="http://weibo.com/hxmdf" class="weibo">weibo</a></li>
+                                    <li><a href="http://shang.qq.com/wpa/qunwpa?idkey=01adf7b2febd09c239255418f5ba7293cff0f448c10bd6b7896cc9bcd9997afc" class="qq">qq</a></li>
+                                    <li><a href="http://www.allcpp.cn/organize.aspx?circleid=3071" class="cpp">cpp</a></li>
+                                    <li><a href="http://zhuanlan.zhihu.com/irinwind" class="zhihu">zhihu</a></li>
                                 </ul>
                             </div>
                             <div class="clear"></div>
                             <nav id="main_menu">
                                 <div class="menu_wrap">
                                     <Superfish class="nav">
-                                      <li class="current"><a href="index.html">Home</a></li>
-                                      <li><a href="about.html">About</a></li>
-                                      <li class="sub-menu"><a href="javascript:{}">Features</a>
+                                      <li><a href="#">首页</a></li>
+                                      <li><a href="#about">简介</a></li>
+                                      <li class="sub-menu"><a href="#products">作品</a>
                                           <ul>
-                                              <li><a href="scaffolding.html"><span>-</span>Scaffolding</a></li>
-                                              <li><a href="typography.html"><span>-</span>Typography</a></li>
-                                              <li><a href="shortcodes.html"><span>-</span>Shortcodes</a></li>
-                                              <li><a href="tables.html"><span>-</span>Tables</a></li>
+                                              <li><a href="#sd02"><span>-</span>初战之舞 - 妖星闪奏曲</a></li>
+                                              <li><a href="#mlxy"><span>-</span>扩充包 - 梦恋星愿之章</a></li>
+                                              <li><a href="#qslw"><span>-</span>扩充包 - 七色轮舞之章</a></li>
+                                              <li><a href="#yyyh"><span>-</span>扩充包 - 永夜月华之章</a></li>
                                           </ul>
                                       </li>
-                                      <li class="sub-menu"><a href="javascript:{}">Portfolio</a>
+                                      <li class="sub-menu"><a href="#library">资料</a>
                                            <ul>
-                                              <li><a href="portfolio_2columns.html"><span>-</span>2 Columns</a></li>
-                                              <li><a href="portfolio_3columns.html"><span>-</span>3 Columns</a></li>
-                                              <li><a href="portfolio_4columns.html"><span>-</span>4 Columns</a></li>
+                                              <li><a href="#list"><span>-</span>符卡资料</a></li>
+                                              <li><a href="#rules"><span>-</span>决斗规则</a></li>
+                                              <li><a href="#story"><span>-</span>符梦传说</a></li>
                                           </ul>
                                       </li>
-                                      <li class="sub-menu"><a href="javascript:{}">Blog</a>
-                                           <ul>
-                                              <li><a href="blog.html"><span>-</span>Blog with right sidebar</a></li>
-                                              <li><a href="blog_post.html"><span>-</span>Blog post</a></li>
-                                          </ul>
+                                      <li><a href="#blog">公告</a>
                                       </li>
-                                      <li><a href="contacts.html">Contacts</a></li>
+                                      <li><a href="#contacts">社团</a></li>
                                     </Superfish>
                                 </div>
                              </nav>

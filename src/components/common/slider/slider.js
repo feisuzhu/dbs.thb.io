@@ -9,10 +9,10 @@
       isBlurStop: true,                 // Window失去焦点是否停止轮播
       isShowDots: true,                 // 是否显示状态点
       isShowArrow: true,                // 是否显示左右箭头
-      isHoverShowArrow: true,           // 是否鼠标移上才显示箭头
+      isHoverShowArrow: false,           // 是否鼠标移上才显示箭头
       isLoadAllImgs: false,             // 是否一次性加载完全部图片
-      slideSpeed: 10000,                // 轮播速度 (ms)
-      switchSpeed: 500,                 // 图片切换速度 (ms)
+      slideSpeed: 5000,                // 轮播速度 (ms)
+      switchSpeed: 1000,                 // 图片切换速度 (ms)
       dotsClass: 'dots',                // 状态点样式
       dotActiveClass: 'active',         // 状态点激活样式
       dotsEvent: 'click',               // 状态点事件，click或mouseover或mouseenter

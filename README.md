@@ -1,8 +1,8 @@
 # dbs.thb.io
 
-> Zephyr DBS
-> It's awesome!
-> It's awesome!2
+> Zephyr DBS homepage
+> 兼具符卡查看器功能的官方网站建设中（然而目前正处于一团浆糊）
+> 用 vue 实现数据的拆分路由，便于维护，然而由于js、css 的兼容性问题每走一步都很艰难（？）
 
 ## Build Setup
 
@@ -12,7 +12,7 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
->preview at http://localhost:8080/dist/index.html#/list
+>preview at http://localhost:8080/index.html#/
 
 # build for production with minification
 npm run build

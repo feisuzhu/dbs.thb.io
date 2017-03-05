@@ -3,7 +3,7 @@ a, input, select, textarea {outline:none !important;
 body { overflow-x:hidden;
 }
 .font {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400; /*Normal*/
 	font-weight:600; /*Semi-Bold*/
 	font-weight:700; /*Bold*/
@@ -51,25 +51,25 @@ img {
 	text-indent:-9999px;
 	text-align:left;
 }
-.follow_us a.facebook {background-position:0 0;
+.follow_us a.taobao {background-position:0 0;
 }
-.follow_us a.facebook:hover {background-position:0 -30px;
+.follow_us a.taobao:hover {background-position:0 -30px;
 }
-.follow_us a.vimeo {background-position:-35px 0;
+.follow_us a.weibo {background-position:-35px 0;
 }
-.follow_us a.vimeo:hover {background-position:-35px -30px;
+.follow_us a.weibo:hover {background-position:-35px -30px;
 }
-.follow_us a.tumbrl {background-position:-70px 0;
+.follow_us a.qq {background-position:-70px 0;
 }
-.follow_us a.tumbrl:hover {background-position:-70px -30px;
+.follow_us a.qq:hover {background-position:-70px -30px;
 }
-.follow_us a.twitter {background-position:-105px 0;
+.follow_us a.cpp {background-position:-105px 0;
 }
-.follow_us a.twitter:hover {background-position:-105px -30px;
+.follow_us a.cpp:hover {background-position:-105px -30px;
 }
-.follow_us a.delicious {background-position:-140px 0;
+.follow_us a.zhihu {background-position:-140px 0;
 }
-.follow_us a.delicious:hover {background-position:-140px -30px;
+.follow_us a.zhihu:hover {background-position:-140px -30px;
 }
 
 /*nav*/
@@ -95,15 +95,15 @@ img {
 }
 #main_menu select {
 	display: none;
-	font-family:Arial;
-	font-size:12px;
+	font-family: 'Microsoft Yahei', simsun;
+	font-size:14px;
 }
 .menu_wrap .nav li a {
   line-height:18px;
   color: #313131;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Microsoft Yahei', simsun;
   font-weight:800;
-  font-size:14px;
+  font-size:16px;
   text-transform: uppercase;
   text-shadow: none;
   text-decoration: none;
@@ -143,7 +143,7 @@ img {
 .menu_wrap .nav ul {
   position: absolute;
   display: none;
-  width: 133px;
+  width: 180px;
   left: 0;
   top: 55px;
   list-style: none;
@@ -151,7 +151,7 @@ img {
   z-index: 25;
   background:#fff;
   border-top:4px #d00b01 solid;
-  padding: 14px 0 7px 0;
+  padding: 20px 10px 15px 0;
   margin: 0;
 }
 
@@ -167,10 +167,10 @@ img {
 .menu_wrap .nav ul li a {
   display: block;
   text-transform: none;
-  font-size: 12px;
+  font-size: 14px;
   font-weight:400;
   color:#313131;
-  line-height: 18px;
+  line-height: 23px;
   padding: 0 10px 7px 15px;
   background: none;
 }
@@ -211,7 +211,7 @@ img {
 
 .planning {
 	padding-bottom:50px;
-	text-align:center;
+	text-align:left;
 }
 .planning a {
 	display:block;
@@ -254,11 +254,12 @@ img {
 .planning a:hover span.icon4 {background-position:left bottom;
 }
 .planning a span.link_title {
+	text-align:center;
 	display:block;
 	line-height:24px;
 	font-size:20px;
 	text-transform:uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:800;
 	padding-bottom:8px;
 	color:#313131;	
@@ -272,7 +273,7 @@ img {
 	line-height:20px;
 	font-size:18px;
 	color:#3b3b3b;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 	position:relative;
 	text-transform:uppercase;
@@ -300,13 +301,13 @@ h2.title {
 	line-height:28px;
 	text-transform:uppercase;
 	color:#313131;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:800;
 }
 h2.title a {
 	font-size:21px;
 	color:#313131;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:800;
 	text-transform:uppercase;
 }
@@ -364,14 +365,14 @@ h2.upper {
 	padding:14px 0 5px 0;
 	font-size:17px;
 	text-transform:uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 	color:#d00b01;
 }
 .post_carousel .title_t a, .news_t a {
 	font-size:17px;
 	text-transform:uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 	color:#d00b01;
 }
@@ -421,7 +422,7 @@ h2.upper {
 	color:#1e1e1e;
 	font-size:12px;
 	text-transform:uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 	background:#d1d1d1;
 	border-radius:50%;
@@ -597,8 +598,8 @@ ul.tweets li {
 .foot_menu li a {
 	text-transform:uppercase;
 	color:#444444 !important;
-	font-size:14px;
-	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:800;
 	font-style:normal !important;
 }
@@ -665,7 +666,7 @@ ul.tweets li {
   list-style: none;
   background:#d1d1d1;
   color:#d00b01;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Microsoft Yahei', simhei;
   font-weight:400;
   font-size:19px;
 }
@@ -675,7 +676,7 @@ ul.tweets li {
 }
 .breadcrumb a {
   color:#1e1e1e;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Microsoft Yahei', simhei;
   font-weight:400;
   font-size:19px;
 }
@@ -684,7 +685,7 @@ ul.tweets li {
 .profile_title {
 	font-size: 14px;
     margin-bottom:5px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 	color:#3a3a3a;
 }
@@ -694,7 +695,7 @@ ul.tweets li {
 	border-radius:3px;
 }
 legend {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei', simhei;
 	font-weight:400;
 }
 
