@@ -24,15 +24,14 @@
                                     <superfish class="nav">
                                       <li><a href="#">首页</a></li>
                                       <li><a href="#about">简介</a></li>
-                                      <li class="sub-menu"><a href="#products">作品</a>
+                                      <li class="sub-menu"><a href="#/episodes">作品</a>
                                           <ul>
-                                              <li><a href="#sd02"><span>-</span>初战之舞 - 妖星闪奏曲</a></li>
-                                              <li><a href="#mlxy"><span>-</span>扩充包 - 梦恋星愿之章</a></li>
-                                              <li><a href="#qslw"><span>-</span>扩充包 - 七色轮舞之章</a></li>
-                                              <li><a href="#yyyh"><span>-</span>扩充包 - 永夜月华之章</a></li>
+                                            <li v-for="ep in episodes">
+                                              <router-link :to="'/episodes/' + ep.id"><span>-</span>{{ ep.title }}</router-link>
+                                            </li>
                                           </ul>
                                       </li>
-                                      <li class="sub-menu"><a href="#library">资料</a>
+                                      <li class="sub-menu"><a href="#">资料</a>
                                            <ul>
                                               <li><a href="#list"><span>-</span>符卡资料</a></li>
                                               <li><a href="#rules"><span>-</span>决斗规则</a></li>
@@ -58,6 +57,10 @@
   import Superfish from 'components/common/menu/Superfish.vue'
   export default {
     name: 'header',
+    data() {
+        var episodes = require('data/episodes.yaml');
+        return { episodes: episodes };
+    },
     components: {
       Superfish,
     },
