@@ -1,16 +1,36 @@
 <template>
   <div class="page_container">
-        <div v-for="c in cards[0].characters">
-          <character :card="c"></character>
+        <div class="breadcrumb">
+          <div class="wrap">
+                <div class="container">
+                    <a href="#">首页</a><span>/</span>符卡资料库
+                </div>
+            </div> 
         </div>
 
-        <div v-for="c in cards[0].spellcards">
-          <spellcard :card="c"></spellcard>
-        </div>
-    <div>
-      <character-affix :cards="cards"></character-affix>
-    </div>
+        <div class="container inner_content">
 
+        
+        <section id="gridSystem">
+        <div class="row show-grid">
+                <div class="span9">
+                  <div v-for="c in cards[0].characters">
+                  <character :card="c"></character>
+                  </div>
+                  <div v-for="c in cards[0].spellcards">
+                  <spellcard :card="c"></spellcard>
+                </div>
+
+
+                </div>
+
+                <div class="span3">     
+                  <character-affix :cards="cards">
+                  </character-affix>
+                </div>
+        </div>
+        <section/>
+        </div>
 
  </div>
 </template>

@@ -1,10 +1,12 @@
 <template>
+
   <div class="row-fluid show-grid">
     
-      <div class="span8">
 
-         <h2>{{ card.title }}</h2>
-         <div>
+
+
+         <div class="span6">
+         <h2 class="title">{{ card.title }}</h2>
          <a href="#"><img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" /></a>
                 <div>
                 <ul>
@@ -37,8 +39,6 @@
         <div>
           <p>*This Card is come from {{ card.origin }}</p>
         </div>
-
-      </div>
 
   </div>
 

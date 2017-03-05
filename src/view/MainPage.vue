@@ -97,16 +97,13 @@
                           <div class="post_meta">
                           已于 ComicUP19 上市
                           </div>
-<<<<<<< HEAD
+
                           博丽的巫女、黑白的魔法使、祝风的现人神……幻想乡的故事，由此开始！
                           </br><a href="#mlxy" class="arrow_link">了解更多...</a>
                     </div>  
-                  </Slick>
-=======
-                          博丽的巫女、黑白的魔法使、祝风的现人神……幻想乡的故事，由此开始！<a href="#mlxy" class="arrow_link">了解更多...</a>
-                    </div>
+
                   </slick>
->>>>>>> origin/master
+
                 </div>
             </div>
         </div>
