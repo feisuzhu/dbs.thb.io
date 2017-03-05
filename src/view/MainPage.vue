@@ -63,48 +63,6 @@
               <h2 class="upper">作品一览</h2>
               <div class="row mainpage-carousel">
                   <slick>
-<<<<<<< HEAD
-                    <div class="post_carousel">
-                      <img :src="require('assets/product-images/sd02.jpg')" alt="" />
-                      <div class="title_t"><a href="#">初战之舞 妖星闪奏曲</a></div>
-                        <div class="post_meta">
-                        即将于 ComicUP20 上市
-                        </div>
-                        琪露诺终于再也无法忍受三月精小队的嘲弄和恶作剧，她发誓将用她得意的冰冻能力让三月精知道什么叫「最强」！于是她拉上了蕾蒂和大妖精组成了新的联队……妖精大战争，一触即发！ 
-                        </br><a href="#SD02" class="arrow_link">了解更多...</a>
-                    </div>  
-                    <div class="post_carousel">
-                        <img :src="require('assets/product-images/yyyh.jpg')" alt="" />
-                        <div class="title_t"><a href="#">随机扩充包 永夜月华之章</a></div>
-                          <div class="post_meta">
-                          即将于 ComicUP20 上市
-                          </div>
-                          红月降临，万物疯狂，藏匿在竹林深处的永远亭，究竟谁才是这场夺走真实之月，创造虚伪红月的主犯？ 
-                          </br><a href="#yyyh" class="arrow_link">了解更多...</a>
-                    </div>  
-                     <div class="post_carousel">
-                        <img :src="require('assets/product-images/qslw.jpg')" alt="" />
-                        <div class="title_t"><a href="#">随机扩充包  七色轮舞之章</a></div>
-                          <div class="post_meta">
-                          已于 ComicUP19 上市
-                          </div>
-                          七色的人偶师，七曜的魔女与七彩的门卫。绚烂华彩将一同绽放！ 
-                          </br><a href="#qslw" class="arrow_link">了解更多...</a>
-                    </div>  
-                    <div class="post_carousel">
-                        <img :src="require('assets/product-images/mlxy.jpg')" alt="" />
-                        <div class="title_t"><a href="#">随机扩充包  梦恋星愿之章</a></div>
-                          <div class="post_meta">
-                          已于 ComicUP19 上市
-                          </div>
-
-                          博丽的巫女、黑白的魔法使、祝风的现人神……幻想乡的故事，由此开始！
-                          </br><a href="#mlxy" class="arrow_link">了解更多...</a>
-                    </div>  
-
-                  </slick>
-
-=======
                     <div class="post_carousel" v-for="ep in episodes">
                       <img :src="require('assets/episode-images/' + ep.id + '.jpg')" alt="" />
                       <div class="title_t"><router-link :to="'/episodes/' + ep.id">{{ ep.title }}</router-link></div>
@@ -113,7 +71,6 @@
                         </br><router-link :to="'/episodes/' + ep.id">了解更多...</router-link>
                     </div>
                   </slick>
->>>>>>> origin/master
                 </div>
             </div>
         </div>
