@@ -1,26 +1,33 @@
 <template>
-  <div>
-    <h2>{{ card.title }} {{ card.name }}</h2>
+
+  <div class="row-fluid show-grid">
+
+
     <!-- Start of post image -->
-    <div>
-      <a href="#"><img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" /></a>
-      <div>
-        <ul>
-          <li>编号：{{ card.sku }}</li>
-          <li>稀有度：{{ card.rarity }}</li>
-          <li>画师：{{ card.illustrator }}</li>
-          <li>版本：{{ card.version }}</li>
-        </ul>
+
+      <div class="span6">
+             <h2 class="title">{{ card.title }} {{ card.name }}</h2>
+
+             <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')" width="300" height="409" alt="left aligned" />
       </div>
-    </div>
-    <div>
-      <div v-for="s in card.skills">
-        <p>{{ s.type }}</p>
-        <p>{{ s.name }}</p>
-        <p>{{ s.desc }}</p>
-        <hr>
+      <div class="span6">
+            <button class="btn">{{ card.sku }}
+            </button>
+            <button class="btn">画师：{{ card.illustrator }}
+            </button>
+            <button class="btn">版本：{{ card.version }}
+            </button>
+
+            <button class="btn">稀有度：{{ card.rarity }}
+            </button>
+            <hr>
+            <div v-for="s in card.skills">
+            <p>{{ s.type }}</p>
+            <p>{{ s.name }}</p>
+            <p>{{ s.desc }}</p>
+            <hr>
+            </div>
       </div>
-    </div>
     <div>
       <div v-for="faq in card.faq">
         <p>Q: {{ faq.question }}</p>
@@ -37,7 +44,9 @@
         </div>
       </div>
     </div>
-  </div>
+<hr>
+</div>
+
 </template>
 
 <script>
