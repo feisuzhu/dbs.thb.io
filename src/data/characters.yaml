@@ -1,9 +1,10 @@
-- title: 乐园的奇妙巫女
+- id: Reimu
+  title: 乐园的奇妙巫女
   name: 博丽灵梦
   sku: C001
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 行云流水
@@ -12,12 +13,13 @@
     name: 流风回雪
     desc: 「行云流水」对非稳定特性的符卡同样生效；本局游戏你发动至少一次 HYPER 后，若进入华丽度胜负结算，你所有宣言区符卡的华丽度均+1
   faq: []
-- title: 普通的黑白魔法使
+- id: Marisa
+  title: 普通的黑白魔法使
   name: 雾雨魔理沙
   sku: C002
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 疾风怒涛
@@ -26,12 +28,13 @@
     name: 星光璀璨
     desc: 攻击阶段，你宣言的弹幕符卡命中后，造成的伤害+500
   faq: []
-- title: 完美而潇洒的从者
+- id: Sakuya
+  title: 完美而潇洒的从者
   name: 十六夜咲夜
   sku: C003
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 快刀乱麻
@@ -40,12 +43,13 @@
     name: 无尽之刃
     desc: ''
   faq: []
-- title: 半人半灵的庭师
+- id: Youmu
+  title: 半人半灵的庭师
   name: 魂魄妖梦
   sku: C004
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 全身全灵
@@ -54,12 +58,13 @@
     name: 心如止水
     desc: 攻击阶段，你可弃置一张手牌，将你弃牌堆任意一张符卡置于你的宣言区顶部
   faq: []
-- title: 潜藏于境界的妖怪
+- id: Yukari
+  title: 潜藏于境界的妖怪
   name: 八云紫
   sku: C005
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 镜花水月
@@ -68,26 +73,28 @@
     name: 虚空回响
     desc: 本回合发动“镜花水月”无次数限制
   faq: []
-- title: 七色的人偶师
+- id: Alice
+  title: 七色的人偶师
   name: 爱丽丝·玛格特罗伊德
   sku: C006
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 少女文乐
     desc: 你的符力区始终明置；当你即将受到一次伤害时，你可横置你符力区的X个人偶，视为抵消 X x 500 点伤害
   - type: HYPER
-    name: 神藏鬼伏_x000d_
+    name: 神藏鬼伏
     desc: 攻击阶段，你可执行一次额外的设置阶段
   faq: []
-- title: 永远鲜红的幼月
+- id: Remilia
+  title: 永远鲜红的幼月
   name: 蕾米莉亚·斯卡雷特
   sku: C007
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 绯红献祭
@@ -96,12 +103,13 @@
     name: 血色风暴
     desc: “血”标记上限提升至5
   faq: []
-- title: 华胥的亡灵
+- id: Yuyuko
+  title: 华胥的亡灵
   name: 西行寺幽幽子
   sku: C008
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 未生之光
@@ -110,12 +118,13 @@
     name: 墨染之樱
     desc: 本回合你发动“未生之光”时，可同时弃置多张手牌并选择相应数量的符卡加入手牌
   faq: []
-- title: 狂气的月兔
+- id: Reisen
+  title: 狂气的月兔
   name: 铃仙·优昙华院·因幡
   sku: C009
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 月眼催眠
@@ -124,12 +133,13 @@
     name: 幻痛残像
     desc: 攻击阶段，当对手手牌数未满上限时，你可弃置一张手牌，令双方各抽一张卡
   faq: []
-- title: 永远与须臾的罪人
+- id: Kaguya
+  title: 永远与须臾的罪人
   name: 蓬莱山辉夜
   sku: C010
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: Hysteria
   skills:
   - type: CENTER
     name: 五个难题
@@ -138,12 +148,13 @@
     name: 夜明珠辉
     desc: 攻击阶段，你可将你宣言区的“神宝”弃置
   faq: []
-- title: 历史与知识的半兽
+- id: Keine
+  title: 历史与知识的半兽
   name: 上白泽慧音
   sku: C011
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 存在抹消
@@ -152,12 +163,13 @@
     name: 梦境传说
     desc: 每当你的一张卡片从宣言区被弃置或移出时，你可抽一张卡
   faq: []
-- title: 蓬莱人之形
+- id: Mokou
+  title: 蓬莱人之形
   name: 藤原妹红
   sku: C012
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 死灰复燃
@@ -166,12 +178,13 @@
     name: 焚心炼狱
     desc: 你宣言“涅槃”特性的符卡时，战力+500，并对你自己造成500点弹幕伤害
   faq: []
-- title: 月之头脑
+- id: Eirin
+  title: 月之头脑
   name: 八意永琳
   sku: C013
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 月风云体
@@ -180,12 +193,13 @@
     name: 妙手回春
     desc: 立即回复1000点体力。你每有1000点体力，你的总华丽度+1
   faq: []
-- title: 不动的大图书馆
+- id: Patchouli
+  title: 不动的大图书馆
   name: 帕秋莉·诺蕾姬
   sku: C014
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 五行凝练
@@ -194,62 +208,67 @@
     name: 七曜流彩
     desc: 战斗阶段，当你宣言“五行”特性的符卡后，你可展示你弃牌堆的一张同名符卡，并将之置于你符力区
   faq: []
-- title: 恶魔之妹
+- id: Flandre
+  title: 恶魔之妹
   name: 芙兰朵露·斯卡雷特
   sku: C015
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: HYPER
     name: 破坏波动
     desc: 你立即消耗剩余全部灵力，并弃置对手所有符力区卡片
   faq: []
-- title: 湖上的冰精
+- id: Cirno
+  title: 湖上的冰精
   name: 琪露诺
   sku: C016
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 一石二鸟
-    desc: _x000d_
+    desc: 你的装备区只能设置1张卡片；你的符力区只能设置3张卡片；当你处于 Center 或 Hyper 状态时你额外获得2枚完好的灵珠。
   - type: HYPER
     name: 决斗达人
-    desc: ''
+    desc: 本回合，禁止双方角色宣言非 CENTER 或 HYPER 状态角色的符卡。
   faq: []
-- title: 色彩艳丽的门卫
+- id: Meirin
+  title: 色彩艳丽的门卫
   name: 红美铃
   sku: C017
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 太极芳波
     desc: ''
   faq: []
-- title: 小小的百鬼夜行
+- id: Suika
+  title: 小小的百鬼夜行
   name: 伊吹萃香
   sku: C018
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 妖鬼 -疏-
-    desc: 攻击阶段限一次，展示你手牌一张萃香的战斗符卡并移出游戏，随后将弃牌堆一张同战力、同属性的萃香符卡置于你宣言区底部。_x000d_
+    desc: 攻击阶段限一次，展示你手牌一张萃香的战斗符卡并移出游戏，随后将弃牌堆一张同战力、同属性的萃香符卡置于你宣言区底部。
   - type: HYPER
     name: 妖鬼 -密-
     desc: 攻击阶段限一次，将你隙间一张萃香符卡加入手牌
   faq: []
-- title: 祭祀风的人类
+- id: Sanae
+  title: 祭祀风的人类
   name: 东风谷早苗
   sku: C019
   rarity: R
   line: ''
-  illustrator: ''
+  illustrator: 霏茶
   skills:
   - type: CENTER
     name: 微风祈愿

@@ -1,10 +1,10 @@
 - title: 华符「芳华绚烂」
-  owner: MISSING
+  owner: Meirin
   sku: MR-001
-  version: MISSING
+  version: ''
   rarity: R(SP)
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 1
   effect: 本卡命中后，本回合，你宣言的体术符卡战力+500。
@@ -13,15 +13,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 华符「彩光莲华掌」
-  owner: MISSING
+  owner: Meirin
   sku: MR-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: 3
   effect: 本卡命中后，本回合，你宣言的下一张战斗符卡不可被对手相杀。
@@ -30,15 +29,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩华「虹色太极拳」
-  owner: MISSING
+  owner: Meirin
   sku: MR-003
-  version: MISSING
+  version: ''
   rarity: R（SP）
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 3
   effect: 你的宣言区若存在2种或更多的「彩符」或「华符」，宣言本卡消耗灵力-1，且本卡获得“稳定”特性。
@@ -47,31 +45,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 气符「星脉弹」
-  owner: MISSING
+  owner: Meirin
   sku: MR-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 当你受到一次弹幕伤害时，可发动此陷阱：令该伤害-500，且你抽一张卡。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩符「彩雨」
-  owner: MISSING
+  owner: Meirin
   sku: MR-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
@@ -82,14 +78,13 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩符「极彩沛雨」
-  owner: MISSING
+  owner: Meirin
   sku: MR-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 3
   cost: 2
@@ -100,14 +95,13 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩翔「飞花落叶」
-  owner: MISSING
+  owner: Meirin
   sku: MR-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 3
@@ -118,14 +112,13 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩御「凌波微步」
-  owner: MISSING
+  owner: Meirin
   sku: MR-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 3
   cost: 1
@@ -136,31 +129,29 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 气符「金钟罩」
-  owner: MISSING
+  owner: Meirin
   sku: MR-009
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 防御阶段开始时，可发动此状态，本回合每当对手即将对你造成一次伤害时，对手需选择一项：1.失去一点灵力。2.防止此伤害。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩符「彩光风铃」
-  owner: MISSING
+  owner: Meirin
   sku: MR-010
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
@@ -170,31 +161,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 气符「猛虎内刭」
-  owner: MISSING
+  owner: Meirin
   sku: MR-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: aoi
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 2
   effect: 战斗阶段开始时，可发动此状态：本回合，每当你宣言一张体术符卡时，对对手造成500点体术伤害。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 炽击「大鹏坠击拳」
-  owner: MISSING
+  owner: Meirin
   sku: MR-012
-  version: MISSING
+  version: ''
   rarity: SSR
-  origin: MISSING
+  origin: ''
   illustrator: HUG
   gorgeousness: 5
   cost: 3
@@ -204,14 +193,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 极光「华严明星」
-  owner: MISSING
+  owner: Meirin
   sku: MR-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: Ain
   gorgeousness: 2
   cost: 1
@@ -221,15 +209,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 虹符「烈虹真拳」
-  owner: MISSING
+  owner: Meirin
   sku: MR-014
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 当你处于「猛虎内劲」状态时，本卡战力X2，并获得反制特性。
@@ -238,50 +225,47 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '气符「红寸劲」 '
-  owner: MISSING
+  owner: Meirin
   sku: MR-015
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 霏茶
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 2
   effect: 当你宣言的一张红美铃体术符卡被相杀时，可发动此陷阱：该符卡战力+1500。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 气符「地龙天龙脚」
-  owner: MISSING
+  owner: Meirin
   sku: MR-016
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 五味子
   gorgeousness: 5
   cost: LSC
   effect: 弃置对手宣言区的所有符卡，然后你回复X×500点体力，本卡战力+X×500。（X为你弃置对手宣言区符卡的数量）
   type: 体术
-  intensity: 0
+  intensity: ''
   attributes:
   - 终符
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 星气「星脉地转弹」
-  owner: MISSING
+  owner: Meirin
   sku: MR-017
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 本卡命中后，可明置于你装备区。你可将本卡明置于你装备区的本卡，视为一张气符「星脉弹」
@@ -291,14 +275,13 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彩符「彩光乱舞」
-  owner: MISSING
+  owner: Meirin
   sku: MR-018
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 3
@@ -309,31 +292,29 @@
   - 武魂
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 击符「大鹏拳」
-  owner: MISSING
+  owner: Meirin
   sku: MR-019
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: umi
   gorgeousness: 2
-  cost: 0
+  cost: ''
   effect: 宣言本卡后，对双方各造成500点体术伤害
   type: 弹幕
   intensity: 1000
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 幻符「华想梦葛」
-  owner: MISSING
+  owner: Meirin
   sku: MR-020
-  version: MISSING
+  version: ''
   rarity: UC（SP）
-  origin: MISSING
+  origin: ''
   illustrator: 霏茶
   gorgeousness: 5
   cost: 1
@@ -343,39 +324,36 @@
   attributes: []
   special:
   - 红美玲HYPER限定
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Meirin
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Meirin
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

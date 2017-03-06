@@ -1,12 +1,12 @@
 - title: '冻符「Cold Divinity」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-001
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: '攻击阶段，若本卡被完全相杀，对手在本回合内宣言的符卡战力-500。本卡命中后，你可展示你卡组中一张“冰符”并将之加入手牌。_x000d_
@@ -17,17 +17,16 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冰符「Ultimate Blizzard」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: 3
   effect: 本卡战力+X*500。（X为你宣言区具有冻结特性的符卡数量）
@@ -36,17 +35,16 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冻符「Perfect Freeze」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-003
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 1
   effect: 本卡命中后，对手不可使用角色技能，直至回合结束。
@@ -56,34 +54,32 @@
   - 冻结
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-004
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冻符「Minus K」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: （本卡被相杀时，将双方符卡的战力归零，然后将本卡置于你宣言区底。）
@@ -93,17 +89,16 @@
   - 冻结
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冰符「Fairy Spin」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: （本卡被相杀时，将双方符卡的战力归零，然后将本卡置于你宣言区底。）
@@ -113,17 +108,16 @@
   - 冻结
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冻符「Freeze Atmosphere」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 3
   effect: （本卡被相杀时，将双方符卡的战力归零，然后将本卡置于你宣言区底。）
@@ -133,51 +127,48 @@
   - 冻结
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-008
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-009
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '吹冰「Ice Tornado」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-010
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 宣言本卡后，对手发动其装备区卡片时，消耗灵力*2，直到回合结束。
@@ -187,17 +178,16 @@
   - 羽心
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冰符「Sword Freezer」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 3
   effect: 本卡相杀体术符卡时，对对手造成1000点体术伤害。
@@ -206,106 +196,100 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-012
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-013
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '霜符「Frost Columns」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-014
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
-  effect: null
+  effect: ''
   type: 弹幕
   intensity: 3000
   attributes: []
   special:
   - 弃置你宣言区中所有冻结特性的符卡
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-015
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冰王「Frost King」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-016
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: LSC
   effect: 本卡结算完毕后， 你以冻结特性的符卡宣言相杀时，令对阵符卡战力归零，你的总华丽度始终视为0。
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冰块「Great Crusher」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-017
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 2
   effect: 若你宣言区带有冻结特性的符卡数量不为3或4，你须受到1500点弹幕伤害。
@@ -314,17 +298,16 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冷符「瞬间冷冻Beam」_x000d_
 
     '
-  owner: MISSING
+  owner: Cirno
   sku: CRN-018
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: 崩坏双方各1枚灵珠。
@@ -334,39 +317,36 @@
   - 冻结
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-019
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
+  faq: []
+- title: ''
+  owner: Cirno
   sku: CRN-020
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

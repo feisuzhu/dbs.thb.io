@@ -1,9 +1,9 @@
 - title: 始符「EPHEMERALITY 137」
-  owner: MISSING
+  owner: Keine
   sku: KN-001
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
+  origin: ''
   illustrator: 包菜子
   gorgeousness: 3
   cost: 1
@@ -13,14 +13,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 虚史「幻想乡传说」
-  owner: MISSING
+  owner: Keine
   sku: KN-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 5
   cost: 3
@@ -30,14 +29,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 终符「幻想天皇」
-  owner: MISSING
+  owner: Keine
   sku: KN-003
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
   gorgeousness: 4
   cost: 2
@@ -47,14 +45,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 野符「武烈的危机」
-  owner: MISSING
+  owner: Keine
   sku: KN-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -65,14 +62,13 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 野符「将门的危机」
-  owner: MISSING
+  owner: Keine
   sku: KN-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
@@ -83,15 +79,14 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 野符「义满的危机」
-  owner: MISSING
+  owner: Keine
   sku: KN-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 3
   effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
@@ -101,14 +96,13 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 产灵「FIRST PYRAMID」
-  owner: MISSING
+  owner: Keine
   sku: KN-007
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 紫夏
   gorgeousness: 3
   cost: 1
@@ -118,83 +112,78 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 国符「三种神器之 剑」
-  owner: MISSING
+  owner: Keine
   sku: KN-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: umi
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 3
   effect: 你的手牌上限+2，装备区上限+2.（你仅可同时装备1个“三种神器”）
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 国符「三种神器之 玉」
-  owner: MISSING
+  owner: Keine
   sku: KN-009
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 3
   effect: 每回合一次，你可以将你弃牌区一张无痕特性的符卡加入手牌
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 国符「三种神器之 乡」
-  owner: MISSING
+  owner: Keine
   sku: KN-010
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 3
   effect: 每回合一次，你可以将你隙间内一张符卡加入手牌
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 国符「三种神器之 镜」
-  owner: MISSING
+  owner: Keine
   sku: KN-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: umi
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 3
   effect: 防御阶段，当你受到一次大于1000点的伤害时：对对手造成500点弹幕伤害。（你仅可同时装备1个“三种神器”
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 未来「高天原」
-  owner: MISSING
+  owner: Keine
   sku: KN-012
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: 本卡结算后，你可以将卡组一张无痕特性符卡展示并加入手牌，并将卡组洗切
@@ -203,14 +192,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 旧史「旧秘境史 -OLD HISTORY-」
-  owner: MISSING
+  owner: Keine
   sku: KN-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 冰琼
   gorgeousness: 3
   cost: 3
@@ -221,14 +209,13 @@
   - 涅槃
   special:
   - 藤原妹红参战
-  faq:
-  - ''
+  faq: []
 - title: 转世「一条归桥」
-  owner: MISSING
+  owner: Keine
   sku: KN-014
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: Hysteria
   gorgeousness: 5
   cost: 2
@@ -238,15 +225,14 @@
   attributes: []
   special:
   - 你隙间存在6张或更多的非“神宝”符卡
-  faq:
-  - ''
+  faq: []
 - title: 葵符「水户的光圀」
-  owner: MISSING
+  owner: Keine
   sku: KN-015
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 1
   effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;如果你隙间区没有符卡，本卡战力+500。
@@ -256,15 +242,14 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 倭符「邪马台国」
-  owner: MISSING
+  owner: Keine
   sku: KN-016
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 2
   effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;如果你宣言区没有符卡，本卡战力+500
@@ -274,15 +259,14 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 新史「新幻想史 -现代史-」
-  owner: MISSING
+  owner: Keine
   sku: KN-017
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;宣言本卡后，将你弃牌区或华丽区一张符卡移出游戏
@@ -292,33 +276,31 @@
   - 无痕
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 「日出国之天子」
-  owner: MISSING
+  owner: Keine
   sku: KN-018
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
-  cost: 0
+  cost: ''
   effect: 你可以将你隙间内的所有符卡加入你华丽区并随意调整排序。
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes:
   - 终符
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 光符「天照」
-  owner: MISSING
+  owner: Keine
   sku: KN-019
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 将对方卡组顶5张牌弃置
@@ -327,15 +309,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 「似有似无的净化」
-  owner: MISSING
+  owner: Keine
   sku: KN-020
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 2
   effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;本卡结算后，你可以将对方宣言区的符卡随意排序
@@ -345,5 +326,4 @@
   - 无痕
   special:
   - 上白泽慧音Hyper限定
-  faq:
-  - ''
+  faq: []

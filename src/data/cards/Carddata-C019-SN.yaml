@@ -1,9 +1,9 @@
 - title: 秘术「GrayThaumaturgy」
-  owner: MISSING
+  owner: Sanae
   sku: SN-001
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 4
   cost: 1
@@ -13,14 +13,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 秘术「忘却之祭仪」
-  owner: MISSING
+  owner: Sanae
   sku: SN-002
-  version: MISSING
+  version: ''
   rarity: SSR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 4
   cost: 3
@@ -31,31 +30,29 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 神德「五谷丰穰米之浴」
-  owner: MISSING
+  owner: Sanae
   sku: SN-003
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: HUG
   gorgeousness: 1
-  cost: 0
+  cost: ''
   effect: 攻击阶段，可发动此状态：你立即回复500点体力。回合结束阶段，将本卡明置于你符力区左侧第一位。如该位置已存在符卡，替代之。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「白昼的客星」
-  owner: MISSING
+  owner: Sanae
   sku: SN-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -66,14 +63,13 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「客星闪耀之夜」
-  owner: MISSING
+  owner: Sanae
   sku: SN-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
@@ -84,14 +80,13 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「客星辉煌之夜」
-  owner: MISSING
+  owner: Sanae
   sku: SN-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 3
@@ -102,14 +97,13 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 开海「割海成路之日」
-  owner: MISSING
+  owner: Sanae
   sku: SN-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 2
@@ -119,14 +113,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 准备「Summon Takeminakata」
-  owner: MISSING
+  owner: Sanae
   sku: SN-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 3
@@ -136,14 +129,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 神签「暴乱神签连掷」
-  owner: MISSING
+  owner: Sanae
   sku: SN-009
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 霏茶
   gorgeousness: 2
   cost: 2
@@ -154,48 +146,45 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 祈愿「守护商业繁荣」
-  owner: MISSING
+  owner: Sanae
   sku: SN-010
-  version: MISSING
+  version: ''
   rarity: UC（SP)
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 3
   effect: 本卡设置完毕后，你可以从卡组展示一张延时道具卡加入手牌，并洗切卡组。本卡在场时，你装备区的其他卡片无法被破坏、弃置或移出游戏。
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 蛙符「诡伪蟾蜍」
-  owner: MISSING
+  owner: Sanae
   sku: SN-011
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 3
   effect: 当你受到一次大于2000点的弹幕伤害时，可发动此陷阱：你回复3000点体力，并抽1张卡。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 准备「呼唤神风的星之仪式」
-  owner: MISSING
+  owner: Sanae
   sku: SN-012
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
@@ -205,14 +194,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「空中落物的奇迹」
-  owner: MISSING
+  owner: Sanae
   sku: SN-013
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 1
@@ -223,14 +211,13 @@
   - 奇迹
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 开海「摩西之奇迹」
-  owner: MISSING
+  owner: Sanae
   sku: SN-014
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 5
   cost: 3
@@ -240,15 +227,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「弘安的神风」
-  owner: MISSING
+  owner: Sanae
   sku: SN-015
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 1
   effect: 本卡命中后，你可将本卡明置于你符力区左侧第一位或右侧第一位。若该位置已存在符卡，替代之。
@@ -257,31 +243,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 蛇符「神代大蛇」
-  owner: MISSING
+  owner: Sanae
   sku: SN-016
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: LSC
   effect: 宣言本卡时，须将你角色区除了「东风谷早苗」以外的其他角色卡全部弃置：你每以此法弃置一个角色，你对对手造成1000点特殊伤害。
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 准备「乾神召来」
-  owner: MISSING
+  owner: Sanae
   sku: SN-017
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 3
@@ -291,14 +275,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 准备「坤神召来」
-  owner: MISSING
+  owner: Sanae
   sku: SN-018
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
@@ -308,15 +291,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 奇迹「Miracle Fruit」
-  owner: MISSING
+  owner: Sanae
   sku: SN-019
-  version: MISSING
+  version: ''
   rarity: UC（SP）
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 'NULL'
   effect: 本卡不可通常宣言，若展示符卡华丽度为「无」或「5」，本卡获得“破坏”特性；若展示符卡华丽度为「2」或「3」或「4」，本卡获得“狂视”特性。
@@ -326,107 +308,100 @@
   - 奇迹，贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 秘法「九字切」
-  owner: MISSING
+  owner: Sanae
   sku: SN-020
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 天小二
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，你可发动此状态：本回合对方发动的所有符卡消耗灵力+1。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - 东风谷早苗Hyper限定
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Sanae
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Sanae
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Sanae
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Sanae
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Sanae
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

@@ -1,0 +1,341 @@
+- title: 难题「蓬莱的弹枝 虹色的弹幕」
+  owner: Kaguya
+  sku: KGY-001
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 5
+  cost: 5
+  effect: 本卡命中时，你可从卡组展示一张“难题”并加入手牌。
+  type: ''
+  intensity: 2500
+  attributes:
+  - 扭曲
+  special:
+  - ''
+  faq: []
+- title: 神宝「蓬莱的玉枝 梦色之乡」
+  owner: Kaguya
+  sku: KGY-002
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: swd3e2
+  gorgeousness: 5
+  cost: X
+  effect: 本卡命中时，你可将弃牌堆或宣言区的另一张“神宝”移出游戏。
+  type: ''
+  intensity: 2500
+  attributes:
+  - 神宝
+  special:
+  - ''
+  faq: []
+- title: 「永夜返 上弦月」
+  owner: Kaguya
+  sku: KGY-003
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: 深蓝杰克
+  gorgeousness: ''
+  cost: 1
+  effect: 战斗阶段开始时，可发动此状态：本回合，你每当你的一张辉夜符卡进入宣言区，你可抽一张卡或回复1点灵力。
+  type: ''
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 难题「龙颈之玉 五色的弹丸」
+  owner: Kaguya
+  sku: KGY-004
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 1
+  cost: 1
+  effect: 本卡被除外时，你可以将弃牌区一张难题加入手牌。
+  type: ''
+  intensity: 1000
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq: []
+- title: 难题「佛御石之钵 不碎的意志」
+  owner: Kaguya
+  sku: KGY-005
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 2
+  cost: 2
+  effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
+  type: ''
+  intensity: 1000
+  attributes:
+  - 稳定
+  special:
+  - ''
+  faq: []
+- title: 难题「火鼠的皮衣 不躁之心」
+  owner: Kaguya
+  sku: KGY-006
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 3
+  cost: 3
+  effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
+  type: ''
+  intensity: 2500
+  attributes:
+  - 反制
+  special:
+  - ''
+  faq: []
+- title: 难题「燕的子安贝 永命线」
+  owner: Kaguya
+  sku: KGY-007
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 4
+  cost: 4
+  effect: 回复500点体力
+  type: ''
+  intensity: 2500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 「永夜返 子时」
+  owner: Kaguya
+  sku: KGY-008
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: ''
+  cost: 1
+  effect: '攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。
+
+    本卡被除外时，你抽一张牌。'
+  type: ''
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 「永夜返 丑时」
+  owner: Kaguya
+  sku: KGY-009
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: ''
+  cost: 1
+  effect: '防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。
+
+    本卡被除外时，对对手造成500点特殊伤害。'
+  type: ''
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 「永夜返 寅时」
+  owner: Kaguya
+  sku: KGY-010
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 躲猫
+  gorgeousness: ''
+  cost: 1
+  effect: '当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：
+
+    令对手扣减与该伤害值相等的体力。本卡被除外时，你回复500点体力。'
+  type: ''
+  intensity: TRAP
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 神宝「耀眼的龙玉」
+  owner: Kaguya
+  sku: KGY-011
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 1
+  cost: X
+  effect: 宣言本卡时，你可以将隙间内一张神宝送入墓地，并使本卡增加500点战力。
+  type: ''
+  intensity: 1000
+  attributes:
+  - 神宝、高速
+  special:
+  - ''
+  faq: []
+- title: 神宝「佛体的金刚玉」
+  owner: Kaguya
+  sku: KGY-012
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 2
+  cost: X
+  effect: 防御阶段宣言本卡时，本卡战力+1500。
+  type: ''
+  intensity: 1000
+  attributes:
+  - 神宝
+  special:
+  - ''
+  faq: []
+- title: 新难题「Mysterium」
+  owner: Kaguya
+  sku: KGY-013
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: umi
+  gorgeousness: 3
+  cost: 3
+  effect: 防御阶段宣言本卡时，你可以失去500点体力，并破坏对阵符卡。
+  type: ''
+  intensity: 1000
+  attributes:
+  - 贯通
+  special:
+  - ''
+  faq: []
+- title: 神宝「火蜥蜴之盾」
+  owner: Kaguya
+  sku: KGY-014
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 3
+  cost: X
+  effect: 防御阶段，本卡擊破對陣符卡时，对对手造成1000点特殊伤害。
+  type: ''
+  intensity: 2000
+  attributes:
+  - 神宝
+  special:
+  - ''
+  faq: []
+- title: 神宝「无限的生命之泉」
+  owner: Kaguya
+  sku: KGY-015
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 4
+  cost: X
+  effect: 回复1000点体力
+  type: ''
+  intensity: 2000
+  attributes:
+  - 神宝
+  special:
+  - ''
+  faq: []
+- title: 「永夜返 光明之世」
+  owner: Kaguya
+  sku: KGY-016
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: 镜_Area
+  gorgeousness: 5
+  cost: LSC
+  effect: 宣言本卡时，获得本局游戏胜利。
+  type: ''
+  intensity: N/A
+  attributes: []
+  special:
+  - 在你的隙间同时存在1、5种或更多的“难题”2、5种或更多的“永夜返”
+  faq: []
+- title: 「永夜返 初月」
+  owner: Kaguya
+  sku: KGY-017
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 紫夏
+  gorgeousness: 1
+  cost: 1
+  effect: '宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时，
+
+    你可以将隙间一张新难题加入手牌。'
+  type: ''
+  intensity: 500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 新难题「艾哲赤石」
+  owner: Kaguya
+  sku: KGY-018
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: ？
+  cost: ''
+  effect: '本卡的华丽度视为你宣言区顶部符卡的华丽度且至少为1；
+
+    当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。'
+  type: ''
+  intensity: 500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 新难题「金阁寺的一枚天井」
+  owner: Kaguya
+  sku: KGY-019
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: hysteria
+  gorgeousness: 4
+  cost: 4
+  effect: 本卡结算完毕后及本卡被移出游戏时，你可以从卡组中将一张“永夜返”移出游戏。
+  type: ''
+  intensity: 2500
+  attributes: []
+  special:
+  - 蓬莱山辉夜HYPER限定
+  faq: []
+- title: 「蓬莱的树海」
+  owner: Kaguya
+  sku: KGY-020
+  version: ''
+  rarity: SSR
+  origin: ''
+  illustrator: 镜_Area
+  gorgeousness: 5
+  cost: 5
+  effect: 本卡的对阵符卡战力减少1500点。宣言区的本卡视为难题。本卡被移出游戏时，你可以将卡组或隙间一张3华丽的辉夜符卡加入手牌。
+  type: ''
+  intensity: 2500
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq: []

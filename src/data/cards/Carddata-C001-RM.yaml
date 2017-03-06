@@ -1,9 +1,9 @@
 - title: 灵符「梦想妙珠」
-  owner: MISSING
+  owner: Reimu
   sku: RM-001
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 2
   cost: 1
@@ -14,13 +14,14 @@
   special:
   - ''
   faq:
-  - 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
+  - question: MISSING
+    answer: 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
 - title: 神灵「梦想封印」
-  owner: MISSING
+  owner: Reimu
   sku: RM-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 5
   cost: 3
@@ -31,30 +32,32 @@
   special:
   - ''
   faq:
-  - 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
+  - question: MISSING
+    answer: 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
 - title: 梦符「梦想亚空穴」
-  owner: MISSING
+  owner: Reimu
   sku: RM-003
-  version: MISSING
+  version: ''
   rarity: R(SP)
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 2
   effect: 防御阶段，对方宣言一张战斗符卡时，可发动此陷阱：防止该符卡对你造成的所有伤害。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
   faq:
-  - 发动本陷阱后，无论是否发动成功。仍然可以选择继续宣言相杀。
+  - question: MISSING
+    answer: 发动本陷阱后，无论是否发动成功。仍然可以选择继续宣言相杀。
 - title: 梦符「封魔阵」
-  owner: MISSING
+  owner: Reimu
   sku: RM-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -65,14 +68,13 @@
   - 稳定
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 梦符「二重结界」
-  owner: MISSING
+  owner: Reimu
   sku: RM-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 千夜
   gorgeousness: 2
   cost: 2
@@ -83,14 +85,13 @@
   - 稳定
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 结界「扩散结界」
-  owner: MISSING
+  owner: Reimu
   sku: RM-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 3
   cost: 3
@@ -101,31 +102,29 @@
   - 稳定
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 灵符「梦想封印 円」
-  owner: MISSING
+  owner: Reimu
   sku: RM-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: umi
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合你宣言的灵梦符卡均获“诱导”特性。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 灵符「梦想封印 散」
-  owner: MISSING
+  owner: Reimu
   sku: RM-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 1
   cost: 1
@@ -136,14 +135,15 @@
   special:
   - ''
   faq:
-  - 发动效果不是宣言。效果的发动时点为攻击阶段的空余时点。
+  - question: MISSING
+    answer: 发动效果不是宣言。效果的发动时点为攻击阶段的空余时点。
 - title: 灵符「梦想封印 集」
-  owner: MISSING
+  owner: Reimu
   sku: RM-009
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 攻击阶段宣言本卡后，你获得效果：防止你即将收到的任何伤害。此效果持续至该攻击阶段结束。
@@ -153,13 +153,14 @@
   special:
   - ''
   faq:
-  - 结算后生效，防止所有伤害。但不包括扣减或调整体力。
+  - question: MISSING
+    answer: 结算后生效，防止所有伤害。但不包括扣减或调整体力。
 - title: 珠符「明珠暗投」
-  owner: MISSING
+  owner: Reimu
   sku: RM-010
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -171,13 +172,14 @@
   special:
   - ''
   faq:
-  - 选择的3张符卡明示于你的决斗区。本卡效果发发动后，你可以检视你的卡组，若没有3张或更多战力为1000的符卡，效果发动失败。将卡组洗切后放回。
+  - question: MISSING
+    answer: 选择的3张符卡明示于你的决斗区。本卡效果发发动后，你可以检视你的卡组，若没有3张或更多战力为1000的符卡，效果发动失败。将卡组洗切后放回。
 - title: 宝符「阴阳宝玉」
-  owner: MISSING
+  owner: Reimu
   sku: RM-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
@@ -188,14 +190,13 @@
   - 诱导
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 祈愿「祛除厄运之祈愿」
-  owner: MISSING
+  owner: Reimu
   sku: RM-012
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 1
   cost: 1
@@ -206,13 +207,14 @@
   special:
   - ''
   faq:
-  - 卡组至少有3张符卡才能发动效果。
+  - question: MISSING
+    answer: 卡组至少有3张符卡才能发动效果。
 - title: 神技「八方鬼缚阵」
-  owner: MISSING
+  owner: Reimu
   sku: RM-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 2
@@ -223,13 +225,14 @@
   special:
   - ''
   faq:
-  - 本卡结算后生效，必发效果。对方不得以任何方式使用符力区的符卡，包括翻面，横置，弃置，除外等等效果。
+  - question: MISSING
+    answer: 本卡结算后生效，必发效果。对方不得以任何方式使用符力区的符卡，包括翻面，横置，弃置，除外等等效果。
 - title: 梦境「二重大结界」
-  owner: MISSING
+  owner: Reimu
   sku: RM-014
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 4
   cost: 3
@@ -241,30 +244,30 @@
   special:
   - ''
   faq:
-  - 选发效果，由玩家自行决定移出的数量。先将符卡移出游戏，之后增加战力。移出符卡不是发动本卡的需要。
+  - question: MISSING
+    answer: 选发效果，由玩家自行决定移出的数量。先将符卡移出游戏，之后增加战力。移出符卡不是发动本卡的需要。
 - title: 「信仰心増大祈愿之仪」
-  owner: MISSING
+  owner: Reimu
   sku: RM-015
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 包菜子
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合你每宣言一张灵梦的诱导特性符卡时，从卡组抽一张卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 神技「八方龙杀阵」
-  owner: MISSING
+  owner: Reimu
   sku: RM-016
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 包菜子
   gorgeousness: 5
   cost: LSC
@@ -276,30 +279,32 @@
   special:
   - ''
   faq:
-  - 攻击阶段宣言本卡在结算后也会生效，效果持续至对方一下回合结束之前。
+  - question: MISSING
+    answer: 攻击阶段宣言本卡在结算后也会生效，效果持续至对方一下回合结束之前。
 - title: 梦符「封魔亚空穴」
-  owner: MISSING
+  owner: Reimu
   sku: RM-017
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 防御阶段，当对手宣言一张弹幕符卡时，可发动此陷阱：你不可相杀此符卡，并令该符卡战力-1500，然后对对手造成500点弹幕伤害。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
   faq:
-  - 若本卡发动失败，你仍然可以继续宣言相杀。
+  - question: MISSING
+    answer: 若本卡发动失败，你仍然可以继续宣言相杀。
 - title: 宝具「阴阳鬼神玉」
-  owner: MISSING
+  owner: Reimu
   sku: RM-018
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 千夜
   gorgeousness: 4
   cost: 2
@@ -310,31 +315,31 @@
   - 诱导
   special:
   - 从你的弃牌堆将一张“宝符”移出游戏
-  faq:
-  - ''
+  faq: []
 - title: 光灵「神灵宝珠」
-  owner: MISSING
+  owner: Reimu
   sku: RM-019
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: Aoi
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有灵梦战斗符卡失去特性以外的原有技能；且被对手相杀时，将其战力改为X+500（X为对阵符卡战力）
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - 博丽灵梦Hyper
   faq:
-  - 使符卡获得的效果是必发效果。
+  - question: MISSING
+    answer: 使符卡获得的效果是必发效果。
 - title: 神技「天霸风神脚」
-  owner: MISSING
+  owner: Reimu
   sku: RM-020
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
   gorgeousness: 3
   cost: 3
@@ -346,30 +351,32 @@
   special:
   - ''
   faq:
-  - 如果本卡被破坏或者卡面效果无效，依然可以发动再次宣言的效果。
+  - question: MISSING
+    answer: 如果本卡被破坏或者卡面效果无效，依然可以发动再次宣言的效果。
 - title: 回灵「梦想封印 侘」
-  owner: MISSING
+  owner: Reimu
   sku: RM-021
-  version: MISSING
+  version: ''
   rarity: UC(SP)
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 3
   effect: 本卡在场时，每当你发动“行云流水”或“灵能结界”，你可回复1点灵力，并对对手造成500点弹幕伤害。
   type: 永续
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
   faq:
-  - 只要你的灵梦C技能生效就可以发动效果。灵能结界的效果只要你在防御阶段宣言了第一张战斗符卡就生效，不需要造成反制伤害。
+  - question: MISSING
+    answer: 只要你的灵梦C技能生效就可以发动效果。灵能结界的效果只要你在防御阶段宣言了第一张战斗符卡就生效，不需要造成反制伤害。
 - title: 神灵「梦想封印 瞬」
-  owner: MISSING
+  owner: Reimu
   sku: RM-022
-  version: MISSING
+  version: ''
   rarity: SSR
-  origin: MISSING
+  origin: ''
   illustrator: 青冥童子
   gorgeousness: 5
   cost: 2
@@ -381,140 +388,133 @@
   special:
   - 博丽灵梦CENTER
   faq:
-  - 横置对方角色区符卡时选发效果，对方不能灵能解放，你不能宣言灵梦以外角色符卡是必发效果。
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  - question: MISSING
+    answer: 横置对方角色区符卡时选发效果，对方不能灵能解放，你不能宣言灵梦以外角色符卡是必发效果。
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Reimu
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

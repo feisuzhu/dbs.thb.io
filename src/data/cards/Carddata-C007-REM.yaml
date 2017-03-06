@@ -3,12 +3,12 @@
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-001
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 1
   effect: '本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。_x000d_
@@ -21,19 +21,18 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '红魔「Scarlet Devil」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: 3
   effect: '攻击阶段，你可消耗三点灵力，并弃置手牌中的本卡。若你如此做，视为你连续宣言了3张“红符「Scarlet Shoot」”。_x000d_
@@ -46,40 +45,38 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '神鬼「Remilia Stalker」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-003
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: 0
-  cost: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
   effect: 当你的「血」标记达到上限时，可发动此陷阱：对对手造成1500点特殊伤害。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '天罚「Star of David」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 1
   effect: 本卡命中后，本回合你宣言的下一张汲引特性的符卡，消耗灵力-1。
@@ -89,19 +86,18 @@
   - 高速
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '冥符「红色的冥界」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
@@ -111,19 +107,18 @@
   - 汲饮
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '诅咒「Vlad Tepes的诅咒」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 3
   effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
@@ -133,19 +128,18 @@
   - 汲饮
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '夜符「Bombard Night」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: （本卡不可被对手的陷阱卡响应。）
@@ -155,40 +149,38 @@
   - 高速
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '红蝙蝠「Vampirish Night」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: 0
-  cost: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
   effect: 防御阶段，当你宣言一张符卡，且该卡完全相杀对阵符卡时，可发动此陷阱：将该符卡置于你的宣言区底部，并且你获得一枚「血」标记。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '必杀「Heart Break」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-009
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: 当对手体力值不大于500时；宣言本卡时，不消耗灵力，不受华丽度限制；且本卡获得「贯通」与「高速」特性。
@@ -197,19 +189,18 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '夜符「Demon King Cradle」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-010
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: 若本卡被完全相杀，你可从卡组中展示一张「夜符」或「夜王」并加入手牌。
@@ -219,62 +210,59 @@
   - 破坏
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '红符「Scarlet Shoot」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 1
-  effect: null
+  effect: ''
   type: 弹幕
   intensity: 500
   attributes:
   - 汲饮
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '「Millennium的吸血鬼」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-012
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，你可发动此状态：本回合你可执行以下行动至多5次：扣减500点体力，抽一张卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '神枪「Spear The Gungnir」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 1
   effect: 对手灵力区每有一颗未崩坏的灵珠，本卡战力须-1000。
@@ -284,82 +272,78 @@
   - 贯通、高速
   special:
   - 蕾米莉亚CENTER限定 限一张
-  faq:
-  - ''
+  faq: []
 - title: '神罚「幼小的Demon Lord」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-014
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
-  effect: null
+  effect: ''
   type: 体术
   intensity: 3000
   attributes: []
   special:
   - 扣减1000点体力；或你此时体力值不大于3000
-  faq:
-  - ''
+  faq: []
 - title: '神术「吸血鬼幻想」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-015
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：你每次回复体力时，回复体力值*2。该状态持续至本回合结束。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '「Red Magic」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-016
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: LSC
   effect: 宣言本卡后，你回复500+X点体力。（X=对阵符卡原始战力-500，且至少为0）
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '红符「Scarlet Meister」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-017
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 3
   effect: 攻击阶段限一次，宣言本卡时你可查看卡组顶5张卡片，将其中任意数量设置于你的装备区或符力区，其余加入手牌。且在此效果发动后，下次抽卡阶段，你至多抽1张卡。
@@ -368,19 +352,18 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '狱符「千根针的针山」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-018
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 2
   effect: 宣言本卡后，本回合对手宣言的所有弹幕符卡原始战力-500。
@@ -389,19 +372,18 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '夜王「Dracula Cradle」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-019
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 3
   effect: 攻击阶段，宣言本卡时消耗灵力-X，战力+X*500。（X=你本回合已宣言的蕾米莉亚「夜符」的数量）
@@ -411,19 +393,18 @@
   - 汲饮、破坏、高速
   special:
   - 蕾米莉亚CENTER限定
-  faq:
-  - ''
+  faq: []
 - title: '命运「Miserable Fate」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-020
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 1
   effect: 宣言本卡时，你可将「血」标记调整至1-4中任意一个数字。
@@ -433,41 +414,39 @@
   - 汲饮
   special:
   - 蕾米莉亚HYPER限定
-  faq:
-  - ''
+  faq: []
 - title: '红符「Bloody Magic Square」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-021
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 3
   effect: 攻击阶段，本卡战力+X。（X=本回合你扣减的体力值）
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes:
   - 汲饮
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: '夜符「Bad Lady Scramble」_x000d_
 
     _x000d_
 
     '
-  owner: MISSING
+  owner: Remilia
   sku: REM-022
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: MISSING
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: 宣言本卡时，你可以扣减1000点体力，使本卡获得「汲饮」「贯通」特性。
@@ -476,5 +455,4 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

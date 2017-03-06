@@ -1,0 +1,325 @@
+- title: 弱心「丧失丧意 -Demotivation-」
+  owner: Reisen
+  sku: RS-001
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: 镜_Area
+  gorgeousness: 2
+  cost: 1
+  effect: 攻击阶段，当本卡命中后，你可弃置对方一张手牌；若本卡被完全相杀，你可从卡组中展示一张“丧心疮痍”并加入手牌。
+  type: 体术
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 丧心「丧心疮痍 -Discarder-」
+  owner: Reisen
+  sku: RS-002
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: 镜_Area
+  gorgeousness: 4
+  cost: 3
+  effect: 宣言本卡后，对方须弃置一张手牌。本卡命中时，你弃可置对方符力区一张牌。
+  type: 体术
+  intensity: 3000
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 幻爆「近眼花火 -Star Mine-」
+  owner: Reisen
+  sku: RS-003
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: POPPY
+  gorgeousness: 3
+  cost: 1
+  effect: 本卡结算完毕后，对方须选择弃置1张手牌。
+  type: 弹幕
+  intensity: 500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 波符「赤眼催眠 -Mind Shaker-」
+  owner: Reisen
+  sku: RS-004
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 1
+  cost: 1
+  effect: ''
+  type: 弹幕
+  intensity: 500
+  attributes:
+  - 狂视
+  special:
+  - ''
+  faq: []
+- title: 狂符「幻视调律 -Visionary Tuning-」
+  owner: Reisen
+  sku: RS-005
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 2
+  cost: 2
+  effect: ''
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 狂视
+  special:
+  - ''
+  faq: []
+- title: 懒符「生神停止 -Idling Wave-」
+  owner: Reisen
+  sku: RS-006
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 3
+  cost: 3
+  effect: ''
+  type: 弹幕
+  intensity: 2500
+  attributes:
+  - 狂视
+  special:
+  - ''
+  faq: []
+- title: 散符「真实之月 -Invisible FullMoon-」
+  owner: Reisen
+  sku: RS-007
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 4
+  cost: 2
+  effect: ''
+  type: 弹幕
+  intensity: 2000
+  attributes:
+  - 高速
+  special:
+  - ''
+  faq: []
+- title: 生药「国士无双之药」
+  owner: Reisen
+  sku: RS-008
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: umi
+  gorgeousness: ''
+  cost: 2
+  effect: 战斗阶段开始时，可发动此状态：本局游戏，你宣言的具有狂视特性的铃仙的符卡在攻击阶段战力增加500点。这个效果可叠加；当叠加至3次时，对双方角色造成2000点弹幕伤害，并移出此效果。
+  type: 状态
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 毒烟幕「瓦斯织物之玉」
+  owner: Reisen
+  sku: RS-009
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: umi
+  gorgeousness: ''
+  cost: ''
+  effect: 战斗阶段开始时，可发动此状态：每当一名角色弃置一次手牌时，对其造成500点特殊伤害。
+  type: 状态
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 短视「超短脑波 -X Wave-」
+  owner: Reisen
+  sku: RS-010
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: ''
+  cost: 2
+  effect: 防御阶段开始时，可发动此状态：本回合内，对手不可消耗灵珠。
+  type: 状态
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 长视「赤月下 -Inflect Moon-」
+  owner: Reisen
+  sku: RS-011
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: ''
+  cost: 2
+  effect: 攻击阶段开始时，可发动此状态：本回合内，对手不可弃置符力区卡片。
+  type: 状态
+  intensity: BUFF
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 惑视「离圆花冠 -Corola Vision-」
+  owner: Reisen
+  sku: RS-012
+  version: ''
+  rarity: C
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 1
+  cost: 1
+  effect: 宣言本卡时，你可于卡组中展示一张具有狂视特性的符卡，并加入手牌。
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 狂夢「疯狂之夢 -Dream World-」
+  owner: Reisen
+  sku: RS-013
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: 深蓝杰克
+  gorgeousness: ''
+  cost: ''
+  effect: 对手失去最后一点灵力或失去最后一张手牌时，可发动此陷阱：令对方一颗灵珠崩坏,并对其造成500点特殊伤害。
+  type: 陷阱
+  intensity: TRAP
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 迫符「胁迫幻觉 -Obsessioner-」
+  owner: Reisen
+  sku: RS-014
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: 1
+  cost: 3
+  effect: 本卡战力+X*500（X为对手当前手牌数量）。
+  type: 弹幕
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 散符「荣华之梦 -Luna Megalopolis- 」
+  owner: Reisen
+  sku: RS-015
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: 三千小纯
+  gorgeousness: 5
+  cost: 2
+  effect: 进攻阶段，宣言本卡时，你可查看你卡组顶的X张卡片，并将其中任意张卡片覆盖于你的符力区，其余加入手牌。[X=（5-对手卡牌数量）]
+  type: 弹幕
+  intensity: 1000
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 「幻胧月睨 -Lunatic Red Eyes-」
+  owner: Reisen
+  sku: RS-016
+  version: ''
+  rarity: SR
+  origin: ''
+  illustrator: HUG
+  gorgeousness: 5
+  cost: LSC
+  effect: 宣言本卡后，双方弃置全部手牌，然后对手抽1张卡。
+  type: 弹幕
+  intensity: ''
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 波符「月面波纹 -Luna Wave-」
+  owner: Reisen
+  sku: RS-017
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 躲猫
+  gorgeousness: 2
+  cost: 1
+  effect: 当本卡从手牌被弃置时，你可抽一张卡。
+  type: 弹幕
+  intensity: 1500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 散符「胧月花栞-Rocket in Mist-」
+  owner: Reisen
+  sku: RS-018
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: umi
+  gorgeousness: 3
+  cost: 2
+  effect: 当本卡从手牌被弃置时，你可回复一点灵力。
+  type: 弹幕
+  intensity: 2500
+  attributes: []
+  special:
+  - ''
+  faq: []
+- title: 幻弹「幻想视差（Bluff Barrage）」
+  owner: Reisen
+  sku: RS-019
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: APTX
+  gorgeousness: 4
+  cost: 2
+  effect: 宣言本卡时，对方须将手牌补至或弃至3张。本卡被相杀时，战力+1500。
+  type: 弹幕
+  intensity: 1500
+  attributes:
+  - 狂视
+  special:
+  - 铃仙Hyper限定
+  faq: []
+- title: 幻视「被害臆想 Cumulative Trauma」
+  owner: Reisen
+  sku: RS-020
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 吹风姬
+  gorgeousness: ''
+  cost: 3
+  effect: 每当对手弃置一次手牌时：对对手造成500点弹幕伤害。
+  type: 永续
+  intensity: PERSIST
+  attributes: []
+  special:
+  - ''
+  faq: []

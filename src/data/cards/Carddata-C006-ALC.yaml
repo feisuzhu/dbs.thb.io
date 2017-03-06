@@ -1,9 +1,9 @@
 - title: 魔符「Artful Sacrifice」
-  owner: MISSING
+  owner: Alice
   sku: ALC-001
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 天小二
   gorgeousness: 2
   cost: 1
@@ -13,14 +13,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔操「Return inanimateness」
-  owner: MISSING
+  owner: Alice
   sku: ALC-002
-  version: MISSING
+  version: ''
   rarity: SR/PR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 3
   cost: 1
@@ -30,31 +29,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 注力「Trip Wire」
-  owner: MISSING
+  owner: Alice
   sku: ALC-003
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 咪酱
-  gorgeousness: 0
-  cost: 0
+  gorgeousness: ''
+  cost: ''
   effect: 防御阶段，对方宣言一张战力不小于2500点的符卡时，可发动此陷阱：你将手牌中任意数量的「人偶」置于你符力区，并竖置你符力区的所有「人偶」。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 苍符「博爱的法兰西人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 1
   cost: 1
@@ -65,14 +62,13 @@
   - 伏兵
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 红符「红发的荷兰人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 2
   cost: 2
@@ -83,14 +79,13 @@
   - 伏兵
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 暗符「雾之伦敦人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 3
   cost: 3
@@ -101,14 +96,13 @@
   - 伏兵
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 战符「Little Legion」
-  owner: MISSING
+  owner: Alice
   sku: ALC-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 深蓝杰克
   gorgeousness: 2
   cost: 1
@@ -118,65 +112,61 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 步兵「Suicide Squad」
-  owner: MISSING
+  owner: Alice
   sku: ALC-008
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 3
-  cost: 0
+  cost: ''
   effect: 本卡命中后，你可将弃牌区一张「人形」或「人偶」符卡加入手牌。
   type: 弹幕
   intensity: 2000
   attributes: []
   special:
   - 弃置你符力区的两个「人偶」
-  faq:
-  - ''
+  faq: []
 - title: 人形「未来文乐」
-  owner: MISSING
+  owner: Alice
   sku: ALC-009
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: umi
-  gorgeousness: 0
-  cost: 0
+  gorgeousness: ''
+  cost: ''
   effect: 攻击阶段开始时，可发动此状态：在此攻击阶段内，你可不限次数执行以下动作：弃置一个你符力区的「人偶」，视为你宣言了一张战力为500的爱丽丝体术符卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 人形「没有灵魂的Folk Dance」
-  owner: MISSING
+  owner: Alice
   sku: ALC-010
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: Hysteria
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 战斗阶段开始时，可发动此状态：本回合内，你不可发动道具卡；你符力区每有一个「人偶」被弃置时，你可抽一张卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 咒符「上海人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 2
   cost: 2
@@ -187,14 +177,13 @@
   - 伏兵
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 侦符「Seeker Dolls」
-  owner: MISSING
+  owner: Alice
   sku: ALC-012
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 紫夏
   gorgeousness: 2
   cost: 2
@@ -205,14 +194,13 @@
   - 高速
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 战操「Dolls' War」
-  owner: MISSING
+  owner: Alice
   sku: ALC-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 青冥童子
   gorgeousness: 4
   cost: 1
@@ -223,31 +211,29 @@
   - 高速
   special:
   - 你的符力区没有符卡
-  faq:
-  - ''
+  faq: []
 - title: 人形「Semi-Automaton」
-  owner: MISSING
+  owner: Alice
   sku: ALC-014
-  version: MISSING
+  version: ''
   rarity: C（SP）
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 1
   effect: 战斗阶段开始时，可发动此状态：每当你符力区一个竖置「人偶」被弃置时，防止该弃置，改为横置该卡。这个效果被发动三次后，弃置本卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 白符「白垩的露西亚人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-015
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 躲猫
   gorgeousness: 1
   cost: 1
@@ -258,14 +244,13 @@
   - 伏兵
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 牺牲「Suicide Pact」
-  owner: MISSING
+  owner: Alice
   sku: ALC-016
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 紫夏
   gorgeousness: 4
   cost: LSC
@@ -276,14 +261,13 @@
   - 终符
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 咒符「Straw Doll Kamikaze」
-  owner: MISSING
+  owner: Alice
   sku: ALC-017
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: HUG
   gorgeousness: 3
   cost: 1
@@ -293,14 +277,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 枪符「萌萌大千枪」
-  owner: MISSING
+  owner: Alice
   sku: ALC-018
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 4
   cost: 2
@@ -310,14 +293,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 詛咒「蓬莱人偶」
-  owner: MISSING
+  owner: Alice
   sku: ALC-019
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: noneScarlet
   gorgeousness: 4
   cost: 2
@@ -328,16 +310,15 @@
   - 伏兵
   special:
   - 爱丽丝HYPER
-  faq:
-  - ''
+  faq: []
 - title: ' 赤符「Doll Mira Ceti」'
-  owner: MISSING
+  owner: Alice
   sku: ALC-020
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: penny
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 回合开始时，可发动此陷阱：竖置你宣言区的所有符卡。你每以此法竖置一张符卡，你可弃置对手宣言区一张符卡。
   type: 陷阱
@@ -345,14 +326,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 人形「Lemmings' Parade」
-  owner: MISSING
+  owner: Alice
   sku: ALC-021
-  version: MISSING
+  version: ''
   rarity: SSR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 5
   cost: 2
@@ -362,22 +342,20 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Alice
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
