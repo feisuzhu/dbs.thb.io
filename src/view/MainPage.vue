@@ -16,7 +16,7 @@
         <div class="wrap block">
             <div class="container welcome_block">
               <div class="welcome_line welcome_t"></div>
-              现世决斗异变已然开启，少女们的力量凭依于符卡，幕后的真凶仍隐于谜团……<span>欢迎来到幻想梦斗符的世界！</span>
+              现世决斗异变已然开启，少女们的力量凭依于符卡，幕后的真凶仍隐于谜团……<span>欢迎来到梦斗符的世界！</span>
                 <div class="welcome_line welcome_b"></div>
             </div>
         </div>
