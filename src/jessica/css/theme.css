@@ -172,12 +172,15 @@ img {
 .planning {
 	padding-bottom:50px;
 	text-align:left;
-}
+	line-height:17px
+	}
 .planning a {
 	display:block;
 	margin-bottom:15px;
 	padding:0;
 	color:#3a3a3a;
+	margin-right: 5%;
+	margin-left: 5% 
 }
 .planning a span.img_icon {
 	display:block;
@@ -214,15 +217,16 @@ img {
 .planning a:hover span.icon4 {background-position:left bottom;
 }
 .planning a span.link_title {
-	text-align:center;
 	display:block;
 	line-height:24px;
 	font-size:20px;
 	text-transform:uppercase;
 	font-family: 'Microsoft Yahei', simhei;
 	font-weight:800;
-	padding-bottom:8px;
+	padding-bottom:10px;
 	color:#313131;	
+	text-align:center;
+	letter-spacing:5px
 }
 .planning a:hover {text-decoration:none;
 }
@@ -833,7 +837,7 @@ ul.links li a:hover {color:#d00b01;
 }
 
 .post_info {
-	padding:5px 0;
+	padding:8px 0;
 	border-bottom:1px #dadada dotted;
 	border-top:1px #dadada dotted;
 	margin-bottom:12px;
@@ -841,7 +845,8 @@ ul.links li a:hover {color:#d00b01;
 }
 .post_info span {color:#d00b01;
 }
-.post img {border-radius:3px;
+.post img {
+	border-radius:10px;
 }
 .sidebar { padding-top:9px;
 }
