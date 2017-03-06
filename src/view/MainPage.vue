@@ -88,7 +88,7 @@
   margin-left: -15px !important;
 }
 
-.mainpage-carousel .slick-slide{
+.mainpage-carousel .slick-slide {
   margin: 0 15px;
 }
 </style>
