@@ -1,18 +1,19 @@
 <template>
   <div class="row-fluid show-grid">
-    <div class="span5">
-      <h2 class="title">{{ card.title }}</h2>
-      <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')"
-           width="300" height="409" alt="left aligned" />
+    <div class="span5" align="center">
+       <h2 class="title" style="text-align:center">{{ card.title }}</h2>
+       <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')"
+            width="300" height="409" alt="left aligned" />
     </div>
-    <div class="span7">
+    <div class="span7" align="center">
       <div class="btn btn-primary disabled" style="width:14%">{{ card.sku }}</div>
-      <div class="btn btn-inverse disabled" style="width:70%">画师：{{ card.illustrator }} | 版本：{{ card.version }}</div>
-      <div class="btn btn-danger disabled" style="width:10%">{{ card.rarity }}</div>
+      <div class="btn btn-inverse disabled" style="width:67%">画师：{{ card.illustrator }} | 版本：{{ card.version }}</div>
+      <div class="btn btn-danger disabled"
+      style="width:10%">{{ card.rarity }}</div>
       <table class="table table-bordered table-striped">
         <tbody>
           <tr>
-            <td style="width:17%">华丽度</td>
+            <td style="width:20%">华丽度</td>
             <td>{{ card.gorgeousness }}</td>
           </tr>
           <tr>
@@ -29,7 +30,8 @@
           </tr>
           <tr>
             <td>特性</td>
-            <td><attribute v-for="a in card.attributes" :attr="a"></attribute></td>
+            <td><span v-for="a in card.attributes" class="badge badge-inverse">{{ a }}</span>
+            </td>
           </tr>
           <tr>
             <td>发动需要</td>
@@ -63,13 +65,10 @@
     </div>
   </div>
 </template>
+
 <script>
-  import Attribute from 'components/list/Attribute.vue'
   export default {
     name: 'spellcard',
     props: ['card'],
-    components: {
-      Attribute,
-    }
   }
 </script>
