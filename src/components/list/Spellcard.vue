@@ -1,23 +1,10 @@
 <template>
-  <div class="row-fluid show-grid">
+  <div class="card-cell row-fluid show-grid" :class="'card-rarity-' + card.rarity">
     <div class="span5" align="center">
-       <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')"
-            width="400" height="409" alt="left aligned" />
+      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="400" height="409" />
     </div>
     <div class="span7" align="center">
-      <div class="btn btn-title" style="width:98.5%" >
-        <span class="badge badge-sku" style="float:left">{{ card.sku }}
-        </span> {{ card.title }}
-        
-        <span :class="'badge badge-' + card.rarity" style="float:right">{{ card.rarity }}</span>
-
-      </div>
-        <div :class="'progress progress-' + card.rarity + ' progress-striped active'">
-        <div :class="'bar bar-' + card.rarity">
-        画师：{{ card.illustrator }} &nbsp &nbsp | &nbsp &nbsp 版本：{{ card.version }}</div>
-      </div>
-
-      
+      <card-info :card="card" />
       <table class="table table-bordered table-striped">
         <tbody>
           <tr>
@@ -26,7 +13,7 @@
           </tr>
           <tr>
             <td>消耗灵力</td>
-            <td><span :class="'costimg costimg-' + card.cost" > </span></td>
+            <td><card-cost :card="card" /></td>
           </tr>
           <tr>
             <td>符卡类型</td>
@@ -38,8 +25,7 @@
           </tr>
           <tr>
             <td>特性</td>
-            <td><span v-for="a in card.attributes" class="badge badge-inverse">{{ a }}</span>
-            </td>
+            <td><span v-for="a in card.attributes" class="badge badge-inverse">{{ a }}</span></td>
           </tr>
           <tr>
             <td>发动需要</td>
@@ -74,9 +60,16 @@
   </div>
 </template>
 
+
 <script>
+  import CardInfo from 'components/list/widgets/CardInfo.vue';
+  import CardCost from 'components/list/widgets/CardCost.vue';
   export default {
     name: 'spellcard',
     props: ['card'],
+    components: {
+        CardInfo,
+        CardCost,
+    },
   }
 </script>

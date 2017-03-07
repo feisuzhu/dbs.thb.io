@@ -1,9 +1,9 @@
 - title: 恋符「Master Spark」
-  owner: MISSING
+  owner: Marisa
   sku: MS-001
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 3
   cost: 2
@@ -13,14 +13,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔炮「Final Spark」
-  owner: MISSING
+  owner: Marisa
   sku: MS-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 5
   cost: 3
@@ -30,14 +29,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 恋符「Non-Directional Laser」
-  owner: MISSING
+  owner: Marisa
   sku: MS-003
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
   gorgeousness: 4
   cost: 3
@@ -48,14 +46,13 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 光符「Earthlight-Ray」
-  owner: MISSING
+  owner: Marisa
   sku: MS-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 千夜
   gorgeousness: 2
   cost: 2
@@ -66,14 +63,13 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 光符「Luminous Strike」
-  owner: MISSING
+  owner: Marisa
   sku: MS-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -84,31 +80,29 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 仪符「Orrery's Sun」
-  owner: MISSING
+  owner: Marisa
   sku: MS-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合，你宣言的所有魔理沙战斗符卡在宣言时战力+500。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔符「Milky Way」
-  owner: MISSING
+  owner: Marisa
   sku: MS-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 镜_Area
   gorgeousness: 1
   cost: 1
@@ -119,15 +113,14 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔符「Stardust Reveiry」
-  owner: MISSING
+  owner: Marisa
   sku: MS-008
-  version: MISSING
+  version: ''
   rarity: UC（SP）
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 本卡结算完毕后，你可从卡组中展示一张“魔符”并弃置之。
@@ -137,14 +130,13 @@
   - 高速
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔符「Ultimate Short Wave」
-  owner: MISSING
+  owner: Marisa
   sku: MS-009
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 4
@@ -154,32 +146,30 @@
   attributes: []
   special:
   - 雾雨魔理沙Center
-  faq:
-  - ''
+  faq: []
 - title: 星符「Gravity Beat」
-  owner: MISSING
+  owner: Marisa
   sku: MS-010
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
-  gorgeousness: 0
-  cost: 0
+  gorgeousness: ''
+  cost: ''
   effect: 攻击阶段，当你宣言的一张不带有“贯通”特性的魔理沙战斗符卡命中时，可发动此陷阱：对对手造成1000点特殊伤害。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 星符「Meteoric Shower」
-  owner: MISSING
+  owner: Marisa
   sku: MS-011
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: 宣言本卡时，你可从卡组展示一张“恋符”、“恋心”、“恋心”、“恋风”或“邪恋”并加入手牌。
@@ -188,14 +178,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 星符「Escape Velocity」
-  owner: MISSING
+  owner: Marisa
   sku: MS-012
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
   gorgeousness: 3
   cost: 3
@@ -205,14 +194,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 星符「Dragon Meteor」
-  owner: MISSING
+  owner: Marisa
   sku: MS-013
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 青冥童子
   gorgeousness: 5
   cost: 2
@@ -223,32 +211,30 @@
   - 反制
   special:
   - 从你弃牌堆将2张“星符”移出游戏。
-  faq:
-  - ''
+  faq: []
 - title: 天仪「Orrenrie's Solar System」
-  owner: MISSING
+  owner: Marisa
   sku: MS-014
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行：横置一张你宣言区的魔理沙符卡。每如此做，视为你宣言了一张战力为500且具有“贯通”特性的魔理沙弹幕符卡。
   type: 状态
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 流光「Shooting Echo」
-  owner: MISSING
+  owner: Marisa
   sku: MS-015
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 本卡命中时，你可将你宣言区的一张横置符卡加入手牌。
@@ -257,33 +243,31 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 彗星「Blazing Star」
-  owner: MISSING
+  owner: Marisa
   sku: MS-016
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: LSC
   effect: 宣言本卡后，弃置双方符力区、宣言区全部卡片，随后，令对手崩坏1枚灵珠。
   type: 体术
-  intensity: 0
+  intensity: ''
   attributes:
   - 终符
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 光击「Shoot the Moon」
-  owner: MISSING
+  owner: Marisa
   sku: MS-017
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: 攻击阶段，你可将位于宣言区的本卡弃置。你每如此做，你弃置对手宣言区的一张牌。
@@ -293,15 +277,14 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: ' 星符「Eccentric Asteroid」'
-  owner: MISSING
+  owner: Marisa
   sku: MS-018
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 2
   effect: 当本卡从你弃牌堆被移出游戏时，你可回复1点灵力或抽1张牌。
@@ -310,31 +293,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 魔废「Deep Ecological Bomb」
-  owner: MISSING
+  owner: Marisa
   sku: MS-019
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
-  gorgeousness: 0
+  gorgeousness: ''
   cost: 1
   effect: 防御阶段，当对方宣言一张体术符卡时，可发动此陷阱：破坏该符卡，并对双方造成2000点特殊伤害。
   type: 陷阱
-  intensity: 0
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 邪恋「容易命中的Master spark」
-  owner: MISSING
+  owner: Marisa
   sku: MS-020
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: aoi
   gorgeousness: 5
   cost: 1
@@ -345,15 +326,14 @@
   - 贯通
   special:
   - 魔理沙Hyper
-  faq:
-  - ''
+  faq: []
 - title: 星符「Satellite Illusion」
-  owner: MISSING
+  owner: Marisa
   sku: MS-021
-  version: MISSING
+  version: ''
   rarity: UC（SP）
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
   cost: 1
   effect: 宣言本卡时，你可以从卡组展示两张“星符”，由对手选择其一加入你的手牌，然后你弃置剩余的。
@@ -362,14 +342,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 恋符「Wide Master」
-  owner: MISSING
+  owner: Marisa
   sku: MS-022
-  version: MISSING
+  version: ''
   rarity: SSR
-  origin: MISSING
+  origin: ''
   illustrator: 天小二
   gorgeousness: 5
   cost: 3
@@ -381,124 +360,116 @@
   - 贯通
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
-- title: null
-  owner: MISSING
-  sku: null
-  version: MISSING
-  rarity: null
-  origin: MISSING
-  illustrator: null
-  gorgeousness: null
-  cost: null
-  effect: null
-  type: null
-  intensity: null
+  faq: []
+- title: ''
+  owner: Marisa
+  sku: ''
+  version: ''
+  rarity: ''
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
+  cost: ''
+  effect: ''
+  type: ''
+  intensity: ''
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []

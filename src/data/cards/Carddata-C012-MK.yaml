@@ -1,9 +1,9 @@
 - title: 时效「月岩笠的诅咒」
-  owner: MISSING
+  owner: Mokou
   sku: MK-001
-  version: MISSING
+  version: ''
   rarity: SP
-  origin: MISSING
+  origin: ''
   illustrator: 'vivicat '
   gorgeousness: 3
   cost: 2
@@ -13,14 +13,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 蓬莱「凯风快晴 &#10;-Fujiyama Volcano-」
-  owner: MISSING
+  owner: Mokou
   sku: MK-002
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: SL
   gorgeousness: 4
   cost: 3
@@ -31,14 +30,13 @@
   - 涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 不灭「不死鸟之尾」
-  owner: MISSING
+  owner: Mokou
   sku: MK-003
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: POPPY
   gorgeousness: 2
   cost: 1
@@ -48,15 +46,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 呪札「无差别放火之符」
-  owner: MISSING
+  owner: Mokou
   sku: MK-004
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 1
   effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
@@ -66,14 +63,13 @@
   - 涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 藤原「灭罪寺院伤」
-  owner: MISSING
+  owner: Mokou
   sku: MK-005
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
@@ -84,15 +80,14 @@
   - 涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 惜命「不死之身的舍身击」
-  owner: MISSING
+  owner: Mokou
   sku: MK-006
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 3
   effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
@@ -102,15 +97,14 @@
   - 涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 炎符「不死鸟的超高温羽毛」
-  owner: MISSING
+  owner: Mokou
   sku: MK-007
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 3
   cost: 2
   effect: 当对阵符卡为体术符卡时，你对对方造成1000点弹幕伤害
@@ -119,15 +113,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 炎符「自灭火焰大旋风」
-  owner: MISSING
+  owner: Mokou
   sku: MK-008
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 2
   effect: 如果本卡被用于相杀或被相杀，你受到1000点弹幕伤害
@@ -136,31 +129,29 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 「Imperishable Shooting」
-  owner: MISSING
+  owner: Mokou
   sku: MK-009
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 2
-  cost: 0
+  cost: ''
   effect: 本卡命中后，你可以额外消耗2点灵力，对对方造成1500点弹幕伤害
   type: 弹幕
   intensity: 500
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 不死「徐福时空」
-  owner: MISSING
+  owner: Mokou
   sku: MK-010
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
@@ -171,16 +162,15 @@
   - 涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 贵人「圣日耳曼的忠告」
-  owner: MISSING
+  owner: Mokou
   sku: MK-011
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 2
   effect: 攻击阶段开始时发动，本回合内，你受到的所有伤害改为体力的回复
   type: 状态
@@ -188,14 +178,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 虚人「无」
-  owner: MISSING
+  owner: Mokou
   sku: MK-012
-  version: MISSING
+  version: ''
   rarity: C
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
@@ -205,14 +194,13 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 灭罪「正直者之死」
-  owner: MISSING
+  owner: Mokou
   sku: MK-013
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
+  origin: ''
   illustrator: Hysteria
   gorgeousness: 3
   cost: 3
@@ -222,14 +210,13 @@
   attributes: []
   special:
   - 限一张
-  faq:
-  - ''
+  faq: []
 - title: 蓬莱「瑞江浦岛子与五色的瑞龟」
-  owner: MISSING
+  owner: Mokou
   sku: MK-014
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
+  origin: ''
   illustrator: 吹风姬
   gorgeousness: 5
   cost: 'NULL'
@@ -240,14 +227,13 @@
   - 神宝，涅槃
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 不死「火鸟 -凤翼天翔-」
-  owner: MISSING
+  owner: Mokou
   sku: MK-015
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 深蓝杰克
   gorgeousness: 4
   cost: 1
@@ -258,34 +244,32 @@
   - 连击
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 「RESURRECTION」
-  owner: MISSING
+  owner: Mokou
   sku: MK-016
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
+  origin: ''
   illustrator: 白山
   gorgeousness: 5
   cost: LSC
   effect: 宣言本卡后，回复1点灵力，且防止你受到的所有伤害直到本回合结束。
   type: 弹幕
-  intensity: 0
+  intensity: ''
   attributes:
   - 终符
   special:
   - 弃置你的所有手牌
-  faq:
-  - ''
+  faq: []
 - title: 「Possessed by Phoenix」
-  owner: MISSING
+  owner: Mokou
   sku: MK-017
-  version: MISSING
+  version: ''
   rarity: R
-  origin: MISSING
-  illustrator: null
-  gorgeousness: 0
+  origin: ''
+  illustrator: ''
+  gorgeousness: ''
   cost: 2
   effect: 回合开始时发动，本回合你宣言的所有符卡在结算后除外
   type: 状态
@@ -293,15 +277,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 时效「月岩笠的诅咒」
-  owner: MISSING
+  owner: Mokou
   sku: MK-018
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 1
   cost: 2
   effect: 本卡战力增加X点，X为你隙间内涅槃特性符卡的数量X500，且X至多为5
@@ -310,15 +293,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 凯风晴天快晴脚
-  owner: MISSING
+  owner: Mokou
   sku: MK-019
-  version: MISSING
+  version: ''
   rarity: UC
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 4
   cost: 1
   effect: 本卡命中后，你可以无消耗宣言一张蓬莱「凯风快晴 -Fujiyama Volcano-」
@@ -327,15 +309,14 @@
   attributes: []
   special:
   - ''
-  faq:
-  - ''
+  faq: []
 - title: 这种世道赶快燃烧殆尽吧！
-  owner: MISSING
+  owner: Mokou
   sku: MK-020
-  version: MISSING
+  version: ''
   rarity: SR
-  origin: MISSING
-  illustrator: null
+  origin: ''
+  illustrator: ''
   gorgeousness: 5
   cost: 3
   effect: 本卡结算后，本回合你的所有炎符耗灵-1，且无视华丽度限制。
@@ -345,5 +326,4 @@
   - 涅槃
   special:
   - 藤原妹红Hper限定
-  faq:
-  - ''
+  faq: []

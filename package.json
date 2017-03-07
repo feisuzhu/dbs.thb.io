@@ -13,7 +13,8 @@
     "slick-carousel": "^1.6.0",
     "superfish": "^1.7.9",
     "vue": "^2.1.0",
-    "vue-strap": "github:wffranco/vue-strap"
+    "vue-strap": "github:wffranco/vue-strap",
+    "vue2-filters": "^0.1.7"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
