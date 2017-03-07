@@ -344,3 +344,70 @@
   width: 100%
 }
 
+.post {
+  clip: rect(13px 287px 395px 15px);
+  border-radius:10px;
+}
+
+.costimg {
+  display:inline-block;
+  height:20px;
+  margin:auto auto -5px auto;
+  text-align:left;
+}
+
+.costimg-0 {
+  background-image:url(../img/cost-free.png);
+  background-position:left top;
+  width:100px;
+  background-repeat:no-repeat;
+}
+
+.costimg-1 {
+  background-image:url(../img/cost-spirits.png);
+  background-position:left top;
+  width:20px;
+  background-repeat:no-repeat;
+}
+
+.costimg-2 {
+  background-image:url(../img/cost-spirits.png);
+  background-position:left top;
+  width:40px;
+  background-repeat:no-repeat;
+}
+
+.costimg-3 {
+  background-image:url(../img/cost-spirits.png);
+  background-position:left top;
+  width:60px;
+  background-repeat:no-repeat;
+}
+
+.costimg-4 {
+  background-image:url(../img/cost-spirits.png);
+  background-position:left top;
+  width:80px;
+  background-repeat:no-repeat;
+}
+
+.costimg-5 {
+  background-image:url(../img/cost-spirits.png);
+  background-position:left top;
+  width:100px;
+  background-repeat:no-repeat;
+}
+
+.costimg-LSC {
+  background-image:url(../img/cost-lastspell.png);
+  background-position:left top;
+  width:100px;
+  background-repeat:no-repeat;
+}
+
+.costimg-NUL {
+  background-image:url(../img/cost-nullity.png);
+  background-position:left top;
+  width:100px;
+  background-repeat:no-repeat;
+}

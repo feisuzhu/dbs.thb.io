@@ -29,7 +29,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: LSC
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500
@@ -49,7 +49,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: NUL
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500
@@ -69,7 +69,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: 4
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500
@@ -89,7 +89,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: 3
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500
@@ -109,7 +109,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: 2
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500
@@ -149,7 +149,7 @@
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
-      cost: 1
+      cost: 0
       effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
       type: 弹幕
       intensity: 1500

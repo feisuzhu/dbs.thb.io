@@ -2,7 +2,7 @@
   <div class="row-fluid show-grid">
     <div class="span5" align="center">
        <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')"
-            width="300" height="409" alt="left aligned" />
+            width="400" height="409" alt="left aligned" />
     </div>
     <div class="span7" align="center">
       <div class="btn btn-title" style="width:98.5%" >
@@ -26,7 +26,7 @@
           </tr>
           <tr>
             <td>消耗灵力</td>
-            <td>{{ card.cost }}</td>
+            <td><span :class="'costimg costimg-' + card.cost" > </span></td>
           </tr>
           <tr>
             <td>符卡类型</td>

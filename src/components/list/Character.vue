@@ -3,8 +3,8 @@
       
     <!-- Start of post image -->
     <div class="span5" align="center">
-      <img class="alignleft" :src="require('assets/card-images/' + card.sku + '.jpg')"
-      width="300" height="409" align="middle" />
+      <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')"
+      width="400" height="409" align="middle" />
     </div>
     <div class="span7" align="center">
         <div class="btn btn-title" style="width:98.5%" >
