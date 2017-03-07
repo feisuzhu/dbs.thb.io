@@ -11,8 +11,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
@@ -29,8 +28,7 @@
   type: 弹幕
   intensity: 3000
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
@@ -47,8 +45,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 发动本陷阱后，无论是否发动成功。仍然可以选择继续宣言相杀。
@@ -66,8 +63,7 @@
   intensity: 500
   attributes:
   - 稳定
-  special:
-  - ''
+  special: []
   faq: []
 - title: 梦符「二重结界」
   owner: Reimu
@@ -83,8 +79,7 @@
   intensity: 1500
   attributes:
   - 稳定
-  special:
-  - ''
+  special: []
   faq: []
 - title: 结界「扩散结界」
   owner: Reimu
@@ -100,8 +95,7 @@
   intensity: 2500
   attributes:
   - 稳定
-  special:
-  - ''
+  special: []
   faq: []
 - title: 灵符「梦想封印 円」
   owner: Reimu
@@ -116,8 +110,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 灵符「梦想封印 散」
   owner: Reimu
@@ -132,8 +125,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 发动效果不是宣言。效果的发动时点为攻击阶段的空余时点。
@@ -150,8 +142,7 @@
   type: 弹幕
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 结算后生效，防止所有伤害。但不包括扣减或调整体力。
@@ -169,8 +160,7 @@
   intensity: 500
   attributes:
   - 诱导
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 选择的3张符卡明示于你的决斗区。本卡效果发发动后，你可以检视你的卡组，若没有3张或更多战力为1000的符卡，效果发动失败。将卡组洗切后放回。
@@ -188,8 +178,7 @@
   intensity: 1000
   attributes:
   - 诱导
-  special:
-  - ''
+  special: []
   faq: []
 - title: 祈愿「祛除厄运之祈愿」
   owner: Reimu
@@ -204,8 +193,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 卡组至少有3张符卡才能发动效果。
@@ -222,8 +210,7 @@
   type: 体术
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 本卡结算后生效，必发效果。对方不得以任何方式使用符力区的符卡，包括翻面，横置，弃置，除外等等效果。
@@ -241,8 +228,7 @@
   intensity: 3000
   attributes:
   - 稳定
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 选发效果，由玩家自行决定移出的数量。先将符卡移出游戏，之后增加战力。移出符卡不是发动本卡的需要。
@@ -259,8 +245,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神技「八方龙杀阵」
   owner: Reimu
@@ -276,8 +261,7 @@
   intensity: 1000
   attributes:
   - 终符
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 攻击阶段宣言本卡在结算后也会生效，效果持续至对方一下回合结束之前。
@@ -294,8 +278,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 若本卡发动失败，你仍然可以继续宣言相杀。
@@ -348,8 +331,7 @@
   intensity: 2500
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 如果本卡被破坏或者卡面效果无效，依然可以发动再次宣言的效果。
@@ -366,8 +348,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq:
   - question: MISSING
     answer: 只要你的灵梦C技能生效就可以发动效果。灵能结界的效果只要你在防御阶段宣言了第一张战斗符卡就生效，不需要造成反制伤害。
@@ -390,131 +371,3 @@
   faq:
   - question: MISSING
     answer: 横置对方角色区符卡时选发效果，对方不能灵能解放，你不能宣言灵梦以外角色符卡是必发效果。
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Reimu
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
-  faq: []

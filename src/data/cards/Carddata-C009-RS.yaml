@@ -11,8 +11,7 @@
   type: 体术
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 丧心「丧心疮痍 -Discarder-」
   owner: Reisen
@@ -27,8 +26,7 @@
   type: 体术
   intensity: 3000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 幻爆「近眼花火 -Star Mine-」
   owner: Reisen
@@ -43,8 +41,7 @@
   type: 弹幕
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 波符「赤眼催眠 -Mind Shaker-」
   owner: Reisen
@@ -60,8 +57,7 @@
   intensity: 500
   attributes:
   - 狂视
-  special:
-  - ''
+  special: []
   faq: []
 - title: 狂符「幻视调律 -Visionary Tuning-」
   owner: Reisen
@@ -77,8 +73,7 @@
   intensity: 1500
   attributes:
   - 狂视
-  special:
-  - ''
+  special: []
   faq: []
 - title: 懒符「生神停止 -Idling Wave-」
   owner: Reisen
@@ -94,8 +89,7 @@
   intensity: 2500
   attributes:
   - 狂视
-  special:
-  - ''
+  special: []
   faq: []
 - title: 散符「真实之月 -Invisible FullMoon-」
   owner: Reisen
@@ -111,8 +105,7 @@
   intensity: 2000
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: 生药「国士无双之药」
   owner: Reisen
@@ -127,8 +120,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 毒烟幕「瓦斯织物之玉」
   owner: Reisen
@@ -143,8 +135,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 短视「超短脑波 -X Wave-」
   owner: Reisen
@@ -159,8 +150,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 长视「赤月下 -Inflect Moon-」
   owner: Reisen
@@ -175,8 +165,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 惑视「离圆花冠 -Corola Vision-」
   owner: Reisen
@@ -191,8 +180,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 狂夢「疯狂之夢 -Dream World-」
   owner: Reisen
@@ -207,8 +195,7 @@
   type: 陷阱
   intensity: TRAP
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 迫符「胁迫幻觉 -Obsessioner-」
   owner: Reisen
@@ -223,8 +210,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 散符「荣华之梦 -Luna Megalopolis- 」
   owner: Reisen
@@ -239,8 +225,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「幻胧月睨 -Lunatic Red Eyes-」
   owner: Reisen
@@ -255,8 +240,7 @@
   type: 弹幕
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 波符「月面波纹 -Luna Wave-」
   owner: Reisen
@@ -271,8 +255,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 散符「胧月花栞-Rocket in Mist-」
   owner: Reisen
@@ -287,8 +270,7 @@
   type: 弹幕
   intensity: 2500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 幻弹「幻想视差（Bluff Barrage）」
   owner: Reisen
@@ -320,6 +302,5 @@
   type: 永续
   intensity: PERSIST
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []

@@ -19,13 +19,16 @@ import 'index.html'
 Vue.use(VueRouter);
 Vue.use(Vue2Filters);
 
+require('data/cards.loader.json');
+
 var app = new Vue({
   el: '#app',
   router: new VueRouter({
     routes: [
-      {path: '/', component: MainPage},
-      {path: '/list', component: List},
-      {path: '/blog', component: Blog},
+      {path: '/',         component: MainPage},
+      {path: '/list',     component: List},
+      {path: '/list/:id', component: List},
+      {path: '/blog',     component: Blog},
     ],
   }),
   components: { HeaderSection, FooterSection },

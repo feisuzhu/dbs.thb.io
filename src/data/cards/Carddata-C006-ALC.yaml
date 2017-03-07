@@ -11,8 +11,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 魔操「Return inanimateness」
   owner: Alice
@@ -27,8 +26,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 注力「Trip Wire」
   owner: Alice
@@ -43,8 +41,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 苍符「博爱的法兰西人偶」
   owner: Alice
@@ -60,8 +57,7 @@
   intensity: 1000
   attributes:
   - 伏兵
-  special:
-  - ''
+  special: []
   faq: []
 - title: 红符「红发的荷兰人偶」
   owner: Alice
@@ -77,8 +73,7 @@
   intensity: 2000
   attributes:
   - 伏兵
-  special:
-  - ''
+  special: []
   faq: []
 - title: 暗符「雾之伦敦人偶」
   owner: Alice
@@ -94,8 +89,7 @@
   intensity: 3000
   attributes:
   - 伏兵
-  special:
-  - ''
+  special: []
   faq: []
 - title: 战符「Little Legion」
   owner: Alice
@@ -110,8 +104,7 @@
   type: 体术
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 步兵「Suicide Squad」
   owner: Alice
@@ -142,8 +135,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 人形「没有灵魂的Folk Dance」
   owner: Alice
@@ -158,8 +150,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 咒符「上海人偶」
   owner: Alice
@@ -175,8 +166,7 @@
   intensity: 1500
   attributes:
   - 伏兵
-  special:
-  - ''
+  special: []
   faq: []
 - title: 侦符「Seeker Dolls」
   owner: Alice
@@ -192,8 +182,7 @@
   intensity: 1000
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: 战操「Dolls' War」
   owner: Alice
@@ -225,8 +214,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 白符「白垩的露西亚人偶」
   owner: Alice
@@ -242,8 +230,7 @@
   intensity: 500
   attributes:
   - 伏兵
-  special:
-  - ''
+  special: []
   faq: []
 - title: 牺牲「Suicide Pact」
   owner: Alice
@@ -259,8 +246,7 @@
   intensity: 1000
   attributes:
   - 终符
-  special:
-  - ''
+  special: []
   faq: []
 - title: 咒符「Straw Doll Kamikaze」
   owner: Alice
@@ -275,8 +261,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 枪符「萌萌大千枪」
   owner: Alice
@@ -291,8 +276,7 @@
   type: 体术
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 詛咒「蓬莱人偶」
   owner: Alice
@@ -324,8 +308,7 @@
   type: 陷阱
   intensity: TRAP
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 人形「Lemmings' Parade」
   owner: Alice
@@ -340,22 +323,5 @@
   type: 弹幕
   intensity: 2000
   attributes: []
-  special:
-  - ''
-  faq: []
-- title: ''
-  owner: Alice
-  sku: ''
-  version: ''
-  rarity: ''
-  origin: ''
-  illustrator: ''
-  gorgeousness: ''
-  cost: ''
-  effect: ''
-  type: ''
-  intensity: ''
-  attributes: []
-  special:
-  - ''
+  special: []
   faq: []

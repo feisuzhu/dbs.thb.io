@@ -11,8 +11,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「灵击札」
   owner: System
@@ -27,8 +26,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「Magic Potion」
   owner: System
@@ -43,8 +41,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「Stop Watch」
   owner: System
@@ -59,8 +56,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「白楼剑」
   owner: System
@@ -75,8 +71,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「左扇」
   owner: System
@@ -91,8 +86,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「替身人偶」
   owner: System
@@ -107,8 +101,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「特制的遮阳伞」
   owner: System
@@ -123,8 +116,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「人魂灯」
   owner: System
@@ -139,8 +131,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「隔夜铜钱」
   owner: System
@@ -155,8 +146,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「龙鱼的羽衣」
   owner: System
@@ -171,8 +161,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「病气平癒守」
   owner: System
@@ -187,8 +176,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「伊吹之瓢」
   owner: System
@@ -203,8 +191,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「威风凛凛的笏板」
   owner: System
@@ -219,8 +206,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「符蚀药」
   owner: System
@@ -235,8 +221,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「Grimoire」
   owner: System
@@ -251,8 +236,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「星熊之杯」
   owner: System
@@ -267,8 +251,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「制御棒」
   owner: System
@@ -283,8 +266,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「龙星」
   owner: System
@@ -299,8 +281,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「Malicious Teaddy Bear」
   owner: System
@@ -315,8 +296,7 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「噬实史释」
   owner: System
@@ -331,6 +311,5 @@
   type: 即时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []

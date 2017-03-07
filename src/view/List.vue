@@ -10,17 +10,17 @@
         <div class="row show-grid">
           </br>
           <div class="span10">
-            <div v-for="c in cards[0].characters">
+            <div v-for="c in interested.character.cards">
               <character :card="c"></character>
               <hr>
             </div>
-            <div v-for="c in cards[0].spellcards">
+            <div v-for="c in interested.cards">
               <spellcard :card="c"></spellcard>
               <hr>
             </div>
           </div>
           <div class="span2">
-            <character-affix :cards="cards"></character-affix>
+            <character-affix :characters="characters"></character-affix>
           </div>
         </div>
       </section>
@@ -32,12 +32,22 @@
   import Character from 'components/list/Character.vue'
   import Spellcard from 'components/list/Spellcard.vue'
   import CharacterAffix from 'components/list/CharacterAffix.vue'
-  
+
   export default {
     name: 'List',
     data() {
-      var cards = require('data/cards.yaml');
-      return { cards: cards };
+      var cards = require('data/cards.loader.json');
+      var characters = require('data/characters.yaml');
+      var id = this.$route.params.id || characters[0].id;
+      return {
+        id: id,
+        cards: cards[id],
+        characters: characters,
+        interested: {
+          cards: cards[id],
+          character: characters.find((c) => c.id == id),
+        },
+      };
     },
     components: { Character, CharacterAffix, Spellcard },
   }

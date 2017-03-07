@@ -16,8 +16,7 @@
   intensity: 1500
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: '人鬼「未来永劫斩」_x000d_
 
@@ -37,8 +36,7 @@
   intensity: 1500
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: '天星剑「宛若涅槃寂静」_x000d_
 
@@ -57,8 +55,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '幽鬼剑「妖童饿鬼之断食」_x000d_
 
@@ -78,8 +75,7 @@
   intensity: 1000
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: '狱界剑「二百由旬之一闪」_x000d_
 
@@ -99,8 +95,7 @@
   intensity: 2000
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: '畜趣剑「无为无策的冥罚」_x000d_
 
@@ -120,8 +115,7 @@
   intensity: 3000
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: '魂符「幽冥的苦轮」_x000d_
 
@@ -140,8 +134,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '剑伎「樱花闪闪」_x000d_
 
@@ -160,8 +153,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '断命剑「冥想斩」_x000d_
 
@@ -180,8 +172,7 @@
   type: 体术
   intensity: 2500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '转生剑「円心流转斩」_x000d_
 
@@ -200,8 +191,7 @@
   type: 体术
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '六道剑「一念无量劫」_x000d_
 
@@ -220,8 +210,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '人智剑「天女返」_x000d_
 
@@ -240,8 +229,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '魂魄「幽明求闻持聪明之法」_x000d_
 
@@ -280,8 +268,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '狱神剑「业风神闪斩」_x000d_
 
@@ -325,8 +312,7 @@
   type: 体术
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '断想剑「草木成佛斩」_x000d_
 
@@ -345,8 +331,7 @@
   type: 体术
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '修罗剑「现世妄执」_x000d_
 
@@ -370,8 +355,7 @@
   intensity: 3000
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: '断灵剑「迷津慈航斩」_x000d_
 
@@ -395,8 +379,7 @@
   intensity: 2500
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: '天上剑「天人亦五衰」_x000d_
 
