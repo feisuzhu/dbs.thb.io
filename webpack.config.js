@@ -68,11 +68,15 @@ module.exports = {
     ],
   },
   plugins: [
+    //*
     new webpack.ProvidePlugin({
       '$': 'jquery',
       'jQuery': 'jquery',
+      'jQueryFooBar': 'jquery',
       'window.jQuery': 'jquery',
+      // '_': 'lodash',
     }),
+    // */
   ],
   devServer: {
     historyApiFallback: true,
