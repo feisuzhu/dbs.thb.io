@@ -25,7 +25,127 @@
       owner: 博丽霊梦
       sku: RM001
       version: DBSC-SD01
+      rarity: PR
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
+      rarity: SSR
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
+      rarity: SR
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
+      rarity: SP
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
       rarity: R
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
+      rarity: UC
+      origin: 东方永夜抄
+      illustrator: 镜_Area
+      gorgeousness: 2
+      cost: 1
+      effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1灵力
+      type: 弹幕
+      intensity: 1500
+      attributes: [高速, 汲引, 破坏]
+      line: 吃我一击扫把星啦！
+      special:
+        - "赛钱箱满，以及丢弃节操"
+      faq:
+        - question: meh
+          answer: Whoa!
+
+    - title: 灵符「梦想妙珠」
+      owner: 博丽霊梦
+      sku: RM001
+      version: DBSC-SD01
+      rarity: C
       origin: 东方永夜抄
       illustrator: 镜_Area
       gorgeousness: 2
