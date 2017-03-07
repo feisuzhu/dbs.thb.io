@@ -11,6 +11,7 @@ import FooterSection from 'components/common/footer/Footer.vue'
 import 'jessica/css/bootstrap.css'
 import 'jessica/css/bootstrap-responsive.css'
 import 'jessica/css/theme.css'
+import 'jessica/css/cardrarity.css'
 
 // import 'jessica/js/bootstrap.js'
 // import 'jessica/js/camera.js'

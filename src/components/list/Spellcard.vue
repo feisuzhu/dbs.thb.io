@@ -1,15 +1,23 @@
 <template>
   <div class="row-fluid show-grid">
     <div class="span5" align="center">
-       <h2 class="title" style="text-align:center">{{ card.title }}</h2>
        <img class="post" :src="require('assets/card-images/' + card.sku + '.jpg')"
-            width="300" height="409" alt="left aligned" />
+            width="400" height="409" alt="left aligned" />
     </div>
     <div class="span7" align="center">
-      <div class="btn btn-primary disabled" style="width:14%">{{ card.sku }}</div>
-      <div class="btn btn-inverse disabled" style="width:67%">画师：{{ card.illustrator }} | 版本：{{ card.version }}</div>
-      <div class="btn btn-danger disabled"
-      style="width:10%">{{ card.rarity }}</div>
+      <div class="btn btn-title" style="width:98.5%" >
+        <span class="badge badge-sku" style="float:left">{{ card.sku }}
+        </span> {{ card.title }}
+        
+        <span :class="'badge badge-' + card.rarity" style="float:right">{{ card.rarity }}</span>
+
+      </div>
+        <div :class="'progress progress-' + card.rarity + ' progress-striped active'">
+        <div :class="'bar bar-' + card.rarity">
+        画师：{{ card.illustrator }} &nbsp &nbsp | &nbsp &nbsp 版本：{{ card.version }}</div>
+      </div>
+
+      
       <table class="table table-bordered table-striped">
         <tbody>
           <tr>
@@ -18,7 +26,7 @@
           </tr>
           <tr>
             <td>消耗灵力</td>
-            <td>{{ card.cost }}</td>
+            <td><span :class="'costimg costimg-' + card.cost" > </span></td>
           </tr>
           <tr>
             <td>符卡类型</td>
