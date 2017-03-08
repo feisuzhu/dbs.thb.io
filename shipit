@@ -1,0 +1,13 @@
+#!/bin/bash
+set -x -e
+if [ ! -d dist ]; then
+    npm run build
+fi
+cd dist
+if [ ! -d .git ]; then
+    git init
+    git remote add origin zephyr@thbattle.net:dbs.thb.io
+fi
+git add -A || true
+git commit -a -m "Updated at $(date -R)" || true
+git push origin +master
