@@ -12,7 +12,7 @@ fs.readdirSync(base).forEach(function(fn) {
     var l;
     if(cards[c.owner] === undefined) {
       l = [];
-      cards[c.owner] = [];
+      cards[c.owner] = l;
     } else {
       l = cards[c.owner];
     }
