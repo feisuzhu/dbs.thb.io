@@ -12,8 +12,7 @@
   intensity: 2500
   attributes:
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神宝「蓬莱的玉枝 梦色之乡」
   owner: Kaguya
@@ -29,8 +28,7 @@
   intensity: 2500
   attributes:
   - 神宝
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「永夜返 上弦月」
   owner: Kaguya
@@ -45,8 +43,7 @@
   type: ''
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 难题「龙颈之玉 五色的弹丸」
   owner: Kaguya
@@ -62,8 +59,7 @@
   intensity: 1000
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: 难题「佛御石之钵 不碎的意志」
   owner: Kaguya
@@ -79,8 +75,7 @@
   intensity: 1000
   attributes:
   - 稳定
-  special:
-  - ''
+  special: []
   faq: []
 - title: 难题「火鼠的皮衣 不躁之心」
   owner: Kaguya
@@ -96,8 +91,7 @@
   intensity: 2500
   attributes:
   - 反制
-  special:
-  - ''
+  special: []
   faq: []
 - title: 难题「燕的子安贝 永命线」
   owner: Kaguya
@@ -112,8 +106,7 @@
   type: ''
   intensity: 2500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「永夜返 子时」
   owner: Kaguya
@@ -130,8 +123,7 @@
   type: ''
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「永夜返 丑时」
   owner: Kaguya
@@ -148,8 +140,7 @@
   type: ''
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「永夜返 寅时」
   owner: Kaguya
@@ -166,8 +157,7 @@
   type: ''
   intensity: TRAP
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神宝「耀眼的龙玉」
   owner: Kaguya
@@ -183,8 +173,7 @@
   intensity: 1000
   attributes:
   - 神宝、高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神宝「佛体的金刚玉」
   owner: Kaguya
@@ -200,8 +189,7 @@
   intensity: 1000
   attributes:
   - 神宝
-  special:
-  - ''
+  special: []
   faq: []
 - title: 新难题「Mysterium」
   owner: Kaguya
@@ -217,8 +205,7 @@
   intensity: 1000
   attributes:
   - 贯通
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神宝「火蜥蜴之盾」
   owner: Kaguya
@@ -234,8 +221,7 @@
   intensity: 2000
   attributes:
   - 神宝
-  special:
-  - ''
+  special: []
   faq: []
 - title: 神宝「无限的生命之泉」
   owner: Kaguya
@@ -251,8 +237,7 @@
   intensity: 2000
   attributes:
   - 神宝
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「永夜返 光明之世」
   owner: Kaguya
@@ -285,8 +270,7 @@
   type: ''
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 新难题「艾哲赤石」
   owner: Kaguya
@@ -303,8 +287,7 @@
   type: ''
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 新难题「金阁寺的一枚天井」
   owner: Kaguya
@@ -336,6 +319,5 @@
   intensity: 2500
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []

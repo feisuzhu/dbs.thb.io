@@ -11,8 +11,7 @@
   type: 弹幕
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 蓬莱「凯风快晴 &#10;-Fujiyama Volcano-」
   owner: Mokou
@@ -28,8 +27,7 @@
   intensity: 3000
   attributes:
   - 涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 不灭「不死鸟之尾」
   owner: Mokou
@@ -44,8 +42,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 呪札「无差别放火之符」
   owner: Mokou
@@ -61,8 +58,7 @@
   intensity: 1000
   attributes:
   - 涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 藤原「灭罪寺院伤」
   owner: Mokou
@@ -78,8 +74,7 @@
   intensity: 2000
   attributes:
   - 涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 惜命「不死之身的舍身击」
   owner: Mokou
@@ -95,8 +90,7 @@
   intensity: 3000
   attributes:
   - 涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 炎符「不死鸟的超高温羽毛」
   owner: Mokou
@@ -111,8 +105,7 @@
   type: 弹幕
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 炎符「自灭火焰大旋风」
   owner: Mokou
@@ -127,8 +120,7 @@
   type: 弹幕
   intensity: 3000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「Imperishable Shooting」
   owner: Mokou
@@ -143,8 +135,7 @@
   type: 弹幕
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 不死「徐福时空」
   owner: Mokou
@@ -160,8 +151,7 @@
   intensity: 1500
   attributes:
   - 涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 贵人「圣日耳曼的忠告」
   owner: Mokou
@@ -176,8 +166,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 虚人「无」
   owner: Mokou
@@ -192,8 +181,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 灭罪「正直者之死」
   owner: Mokou
@@ -225,8 +213,7 @@
   intensity: 2000
   attributes:
   - 神宝，涅槃
-  special:
-  - ''
+  special: []
   faq: []
 - title: 不死「火鸟 -凤翼天翔-」
   owner: Mokou
@@ -242,8 +229,7 @@
   intensity: 500
   attributes:
   - 连击
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「RESURRECTION」
   owner: Mokou
@@ -275,8 +261,7 @@
   type: 状态
   intensity: BUFF
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 时效「月岩笠的诅咒」
   owner: Mokou
@@ -291,8 +276,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 凯风晴天快晴脚
   owner: Mokou
@@ -307,8 +291,7 @@
   type: 体术
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 这种世道赶快燃烧殆尽吧！
   owner: Mokou

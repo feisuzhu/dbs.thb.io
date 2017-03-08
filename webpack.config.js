@@ -26,6 +26,11 @@ module.exports = {
         }
       },
       {
+        test: /\.loader\.json$/,
+        loader: 'json-loader!val-loader',
+        exclude: /node_modules/
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/

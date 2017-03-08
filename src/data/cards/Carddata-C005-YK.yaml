@@ -11,8 +11,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 境界「充满魅力的四重结界」
   owner: Yukari
@@ -27,8 +26,7 @@
   type: 弹幕
   intensity: 3000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 式神「八云蓝」
   owner: Yukari
@@ -60,8 +58,7 @@
   intensity: 1000
   attributes:
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: 结界「动与静的均衡」
   owner: Yukari
@@ -77,8 +74,7 @@
   intensity: 2000
   attributes:
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: 结界「光与暗的网孔」
   owner: Yukari
@@ -94,8 +90,7 @@
   intensity: 3000
   attributes:
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: 魑魅「二重黑死蝶」
   owner: Yukari
@@ -112,8 +107,7 @@
   attributes:
   - 扭曲
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '结界「客观结界」_x000d_
 
@@ -132,8 +126,7 @@
   type: 弹幕
   intensity: 2500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '外力「无限超高速飞行体」_x000d_
 
@@ -153,8 +146,7 @@
   intensity: 500
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: '幻想「第一种永动机关」_x000d_
 
@@ -173,8 +165,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '空饵「具有中毒性的诱饵」_x000d_
 
@@ -193,8 +184,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '境符「二次元与三次元之境界」_x000d_
 
@@ -213,8 +203,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '魔眼「Laplace之魔」_x000d_
 
@@ -233,8 +222,7 @@
   type: 延时
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '光弹「多普勒效应」_x000d_
 
@@ -253,8 +241,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '罔両「潜藏于禅寺之妖蝶」_x000d_
 
@@ -294,8 +281,7 @@
   type: 弹幕
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '罔两「直与曲的梦乡」_x000d_
 
@@ -356,8 +342,7 @@
   intensity: 1000
   attributes:
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: '「人类与妖怪的境界」_x000d_
 

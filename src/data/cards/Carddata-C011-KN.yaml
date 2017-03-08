@@ -11,8 +11,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 虚史「幻想乡传说」
   owner: Keine
@@ -27,8 +26,7 @@
   type: 弹幕
   intensity: 3000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 终符「幻想天皇」
   owner: Keine
@@ -43,8 +41,7 @@
   type: 弹幕
   intensity: 2500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 野符「武烈的危机」
   owner: Keine
@@ -60,8 +57,7 @@
   intensity: 1000
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 野符「将门的危机」
   owner: Keine
@@ -77,8 +73,7 @@
   intensity: 2000
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 野符「义满的危机」
   owner: Keine
@@ -94,8 +89,7 @@
   intensity: 3000
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 产灵「FIRST PYRAMID」
   owner: Keine
@@ -110,8 +104,7 @@
   type: 弹幕
   intensity: 500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 国符「三种神器之 剑」
   owner: Keine
@@ -126,8 +119,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 国符「三种神器之 玉」
   owner: Keine
@@ -142,8 +134,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 国符「三种神器之 乡」
   owner: Keine
@@ -158,8 +149,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 国符「三种神器之 镜」
   owner: Keine
@@ -174,8 +164,7 @@
   type: 永续
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 未来「高天原」
   owner: Keine
@@ -190,8 +179,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 旧史「旧秘境史 -OLD HISTORY-」
   owner: Keine
@@ -240,8 +228,7 @@
   intensity: 1000
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 倭符「邪马台国」
   owner: Keine
@@ -257,8 +244,7 @@
   intensity: 2000
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 新史「新幻想史 -现代史-」
   owner: Keine
@@ -274,8 +260,7 @@
   intensity: 1500
   attributes:
   - 无痕
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「日出国之天子」
   owner: Keine
@@ -291,8 +276,7 @@
   intensity: ''
   attributes:
   - 终符
-  special:
-  - ''
+  special: []
   faq: []
 - title: 光符「天照」
   owner: Keine
@@ -307,8 +291,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: 「似有似无的净化」
   owner: Keine

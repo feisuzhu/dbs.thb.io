@@ -15,8 +15,7 @@
   type: 弹幕
   intensity: 1500
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '死蝶「华胥的永眠」_x000d_
 
@@ -59,8 +58,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '亡乡「亡我乡 -宿罪-」_x000d_
 
@@ -80,8 +78,7 @@
   intensity: 1000
   attributes:
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '亡舞「生者必灭之理 -死蝶-」_x000d_
 
@@ -101,8 +98,7 @@
   intensity: 2000
   attributes:
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '幽曲「Repository Of Hirokawa -亡灵-」_x000d_
 
@@ -122,8 +118,7 @@
   intensity: 3000
   attributes:
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '灵蝶「蝶之羽风暂留此世」_x000d_
 
@@ -144,8 +139,7 @@
   attributes:
   - 枯萎
   - 扭曲
-  special:
-  - ''
+  special: []
   faq: []
 - title: '华灵「Swallowtail Butterfly」_x000d_
 
@@ -169,8 +163,7 @@
   intensity: 2000
   attributes:
   - 高速
-  special:
-  - ''
+  special: []
   faq: []
 - title: '冥符「黄泉平坂行路」_x000d_
 
@@ -193,8 +186,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '幽雅「死亡的诱蛾灯」_x000d_
 
@@ -213,8 +205,7 @@
   type: 状态
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '樱符「西行樱吹雪」_x000d_
 
@@ -233,8 +224,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '樱符「Sense of Cherry Blossom」_x000d_
 
@@ -253,8 +243,7 @@
   type: 体术
   intensity: 2000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '寿命「通向无寿国的期票」_x000d_
 
@@ -297,8 +286,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '符牒「死蝶之舞」_x000d_
 
@@ -317,8 +305,7 @@
   type: 弹幕
   intensity: 1000
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '「死蝶浮月」_x000d_
 
@@ -341,8 +328,7 @@
   type: 弹幕
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '亡乡「亡我乡 -无道之路-」_x000d_
 
@@ -362,8 +348,7 @@
   intensity: 2000
   attributes:
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '亡舞「生者必灭之理 -毒蛾-」_x000d_
 
@@ -383,8 +368,7 @@
   intensity: 3000
   attributes:
   - 枯萎
-  special:
-  - ''
+  special: []
   faq: []
 - title: '死符「醉生梦死」_x000d_
 
@@ -403,8 +387,7 @@
   type: 陷阱
   intensity: ''
   attributes: []
-  special:
-  - ''
+  special: []
   faq: []
 - title: '「紫色的彼岸乃迟到的光辉」_x000d_
 

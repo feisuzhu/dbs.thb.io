@@ -1,0 +1,23 @@
+// vim: ft=javascript:
+
+fs = require('fs');
+path = require('path');
+yaml = require('js-yaml');
+
+cards = {};
+base = path.resolve(__dirname, 'cards');
+fs.readdirSync(base).forEach(function(fn) {
+  var lst = yaml.safeLoad(fs.readFileSync(path.resolve(base, fn), 'utf-8'));
+  lst.forEach(function(c) {
+    var l;
+    if(cards[c.owner] === undefined) {
+      l = [];
+      cards[c.owner] = [];
+    } else {
+      l = cards[c.owner];
+    }
+    l.push(c);
+  });
+});
+
+module.exports = cards;
