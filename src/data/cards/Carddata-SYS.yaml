@@ -36,7 +36,7 @@
   origin: ''
   illustrator: 霏茶
   gorgeousness: ''
-  cost: ''
+  cost: 0
   effect: 攻击阶段发动，你选择一项执行：1.回复2点灵力。2.修复1枚崩坏的灵珠。
   type: 即时
   intensity: ''
@@ -51,7 +51,7 @@
   origin: ''
   illustrator: RainLan
   gorgeousness: ''
-  cost: ''
+  cost: 0
   effect: 攻击阶段发动：将你符力区的所有卡片返回手牌，并执行一次额外的设置阶段。
   type: 即时
   intensity: ''
@@ -96,7 +96,7 @@
   origin: ''
   illustrator: 躲猫
   gorgeousness: ''
-  cost: ''
+  cost: 0
   effect: 当你即将受到一次伤害时发动：抵消500点伤害。若本卡抵消了一张战斗符卡的伤害，该符卡即使命中也不可进入宣言区。
   type: 即时
   intensity: ''
@@ -171,7 +171,7 @@
   origin: ''
   illustrator: 霏茶
   gorgeousness: ''
-  cost: ''
+  cost: 0
   effect: 攻击阶段发动：你回复1000点体力。
   type: 即时
   intensity: ''
@@ -216,7 +216,7 @@
   origin: ''
   illustrator: 吹风姬
   gorgeousness: ''
-  cost: ''
+  cost: 0
   effect: 当你即将造成一次伤害时发动，防止此伤害，并选择一项执行：1.令对手弃置一张手牌。2.破坏对手装备区或符力区一张符卡。
   type: 即时
   intensity: ''

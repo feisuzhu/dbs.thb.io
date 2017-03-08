@@ -1,7 +1,7 @@
 <template>
   <div class="card-cell row-fluid show-grid" :class="'card-rarity-' + card.rarity">
     <div class="span5" align="center">
-      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="400" height="409" />
+      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="362" />
     </div>
     <div class="span7" align="center">
       <card-info :card="card" />
@@ -35,17 +35,17 @@
             <td colspan="2">{{ card.effect }}</td>
           </tr>
           <tr>
-            <td colspan="2">“{{ card.line }}”</td>
+            <td colspan="2"><i>“{{ card.line }}”</i></td>
           </tr>
         </tbody>
       </table>
       <table class="table table-bordered table-striped">
         <tbody v-for="faq in card.faq">
           <tr>
-            <td>Q: {{ faq.question }}</td>
+            <td>效果解释与FAQ</td>
           </tr>
           <tr>
-            <td>A: {{ faq.answer }}</td>
+            <td><u>{{ faq.answer }}</u></td>
           </tr>
         </tbody>
       </table>

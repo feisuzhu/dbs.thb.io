@@ -2,38 +2,36 @@
   <div class="row-fluid show-grid">
     <!-- Start of post image -->
     <div class="span5" align="center">
-      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="400" height="409" align="middle" />
+      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="362" align="middle" />
     </div>
     <div class="span7" align="center">
       <card-info :card="card" />
       <table class="table table-bordered table-striped">
-        <tbody v-for="s in card.skills" class="nav nav-list">
+        <tbody v-for="s in card.skills">
           <tr>
-            <td><span class="badge skill-type" :class="s.type | lowercase">{{ s.type }}</span>{{ s.name }}</td>
+            <td><span class="badge skill-type" :class="s.type | lowercase">{{ s.type }}</span><b>{{ s.name }}</b></td>
           </tr>
           <tr>
             <td>{{ s.desc }}</td>
           </tr>
         </tbody>
+        <tbody>
+        <tr>
+            <td colspan="2"><i>“{{ card.line }}”</i></td>
+          </tr>
+          </tbody>
       </table>
       <table class="table table-bordered table-striped">
         <tbody v-for="faq in card.faq">
           <tr>
-            <td>Q: {{ faq.question }}</td>
+            <td>效果解释与FAQ</td>
           </tr>
           <tr>
-            <td>A: {{ faq.answer }}</td>
+            <td><u>{{ faq.answer }}</u></td>
           </tr>
         </tbody>
       </table>
       <!-- Start of post content -->
-      <table class="table table-bordered table-striped">
-        <tbody v-for="faq in card.faq">
-          <tr>
-            <td>*This Card is come from {{ card.origin }}</td>
-          </tr>
-        </tbody>
-      </table>
     </div>
   </div>
 </template>
