@@ -4,7 +4,7 @@
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: 以太
   gorgeousness: 3
   cost: 1
   effect: 当本卡击破了一张弹幕符卡时：你可抽一张卡，或令对手受到500点弹幕伤害。
@@ -19,7 +19,7 @@
   version: ''
   rarity: SR
   origin: ''
-  illustrator: ''
+  illustrator: vivicat
   gorgeousness: 4
   cost: 3
   effect: 当本卡击破了一张弹幕符卡时：令对手受到1000点弹幕伤害，并将对阵符卡移入你的宣言区底部。
@@ -34,7 +34,7 @@
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: vivicat
   gorgeousness: 3
   cost: 2
   effect: 当你的一张战斗符卡命中后，你可立即不消耗灵力、无视华丽度限制宣言本卡；本卡命中后，可竖置一张你宣言区的符卡。
@@ -50,7 +50,7 @@
   version: ''
   rarity: C
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
   effect: ''
@@ -66,7 +66,7 @@
   version: ''
   rarity: C
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
   effect: ''
@@ -82,7 +82,7 @@
   version: ''
   rarity: C
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 3
   cost: 3
   effect: ''
@@ -98,7 +98,7 @@
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: Hysteria
   gorgeousness: 3
   cost: 2
   effect: 西行寺幽幽子参战时，本卡战力+500。
@@ -109,17 +109,13 @@
   - 枯萎
   special: []
   faq: []
-- title: '结界「客观结界」_x000d_
-
-    _x000d_
-
-    '
+- title: 结界「客观结界」
   owner: Yukari
   sku: YK-008
   version: ''
   rarity: UC
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 3
   cost: 3
   effect: 宣言本卡后，你可将你宣言区的一张华丽度为X的符卡横置，并将对手宣言区一张华丽度同为X的战斗符卡置于你的宣言区底部。
@@ -128,17 +124,13 @@
   attributes: []
   special: []
   faq: []
-- title: '外力「无限超高速飞行体」_x000d_
-
-    _x000d_
-
-    '
+- title: 外力「无限超高速飞行体」
   owner: Yukari
   sku: YK-009
   version: ''
   rarity: C
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 2
   cost: 2
   effect: 本卡战力+X*500（X=你宣言区横置符卡数，X至多为5）。
@@ -148,17 +140,13 @@
   - 高速
   special: []
   faq: []
-- title: '幻想「第一种永动机关」_x000d_
-
-    _x000d_
-
-    '
+- title: 幻想「第一种永动机关」
   owner: Yukari
   sku: YK-010
   version: ''
   rarity: UC
   origin: ''
-  illustrator: ''
+  illustrator: vivicat
   gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行如下行动：横置你宣言区的一张符卡，然后抽一张卡。
@@ -167,17 +155,13 @@
   attributes: []
   special: []
   faq: []
-- title: '空饵「具有中毒性的诱饵」_x000d_
-
-    _x000d_
-
-    '
+- title: 空饵「中毒性诱饵」
   owner: Yukari
   sku: YK-011
   version: ''
   rarity: UC
   origin: ''
-  illustrator: ''
+  illustrator: vivicat
   gorgeousness: ''
   cost: 1
   effect: 当一张战斗符卡命中时，可发动此陷阱：竖置你宣言区两张符卡。
@@ -186,17 +170,13 @@
   attributes: []
   special: []
   faq: []
-- title: '境符「二次元与三次元之境界」_x000d_
-
-    _x000d_
-
-    '
+- title: 境符「二次元与三次元之境界」
   owner: Yukari
   sku: YK-012
   version: ''
   rarity: SP
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
   effect: 你可从卡组中展示一张具有扭曲特性的符卡并加入手牌。
@@ -205,17 +185,13 @@
   attributes: []
   special: []
   faq: []
-- title: '魔眼「Laplace之魔」_x000d_
-
-    _x000d_
-
-    '
+- title: 魔眼「Laplace之魔」
   owner: Yukari
   sku: YK-013
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: S.T.A.R
   gorgeousness: ''
   cost: ''
   effect: 当你横置一次你宣言区的符卡时，横置本卡：你获得如下技能：当你对对手造成一次伤害时，追加一次X*500（X为该次横置符卡的数量）的弹幕伤害。在这个效果被触发后，弃置本卡。
@@ -224,17 +200,13 @@
   attributes: []
   special: []
   faq: []
-- title: '光弹「多普勒效应」_x000d_
-
-    _x000d_
-
-    '
+- title: 光弹「多普勒效应」
   owner: Yukari
   sku: YK-014
   version: ''
   rarity: SR
   origin: ''
-  illustrator: ''
+  illustrator: Rainlan
   gorgeousness: 3
   cost: 1
   effect: 宣言本卡时，展示你卡组顶一张卡片：若为战斗符卡，将之弃置并竖置你宣言区一张符卡；若不为战斗符卡，将之加入手牌。
@@ -243,17 +215,13 @@
   attributes: []
   special: []
   faq: []
-- title: '罔両「潜藏于禅寺之妖蝶」_x000d_
-
-    _x000d_
-
-    '
+- title: 罔両「潜藏于禅寺之妖蝶」
   owner: Yukari
   sku: YK-015
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: SHIKA
   gorgeousness: 1
   cost: 1
   effect: 宣言本卡不受华丽度限制。
@@ -264,17 +232,13 @@
   special:
   - 八云紫CENTER
   faq: []
-- title: '境符「色与空的境界」_x000d_
-
-    _x000d_
-
-    '
+- title: 境符「色与空的境界」
   owner: Yukari
   sku: YK-016
   version: ''
   rarity: SR
   origin: ''
-  illustrator: ''
+  illustrator: 霏茶
   gorgeousness: 5
   cost: LSC
   effect: 竖置你宣言区至多5张符卡。
@@ -283,17 +247,13 @@
   attributes: []
   special: []
   faq: []
-- title: '罔两「直与曲的梦乡」_x000d_
-
-    _x000d_
-
-    '
+- title: 罔两「直与曲的梦乡」
   owner: Yukari
   sku: YK-017
   version: ''
   rarity: C
   origin: ''
-  illustrator: ''
+  illustrator: 躲猫
   gorgeousness: 5
   cost: 1
   effect: 宣言本卡时，你可从卡组展示一张战力为500的八云紫符卡并加入手牌。
@@ -303,17 +263,13 @@
   special:
   - 你一张无消耗的符卡命中后
   faq: []
-- title: '式神「橙」_x000d_
-
-    _x000d_
-
-    '
+- title: 式神「橙」
   owner: Yukari
   sku: YK-018
   version: ''
   rarity: UC
   origin: ''
-  illustrator: ''
+  illustrator: vivicat
   gorgeousness: 1
   cost: 1
   effect: 攻击阶段宣言本卡时，你可从卡组展示一张战力为2000的八云紫符卡或八云蓝符卡，并加入手牌。
@@ -324,17 +280,13 @@
   special:
   - 八云紫或八云蓝CENTER
   faq: []
-- title: '空饵「狂躁高速飞行体」_x000d_
-
-    _x000d_
-
-    '
+- title: 空饵「狂躁高速飞行体」
   owner: Yukari
   sku: YK-019
   version: ''
   rarity: UC
   origin: ''
-  illustrator: ''
+  illustrator: 吹风姬
   gorgeousness: 2
   cost: 1
   effect: 若你以「镜花水月」消耗灵力宣言本卡，本卡战力+500。
@@ -344,17 +296,13 @@
   - 扭曲
   special: []
   faq: []
-- title: '「人类与妖怪的境界」_x000d_
-
-    _x000d_
-
-    '
+- title: 「人类与妖怪的境界」
   owner: Yukari
   sku: YK-020
   version: ''
   rarity: R
   origin: ''
-  illustrator: ''
+  illustrator: '子幺之&吹风姬'
   gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：「镜花水月」描述永久改为：战斗阶段限一次，当你需消耗灵力时，你可横置一张宣言区符卡代替此次灵力消耗。

@@ -12,6 +12,7 @@
   intensity: 1500
   attributes: []
   special: []
+  line: 这里，是梦开始的地方。
   faq:
   - question: MISSING
     answer: 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
@@ -29,6 +30,7 @@
   intensity: 3000
   attributes: []
   special: []
+  line: 勿谓言之不预。
   faq:
   - question: MISSING
     answer: 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
@@ -339,7 +341,7 @@
   owner: Reimu
   sku: RM-021
   version: ''
-  rarity: UC(SP)
+  rarity: SP
   origin: ''
   illustrator: ''
   gorgeousness: ''

@@ -24,6 +24,28 @@
         - question: MISSING
           answer: ''
 
+    - name: 博丽灵梦
+      title: 自由奔放的人类
+      sku: C001-Alpha
+      rarity: SR
+      line:  一个每天的生活仅靠运气就能顺利成立的家伙。
+      illustrator: 霏茶
+      skills:
+        - type: CENTER
+          name: 灵能结界
+          desc: >
+            防御阶段，你可令你宣言的第一张战斗符卡获得反制特性。
+        - type: HYPER
+          name: 亚空连击
+          desc: >
+            战斗阶段，你宣言灵梦的战斗符卡时，战力+500*X
+            （X=本回合你已宣言的战斗符卡数量-2，X至少为0）
+
+      faq: 
+        - question: MISSING
+          answer: ''
+
+
 - id: Marisa
   name: 雾雨魔理沙
   cards:
@@ -40,6 +62,23 @@
         - type: HYPER
           name: 星光聚爆
           desc: 攻击阶段，你宣言的弹幕符卡命中后，造成的伤害+500
+      faq:
+         - question: MISSING
+           answer: ''
+
+    - title: 胆大心细的人类
+      name: 雾雨魔理沙
+      sku: C002-Alpha
+      rarity: SR
+      line: 相比魔法使的身份，「惯偷」的称号更广为人知。
+      illustrator: 霏茶
+      skills:
+        - type: CENTER
+          name: 魔力脉冲
+          desc: 攻击阶段，你可消耗2点灵力以发动此技能：查看对手卡组顶的至多3张符卡，将其中一张明置于你装备区，依次放回其余的。
+        - type: HYPER
+          name: 暗能回收
+          desc: 攻击阶段，你可弃置你装备区一张明置的符卡。你每如此做，回复1点灵力。
       faq:
          - question: MISSING
            answer: ''
@@ -65,6 +104,24 @@
         - question: MISSING
           answer: ''
 
+    - title: 危险的魔术师
+      name: 十六夜咲夜
+      sku: C003-Alpha
+      rarity: SR
+      line: 时空停止，对于扫除而言，确实是不可多得的绝技
+      illustrator: 霏茶
+      skills:
+        - type: CENTER
+          name: 次元陷阱
+          desc: 你可以从手牌发动咲夜的陷阱符卡。
+        - type: HYPER
+          name: 坍缩时空
+          desc: 攻击阶段限一次，将对手的所有手牌移出游戏，直到该回合结束。且本回合你不能宣言战斗符卡。
+
+      faq: 
+        - question: MISSING
+          answer: ''
+
 - id: Youmu
   name: 魂魄妖梦
   cards:
@@ -72,7 +129,7 @@
       name: 魂魄妖梦
       sku: C004
       rarity: R
-      line: ''
+      line: 冥界的侍卫。面对入侵者，毫不犹豫斩除之。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -96,7 +153,7 @@
       name: 八云紫
       sku: C005
       rarity: R
-      line: ''
+      line: 实力全开的万妖之首，不存在败北的可能。
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -116,7 +173,7 @@
       name: 爱丽丝·玛格特罗伊德
       sku: C006
       rarity: R
-      line: ''
+      line: 神秘而美丽的人偶师，在那漫不经心的操控背后是环环相扣的陷阱。
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -136,7 +193,7 @@
       name: 蕾米莉亚·斯卡雷特
       sku: C007
       rarity: R
-      line: ''
+      line: 你会记得你吃过的面包的数量吗？
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -159,7 +216,7 @@
       name: 西行寺幽幽子
       sku: C008
       rarity: R
-      line: ''
+      line: 冥界的公主，美丽、纯洁却缥缈。
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -184,7 +241,7 @@
       name: 铃仙·优昙华院·因幡
       sku: C009
       rarity: R
-      line: ''
+      line: 直视这双红眼，将不可避免地陷入疯狂。
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -204,7 +261,7 @@
       name: 蓬莱山辉夜
       sku: C010
       rarity: R
-      line: ''
+      line: 永远亭的公主，并不是很乐意出门。
       illustrator: Hysteria
       skills:
         - type: CENTER
@@ -227,7 +284,7 @@
       name: 上白泽慧音
       sku: C011
       rarity: R
-      line: ''
+      line: 居住在人间之里，守护者村落与竹林。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -250,7 +307,7 @@
       name: 藤原妹红
       sku: C012
       rarity: R
-      line: ''
+      line: 不老不死的蓬莱人，永生的火凤。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -273,7 +330,7 @@
       name: 八意永琳
       sku: C013
       rarity: R
-      line: ''
+      line: 药到病除，从不失手。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -295,7 +352,7 @@
       name: 帕秋莉·诺蕾姬
       sku: C014
       rarity: R
-      line: ''
+      line: 保持者阅读的蛰居者——拒绝打扰。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -320,12 +377,21 @@
       name: 芙兰朵露·斯卡雷特
       sku: C015
       rarity: R
-      line: ''
+      line: 由于来自姐姐过度保护的关系，她的存在并不广为人知。
       illustrator: 霏茶
       skills:
+        - type: CENTER
+          name: 猩红眷属
+          desc: >
+            攻击阶段，你宣言战斗符卡时，根据「血」标记的数量及特性，追加如下效果：
+            1枚「血」标记：诱导特性符卡所追加的特殊伤害+500。
+            2枚「血」标记：破坏特性符卡命中特效追加弃置对手的手牌。
+            3枚「血」标记：宣言贯通特性符卡的灵力消耗-1。
+            每当你触发上述的三个效果时，你获得一枚「血」标记，上限为4。
+            当「血」标记达到上限、或是你使芙兰朵露、雷米莉亚意外的其他角色进入CENTER状态时，须弃置全部「血」标记。
         - type: HYPER
           name: 破坏波动
-          desc: 你立即消耗剩余全部灵力，并弃置对手所有符力区卡片
+          desc: 你立即消耗剩余全部灵力，并弃置对手所有符力区卡片。
       faq: 
         - question: MISSING
           answer: ''
@@ -337,7 +403,7 @@
       name: 琪露诺
       sku: C016
       rarity: R
-      line: ''
+      line: 能够操纵冷气的妖精，小心被冻伤哟。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -361,7 +427,7 @@
       name: 红美铃
       sku: C017
       rarity: R
-      line: ''
+      line: 各种意义上都很普通的门卫，总是一副瞌睡的样子。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -379,7 +445,7 @@
       name: 伊吹萃香
       sku: C018
       rarity: R
-      line: ''
+      line: 奔放不羁，嗜酒而拥怪力的鬼中天王。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -401,7 +467,7 @@
       name: 东风谷早苗
       sku: C019
       rarity: R
-      line: ''
+      line: 一脉单传的神之后裔，积极的行动派，却也会天真过头。
       illustrator: 霏茶
       skills:
         - type: CENTER
@@ -413,7 +479,7 @@
             （X为你符力区最左侧与最右侧符卡华丽度差值）
         - type: HYPER
           name: 信仰之境
-          desc: 本回合你可额外发动一次【微风祈愿】，且以此法宣言符卡无视华丽度限制
+          desc: 本回合你可额外发动一次「微风祈愿」，且以此法宣言符卡无视华丽度限制
       faq: 
         - question: MISSING
           answer: ''

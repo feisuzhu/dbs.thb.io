@@ -17,7 +17,7 @@
   owner: Alice
   sku: ALC-002
   version: ''
-  rarity: SR/PR
+  rarity: SR
   origin: ''
   illustrator: 镜_Area
   gorgeousness: 3
@@ -205,7 +205,7 @@
   owner: Alice
   sku: ALC-014
   version: ''
-  rarity: C（SP）
+  rarity: SP
   origin: ''
   illustrator: ''
   gorgeousness: ''
@@ -299,7 +299,7 @@
   owner: Alice
   sku: ALC-020
   version: ''
-  rarity: UC
+  rarity: SP
   origin: ''
   illustrator: penny
   gorgeousness: ''
