@@ -45,13 +45,27 @@
     },
     computed: {
         interested() {
-            var id = this.$route.params.id || characters[0].id;
+            var id = this.$route.params.id;
+            if(!id) {
+            }
             return {
                 cards: this.cards[id],
                 character: this.characters.find((c) => c.id == id),
             }
         }
     },
-    components: { Character, CharacterAffix, Spellcard },
+    components: {
+      Character,
+      CharacterAffix,
+      Spellcard,
+    },
+    beforeRouteEnter(to, from, next) {
+      if(to.params.id) {
+        next();
+      } else {
+        var characters = require('data/characters.yaml');
+        next('/list/' + characters[0].id);
+      }
+    },
   }
 </script>
