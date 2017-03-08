@@ -191,7 +191,7 @@
   version: ''
   rarity: R
   origin: ''
-  illustrator: S.T.A.R
+  illustrator: STAR
   gorgeousness: ''
   cost: ''
   effect: 当你横置一次你宣言区的符卡时，横置本卡：你获得如下技能：当你对对手造成一次伤害时，追加一次X*500（X为该次横置符卡的数量）的弹幕伤害。在这个效果被触发后，弃置本卡。
@@ -302,7 +302,7 @@
   version: ''
   rarity: R
   origin: ''
-  illustrator: '子幺之&吹风姬'
+  illustrator: 子幺之
   gorgeousness: ''
   cost: 1
   effect: 攻击阶段开始时，可发动此状态：「镜花水月」描述永久改为：战斗阶段限一次，当你需消耗灵力时，你可横置一张宣言区符卡代替此次灵力消耗。

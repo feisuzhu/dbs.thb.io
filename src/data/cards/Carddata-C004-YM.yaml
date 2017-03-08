@@ -7,7 +7,7 @@
   illustrator: 天小二
   gorgeousness: 2
   cost: 1
-  effect: '攻击阶段，本卡命中后，本回合你宣言的下一张“未来永劫斩”不需消耗灵力。
+  effect: 攻击阶段，本卡命中后，本回合你宣言的下一张“未来永劫斩”不需消耗灵力。
   type: 体术
   intensity: 1500
   attributes:
