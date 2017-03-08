@@ -117,9 +117,7 @@
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 1
-  effect: '攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。
-
-    本卡被除外时，你抽一张牌。'
+  effect: '攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。本卡被除外时，你抽一张牌。'
   type: ''
   intensity: BUFF
   attributes: []
@@ -134,9 +132,7 @@
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 1
-  effect: '防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。
-
-    本卡被除外时，对对手造成500点特殊伤害。'
+  effect: '防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。本卡被除外时，对对手造成500点特殊伤害。'
   type: ''
   intensity: BUFF
   attributes: []
@@ -151,9 +147,7 @@
   illustrator: 躲猫
   gorgeousness: ''
   cost: 1
-  effect: '当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：
-
-    令对手扣减与该伤害值相等的体力。本卡被除外时，你回复500点体力。'
+  effect: '当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：令对手扣减与该伤害值相等的体力。本卡被除外时，你回复500点体力。'
   type: ''
   intensity: TRAP
   attributes: []
@@ -264,9 +258,7 @@
   illustrator: 紫夏
   gorgeousness: 1
   cost: 1
-  effect: '宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时，
-
-    你可以将隙间一张新难题加入手牌。'
+  effect: '宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时， 你可以将隙间一张新难题加入手牌。'
   type: ''
   intensity: 500
   attributes: []
@@ -281,9 +273,7 @@
   illustrator: hysteria
   gorgeousness: ？
   cost: ''
-  effect: '本卡的华丽度视为你宣言区顶部符卡的华丽度且至少为1；
-
-    当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。'
+  effect: '本卡的华丽度视为你宣言区顶部符卡的华丽度且至少为1；当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。'
   type: ''
   intensity: 500
   attributes: []

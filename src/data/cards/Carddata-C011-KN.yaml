@@ -223,7 +223,7 @@
   illustrator: ''
   gorgeousness: 1
   cost: 1
-  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;如果你隙间区没有符卡，本卡战力+500。
+  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你隙间区没有符卡，本卡战力+500。
   type: 弹幕
   intensity: 1000
   attributes:
@@ -239,7 +239,7 @@
   illustrator: ''
   gorgeousness: 4
   cost: 2
-  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;如果你宣言区没有符卡，本卡战力+500
+  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你宣言区没有符卡，本卡战力+500
   type: 弹幕
   intensity: 2000
   attributes:
@@ -255,7 +255,7 @@
   illustrator: ''
   gorgeousness: 3
   cost: 2
-  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;宣言本卡后，将你弃牌区或华丽区一张符卡移出游戏
+  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）宣言本卡后，将你弃牌区或华丽区一张符卡移出游戏
   type: 弹幕
   intensity: 1500
   attributes:
@@ -302,7 +302,7 @@
   illustrator: ''
   gorgeousness: 4
   cost: 2
-  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）&#10;本卡结算后，你可以将对方宣言区的符卡随意排序
+  effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）本卡结算后，你可以将对方宣言区的符卡随意排序
   type: 弹幕
   intensity: 2000
   attributes:

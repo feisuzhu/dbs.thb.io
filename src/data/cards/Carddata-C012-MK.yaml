@@ -13,7 +13,7 @@
   attributes: []
   special: []
   faq: []
-- title: 蓬莱「凯风快晴 &#10;-Fujiyama Volcano-」
+- title: 蓬莱「凯风快晴 -Fujiyama Volcano-」
   owner: Mokou
   sku: MK-002
   version: ''
@@ -22,7 +22,7 @@
   illustrator: SL
   gorgeousness: 4
   cost: 3
-  effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）&#10;攻击阶段，你可以消耗2点灵力，并将本卡移出。若如此做，对双方造成2000点特殊伤害。
+  effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）攻击阶段，你可以消耗2点灵力，并将本卡移出。若如此做，对双方造成2000点特殊伤害。
   type: 体术
   intensity: 3000
   attributes:
@@ -208,7 +208,7 @@
   illustrator: 吹风姬
   gorgeousness: 5
   cost: 'NULL'
-  effect: （神宝：当本卡从弃牌堆或宣言区被移出时，你可从隙间将任一张“难题加入手牌。&#10;涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
+  effect: （神宝：当本卡从弃牌堆或宣言区被移出时，你可从隙间将任一张“难题加入手牌。涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
   type: 弹幕
   intensity: 2000
   attributes:
@@ -224,7 +224,7 @@
   illustrator: 深蓝杰克
   gorgeousness: 4
   cost: 1
-  effect: （连击：本卡命中时，你可将弃牌堆一张相同华丽度的符卡置于宣言区顶。）&#10;当本卡被相杀时，你可从卡组中展示一张「凤翼天翔」并加入手牌。
+  effect: （连击：本卡命中时，你可将弃牌堆一张相同华丽度的符卡置于宣言区顶。）当本卡被相杀时，你可从卡组中展示一张「凤翼天翔」并加入手牌。
   type: 弹幕
   intensity: 500
   attributes:
