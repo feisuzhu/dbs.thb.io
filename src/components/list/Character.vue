@@ -2,7 +2,7 @@
   <div class="row-fluid show-grid">
     <!-- Start of post image -->
     <div class="span5" align="center">
-      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="362" align="middle" />
+      <card-image :card="card" />
     </div>
     <div class="span7" align="center">
       <card-info :card="card" />
@@ -43,11 +43,13 @@
 
 <script>
   import CardInfo from 'components/list/widgets/CardInfo.vue';
+  import CardImage from 'components/list/widgets/CardImage.vue';
   export default {
     name: 'character',
     props: ['card'],
     components: {
         CardInfo,
+        CardImage,
     },
   }
 </script>

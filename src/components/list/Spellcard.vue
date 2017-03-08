@@ -1,7 +1,7 @@
 <template>
   <div class="card-cell row-fluid show-grid" :class="'card-rarity-' + card.rarity">
     <div class="span5" align="center">
-      <img :src="require('assets/card-images/' + card.sku + '.jpg')" width="362" />
+      <card-image :card="card" />
     </div>
     <div class="span7" align="center">
       <card-info :card="card" />
@@ -27,9 +27,9 @@
             <td>特性</td>
             <td><span v-for="a in card.attributes" class="badge badge-inverse">{{ a }}</span></td>
           </tr>
-          <tr>
+          <tr v-for="s in card.special">
             <td>发动需要</td>
-            <td v-for="s in card.special">{{ s }}</td>
+            <td>{{ s }}</td>
           </tr>
           <tr>
             <td colspan="2">{{ card.effect }}</td>
@@ -64,12 +64,14 @@
 <script>
   import CardInfo from 'components/list/widgets/CardInfo.vue';
   import CardCost from 'components/list/widgets/CardCost.vue';
+  import CardImage from 'components/list/widgets/CardImage.vue';
   export default {
     name: 'spellcard',
     props: ['card'],
     components: {
         CardInfo,
         CardCost,
+        CardImage,
     },
   }
 </script>
