@@ -38,16 +38,19 @@
     data() {
       var cards = require('data/cards.loader.json');
       var characters = require('data/characters.yaml');
-      var id = this.$route.params.id || characters[0].id;
       return {
-        id: id,
-        cards: cards[id],
+        cards: cards,
         characters: characters,
-        interested: {
-          cards: cards[id],
-          character: characters.find((c) => c.id == id),
-        },
       };
+    },
+    computed: {
+        interested() {
+            var id = this.$route.params.id || characters[0].id;
+            return {
+                cards: this.cards[id],
+                character: this.characters.find((c) => c.id == id),
+            }
+        }
     },
     components: { Character, CharacterAffix, Spellcard },
   }
