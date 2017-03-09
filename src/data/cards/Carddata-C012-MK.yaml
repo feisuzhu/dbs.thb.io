@@ -4,7 +4,7 @@
   version: ''
   rarity: SP
   origin: ''
-  illustrator: 'vivicat'
+  illustrator: vivicat
   gorgeousness: 3
   cost: 2
   effect: 本卡命中后，你本回合宣言藤原妹红符卡时，该符卡战力+500。
@@ -44,7 +44,7 @@
   attributes: []
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-004
   version: ''
@@ -76,7 +76,7 @@
   - 涅槃
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-006
   version: ''
@@ -92,7 +92,7 @@
   - 涅槃
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-007
   version: ''
@@ -146,14 +146,14 @@
   illustrator: 吹风姬
   gorgeousness: 1
   cost: 1
-  effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）&#10;宣言本卡后，本回合你宣言“涅槃”特性的符卡时，对自己造成额外500点弹幕伤害。
+  effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）宣言本卡后，本回合你宣言“涅槃”特性的符卡时，对自己造成额外500点弹幕伤害。
   type: 弹幕
   intensity: 1500
   attributes:
   - 涅槃
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-011
   version: ''
@@ -248,7 +248,7 @@
   special:
   - 弃置你的所有手牌
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-017
   version: ''
@@ -263,7 +263,7 @@
   attributes: []
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-018
   version: ''
@@ -278,7 +278,7 @@
   attributes: []
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-019
   version: ''
@@ -293,7 +293,7 @@
   attributes: []
   special: []
   faq: []
-- title: 「少女施工中……」
+- title: 「少女施工中」
   owner: Mokou
   sku: MK-020
   version: ''

@@ -7,6 +7,7 @@ yaml = require('js-yaml');
 cards = {};
 base = path.resolve(__dirname, 'cards');
 fs.readdirSync(base).forEach(function(fn) {
+  console.log(fn)
   var lst = yaml.safeLoad(fs.readFileSync(path.resolve(base, fn), 'utf-8'));
   lst.forEach(function(c) {
     var l;

@@ -263,7 +263,7 @@
   - 贯通
   special: []
   faq: []
-- title: ' 星符「Eccentric Asteroid」'
+- title: 星符「Eccentric Asteroid」
   owner: Marisa
   sku: MS-018
   version: ''
@@ -334,8 +334,7 @@
   illustrator: 天小二
   gorgeousness: 5
   cost: 3
-  effect: 本卡命中后，你可以将你弃牌区所有「SPARK」符卡洗回卡组。防御阶段开始时，你可以将宣言区的本卡移出游戏。若如此做，你从卡组展示一张「Master
-    Spark」并加入手牌。
+  effect: 本卡命中后，你可以将你弃牌区所有「SPARK」符卡洗回卡组。防御阶段开始时，你可以将宣言区的本卡移出游戏。若如此做，你从卡组展示一张「MasterSpark」并加入手牌。
   type: 弹幕
   intensity: 2000
   attributes:
