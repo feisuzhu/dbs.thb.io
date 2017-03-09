@@ -7,12 +7,17 @@ yaml = require('js-yaml');
 cards = {};
 base = path.resolve(__dirname, 'cards');
 fs.readdirSync(base).forEach(function(fn) {
+  if(!fn.endsWith('.yaml')) {
+    return;
+  }
+
   try {
     var lst = yaml.safeLoad(fs.readFileSync(path.resolve(base, fn), 'utf-8'));
   } catch(e) {
     console.error("Can't load yaml file " + fn + " Error: " + e.toString());
     throw e;
   }
+
   lst.forEach(function(c) {
     var l;
     if(cards[c.owner] === undefined) {
