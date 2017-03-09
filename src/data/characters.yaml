@@ -20,10 +20,6 @@
             本局游戏你发动至少一次 HYPER 后，若进入华丽度胜负结算，
             你所有宣言区符卡的华丽度均+1
 
-      faq: 
-        - question: MISSING
-          answer: ''
-
     - name: 博丽灵梦
       title: 自由奔放的人类
       sku: C001-Alpha
@@ -41,11 +37,6 @@
             战斗阶段，你宣言灵梦的战斗符卡时，战力+500*X
             （X=本回合你已宣言的战斗符卡数量-2，X至少为0）
 
-      faq: 
-        - question: MISSING
-          answer: ''
-
-
 - id: Marisa
   name: 雾雨魔理沙
   cards:
@@ -62,9 +53,6 @@
         - type: HYPER
           name: 星光聚爆
           desc: 攻击阶段，你宣言的弹幕符卡命中后，造成的伤害+500
-      faq:
-         - question: MISSING
-           answer: ''
 
     - title: 胆大心细的人类
       name: 雾雨魔理沙
@@ -79,9 +67,7 @@
         - type: HYPER
           name: 暗能回收
           desc: 攻击阶段，你可弃置你装备区一张明置的符卡。你每如此做，回复1点灵力。
-      faq:
-         - question: MISSING
-           answer: ''
+
 
 - id: Sakuya
   name: 十六夜咲夜
@@ -100,10 +86,6 @@
           name: 无尽之刃
           desc: 你即将造成的每一次特殊伤害+500。每当你发动「快刀乱麻」造成伤害时，你可选择回复1点灵力，或抽一张卡。
 
-      faq: 
-        - question: MISSING
-          answer: ''
-
     - title: 危险的魔术师
       name: 十六夜咲夜
       sku: C003-Alpha
@@ -117,10 +99,6 @@
         - type: HYPER
           name: 坍缩时空
           desc: 攻击阶段限一次，将对手的所有手牌移出游戏，直到该回合结束。且本回合你不能宣言战斗符卡。
-
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Youmu
   name: 魂魄妖梦
@@ -142,10 +120,6 @@
           desc: >
             攻击阶段，你可弃置一张手牌，将你弃牌堆任意一张符卡置于你的宣言区顶部
 
-      faq:
-        - question: MISSING
-          answer: ''
-
 - id: Yukari
   name: 八云紫
   cards:
@@ -162,9 +136,6 @@
         - type: HYPER
           name: 虚空回响
           desc: 本回合发动“镜花水月”无次数限制
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Alice
   name: 爱丽丝·玛格特罗伊德
@@ -182,9 +153,6 @@
         - type: HYPER
           name: 神藏鬼伏
           desc: 攻击阶段，你可执行一次额外的设置阶段
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Remilia
   name: 蕾米莉亚·斯卡雷特
@@ -205,9 +173,6 @@
         - type: HYPER
           name: 血色风暴
           desc: “血”标记上限提升至5
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Yuyuko
   name: 西行寺幽幽子
@@ -230,9 +195,6 @@
           desc: >
             本回合你发动“未生之光”时，
             可同时弃置多张手牌并选择相应数量的符卡加入手牌
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Reisen
   name: 铃仙·优昙华院·因幡
@@ -250,9 +212,6 @@
         - type: HYPER
           name: 幻痛残像
           desc: 攻击阶段，当对手手牌数未满上限时，你可弃置一张手牌，令双方各抽一张卡
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Kaguya
   name: 蓬莱山辉夜
@@ -273,9 +232,6 @@
         - type: HYPER
           name: 夜明珠辉
           desc: 攻击阶段，你可将你宣言区的“神宝”弃置
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Keine
   name: 上白泽慧音
@@ -295,9 +251,6 @@
         - type: HYPER
           name: 梦境传说
           desc: 每当你的一张卡片从宣言区被弃置或移出时，你可抽一张卡
-      faq: 
-        - question: MISSING
-          answer: ''
 
 
 - id: Mokou
@@ -319,9 +272,6 @@
         - type: HYPER
           name: 焚心炼狱
           desc: 你宣言“涅槃”特性的符卡时，战力+500，并对你自己造成500点弹幕伤害
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Eirin
   name: 八意永琳
@@ -341,9 +291,6 @@
         - type: HYPER
           name: 妙手回春
           desc: 立即回复1000点体力。你每有1000点体力，你的总华丽度+1
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Patchouli
   name: 帕秋莉·诺蕾姬
@@ -366,9 +313,6 @@
           desc: >
             战斗阶段，当你宣言“五行”特性的符卡后，
             你可展示你弃牌堆的一张同名符卡，并将之置于你符力区
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Flandre
   name: 芙兰朵露·斯卡雷特
@@ -392,9 +336,6 @@
         - type: HYPER
           name: 破坏波动
           desc: 你立即消耗剩余全部灵力，并弃置对手所有符力区卡片。
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Cirno
   name: 琪露诺
@@ -415,9 +356,6 @@
         - type: HYPER
           name: 决斗达人
           desc: 本回合，禁止双方角色宣言非 CENTER 或 HYPER 状态角色的符卡。
-      faq: 
-        - question: MISSING
-          answer: ''
 
 
 - id: Meirin
@@ -433,9 +371,6 @@
         - type: CENTER
           name: 太极芳波
           desc: ''
-      faq: 
-        - question: MISSING
-          answer: ''
 
 
 - id: Suika
@@ -456,9 +391,6 @@
         - type: HYPER
           name: 妖鬼 -密-
           desc: 攻击阶段限一次，将你隙间一张萃香符卡加入手牌
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: Sanae
   name: 东风谷早苗
@@ -480,9 +412,6 @@
         - type: HYPER
           name: 信仰之境
           desc: 本回合你可额外发动一次「微风祈愿」，且以此法宣言符卡无视华丽度限制
-      faq: 
-        - question: MISSING
-          answer: ''
 
 - id: System
   name: 系统卡牌

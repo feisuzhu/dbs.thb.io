@@ -21,12 +21,12 @@
           </tr>
           </tbody>
       </table>
-      <table class="table table-bordered table-striped">
-        <tbody v-for="faq in card.faq">
+      <table v-if="card.faq" class="table table-bordered table-striped">
+        <tbody>
           <tr>
             <td>效果解释与FAQ</td>
           </tr>
-          <tr>
+          <tr v-for="faq in card.faq">
             <td><u>{{ faq.answer }}</u></td>
           </tr>
         </tbody>

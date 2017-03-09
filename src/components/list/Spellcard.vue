@@ -39,7 +39,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="table table-bordered table-striped">
+      <table v-if="card.faq && card.faq.length" class="table table-bordered table-striped">
         <tbody v-for="faq in card.faq">
           <tr>
             <td>效果解释与FAQ</td>
@@ -50,9 +50,9 @@
         </tbody>
       </table>
       <table class="table table-bordered table-striped">
-        <tbody v-for="faq in card.faq">
+        <tbody>
           <tr>
-            <td>*This Card is come from {{ card.origin }}</td>
+            <td>* This card comes from {{ card.origin || 'MISSING' }}</td>
           </tr>
         </tbody>
       </table>
