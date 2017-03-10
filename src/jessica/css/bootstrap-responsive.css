@@ -73,12 +73,12 @@
   }
   .hidden-tablet {
     display: none !important;
-  }  
-	 
+  }
+
 }
 
-@media (max-width: 767px) {   
-  
+@media (max-width: 767px) {
+
   .hidden-desktop {
     display: inherit !important;
   }
@@ -91,7 +91,7 @@
   .hidden-phone {
     display: none !important;
   }
-   
+
 }
 
 @media (min-width: 1200px) {
@@ -100,8 +100,8 @@
 		*zoom: 1;
 	}
 	.element { margin-bottom:30px;
-	}	
-  
+	}
+
   .row:before,
   .row:after {
     display: table;
@@ -448,8 +448,8 @@
   .row {
     margin-left: -20px;
     *zoom: 1;
-  }  
-  
+  }
+
   .row:before,
   .row:after {
     display: table;
@@ -474,11 +474,11 @@
 	  float:none;
 	  width:724px;
   }
-  
+
 	button.btn,
 	input[type="submit"].btn {
 	}
-  
+
   .span12 {
     width: 724px;
   }
@@ -790,15 +790,15 @@
   .uneditable-input.span1 {
     width: 28px;
   }
-  
+
 }
 
-@media (max-width: 767px) {  
+@media (max-width: 767px) {
   .wrap {
 	  padding-left:20px;
 	  padding-right:20px;
   }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {display:none !important; 
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {display:none !important;
   }
   .follow_us, .foot_menu {text-align:left;
   }
@@ -846,8 +846,8 @@
   }
   .fleft, .fright {float:none;
   }
-  
-  
+
+
   .span12,
   .row-fluid .span12 {
     width: 100%;
@@ -900,8 +900,8 @@
 	}
 }
 
-@media (max-width: 480px) {   
-  
+@media (max-width: 480px) {
+
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -943,9 +943,9 @@
   }
   .camera_caption { display:none !important;
   }
-  
- 
-  
+
+
+
 }
 
 @media (max-width: 979px) {
@@ -971,8 +971,8 @@
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
-  
-  
+
+
   .navbar .brand {
     padding-right: 10px;
     padding-left: 10px;
@@ -994,9 +994,9 @@
   .nav-collapse .nav > .divider-vertical {
     display: none;
   }
- 
-  
- 
+
+
+
   .nav-collapse .dropdown-menu:before,
   .nav-collapse .dropdown-menu:after {
     display: none;
@@ -1040,7 +1040,7 @@
     padding-right: 10px;
     padding-left: 10px;
   }
-    
+
 	#main_menu { float:none;
 	}
 	nav#main_menu ul {display: none;
@@ -1064,19 +1064,19 @@
 		float:none;
 		text-align:center;
 	}
-	
+
   .follow_us ul li { margin:5px 0 0 5px;
   }
-  .header, .follow_us {text-align:center;
+  .header, .follow_us, .menu_w {text-align:center;
   }
   .follow_us ul li:first-child {margin-left:0;
-  } 
-  
+  }
+
   .camera_prev {left: 25px;
   }
   .camera_next {right: 25px;
   }
-    
+
 }
 
 @media (min-width: 980px) {
@@ -1085,17 +1085,3 @@
     overflow: visible !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -9,7 +9,7 @@
                           <div class="logo"><a href="index.html"><img :src="require('assets/common/logo.png')" alt="" /></a></div>
                         </div>
                         <div class="span8">
-                          <div class="follow_us">
+                            <div class="follow_us">
                                 <ul>
                                     <li><a href="https://projectzephyr.taobao.com/" class="taobao">taobao</a></li>
                                     <li><a href="http://weibo.com/hxmdf" class="weibo">weibo</a></li>
@@ -19,31 +19,32 @@
                                 </ul>
                             </div>
                             <div class="clear"></div>
-                            <nav id="main_menu">
-                                <div class="menu_wrap">
-                                    <superfish class="nav">
-                                      <li><a href="#">首页</a></li>
-                                      <li><a href="#about">简介</a></li>
-                                      <li class="sub-menu"><a href="#/episodes">作品</a>
-                                          <ul>
-                                            <li v-for="ep in episodes">
-                                              <router-link :to="'/episodes/' + ep.id"><span>-</span>{{ ep.title }}</router-link>
-                                            </li>
-                                          </ul>
-                                      </li>
-                                      <li class="sub-menu"><a href="#">资料</a>
-                                           <ul>
-                                              <li><a href="#list"><span>-</span>符卡资料</a></li>
-                                              <li><a href="#rules"><span>-</span>决斗规则</a></li>
-                                              <li><a href="#story"><span>-</span>符梦传说</a></li>
-                                          </ul>
-                                      </li>
-                                      <li><a href="#blog">公告</a>
-                                      </li>
-                                      <li><a href="#contacts">社团</a></li>
-                                    </superfish>
-                                </div>
-                             </nav>
+                            <nav class="main_menu">
+                              <div class="menu_wrap">
+                                  <superfish class="nav">
+                                    <li><router-link to="/">首页</router-link></li>
+                                    <li><router-link to="/about">简介</router-link></li>
+                                    <li class="sub-menu"><router-link to="/episodes">作品</router-link>
+                                        <ul>
+                                          <li v-for="ep in episodes">
+                                            <router-link :to="'/episodes' + ep.id"><span>-</span>{{ ep.title }}</router-link>
+                                          </li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu"><router-link to="/library">资料</router-link>
+                                         <ul>
+                                            <li><router-link to="/list"><span>-</span>符卡资料</router-link></li>
+                                            <li><router-link to="/rules"><span>-</span>决斗规则</router-link></li>
+                                            <li><router-link to="/story"><span>-</span>符梦传说</router-link></li>
+                                        </ul>
+                                    </li>
+                                    <li><router-link to="/blog">公告</router-link>
+                                    </li>
+                                    <li><router-link to="/contacts">社团</router-link></li>
+                                  </superfish>
+                              </div>
+                            </nav>
+
                         </div>
                     </div>
                 </div>
