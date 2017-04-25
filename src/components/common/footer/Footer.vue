@@ -30,13 +30,12 @@
                                         <li><a href="#contacts">社团</a></li>
                                     </ul>
                               </div>
-                            </div>
-                        </div>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
-    <!--//footer-->
+
+  <!--//footer-->
 </template>
 <script>
   export default {
