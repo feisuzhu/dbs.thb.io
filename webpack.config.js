@@ -53,6 +53,13 @@ module.exports = {
         }
       },
       {
+        test: /\.md$/,
+        loader: 'file-loader',
+        options: {
+          name: 'blogs/[name].[ext]',
+        }
+      },
+      {
         test: /\.ya?ml$/,
         loader: 'json-loader!yaml-loader',
       },

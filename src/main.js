@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Vue2Filters from 'vue2-filters'
 
 import About from 'view/About.vue'
+import BlogList from 'view/BlogList.vue'
 import Blog from 'view/Blog.vue'
 import Contacts from 'view/Contacts.vue'
 import Episodes from 'view/Episodes.vue'
@@ -33,7 +34,8 @@ var app = new Vue({
     routes: [
       {path: '/',         component: MainPage},
       {path: '/about',    component: About},
-      {path: '/blog',     component: Blog},
+      {path: '/blogs',    component: BlogList},
+      {path: '/blog/:id', component: Blog},
       {path: '/contacts', component: Contacts},
       {path: '/episodes', component: Episodes},
       {path: '/library',  component: Library},
@@ -41,7 +43,6 @@ var app = new Vue({
       {path: '/list/:id', component: List},
       {path: '/rules',    component: Rules},
       {path: '/story',    component: Story},
-
     ],
   }),
   components: { HeaderSection, FooterSection },
