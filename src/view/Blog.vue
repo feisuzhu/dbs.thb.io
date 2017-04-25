@@ -32,7 +32,7 @@
       }
     },
     mounted() {
-      var url = require('assets/blogs/articles/' + this.blog.id + '.md');
+      var url = require('assets/blogs/text/' + this.blog.id + '.md');
       fetch(url).then((resp) => {
         if(resp.ok) {
           return resp.text();
