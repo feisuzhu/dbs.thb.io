@@ -1,9 +1,5 @@
 <template>
-
-  <!-- Navigation -->
-
   <!--header-->
-
   <div class="header">
     <div class="wrap">
       <div class="navbar navbar_ clearfix">
@@ -47,7 +43,6 @@
                     <li><router-link to="/blog">公告</router-link></li>
                     <li><router-link to="/contacts">社团</router-link></li>
                   </superfish>
->>>>>>> master
                 </div>
               </nav>
             </div>
@@ -59,89 +54,85 @@
   <!--//header-->
 </template>
 <style>
+@media (min-width: 1201px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 4% 0px 0px;
+  }
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 2% 0px 0px;
+  }
+}
+@media (max-width: 979px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 33.5% 0px 0px;
+  }
+}
+@media (max-width: 480px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 8% 0px 0px;
+  }
+}
+@media (max-width: 414px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 12.6% 0px 0px;
+  }
+}
+@media (max-width: 375px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 8.5% 0px 0px;
+  }
+}
+@media (max-width: 360px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 6% 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .menu_wrap{
+      text-align:left;
+      padding:0px 0px 0px 0px;
+      width:105.7%
+  }
+}
+  .follow_us {
+      text-align:right;
+      padding:3px 4px 9px 0;
+  }
 
-  @media (min-width: 1201px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 4% 0px 0px;
-    }
+  .follow_us ul li {
+      padding:0;
+      margin:0 0 0 5px;
+      display:inline-block;
+      line-height:30px;
   }
-  @media (min-width: 980px) and (max-width: 1200px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 2% 0px 0px;
-    }
+  .follow_us a {
+      background-image:url(top_socials.png);
+      background-repeat:no-repeat;
+      height:30px;
+      width:30px;
+      display:block;
+      text-indent:-9999px;
+      text-align:left;
   }
-  @media (max-width: 979px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 33.5% 0px 0px;
-    }
-  }
-  @media (max-width: 480px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 8% 0px 0px;
-    }
-  }
-  @media (max-width: 414px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 12.6% 0px 0px;
-    }
-  }
-  @media (max-width: 375px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 8.5% 0px 0px;
-    }
-  }
-  @media (max-width: 360px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 6% 0px 0px;
-    }
-  }
-  @media (max-width: 320px) {
-    .menu_wrap{
-        text-align:left;
-        padding:0px 0px 0px 0px;
-        width:105.7%
-    }
-  }
-
-    .follow_us {
-        text-align:right;
-        padding:3px 4px 9px 0;
-    }
-
-    .follow_us ul li {
-        padding:0;
-        margin:0 0 0 5px;
-        display:inline-block;
-        line-height:30px;
-    }
-    .follow_us a {
-        background-image:url(top_socials.png);
-        background-repeat:no-repeat;
-        height:30px;
-        width:30px;
-        display:block;
-        text-indent:-9999px;
-        text-align:left;
-    }
-    .follow_us a.taobao       { background-position: 0      0;     }
-    .follow_us a.taobao:hover { background-position: 0      -30px; }
-    .follow_us a.weibo        { background-position: -35px  0;     }
-    .follow_us a.weibo:hover  { background-position: -35px  -30px; }
-    .follow_us a.qq           { background-position: -70px  0;     }
-    .follow_us a.qq:hover     { background-position: -70px  -30px; }
-    .follow_us a.cpp          { background-position: -105px 0;     }
-    .follow_us a.cpp:hover    { background-position: -105px -30px; }
-    .follow_us a.zhihu        { background-position: -140px 0;     }
-    .follow_us a.zhihu:hover  { background-position: -140px -30px; }
-
-
+  .follow_us a.taobao       { background-position: 0      0;     }
+  .follow_us a.taobao:hover { background-position: 0      -30px; }
+  .follow_us a.weibo        { background-position: -35px  0;     }
+  .follow_us a.weibo:hover  { background-position: -35px  -30px; }
+  .follow_us a.qq           { background-position: -70px  0;     }
+  .follow_us a.qq:hover     { background-position: -70px  -30px; }
+  .follow_us a.cpp          { background-position: -105px 0;     }
+  .follow_us a.cpp:hover    { background-position: -105px -30px; }
+  .follow_us a.zhihu        { background-position: -140px 0;     }
+  .follow_us a.zhihu:hover  { background-position: -140px -30px; }
 </style>
 
 <script>
