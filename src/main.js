@@ -18,7 +18,6 @@ import FooterSection from 'components/common/footer/Footer.vue'
 import 'jessica/css/bootstrap.css'
 import 'jessica/css/bootstrap-responsive.css'
 import 'jessica/css/theme.css'
-import 'jessica/css/jquery.mmenu.css'
 
 import 'index.html'
 
