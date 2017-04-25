@@ -8,7 +8,7 @@
   gorgeousness: 5
   cost: 5
   effect: 本卡命中时，你可从卡组展示一张“难题”并加入手牌。
-  type: ''
+  type: '弹幕'
   intensity: 2500
   attributes:
   - 扭曲
@@ -22,9 +22,9 @@
   origin: ''
   illustrator: swd3e2
   gorgeousness: 5
-  cost: X
+  cost: 'nul'
   effect: 本卡命中时，你可将弃牌堆或宣言区的另一张“神宝”移出游戏。
-  type: ''
+  type: '弹幕'
   intensity: 2500
   attributes:
   - 神宝
@@ -40,7 +40,7 @@
   gorgeousness: ''
   cost: 1
   effect: 战斗阶段开始时，可发动此状态：本回合，你每当你的一张辉夜符卡进入宣言区，你可抽一张卡或回复1点灵力。
-  type: ''
+  type: '状态'
   intensity: BUFF
   attributes: []
   special: []
@@ -55,7 +55,7 @@
   gorgeousness: 1
   cost: 1
   effect: 本卡被除外时，你可以将弃牌区一张难题加入手牌。
-  type: ''
+  type: '弹幕'
   intensity: 1000
   attributes:
   - 高速
@@ -71,7 +71,7 @@
   gorgeousness: 2
   cost: 2
   effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
-  type: ''
+  type: '弹幕'
   intensity: 1000
   attributes:
   - 稳定
@@ -87,7 +87,7 @@
   gorgeousness: 3
   cost: 3
   effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
-  type: ''
+  type: '弹幕'
   intensity: 2500
   attributes:
   - 反制
@@ -102,8 +102,8 @@
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 4
-  effect: 回复500点体力
-  type: ''
+  effect: 宣言本卡时，你回复500点体力
+  type: '弹幕'
   intensity: 2500
   attributes: []
   special: []
@@ -117,8 +117,8 @@
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 1
-  effect: '攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。本卡被除外时，你抽一张牌。'
-  type: ''
+  effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。本卡被移出游戏时，你可抽一张卡。
+  type: '状态'
   intensity: BUFF
   attributes: []
   special: []
@@ -132,8 +132,8 @@
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 1
-  effect: '防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。本卡被除外时，对对手造成500点特殊伤害。'
-  type: ''
+  effect: 防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。本卡被移出游戏时，你对对手造成500点特殊伤害。
+  type: '状态'
   intensity: BUFF
   attributes: []
   special: []
@@ -142,13 +142,13 @@
   owner: Kaguya
   sku: KGY-010
   version: ''
-  rarity: UC
+  rarity: SP
   origin: ''
-  illustrator: 躲猫
+  illustrator: 噗呼噗呼
   gorgeousness: ''
   cost: 1
-  effect: '当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：令对手扣减与该伤害值相等的体力。本卡被除外时，你回复500点体力。'
-  type: ''
+  effect: 当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：令对手扣减与该伤害值相等的体力。本卡被移出游戏时，你回复500点体力。
+  type: '陷阱'
   intensity: TRAP
   attributes: []
   special: []
@@ -161,12 +161,13 @@
   origin: ''
   illustrator: hysteria
   gorgeousness: 1
-  cost: X
+  cost: 'nul'
   effect: 宣言本卡时，你可以将隙间内一张神宝送入墓地，并使本卡增加500点战力。
-  type: ''
+  type: '弹幕'
   intensity: 1000
   attributes:
-  - 神宝、高速
+  - 神宝
+    高速
   special: []
   faq: []
 - title: 神宝「佛体的金刚玉」
@@ -177,9 +178,9 @@
   origin: ''
   illustrator: hysteria
   gorgeousness: 2
-  cost: X
+  cost: 'nul'
   effect: 防御阶段宣言本卡时，本卡战力+1500。
-  type: ''
+  type: '弹幕'
   intensity: 1000
   attributes:
   - 神宝
@@ -195,7 +196,7 @@
   gorgeousness: 3
   cost: 3
   effect: 防御阶段宣言本卡时，你可以失去500点体力，并破坏对阵符卡。
-  type: ''
+  type: '弹幕'
   intensity: 1000
   attributes:
   - 贯通
@@ -209,9 +210,9 @@
   origin: ''
   illustrator: hysteria
   gorgeousness: 3
-  cost: X
-  effect: 防御阶段，本卡擊破對陣符卡时，对对手造成1000点特殊伤害。
-  type: ''
+  cost: 'nul'
+  effect: 防御阶段，本卡击破对阵符卡时，对对手造成1000点特殊伤害。
+  type: '弹幕'
   intensity: 2000
   attributes:
   - 神宝
@@ -225,9 +226,9 @@
   origin: ''
   illustrator: hysteria
   gorgeousness: 4
-  cost: X
-  effect: 回复1000点体力
-  type: ''
+  cost: 'nul'
+  effect: 宣言本卡时，你回复1000点体力
+  type: '弹幕'
   intensity: 2000
   attributes:
   - 神宝
@@ -243,7 +244,7 @@
   gorgeousness: 5
   cost: LSC
   effect: 宣言本卡时，获得本局游戏胜利。
-  type: ''
+  type: '特殊'
   intensity: N/A
   attributes: []
   special:
@@ -258,8 +259,8 @@
   illustrator: 紫夏
   gorgeousness: 1
   cost: 1
-  effect: '宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时， 你可以将隙间一张新难题加入手牌。'
-  type: ''
+  effect: 宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时，你可以将隙间一张「新难题」加入手牌。
+  type: '弹幕'
   intensity: 500
   attributes: []
   special: []
@@ -273,8 +274,8 @@
   illustrator: hysteria
   gorgeousness: ？
   cost: ''
-  effect: '本卡的华丽度视为你宣言区顶部符卡的华丽度且至少为1；当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。'
-  type: ''
+  effect: 本卡的华丽度视为你当前宣言区顶部符卡的华丽度且至少为1；当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。
+  type: 弹幕'
   intensity: 500
   attributes: []
   special: []
@@ -289,25 +290,56 @@
   gorgeousness: 4
   cost: 4
   effect: 本卡结算完毕后及本卡被移出游戏时，你可以从卡组中将一张“永夜返”移出游戏。
-  type: ''
+  type: '弹幕'
   intensity: 2500
   attributes: []
   special:
   - 蓬莱山辉夜HYPER限定
   faq: []
-- title: 「少女施工中……」
+- title: 「蓬莱的树海」
   owner: Kaguya
   sku: KGY-020
   version: ''
   rarity: SSR
   origin: ''
-  illustrator: 镜_Area
+  illustrator: Transparent
   gorgeousness: 5
   cost: 5
-  effect: 本卡的对阵符卡战力减少1500点。宣言区的本卡视为难题。本卡被移出游戏时，你可以将卡组或隙间一张3华丽的辉夜符卡加入手牌。
-  type: ''
+  effect: 对阵符卡战力-1500点。宣言区的本卡视为一张「难题」符卡。本卡被移出游戏时，你可选择一项执行：1.移出一张对手场上角色卡以外的符卡。2.移出双方弃牌堆的各一张符卡，你抽一张卡。
+    3.将你隙间5张「蓬莱的树海」以外的符卡返回卡组，若你如此做，你再依次执行上述两项。
+  type: '弹幕'
   intensity: 2500
   attributes:
   - 高速
+  special: []
+  faq: []
+- title: 「永夜返 待宵」
+  owner: Kaguya
+  sku: KGY-021
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: 苍辰
+  gorgeousness: 4
+  cost: 2
+  effect: 本卡结算完毕后，你可选择一项执行：1.将你宣言区的一张符卡替换为你弃牌堆一张相同华丽度的符卡。2.将你弃牌堆一张符卡替换为你隙间的一张符卡。
+  type: '弹幕'
+  intensity: 500
+  attributes: []
+  special: []
+  faq: []
+- title: 新难题「月的钛铁矿」
+  owner: Kaguya
+  sku: KGY-022
+  version: ''
+  rarity: UC
+  origin: ''
+  illustrator: 尼糯米酱
+  gorgeousness: 2
+  cost: 3
+  effect: 本卡在场时，对手装备区所有在场永续道具卡的持续效果失效。当你宣言的一张辉夜符卡被击破时，你可将道具区明置的本卡置入你的宣言区顶部。
+  type: '永续'
+  intensity: PERSIST
+  attributes: []
   special: []
   faq: []

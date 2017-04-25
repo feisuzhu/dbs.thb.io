@@ -1,19 +1,19 @@
-- title: '红符「不夜城Red」_x000d_
+- title: '红符「不夜城Red」
 
-    _x000d_
+
 
     '
   owner: Remilia
   sku: REM-001
   version: ''
-  rarity: SP
+  rarity: R
   origin: ''
   illustrator: ''
   gorgeousness: 3
   cost: 1
-  effect: '本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。_x000d_
+  effect: '本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。
 
-    _x000d_
+
 
     '
   type: 体术
@@ -21,9 +21,9 @@
   attributes: []
   special: []
   faq: []
-- title: '红魔「Scarlet Devil」_x000d_
+- title: '红魔「Scarlet Devil」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -34,9 +34,9 @@
   illustrator: ''
   gorgeousness: 5
   cost: 3
-  effect: '攻击阶段，你可消耗三点灵力，并弃置手牌中的本卡。若你如此做，视为你连续宣言了3张“红符「Scarlet Shoot」”。_x000d_
+  effect: '攻击阶段，你可消耗三点灵力，并弃置手牌中的本卡。若你如此做，视为你连续宣言了3张“红符「Scarlet Shoot」”。
 
-    _x000d_
+
 
     '
   type: 体术
@@ -44,9 +44,9 @@
   attributes: []
   special: []
   faq: []
-- title: '神鬼「Remilia Stalker」_x000d_
+- title: '神鬼「Remilia Stalker」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -63,9 +63,9 @@
   attributes: []
   special: []
   faq: []
-- title: '天罚「Star of David」_x000d_
+- title: '天罚「Star of David」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -83,9 +83,9 @@
   - 高速
   special: []
   faq: []
-- title: '冥符「红色的冥界」_x000d_
+- title: '冥符「红色的冥界」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -103,9 +103,9 @@
   - 汲饮
   special: []
   faq: []
-- title: '诅咒「Vlad Tepes的诅咒」_x000d_
+- title: '诅咒「Vlad Tepes的诅咒」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -123,9 +123,9 @@
   - 汲饮
   special: []
   faq: []
-- title: '夜符「Bombard Night」_x000d_
+- title: '夜符「Bombard Night」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -143,9 +143,9 @@
   - 高速
   special: []
   faq: []
-- title: '红蝙蝠「Vampirish Night」_x000d_
+- title: '红蝙蝠「Vampirish Night」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -162,15 +162,15 @@
   attributes: []
   special: []
   faq: []
-- title: '必杀「Heart Break」_x000d_
+- title: '必杀「Heart Break」
 
-    _x000d_
+
 
     '
   owner: Remilia
   sku: REM-009
   version: ''
-  rarity: SP
+  rarity: R
   origin: ''
   illustrator: ''
   gorgeousness: 2
@@ -181,9 +181,9 @@
   attributes: []
   special: []
   faq: []
-- title: '夜符「Demon King Cradle」_x000d_
+- title: '夜符「Demon King Cradle」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -201,9 +201,9 @@
   - 破坏
   special: []
   faq: []
-- title: '红符「Scarlet Shoot」_x000d_
+- title: '红符「Scarlet Shoot」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -221,9 +221,9 @@
   - 汲饮
   special: []
   faq: []
-- title: '「Millennium的吸血鬼」_x000d_
+- title: '「Millennium的吸血鬼」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -240,9 +240,9 @@
   attributes: []
   special: []
   faq: []
-- title: '神枪「Spear The Gungnir」_x000d_
+- title: '神枪「Spear The Gungnir」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -261,9 +261,9 @@
   special:
   - 蕾米莉亚CENTER限定 限一张
   faq: []
-- title: '神罚「幼小的Demon Lord」_x000d_
+- title: '神罚「幼小的Demon Lord」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -281,9 +281,9 @@
   special:
   - 扣减1000点体力；或你此时体力值不大于3000
   faq: []
-- title: '神术「吸血鬼幻想」_x000d_
+- title: '神术「吸血鬼幻想」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -300,9 +300,9 @@
   attributes: []
   special: []
   faq: []
-- title: '「Red Magic」_x000d_
+- title: '「Red Magic」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -319,9 +319,9 @@
   attributes: []
   special: []
   faq: []
-- title: '红符「Scarlet Meister」_x000d_
+- title: '红符「Scarlet Meister」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -338,9 +338,9 @@
   attributes: []
   special: []
   faq: []
-- title: '狱符「千根针的针山」_x000d_
+- title: '狱符「千根针的针山」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -357,9 +357,9 @@
   attributes: []
   special: []
   faq: []
-- title: '夜王「Dracula Cradle」_x000d_
+- title: '夜王「Dracula Cradle」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -378,9 +378,9 @@
   special:
   - 蕾米莉亚CENTER限定
   faq: []
-- title: '命运「Miserable Fate」_x000d_
+- title: '命运「Miserable Fate」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -399,9 +399,9 @@
   special:
   - 蕾米莉亚HYPER限定
   faq: []
-- title: '红符「Bloody Magic Square」_x000d_
+- title: '红符「Bloody Magic Square」
 
-    _x000d_
+
 
     '
   owner: Remilia
@@ -419,9 +419,9 @@
   - 汲饮
   special: []
   faq: []
-- title: '夜符「Bad Lady Scramble」_x000d_
+- title: '夜符「Bad Lady Scramble」
 
-    _x000d_
+
 
     '
   owner: Remilia

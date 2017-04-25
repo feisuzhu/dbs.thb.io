@@ -28,8 +28,9 @@
 .rarity-color.sr  { background-color: #ff8400 !important; }
 .rarity-color.sp  { background-color: #ffa0a0 !important; }
 .rarity-color.r   { background-color: #5ea3f1 !important; }
-.rarity-color.uc  { background-color: #80b685 !important; }
+.rarity-color.uc  { background-color: #3fa74f !important; }
 .rarity-color.c   { background-color: #797979 !important; }
+.rarity-color.st   { background-color: #6bd77f !important; }
 
 .progress.rarity-color .bar {
   width: 100%;

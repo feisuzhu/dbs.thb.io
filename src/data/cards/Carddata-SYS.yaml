@@ -2,12 +2,12 @@
   owner: System
   sku: SYS-000
   version: ''
-  rarity: C
+  rarity: ST
   origin: ''
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 2
-  effect: 战斗阶段开始时发动：横置对手当前处于CENTER状态的角色。
+  effect: 战斗阶段开始时发动，你选择一项执行：1.横置对手当前处于CENTER状态的一名角色。2.将对手一张不带有 HYPER 技能的一名横置角色弃置，并禁止其 SUPPORT 技能的发动。
   type: 即时
   intensity: ''
   attributes: []

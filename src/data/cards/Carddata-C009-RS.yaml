@@ -7,7 +7,7 @@
   illustrator: 镜_Area
   gorgeousness: 2
   cost: 1
-  effect: 攻击阶段，当本卡命中后，你可弃置对方一张手牌；若本卡被完全相杀，你可从卡组中展示一张“丧心疮痍”并加入手牌。
+  effect: 攻击阶段，当本卡命中后，你可弃置对手一张手牌；若本卡被完全相杀，你可从卡组中展示一张“丧心疮痍”并加入手牌。
   type: 体术
   intensity: 1000
   attributes: []
@@ -22,7 +22,7 @@
   illustrator: 镜_Area
   gorgeousness: 4
   cost: 3
-  effect: 宣言本卡后，对方须弃置一张手牌。本卡命中时，你弃可置对方符力区一张牌。
+  effect: 宣言本卡时，对手须弃置一张手牌。本卡命中时，你弃可置对手符力区一张牌。
   type: 体术
   intensity: 3000
   attributes: []
@@ -37,7 +37,7 @@
   illustrator: POPPY
   gorgeousness: 3
   cost: 1
-  effect: 本卡结算完毕后，对方须选择弃置1张手牌。
+  effect: 本卡结算完毕后，对手须选择弃置1张手牌。
   type: 弹幕
   intensity: 500
   attributes: []
@@ -100,7 +100,9 @@
   illustrator: 吹风姬
   gorgeousness: 4
   cost: 2
-  effect: ''
+  effect: '本卡被从手牌弃置时，你可以将卡组一张2华丽的铃仙符卡
+
+    展示并加入手牌。'
   type: 弹幕
   intensity: 2000
   attributes:
@@ -116,7 +118,7 @@
   illustrator: umi
   gorgeousness: ''
   cost: 2
-  effect: 战斗阶段开始时，可发动此状态：本局游戏，你宣言的具有狂视特性的铃仙的符卡在攻击阶段战力增加500点。这个效果可叠加；当叠加至3次时，对双方角色造成2000点弹幕伤害，并移出此效果。
+  effect: 攻击阶段开始时发动：本局游戏，你宣言的带有狂视特性的符卡战力增加500点。这个效果可以叠加。当你的角色区拥有3张生药「国士无双之药」时，弃置这些符卡并对双方造成2000点弹幕伤害。
   type: 状态
   intensity: BUFF
   attributes: []
@@ -131,9 +133,9 @@
   illustrator: umi
   gorgeousness: ''
   cost: ''
-  effect: 战斗阶段开始时，可发动此状态：每当一名角色弃置一次手牌时，对其造成500点特殊伤害。
+  effect: 当对手弃置一张手牌时发动，你可以弃置至少一张手牌，并破坏对手道具区一张符卡。
   type: 状态
-  intensity: BUFF
+  intensity: TRAP
   attributes: []
   special: []
   faq: []
@@ -141,12 +143,12 @@
   owner: Reisen
   sku: RS-010
   version: ''
-  rarity: UC
+  rarity: C
   origin: ''
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 2
-  effect: 防御阶段开始时，可发动此状态：本回合内，对手不可消耗灵珠。
+  effect: 防御阶段开始时发动：本回合内，对手不可消耗灵珠。你可以把墓地的本卡除外，弃置对手符力区一张符卡
   type: 状态
   intensity: BUFF
   attributes: []
@@ -156,12 +158,12 @@
   owner: Reisen
   sku: RS-011
   version: ''
-  rarity: UC
+  rarity: C
   origin: ''
   illustrator: 吹风姬
   gorgeousness: ''
   cost: 2
-  effect: 攻击阶段开始时，可发动此状态：本回合内，对手不可弃置符力区卡片。
+  effect: 攻击阶段开始时发动：本回合内，对手不可弃置符力区卡片。你可以把墓地的本卡除外，令对手失去一点灵力。
   type: 状态
   intensity: BUFF
   attributes: []
@@ -174,7 +176,7 @@
   rarity: C
   origin: ''
   illustrator: 吹风姬
-  gorgeousness: 1
+  gorgeousness: 2
   cost: 1
   effect: 宣言本卡时，你可于卡组中展示一张具有狂视特性的符卡，并加入手牌。
   type: 弹幕
@@ -191,7 +193,7 @@
   illustrator: 深蓝杰克
   gorgeousness: ''
   cost: ''
-  effect: 对手失去最后一点灵力或失去最后一张手牌时，可发动此陷阱：令对方一颗灵珠崩坏,并对其造成500点特殊伤害。
+  effect: 对手失去最后一点灵力或失去最后一张手牌时，可发动此陷阱：令对手一颗灵珠崩坏,并对其造成500点特殊伤害。
   type: 陷阱
   intensity: TRAP
   attributes: []
@@ -204,11 +206,11 @@
   rarity: UC
   origin: ''
   illustrator: 吹风姬
-  gorgeousness: 1
-  cost: 3
-  effect: 本卡战力+X*500（X为对手当前手牌数量）。
+  gorgeousness: 2
+  cost: 2
+  effect: 本卡战力+X*500（X为对手当前手牌数量，且X至多为6）。
   type: 弹幕
-  intensity: 1500
+  intensity: 500
   attributes: []
   special: []
   faq: []
@@ -221,9 +223,9 @@
   illustrator: 三千小纯
   gorgeousness: 5
   cost: 2
-  effect: 进攻阶段，宣言本卡时，你可查看你卡组顶的X张卡片，并将其中任意张卡片覆盖于你的符力区，其余加入手牌。[X=（5-对手卡牌数量）]
+  effect: 本卡结算后，你可查看你卡组顶的X张卡片，并将其中任意张卡片覆盖于你的符力区，其余加入手牌。[X=（5-对手卡牌数量）]，这个效果一回合只能发动一次。
   type: 弹幕
-  intensity: 1000
+  intensity: 1500
   attributes: []
   special: []
   faq: []
@@ -236,7 +238,7 @@
   illustrator: HUG
   gorgeousness: 5
   cost: LSC
-  effect: 宣言本卡后，双方弃置全部手牌，然后对手抽1张卡。
+  effect: 本卡结算后，双方弃置全部手牌，并各自抽一张牌。如果双方弃置的符卡数量总和大于9张，则你可以额外抽1张牌并回复1点灵力。
   type: 弹幕
   intensity: ''
   attributes: []
@@ -281,7 +283,7 @@
   illustrator: APTX
   gorgeousness: 4
   cost: 2
-  effect: 宣言本卡时，对方须将手牌补至或弃至3张。本卡被相杀时，战力+1500。
+  effect: 宣言本卡时，对手须将手牌补至或弃至3张。本卡被相杀时，战力+1500。
   type: 弹幕
   intensity: 1500
   attributes:
@@ -301,6 +303,38 @@
   effect: 每当对手弃置一次手牌时：对对手造成500点弹幕伤害。
   type: 永续
   intensity: PERSIST
+  attributes: []
+  special: []
+  faq: []
+- title: 月眼「月兔远隔催眠术 Tele-Mesmerism 」
+  owner: Reisen
+  sku: RS-021
+  version: ''
+  rarity: SSR
+  origin: ''
+  illustrator: '霏茶'
+  gorgeousness: 5
+  cost: 3
+  effect: 若铃仙处于CENTER状态，当本卡被你弃置或被完全相杀而进入弃牌堆时：你可以弃置X张手牌，并将对手场上X张符卡破坏。当你受到一次体术伤害时，你可将弃牌堆的本卡除外：令该伤害减少1000点。
+  type: 弹幕
+  intensity: 3000
+  attributes:
+  - 狂视
+  special:
+  - 铃仙CENTER限定
+  faq: []
+- title: 波符「幻之月 Invisible Half Moon」
+  owner: Reisen
+  sku: RS-022
+  version: ''
+  rarity: R
+  origin: ''
+  illustrator: ' Hysteria'
+  gorgeousness: 2
+  cost: 3
+  effect: 若铃仙处于CENTER状态，本卡于手牌被送入墓地时，你可以弃置对手一张手牌；若铃仙发动 Hyper 时，本卡获得狂视特性。
+  type: 弹幕
+  intensity: 3500
   attributes: []
   special: []
   faq: []

@@ -943,7 +943,11 @@
   }
   .camera_caption { display:none !important;
   }
-
+  .menu_wrap {
+	  float:none;
+	  padding-left:0px;
+    display:inline-block;
+	}
 
 
 }

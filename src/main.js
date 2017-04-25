@@ -27,13 +27,13 @@ Vue.use(VueRouter);
 Vue.use(Vue2Filters);
 
 require('data/cards.loader.json');
+var history = require('connect-history-api-fallback');
 
 var app = new Vue({
   el: '#app',
   router: new VueRouter({
     routes: [
       {path: '/',         component: MainPage},
-      {path: '/about',    component: About},
       {path: '/blog',     component: Blog},
       {path: '/contacts', component: Contacts},
       {path: '/episodes', component: Episodes},
@@ -44,6 +44,9 @@ var app = new Vue({
       {path: '/story',    component: Story},
 
     ],
+    scrollBehavior (to, from, savedPosition) {
+      return { x: 0, y: 0 }
+    }
   }),
   components: { HeaderSection, FooterSection },
 });

@@ -1,4 +1,4 @@
-- title: '禁忌「Catadioptric」_x000d_
+- title: '禁忌「Catadioptric」
 
     '
   owner: Flandre
@@ -16,7 +16,7 @@
   - 破坏
   special: []
   faq: []
-- title: '禁忌「Forbidden Fruit」_x000d_
+- title: '禁忌「Forbidden Fruit」
 
     '
   owner: Flandre
@@ -27,7 +27,7 @@
   illustrator: ''
   gorgeousness: 5
   cost: 3
-  effect: '宣言本卡时，你每有一枚「血」标记，本卡战力+1000。当本卡最终战力不小于3000时，本卡获得破坏特性。_x000d_
+  effect: '宣言本卡时，你每有一枚「血」标记，本卡战力+1000。当本卡最终战力不小于3000时，本卡获得破坏特性。
 
     '
   type: 弹幕
@@ -35,7 +35,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Cranberry Trap」_x000d_
+- title: '禁忌「Cranberry Trap」
 
     '
   owner: Flandre
@@ -52,7 +52,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Black Cat」_x000d_
+- title: '禁忌「Black Cat」
 
     '
   owner: Flandre
@@ -69,7 +69,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Under a Ladder」_x000d_
+- title: '禁忌「Under a Ladder」
 
     '
   owner: Flandre
@@ -86,7 +86,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Destroy Impulse」_x000d_
+- title: '禁忌「Destroy Impulse」
 
     '
   owner: Flandre
@@ -103,7 +103,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁弹「Border Interception」_x000d_
+- title: '禁弹「Border Interception」
 
     '
   owner: Flandre
@@ -151,17 +151,17 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Kagome Kagome」_x000d_
+- title: '禁忌「Kagome Kagome」
 
     '
   owner: Flandre
   sku: FLD-010
   version: ''
-  rarity: SP
+  rarity: UC
   origin: ''
   illustrator: ''
   gorgeousness: 1
-  cost: ''
+  cost: '0'
   effect: ''
   type: 弹幕
   intensity: 2000
@@ -169,7 +169,7 @@
   special:
   - 对手符力区没有卡片
   faq: []
-- title: '禁忌「被禁止的游戏」_x000d_
+- title: '禁忌「被禁止的游戏」
 
     '
   owner: Flandre
@@ -186,7 +186,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Broken Teddy」_x000d_
+- title: '禁忌「Broken Teddy」
 
     '
   owner: Flandre
@@ -218,7 +218,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Untouchables」_x000d_
+- title: '禁忌「Untouchables」
 
     '
   owner: Flandre
@@ -235,7 +235,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁弹「Starbow Break」_x000d_
+- title: '禁弹「Starbow Break」
 
     '
   owner: Flandre
@@ -254,7 +254,7 @@
   special:
   - 弃置你的手牌至剩一张。
   faq: []
-- title: 'QED「495年的波纹」_x000d_
+- title: 'QED「495年的波纹」
 
     '
   owner: Flandre
@@ -271,7 +271,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁忌「Laevatein」_x000d_
+- title: '禁忌「Laevatein」
 
     '
   owner: Flandre
@@ -289,7 +289,7 @@
   - 破坏、贯通、高速
   special: []
   faq: []
-- title: '禁忌「Friday the 13th」_x000d_
+- title: '禁忌「Friday the 13th」
 
     '
   owner: Flandre
@@ -306,7 +306,7 @@
   attributes: []
   special: []
   faq: []
-- title: '禁弹「刻着过去的钟表」_x000d_
+- title: '禁弹「刻着过去的钟表」
 
     '
   owner: Flandre

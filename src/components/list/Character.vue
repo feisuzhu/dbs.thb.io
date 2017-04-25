@@ -39,6 +39,7 @@
 <style>
 .skill-type.center { background-color: #40a340; }
 .skill-type.hyper  { background-color: #e84242; }
+.skill-type.support { background-color: #37a7f5; }
 </style>
 
 <script>

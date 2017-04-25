@@ -42,7 +42,7 @@ module.exports = {
           // name: 'images/[name].[ext]?[hash]',
           // name: 'images/[name].[ext]',
           name: 'images/[hash].[ext]',
-          limit: 4096,
+          limit:4096,
         }
       },
       {

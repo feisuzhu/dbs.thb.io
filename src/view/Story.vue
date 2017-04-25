@@ -2,7 +2,7 @@
   <div class="page_container">
     <div class="breadcrumb">
       <div class="wrap">
-        <div class="container"> <a href="#">首页</a><span>/</span>背景故事</div>
+        <div class="container"> <a href="#">首页</a><span>/</span><a href="#/library">资料库</a><span>/</span>背景故事</div>
       </div>
     </div>
     <div class="wrap">

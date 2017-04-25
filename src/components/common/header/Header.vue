@@ -1,4 +1,7 @@
 <template>
+
+  <!-- Navigation -->
+
   <!--header-->
     <div class="header">
       <div class="wrap">
@@ -19,11 +22,12 @@
                                 </ul>
                             </div>
                             <div class="clear"></div>
-                            <nav class="main_menu">
+                            <div class="span8">
+                            <nav class="navbar" role="navigation">
                               <div class="menu_wrap">
                                   <superfish class="nav">
+
                                     <li><router-link to="/">首页</router-link></li>
-                                    <li><router-link to="/about">简介</router-link></li>
                                     <li class="sub-menu"><router-link to="/episodes">作品</router-link>
                                         <ul>
                                           <li v-for="ep in episodes">
@@ -41,10 +45,11 @@
                                     <li><router-link to="/blog">公告</router-link>
                                     </li>
                                     <li><router-link to="/contacts">社团</router-link></li>
+
                                   </superfish>
                               </div>
                             </nav>
-
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -55,6 +60,56 @@
 </template>
 
 <style>
+  @media (min-width: 1201px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 4% 0px 0px;
+    }
+  }
+  @media (min-width: 980px) and (max-width: 1200px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 2% 0px 0px;
+    }
+  }
+  @media (max-width: 979px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 33.5% 0px 0px;
+    }
+  }
+  @media (max-width: 480px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 8% 0px 0px;
+    }
+  }
+  @media (max-width: 414px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 12.6% 0px 0px;
+    }
+  }
+  @media (max-width: 375px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 8.5% 0px 0px;
+    }
+  }
+  @media (max-width: 360px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 6% 0px 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .menu_wrap{
+        text-align:left;
+        padding:0px 0px 0px 0px;
+        width:105.7%
+    }
+  }
+
     .follow_us {
         text-align:right;
         padding:3px 4px 9px 0;
@@ -85,6 +140,7 @@
     .follow_us a.cpp:hover    { background-position: -105px -30px; }
     .follow_us a.zhihu        { background-position: -140px 0;     }
     .follow_us a.zhihu:hover  { background-position: -140px -30px; }
+
 </style>
 
 <script>

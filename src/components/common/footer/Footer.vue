@@ -24,7 +24,6 @@
                               <div class="foot_menu">
                                 <ul>
                                         <li><a href="#" class="current">首页</a></li>
-                                        <li><a href="#about">简介</a></li>
                                         <li><a href="#products">作品</a></li>
                                         <li><a href="#library">资料</a></li>
                                         <li><a href="#blog">公告</a></li>
@@ -39,7 +38,6 @@
         </div>
     <!--//footer-->
 </template>
-
 <script>
   export default {
     name: 'footer',
