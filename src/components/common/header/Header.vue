@@ -40,7 +40,7 @@
                         <li><router-link to="/story"><span>-</span>符梦传说</router-link></li>
                       </ul>
                     </li>
-                    <li><router-link to="/blog">公告</router-link></li>
+                    <li><router-link to="/blogs">公告</router-link></li>
                     <li><router-link to="/contacts">社团</router-link></li>
                   </superfish>
                 </div>
