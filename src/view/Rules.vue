@@ -8,22 +8,74 @@
     <div class="wrap">
       <div class="container">
         <section>
-          <div class="row">
-            <div class="span8">
-                <h2>少女施工中...</h2>
-                <h2> Coming Soon...</h2>
-            </div>
+          <div ref="content" class="rules-text">
+            Loading...
           </div>
         </section>
       </div>
     </div>
   </div>
-  </div>
-  </div>
+
 </template>
 
+<style>
+
+.rules-text {
+  color: #555555;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.rules-text h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.rules-text h2 {
+  font-size: 15px;
+}
+
+.rules-text p {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.rules-text p img {
+  text-align: center;
+}
+
+.rules-text li {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.rules-text img {
+  max-width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+</style>
+
 <script>
+  import marked from 'marked'
+
   export default {
     name: 'Rules',
-    }
+
+    mounted() {
+      var url = require('assets/rules/dbs-rules.md');
+      fetch(url).then((resp) => {
+        if(resp.ok) {
+          return resp.text();
+        }
+      }).then((text) => {
+          this.$refs.content.innerHTML=marked(text);
+      });
+    },
+  };
 </script>
