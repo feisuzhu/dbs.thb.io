@@ -70,30 +70,20 @@
 </style>
 
 <script>
-  import CardInfo from 'components/list/widgets/CardInfo.vue';
-  import CardCost from 'components/list/widgets/CardCost.vue';
-  import CardImage from 'components/list/widgets/CardImage.vue';
-  export default {
-    name: 'spellcard',
-    props: ['card'],
-    data() {
-      return {
-        current_attr: null,
-      };
+  import CardInfo from '@/components/list/widgets/CardInfo.vue';
+  import CardCost from '@/components/list/widgets/CardCost.vue';
+  import CardImage from '@/components/list/widgets/CardImage.vue';
+  import { ref, defineProps } from 'vue';
+
+  const props = defineProps({
+    card: {
+      type: Object,
+      required: true,
     },
-    methods: {
-      showAttr(attr) {
-        var attrs = require('data/attributes.yaml');
-        this.current_attr = {
-          name: attr,
-          desc: attrs[attr],
-        };
-      }
-    },
-    components: {
-        CardInfo,
-        CardCost,
-        CardImage,
-    },
+  });
+
+  const current_attr = ref('');
+
+  function showAttr(attr) {
   }
 </script>

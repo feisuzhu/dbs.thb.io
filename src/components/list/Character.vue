@@ -43,14 +43,13 @@
 </style>
 
 <script>
-  import CardInfo from 'components/list/widgets/CardInfo.vue';
-  import CardImage from 'components/list/widgets/CardImage.vue';
-  export default {
-    name: 'character',
-    props: ['card'],
-    components: {
-        CardInfo,
-        CardImage,
+  import { defineProps } from 'vue';
+  import CardInfo from '@/components/list/widgets/CardInfo.vue';
+  import CardImage from '@/components/list/widgets/CardImage.vue';
+  const props = defineProps({
+    card: {
+      type: Object,
+      required: true,
     },
-  }
+  });
 </script>

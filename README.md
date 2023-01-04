@@ -1,21 +1,35 @@
 # dbs.thb.io
 
-> Zephyr DBS homepage
-> 兼具符卡查看器功能的官方网站建设中（然而目前正处于一团浆糊）
-> 用 vue 实现数据的拆分路由，便于维护，然而由于js、css 的兼容性问题每走一步都很艰难（？）
+This template should help get you started developing with Vue 3 in Vite.
 
-## Build Setup
+## Recommended IDE Setup
 
-``` bash
-# install dependencies
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
+```
 
-# serve with hot reload at localhost:8080
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
->preview at http://localhost:8080/index.html#/
+```
 
-# build for production with minification
+### Compile and Minify for Production
+
+```sh
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

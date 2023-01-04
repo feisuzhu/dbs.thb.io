@@ -7,10 +7,11 @@
 </div>
 </template>
 
-<script>
-  export default {
-    name: 'character-affix',
-    props: ['characters'],
-
-  }
+<script setup>
+  const props = defineProps({
+    characters: {
+      type: Array,
+      required: true
+    }
+  });
 </script>

@@ -1,8 +1,6 @@
 <template>
   <!--header-->
   <div class="header">
-    <div class="wrap">
-      <div class="navbar navbar_ clearfix">
         <div class="container">
           <div class="row">
             <div class="span4">
@@ -20,6 +18,7 @@
                 </ul>
               </div>
               <div class="clear"></div>
+              <!--
               <nav class="main_menu">
                 <div class="menu_wrap">
                   <superfish class="nav">
@@ -45,15 +44,18 @@
                   </superfish>
                 </div>
               </nav>
+              -->
             </div>
           </div>
-        </div>
-      </div>
     </div>
   </div>
   <!--//header-->
 </template>
+
 <style>
+.header {
+    border-top: 5px solid #d00b01;
+}
 @media (min-width: 1201px) {
   .menu_wrap{
       text-align:left;
@@ -135,16 +137,7 @@
   .follow_us a.zhihu:hover  { background-position: -140px -30px; }
 </style>
 
-<script>
-  import Superfish from 'components/common/menu/Superfish.vue'
-  export default {
-    name: 'header',
-    data() {
-        var episodes = require('data/episodes.yaml');
-        return { episodes: episodes };
-    },
-    components: {
-      Superfish,
-    },
-  }
+<script setup>
+  import Superfish from '@/components/common/menu/Superfish.vue'
+  var episodes = require('data/episodes.yaml');
 </script>
