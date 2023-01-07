@@ -1,0 +1,94 @@
+- model: page.landing
+  pk: 1
+  fields:
+    logo: page/logo.png
+    monologo: page/monologo.png
+    footer: "© 2017.Project DBS. All rights reserved.\r\nPowered by iRinwind & Proton"
+- model: page.landingcolumn
+  pk: 1
+  fields:
+    landing: 1
+    title: 快速上手
+    subtitle: 梦斗符是一款全新概念的集换式卡牌游戏。
+    description: 在具有两人对战，收集卡牌，构建卡组与交易等传统TCG元素的基础上，首次以「弹幕相杀」而不是「场上生物」为核心设计规则，更契合东方Project的世界观，同时降低了上手难度.
+    url: http://mdf.best/#/rules
+    urltext: 了解梦斗符规则...
+    sort: 1
+- model: page.landingcolumn
+  pk: 2
+  fields:
+    landing: 1
+    title: 华丽精美
+    subtitle: 梦斗符是开放合作、兼容并包的同人企划。
+    description: 所使用的所有插绘都是画师的授权作品。而卡框UI则由主催统一精心设计。梦斗符接纳了各种不同风格的插绘，无论是软萌或帅气，亦或是赛璐璐或厚涂，总有能触动你的瞬间！
+    url: http://mdf.best/#/list
+    urltext: 查看精美卡面...
+    sort: 2
+- model: page.landingcolumn
+  pk: 3
+  fields:
+    landing: 1
+    title: 诚意制作
+    subtitle: 梦斗符用料扎实、工艺先进、包装精美。
+    description: 采用与《万智牌》同样的6.3cm*8.8cm的标准大尺寸切割。力求手感舒适，同时便于使用通用卡套收藏。梦斗符的游戏过程可以不依赖游戏场地，随时随地都可来一场符卡决斗！
+    url: https://projectzephyr.taobao.com/
+    urltext: 立即购买...
+    sort: 3
+
+# ------------------------------------
+- model: page.page
+  pk: 1
+  fields:
+    slug: rules
+    content: 规则说明
+- model: page.page
+  pk: 2
+  fields:
+    slug: vocabulary
+    content: 用语参考
+
+# ------------------------------------
+- model: page.outboundlink
+  pk: 1
+  fields:
+    name: 淘宝
+    icon: page/icon-taobao.png
+    mono: page/icon-taobao-mono.png
+    url: http://taobao.com
+    sort: 1
+
+- model: page.outboundlink
+  pk: 2
+  fields:
+    name: 微博
+    icon: page/icon-weibo.png
+    mono: page/icon-weibo-mono.png
+    url: http://weibo.com
+    sort: 2
+
+- model: page.outboundlink
+  pk: 3
+  fields:
+    name: QQ
+    icon: page/icon-qq.png
+    mono: page/icon-qq-mono.png
+    url: http://qq.com
+    sort: 3
+
+- model: page.outboundlink
+  pk: 4
+  fields:
+    name: 微信
+    icon: page/icon-weixin.png
+    mono: page/icon-weixin-mono.png
+    url: http://wx.qq.com
+    sort: 4
+
+- model: page.outboundlink
+  pk: 5
+  fields:
+    name: bilibili
+    icon: page/icon-bilibili.png
+    mono: page/icon-bilibili-mono.png
+    url: http://bilibili.com
+    sort: 5

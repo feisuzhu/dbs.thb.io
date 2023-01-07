@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dbs"
+version = "0.1.0"
+description = ""
+authors = ["Proton <feisuzhu@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.4"
+graphene-django = "^3.0.0"
+pillow = "^9.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

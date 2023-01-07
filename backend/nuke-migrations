@@ -1,0 +1,15 @@
+#!/bin/bash -x
+
+rm db.sqlite3
+
+for i in `ls -d */migrations`; do
+    rm -rf $i/*;
+    touch $i/__init__.py
+done
+
+./manage.py makemigrations
+./manage.py migrate
+export DJANGO_SUPERUSER_USERNAME=proton
+export DJANGO_SUPERUSER_PASSWORD=feisuzhu
+./manage.py createsuperuser --email proton@proton.moe --noinput
+./manage.py loaddata page game-build game-character game-others game-spellcard

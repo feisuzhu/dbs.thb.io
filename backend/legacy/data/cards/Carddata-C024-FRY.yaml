@@ -1,0 +1,48 @@
+- title: 轻气「Breathing Lake」
+  owner: Fairy
+  sku: FRY-001
+  version: ''
+  rarity: ST
+  origin: ''
+  illustrator: ''
+  gorgeousness: 2
+  cost: '0'
+  effect: 宣言本卡时，你回复一点灵力；若大妖精在场，你额外回复500点体力。
+  type: 弹幕
+  intensity: 500
+  attributes:
+  - 羽心
+  special: []
+  faq: []
+- title: 光合「Wild Germinate」
+  owner: Fairy
+  sku: FRY-002
+  version: ''
+  rarity: ST
+  origin: ''
+  illustrator: ''
+  gorgeousness: N/A
+  cost: 3
+  effect: 战斗阶段开始时发动，每当你回复灵力时，你可以回复500点体力。当你受到大于1000点的伤害时，那次伤害减少至500点，本卡被破坏。
+  type: 状态
+  intensity: ''
+  attributes: []
+  special: []
+  faq: []
+- title: 光合「Energy Divertor」
+  owner: Fairy
+  sku: FRY-003
+  version: ''
+  rarity: ST
+  origin: ''
+  illustrator: ''
+  gorgeousness: N/A
+  cost: '0'
+  effect: '攻击阶段发动：你可将你发动的下一张永续道具卡设置在本卡之上。以此法设置的永续道具卡同样视为存在于你的装备区。
+
+    当大妖精离场时，你须弃置本卡和其上的永续道具卡。这个状态效果持续至游戏结束。'
+  type: 状态
+  intensity: ''
+  attributes: []
+  special: []
+  faq: []

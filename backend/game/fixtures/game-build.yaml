@@ -1,0 +1,241 @@
+- model: game.build
+  pk: 1
+  fields:
+    sku: RM
+    name: 博丽灵梦
+    intro: 易于上手的主人公，有着滴水不漏的防御体系与全局华丽度的优势。
+    image: build/RM.jpg
+    sort: 0
+- model: game.build
+  pk: 2
+  fields:
+    sku: MS
+    name: 雾雨魔理沙
+    intro: 爽快的进攻系角色，有着超高的爆发伤害和不可抵挡的贯通攻击。
+    image: build/MS.jpg
+    sort: 0
+- model: game.build
+  pk: 3
+  fields:
+    sku: SK
+    name: 十六夜咲夜
+    intro: 精巧的反制型角色，善于运用陷阱和追加伤害取得优势。
+    image: build/SK.jpg
+    sort: 0
+- model: game.build
+  pk: 4
+  fields:
+    sku: YM
+    name: 魂魄妖梦
+    intro: 有着自由调控华丽度的能力以及针对各种套路的化解方法，攻守兼备。
+    image: build/YM.jpg
+    sort: 0
+- model: game.build
+  pk: 5
+  fields:
+    sku: YK
+    name: 八云紫
+    intro: 能够利用宣言区创造额外的灵力优势，拥有强大的爆发伤害。
+    image: build/YK.jpg
+    sort: 0
+- model: game.build
+  pk: 6
+  fields:
+    sku: ALC
+    name: 爱丽丝·玛格特罗伊德
+    intro: 能够操控场上的人偶，用以抵挡多段伤害或是展开爆发输出。
+    image: build/ALC.jpg
+    sort: 0
+- model: game.build
+  pk: 7
+  fields:
+    sku: REM
+    name: 蕾米莉亚·斯卡雷特
+    intro: 有吸血能力的进攻系角色，并能以体力值换取过牌量优势。
+    image: build/REM.jpg
+    sort: 0
+- model: game.build
+  pk: 8
+  fields:
+    sku: UU
+    name: 西行寺幽幽子
+    intro: 可以重复利用弃牌区，在游戏后期拥有持续性的高额输出。
+    image: build/UU.jpg
+    sort: 0
+- model: game.build
+  pk: 9
+  fields:
+    sku: RS
+    name: 铃仙·优昙华院·因幡
+    intro: 擅长破坏对手的手牌结构，打乱对手的战术布置。
+    image: build/RS.jpg
+    sort: 0
+- model: game.build
+  pk: 10
+  fields:
+    sku: KGY
+    name: 蓬莱山辉夜
+    intro: 能够利用宣言区进行特殊宣言，还拥有特殊胜利方式的高技巧型角色。
+    image: build/KGY.jpg
+    sort: 0
+- model: game.build
+  pk: 11
+  fields:
+    sku: KN
+    name: 上白泽慧音
+    intro: 能够吞噬或创造历史，随意篡改宣言区的角色。她还拥有专属的永久道具。
+    image: build/KN.jpg
+    sort: 0
+- model: game.build
+  pk: 12
+  fields:
+    sku: MK
+    name: 藤原妹红
+    intro: 不死的蓬莱人，有着近乎自爆的特别战法，并拥有强大的复活技能和高额输出。
+    image: build/MK.jpg
+    sort: 0
+- model: game.build
+  pk: 13
+  fields:
+    sku: ERN
+    name: 八意永琳
+    intro: 有着强大的治疗和回复能力，并能随意地玩弄对手的体力值。
+    image: build/ERN.jpg
+    sort: 0
+- model: game.build
+  pk: 14
+  fields:
+    sku: MQ
+    name: 帕秋莉·诺蕾姬
+    intro: 操控五行轮回的魔女，有着强大的资源回复和滤抽能力，操作较为复杂。
+    image: build/MQ.jpg
+    sort: 0
+- model: game.build
+  pk: 15
+  fields:
+    sku: FLD
+    name: 芙兰朵露·斯卡雷特
+    intro: 以吸取的“血”标记数量之不同，获得不同的强力加成，擅长破坏对手部署。
+    image: build/FLD.jpg
+    sort: 0
+- model: game.build
+  pk: 16
+  fields:
+    sku: CRN
+    name: 琪露诺
+    intro: 操纵冰的妖精，能够封印对手的行动，扰乱对手的战略。
+    image: build/CRN.jpg
+    sort: 0
+- model: game.build
+  pk: 17
+  fields:
+    sku: MR
+    name: 红美铃
+    intro: 中华功夫的七彩太极，拿捏自如的拳法，将轻松瓦解对手。
+    image: build/MR.jpg
+    sort: 0
+- model: game.build
+  pk: 18
+  fields:
+    sku: SUI
+    name: 伊吹萃香
+    intro: 奔放不羁的鬼界四天王之一，拥有操纵疏与密的力量。
+    image: build/SUI.jpg
+    sort: 0
+- model: game.build
+  pk: 19
+  fields:
+    sku: SN
+    name: 东风谷早苗
+    intro: 引导奇迹之风的现人神，可以召唤蛙与蛇的双神之力。
+    image: build/SN.jpg
+    sort: 0
+- model: game.build
+  pk: 20
+  fields:
+    sku: SNY
+    name: 桑妮米尔克
+    intro: 象征阳光力量的妖精，三月精预组限定主角色，简单易用。
+    image: build/SNY.jpg
+    sort: 0
+- model: game.build
+  pk: 21
+  fields:
+    sku: LUN
+    name: 露娜切露德
+    intro: 象征月亮力量的妖精，三月精预组辅助角色。
+    image: build/LUN.jpg
+    sort: 0
+- model: game.build
+  pk: 22
+  fields:
+    sku: STR
+    name: 斯塔萨菲雅
+    intro: 象征星星力量的妖精，三月精预组辅助角色。
+    image: build/STR.jpg
+    sort: 0
+- model: game.build
+  pk: 23
+  fields:
+    sku: LTY
+    name: 蕾迪·霍瓦特罗克
+    intro: 操控寒冬之力的妖怪，琪露诺预组辅助角色。
+    image: build/LTY.jpg
+    sort: 0
+- model: game.build
+  pk: 24
+  fields:
+    sku: FRY
+    name: 大妖精
+    intro: 雾之湖上的气流妖精，琪露诺的好朋友，同样是辅助角色。
+    image: build/FRY.jpg
+    sort: 0
+- model: game.build
+  pk: 25
+  fields:
+    sku: SYS
+    name: 系统/通用道具卡
+    intro: 全角色通用的符卡，能够在各种特殊时点发挥关键作用。
+    image: build/SYS.jpg
+    sort: 0
+- model: game.build
+  pk: 26
+  fields:
+    sku: SP
+    name: 特殊/限定符卡
+    intro: 包括与其他同人作品的联动卡片，以及未登场角色的特别版先行符卡。
+    image: build/SP.jpg
+    sort: 0
+- model: game.episode
+  pk: 1
+  fields:
+    title: 初战之舞 妖星闪奏曲
+    subtitle: 即将于 ComicUP20 上市
+    image: episode/YXSZ.jpg
+    description: 琪露诺终于再也无法忍受三月精小队的嘲弄和恶作剧， 她发誓将用她得意的冰冻能力让三月精知道什么叫「最强」！ 于是她拉上了蕾蒂和大妖精组成了新的联队……
+      妖精大战争，一触即发！
+    sort: 0
+- model: game.episode
+  pk: 2
+  fields:
+    title: 扩充包 永夜月华之章
+    subtitle: 即将于 ComicUP20 上市
+    image: episode/YYYH.jpg
+    description: 红月降临，万物疯狂，藏匿在竹林深处的永远亭， 究竟谁才是这场夺走真实之月，创造虚伪红月的主犯？
+    sort: 0
+- model: game.episode
+  pk: 3
+  fields:
+    title: 扩充包 七色轮舞之章
+    subtitle: 已于 ComicUP19 上市
+    image: episode/QSLW.jpg
+    description: 七色的人偶师，七曜的魔女与七彩的门卫。 绚烂华彩将一同绽放！
+    sort: 0
+- model: game.episode
+  pk: 4
+  fields:
+    title: 扩充包 梦恋星愿之章
+    subtitle: 已于 ComicUP19 上市
+    image: episode/MLXY.jpg
+    description: 博丽的巫女、黑白的魔法使、祝风的现人神…… 幻想乡的故事，由此开始！
+    sort: 0
