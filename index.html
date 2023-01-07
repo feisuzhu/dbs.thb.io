@@ -10,7 +10,7 @@
   <body>
       <div id="app"></div>
       <script type="text/javascript">
-          function require(v) { console.log('REQUIRE ' + v); return []; }
+          function require(v) { console.warn('REQUIRE ' + v); return []; }
       </script>
       <script type="module" src="/src/main.js"></script>
   </body>
