@@ -73,6 +73,8 @@ class InfoBlockButton(models.Model):
 class Landing(models.Model):
     logo = models.ImageField(**_('Logo'), upload_to='page')
     monologo = models.ImageField(**_('单色 Logo'), upload_to='page')
+    small_slogan = models.CharField(max_length=255, **_('小号字 Slogan'))
+    big_slogan = models.CharField(max_length=255, **_('大号字 Slogan'))
     footer = models.TextField(**_('页脚'))
 
     class Meta:
