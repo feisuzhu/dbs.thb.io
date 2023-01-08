@@ -40,6 +40,12 @@ class Landing(DjangoObjectType):
         return self.slides.order_by('sort')
 
 
+class LandingWorks(DjangoObjectType):
+
+    class Meta:
+        model = models.LandingWork
+
+
 class LandingColumn(DjangoObjectType):
 
     class Meta:

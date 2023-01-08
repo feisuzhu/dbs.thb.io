@@ -43,9 +43,14 @@ class LandingSlideInline(admin.TabularInline):
     extra = 1
 
 
+class LandingWorkInline(admin.TabularInline):
+    model = models.LandingWork
+    extra = 1
+
+
 @admin.register(models.Landing)
 class LandingAdmin(admin.ModelAdmin):
-    inlines = [LandingColumnInline, LandingSlideInline]
+    inlines = [LandingSlideInline, LandingWorkInline, LandingColumnInline]
     sort_order = 10
 
     fieldsets = (

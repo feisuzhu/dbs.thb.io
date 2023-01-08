@@ -83,6 +83,25 @@ class Landing(models.Model):
         return '首页（只能有一个）'
 
 
+class LandingWork(models.Model):
+    id          = models.AutoField(primary_key=True)
+    landing     = models.ForeignKey(Landing, on_delete=models.CASCADE, **_('首页'), related_name='works')
+    image       = models.ImageField(**_('图片'), upload_to='page')
+    title       = models.CharField(max_length=255, **_('标题'))
+    subtitle    = models.CharField(max_length=255, **_('副标题'))
+    description = models.CharField(max_length=255, **_('描述'))
+    url         = models.CharField(max_length=255, **_('链接'))
+    urltext     = models.CharField(max_length=255, **_('链接文字'))
+    sort        = models.IntegerField(**_('排序'))
+
+    class Meta:
+        verbose_name = '首页作品栏目'
+        verbose_name_plural = '首页作品栏目'
+
+    def __str__(self):
+        return self.title
+
+
 class LandingColumn(models.Model):
     id          = models.AutoField(primary_key=True)
     landing     = models.ForeignKey(Landing, on_delete=models.CASCADE, **_('首页'), related_name='columns')
@@ -94,8 +113,8 @@ class LandingColumn(models.Model):
     sort        = models.IntegerField(**_('排序'))
 
     class Meta:
-        verbose_name = '首页栏目'
-        verbose_name_plural = '首页栏目'
+        verbose_name = '首页下方栏目'
+        verbose_name_plural = '首页下方栏目'
 
     def __str__(self):
         return self.title
