@@ -1,5 +1,5 @@
 <template>
-  <ApolloQuery :query="headerQuery">
+  <ApolloQuery :query="headerQuery" tag="">
     <template v-slot="{ result: { data, error }, isLoading }">
       <header class="page-header">
         <div class="container">
@@ -9,8 +9,8 @@
             </div>
             <div class="col"></div>
             <div class="col-4 align-self-end">
-              <OutboundLinks :links="isLoading ? [] : data.outboundLinks" />
-              <MainMenu />
+              <OutboundLinks />
+              <MainMenu flavor="header" />
             </div>
           </div>
         </div>
@@ -28,9 +28,6 @@ const headerQuery = gql`
   query Header {
     landing {
       logo
-    }
-    outboundLinks {
-      id name icon mono url
     }
   }
 `;

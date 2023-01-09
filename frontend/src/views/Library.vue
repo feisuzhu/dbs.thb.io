@@ -9,7 +9,7 @@
       <div class="container">
         <h2 class="upper">符卡资料库</h2>
         <div class="row mainpage-carousel">
-          <slick>
+          <!--<slick>-->
             <div class="post_carousel" v-for="c in characters">
               <router-link :to="'/list/' + c.id">
                 <img :src="require('assets/library-images/' + c.id + '.jpg')" alt="" />
@@ -20,7 +20,7 @@
               查看符卡...
             </router-link>
             </div>
-          </slick>
+          <!--</slick>-->
         </div>
       </div>
     </div>
@@ -63,6 +63,5 @@
 </style>
 
 <script setup>
-  import Slick from '@/components/common/slick/Slick.vue'
   const characters = require('data/characters.yaml');
 </script>

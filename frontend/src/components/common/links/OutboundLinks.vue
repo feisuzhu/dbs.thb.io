@@ -1,9 +1,13 @@
 <template>
-  <div class="outbound-links">
-    <ul>
-      <LinkItem v-for="link in links" :key="link.id" :link="link" />
-    </ul>
-  </div>
+  <ApolloQuery :query="linksQuery">
+    <template v-slot="{ result: { data, error }, isLoading }">
+      <div class="outbound-links">
+        <ul v-if="!isLoading">
+          <LinkItem v-for="link in data.outboundLinks" :key="link.id" :link="link" />
+        </ul>
+      </div>
+    </template>
+  </ApolloQuery>
 </template>
 
 <style lang="scss">
@@ -23,10 +27,11 @@
 import gql from 'graphql-tag'
 import LinkItem from '@/components/common/links/LinkItem.vue'
 
-const props = defineProps({
-  links: {
-    type: Array,
-    required: true
+const linksQuery = gql`
+  query OutboundLinks {
+    outboundLinks {
+      id name icon mono url
+    }
   }
-});
+`;
 </script>
