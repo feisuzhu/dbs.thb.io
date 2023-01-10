@@ -22,11 +22,16 @@ const props = defineProps({
 
 <style lang="scss">
   .main-menu {
-    text-align: right;
+    margin: 12px 0 6px;
+
+    ul {
+      padding: 0;
+    }
 
     ul li {
       display: inline-block;
       margin: 0 10px;
+      padding: 0;
     }
 
     a.item-link {
@@ -41,6 +46,10 @@ const props = defineProps({
       text-align: left;
 
       &:hover {
+        text-decoration: underline;
+      }
+
+      &.router-link-active {
         text-decoration: underline;
       }
     }

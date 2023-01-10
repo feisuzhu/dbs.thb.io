@@ -10,7 +10,7 @@
 <style lang="scss">
   .outbound-link-item {
       padding: 0;
-      margin: 0 0 0 3px;
+      margin: 0px 3px 0px 3px;
       display: inline-block;
       height: 30px;
       width: 30px;

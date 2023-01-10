@@ -16,7 +16,7 @@
       <div class="container">
         <h5 class="section-title">作品一览</h5>
         <div class="row align-items-start">
-          <div class="col" v-for="work in data.landing.works" :key="work.id" v-if="!isLoading">
+          <div class="col-md" v-for="work in data.landing.works" :key="work.id" v-if="!isLoading">
             <div class="work-block">
               <img :src="work.image" class="card-img-top">
               <div class="body">
@@ -35,7 +35,7 @@
       <!-- columns -->
       <div class="container">
         <div class="row align-items-start">
-          <div class="col" v-for="column in data.landing.columns" :key="column.id" v-if="!isLoading">
+          <div class="col-md" v-for="column in data.landing.columns" :key="column.id" v-if="!isLoading">
             <div class="column-block">
               <h5 class="title">{{ column.title }}</h5>
               <h6 class="subtitle">{{ column.subtitle }}</h6>
@@ -85,6 +85,8 @@
 }
 
 .work-block {
+  margin: 15px 0 15px 0;
+
   img { border-radius: 5px; }
   .body { padding-top: 14px; }
   .title { color: #d00b01; font-size: 17px; }
@@ -99,6 +101,7 @@
 }
 
 .column-block {
+  margin: 15px 0 15px 0;
   .title { font-weight: bold; margin-bottom: 12px; }
   .subtitle { color: #9d9d9d; font-style: italic; font-size: 12px; }
   .text { font-size: 12px; margin: 0 0 8px 0; }

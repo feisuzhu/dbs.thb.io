@@ -29,4 +29,10 @@ const props = defineProps({
 </script>
 
 <style lang="scss">
+  #landing-carousel {
+    img {
+      min-height: 250px;
+      object-fit: cover;
+    }
+  }
 </style>

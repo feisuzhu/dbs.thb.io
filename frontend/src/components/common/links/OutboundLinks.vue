@@ -1,5 +1,5 @@
 <template>
-  <ApolloQuery :query="linksQuery">
+  <ApolloQuery :query="linksQuery" tag="">
     <template v-slot="{ result: { data, error }, isLoading }">
       <div class="outbound-links">
         <ul v-if="!isLoading">
@@ -12,8 +12,7 @@
 
 <style lang="scss">
   .outbound-links {
-      text-align: right;
-      padding: 3px 4px 9px 0;
+      margin: 0px 3px 6px;
 
       ul {
         list-style: none;
