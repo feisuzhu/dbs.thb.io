@@ -53,9 +53,9 @@ class CharacterAdmin(admin.ModelAdmin):
 # class Episode(models.Model):
 @admin.register(models.Episode)
 class EpisodeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'subtitle', 'image', 'sort')
+    list_display = ('id', 'sku', 'name', 'image', 'sort')
     list_filter = ()
-    search_fields = ('title', 'subtitle', 'description')
+    search_fields = ('sku', 'name', 'intro')
     ordering = ('sort',)
     sort_order = 40
 

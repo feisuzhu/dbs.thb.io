@@ -61,6 +61,11 @@ class Spellcard(DjangoObjectType):
 
 
 class GameQuery(gh.ObjectType):
+    builds = gh.List(gh.NonNull(Build), description='构筑列表', required=True)
+
+    def resolve_builds(self, info):
+        return models.Build.objects.all().order_by('sort', 'id')
+
     episodes = gh.List(gh.NonNull(Episode), description='卡包列表', required=True)
 
     def resolve_episodes(self, info):

@@ -83,12 +83,12 @@ class CharacterSkill(models.Model):
 
 
 class Episode(models.Model):
-    id          = models.AutoField(primary_key=True, verbose_name="ID", help_text="ID")
-    title       = models.CharField(max_length=50, verbose_name="标题", help_text="标题")
-    subtitle    = models.CharField(max_length=50, verbose_name="副标题", help_text="副标题")
-    image       = models.ImageField(upload_to="episode", verbose_name="图片", help_text="图片")
-    description = models.TextField(verbose_name="描述", help_text="描述")
-    sort        = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+    id    = models.AutoField(primary_key=True, verbose_name="ID", help_text="ID")
+    sku   = models.CharField(max_length=50, unique=True, verbose_name="SKU", help_text="SKU")
+    name  = models.CharField(max_length=50, verbose_name="名称", help_text="名称")
+    intro = models.TextField(verbose_name="简介", help_text="简介")
+    image = models.ImageField(upload_to="build", verbose_name="图片", help_text="图片")
+    sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
 
     class Meta:
         verbose_name = "卡包"
