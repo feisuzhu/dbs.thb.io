@@ -5,10 +5,10 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <div class="logo"><a href="/"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
+              <div class="logo text-center text-md-start"><a href="/"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
             </div>
             <div class="col-md"></div>
-            <div class="links col-md-4 align-self-end">
+            <div class="text-center text-md-end col-md-4">
               <OutboundLinks />
               <MainMenu flavor="header" />
             </div>
@@ -38,24 +38,10 @@ header.page-header {
     border-top: 5px solid #d00b01;
     padding: 36px 0 21px;
 
-    .logo {
-      img {
-        width: 277px;
-        height: 65px;
-        margin: 0 0 21px;
-      }
-
-      text-align: left;
-      @media(max-width: 768px) {
-          text-align: center;
-      }
-    }
-
-    .links {
-      text-align: right;
-      @media(max-width: 768px) {
-        text-align: center;
-      }
+    .logo img {
+      width: 277px;
+      height: 65px;
+      margin: 0 0 21px;
     }
 }
 </style>
