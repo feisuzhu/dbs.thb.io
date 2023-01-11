@@ -1,5 +1,5 @@
 <template>
-  <nav class="main-menu">
+  <div class="main-menu">
     <ul :class="flavor">
       <li><router-link class="item-link" to="/">首页</router-link></li>
       <li><router-link class="item-link" to="/spellcards">符卡</router-link></li>
@@ -7,7 +7,7 @@
       <li><router-link class="item-link" to="/blogs">公告</router-link></li>
       <li><router-link class="item-link" to="/contacts">社区</router-link></li>
     </ul>
-  </nav>
+  </div>
 </template>
 
 <script setup>
