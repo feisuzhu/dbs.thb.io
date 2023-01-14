@@ -110,7 +110,7 @@
 </style>
 
 <script setup>
-import Carousel from '@/components/landing/Carousel.vue'
+import Carousel from '@/views/landing/Carousel.vue'
 
 import gql from 'graphql-tag'
 

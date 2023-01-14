@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {path: '/',         component: import('@/views/Landing.vue')},
+    {path: '/',         component: import('@/views/landing/Landing.vue')},
     {path: '/about',    component: import('@/views/About.vue')},
     {path: '/blogs',    component: import('@/views/BlogList.vue')},
     {path: '/blog/:id', component: import('@/views/Blog.vue')},

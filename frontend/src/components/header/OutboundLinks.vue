@@ -24,7 +24,7 @@
 
 <script setup>
 import gql from 'graphql-tag'
-import LinkItem from '@/components/common/links/LinkItem.vue'
+import LinkItem from './LinkItem.vue'
 
 const linksQuery = gql`
   query OutboundLinks {

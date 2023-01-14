@@ -21,8 +21,8 @@
 </template>
 
 <script setup>
-import OutboundLinks from '@/components/common/links/OutboundLinks.vue'
-import MainMenu from '@/components/common/header/MainMenu.vue'
+import OutboundLinks from './OutboundLinks.vue'
+import MainMenu from './MainMenu.vue'
 import gql from 'graphql-tag'
 
 const footerQuery = gql`
