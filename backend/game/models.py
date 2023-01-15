@@ -7,13 +7,37 @@ from django.db import models
 # -- own --
 
 # -- code --
+class State(models.TextChoices):
+    NORMAL   = 'NORMAL', '正常'
+    LINKLESS = 'LINKLESS', '列表中显示但无超连接'
+    UNLISTED = 'UNLISTED', '隐藏'
+
+
+def annotate_qs(model, qs):
+    fields = model._meta.fields
+    if next((i for i in fields if i.attname == 'state'), None):
+        qs = qs.filter(state__in=(State.NORMAL, State.LINKLESS))
+    if next((i for i in fields if i.attname == 'sort'), None):
+        qs = qs.order_by('-sort')
+    return qs
+
+
+class GameModelManager(models.Manager):
+    def get_queryset(self):
+        return annotate_qs(self.model, super().get_queryset())
+
+
 class Build(models.Model):
     id    = models.AutoField(primary_key=True, verbose_name='ID', help_text='ID')
     sku   = models.CharField(max_length=50, unique=True, verbose_name="SKU", help_text="SKU")
     name  = models.CharField(max_length=50, verbose_name="名称", help_text="名称")
     intro = models.TextField(verbose_name="简介", help_text="简介")
     image = models.ImageField(upload_to="build", verbose_name="图片", help_text="图片")
+    state = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
     sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "构筑"
@@ -46,11 +70,15 @@ class Rarity(models.TextChoices):
 
 
 class Character(models.Model):
-    id          = models.AutoField(primary_key=True, verbose_name="ID", help_text="ID")
-    sku         = models.CharField(max_length=50, verbose_name="SKU", help_text="SKU")
-    title       = models.CharField(max_length=50, verbose_name="称号", help_text="称号")
-    build       = models.ForeignKey(Build, on_delete=models.PROTECT, verbose_name="构筑", help_text="构筑", related_name="characters")
-    sort        = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+    id    = models.AutoField(primary_key=True, verbose_name="ID", help_text="ID")
+    sku   = models.CharField(max_length=50, verbose_name="SKU", help_text="SKU")
+    title = models.CharField(max_length=50, verbose_name="称号", help_text="称号")
+    build = models.ForeignKey(Build, on_delete=models.PROTECT, verbose_name="构筑", help_text="构筑", related_name="characters")
+    state = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
+    sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "角色"
@@ -72,7 +100,11 @@ class CharacterSkill(models.Model):
     type        = models.CharField(max_length=50, verbose_name="类型", help_text="类型", choices=CharacterSkillType.choices)
     name        = models.CharField(max_length=50, verbose_name="名字", help_text="名字")
     description = models.TextField(verbose_name="描述", help_text="描述")
+    state       = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
     sort        = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "角色技能"
@@ -87,15 +119,19 @@ class Episode(models.Model):
     sku   = models.CharField(max_length=50, unique=True, verbose_name="SKU", help_text="SKU")
     name  = models.CharField(max_length=50, verbose_name="名称", help_text="名称")
     intro = models.TextField(verbose_name="简介", help_text="简介")
-    image = models.ImageField(upload_to="build", verbose_name="图片", help_text="图片")
+    image = models.ImageField(upload_to="episode", verbose_name="图片", help_text="图片")
+    state = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
     sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "卡包"
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.title
+        return self.name
 
 
 class Trait(models.Model):
@@ -121,7 +157,11 @@ class CharacterVersion(models.Model):
     illustrator = models.ForeignKey(Illustrator, on_delete=models.PROTECT, verbose_name="画师", help_text="画师")
     line        = models.CharField(max_length=200, verbose_name="牌语", help_text="牌语")
     episode     = models.ForeignKey(Episode, on_delete=models.PROTECT, verbose_name="卡包", help_text="卡包", blank=True, null=True, related_name="characters")
+    state       = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
     sort        = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "角色版本"
@@ -172,7 +212,11 @@ class Spellcard(models.Model):
 
     basic_constraint = models.CharField(max_length=50, verbose_name="基本约束", help_text="基本约束", choices=BasicConstraint.choices)
 
-    sort = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+    state = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
+    sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "符卡"
@@ -189,6 +233,9 @@ class ExtendedConstraint(models.Model):
     type      = models.CharField(max_length=50, verbose_name="类型", help_text="类型")
     effect    = models.CharField(max_length=50, verbose_name="效果", help_text="效果")
     sort      = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "符卡扩展限制"
@@ -208,13 +255,16 @@ class Version(models.Model):
     illustrator = models.ForeignKey(Illustrator, on_delete=models.PROTECT, verbose_name="画师", help_text="画师", related_name="spellcards")
     image       = models.ImageField(upload_to="card", verbose_name="立绘", help_text="立绘")
 
-    sort         = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+    state = models.TextField(default=State.NORMAL, verbose_name="状态", help_text="状态", choices=State.choices)
+    sort  = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
+
+    raw = models.Manager()
+    objects = GameModelManager()
 
     class Meta:
         verbose_name = "符卡版本"
         verbose_name_plural = verbose_name
         unique_together = [('spellcard', 'version')]
-
 
     def __str__(self):
         return f'{self.spellcard} - {self.version} [{self.rarity}]'

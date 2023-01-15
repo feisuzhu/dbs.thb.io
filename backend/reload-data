@@ -1,0 +1,7 @@
+#!/bin/bash -x
+
+./manage.py flush --no-input
+export DJANGO_SUPERUSER_USERNAME=proton
+export DJANGO_SUPERUSER_PASSWORD=feisuzhu
+./manage.py createsuperuser --email proton@proton.moe --noinput
+./manage.py loaddata page game-build game-character game-others game-spellcard

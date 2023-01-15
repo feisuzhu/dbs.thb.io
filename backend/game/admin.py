@@ -6,7 +6,7 @@ from . import models
 # class Build(models.Model):
 @admin.register(models.Build)
 class BuildAdmin(admin.ModelAdmin):
-    list_display = ('id', 'sku', 'name', 'sort')
+    list_display = ('id', 'sku', 'name', 'state', 'sort')
     list_filter = ()
     search_fields = ('name', 'version')
     ordering = ('sort',)
@@ -36,8 +36,8 @@ class CharacterSkillInline(admin.TabularInline):
 # class Character(models.Model):
 @admin.register(models.Character)
 class CharacterAdmin(admin.ModelAdmin):
-    list_display = ('id', 'sku', 'title', 'build', 'sort')
-    list_filter = ('versions__rarity', 'versions__illustrator', 'build')
+    list_display = ('id', 'sku', 'title', 'build', 'state', 'sort')
+    list_filter = ('versions__rarity', 'versions__illustrator', 'build', 'state')
     search_fields = ('title', 'versions__illustrator', 'build')
     inlines = [CharacterVersionInline, CharacterSkillInline]
     ordering = ('sort',)
@@ -45,7 +45,7 @@ class CharacterAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ('角色', {
-            'fields': (('sku', 'sort'), ('title', 'build'))
+            'fields': (('sku', 'state', 'sort'), ('title', 'build'))
         }),
     )
 
@@ -53,7 +53,7 @@ class CharacterAdmin(admin.ModelAdmin):
 # class Episode(models.Model):
 @admin.register(models.Episode)
 class EpisodeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'sku', 'name', 'image', 'sort')
+    list_display = ('id', 'sku', 'name', 'image', 'state', 'sort')
     list_filter = ()
     search_fields = ('sku', 'name', 'intro')
     ordering = ('sort',)
@@ -93,7 +93,7 @@ class ExtendedConstraintInline(admin.TabularInline):
 # class Spellcard(models.Model):
 @admin.register(models.Spellcard)
 class SpellcardAdmin(admin.ModelAdmin):
-    list_display = ('id', 'sku', 'build', 'title', 'type', 'gorgeousness', 'basic_constraint', 'has_extended_constraint', 'sort')
+    list_display = ('id', 'sku', 'build', 'title', 'type', 'gorgeousness', 'basic_constraint', 'has_extended_constraint', 'state', 'sort')
     list_filter = ('build', 'type', 'gorgeousness', 'versions__illustrator', 'versions__rarity', 'versions__episode', 'traits__name')
     search_fields = ('title', 'effect', 'faq')
     filter_horizontal = ('traits',)
@@ -104,7 +104,7 @@ class SpellcardAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ('编制 & 描述', {
-            'fields': (('sku', 'sort'), ('title', 'build'))
+            'fields': (('sku', 'state', 'sort'), ('title', 'build'))
         }),
         ('游戏', {
             'fields': (('type', 'cost', 'intensity'), ('basic_constraint', 'gorgeousness'), 'traits', 'effect', 'faq')

@@ -10,52 +10,61 @@ from . import models
 
 
 # -- code --
-class Build(DjangoObjectType):
+class GameQueryMixin:
+
+    @staticmethod
+    def get_queryset(qs, info):
+        model = info.parent_type.graphene_type._meta.model
+        return models.annotate_qs(model, qs)
+
+
+class Build(GameQueryMixin, DjangoObjectType):
+
     class Meta:
         model = models.Build
 
 
-class Illustrator(DjangoObjectType):
+class Illustrator(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Illustrator
 
 
-class Character(DjangoObjectType):
+class Character(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Character
 
 
-class CharacterSkill(DjangoObjectType):
+class CharacterSkill(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.CharacterSkill
 
 
-class CharacterVersion(DjangoObjectType):
+class CharacterVersion(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.CharacterVersion
 
 
-class Episode(DjangoObjectType):
+class Episode(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Episode
 
 
-class Trait(DjangoObjectType):
+class Trait(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Trait
 
 
-class Type(DjangoObjectType):
+class Type(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Type
 
 
-class ExtendedConstraint(DjangoObjectType):
+class ExtendedConstraint(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.ExtendedConstraint
 
 
-class Spellcard(DjangoObjectType):
+class Spellcard(GameQueryMixin, DjangoObjectType):
     class Meta:
         model = models.Spellcard
 

@@ -3,7 +3,6 @@
 # -- stdlib --
 # -- third party --
 import graphene as gh
-import graphql
 
 # -- own --
 from game.schema import GameQuery
