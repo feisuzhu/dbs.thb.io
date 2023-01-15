@@ -10,7 +10,7 @@ from . import models
 
 
 # -- code --
-class GameQueryMixin:
+class FilteringMixin:
 
     @staticmethod
     def get_queryset(qs, info):
@@ -18,53 +18,72 @@ class GameQueryMixin:
         return models.annotate_qs(model, qs)
 
 
-class Build(GameQueryMixin, DjangoObjectType):
+def Navigation(clsname):
+
+    @staticmethod
+    def resolve_prev(root, info):
+        return root._meta.model.objects.order_by('-id').filter(state='NORMAL', id__lt=root.id).first()
+
+    @staticmethod
+    def resolve_next(root, info):
+        return root._meta.model.objects.order_by('id').filter(state='NORMAL', id__gt=root.id).first()
+
+    return type(f'{clsname}Navigation', (object,), {
+        'prev': gh.Field(f'game.schema.{clsname}', description='上一个'),
+        'resolve_prev': resolve_prev,
+        'next': gh.Field(f'game.schema.{clsname}', description='下一个'),
+        'resolve_next': resolve_next,
+    })
+
+
+
+class Build(Navigation('Build'), FilteringMixin, DjangoObjectType):
 
     class Meta:
         model = models.Build
 
 
-class Illustrator(GameQueryMixin, DjangoObjectType):
+class Illustrator(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Illustrator
 
 
-class Character(GameQueryMixin, DjangoObjectType):
+class Character(Navigation('Character'), FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Character
 
 
-class CharacterSkill(GameQueryMixin, DjangoObjectType):
+class CharacterSkill(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.CharacterSkill
 
 
-class CharacterVersion(GameQueryMixin, DjangoObjectType):
+class CharacterVersion(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.CharacterVersion
 
 
-class Episode(GameQueryMixin, DjangoObjectType):
+class Episode(Navigation('Episode'), FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Episode
 
 
-class Trait(GameQueryMixin, DjangoObjectType):
+class Trait(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Trait
 
 
-class Type(GameQueryMixin, DjangoObjectType):
+class Type(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Type
 
 
-class ExtendedConstraint(GameQueryMixin, DjangoObjectType):
+class ExtendedConstraint(FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.ExtendedConstraint
 
 
-class Spellcard(GameQueryMixin, DjangoObjectType):
+class Spellcard(Navigation('Spellcard'), FilteringMixin, DjangoObjectType):
     class Meta:
         model = models.Spellcard
 
@@ -75,7 +94,17 @@ class GameQuery(gh.ObjectType):
     def resolve_builds(self, info):
         return models.Build.objects.all().order_by('sort', 'id')
 
+    build = gh.Field(Build, sku=gh.String(required=True, description="SKU"), description='构筑')
+
+    def resolve_build(self, info, sku):
+        return models.Build.objects.get(sku=sku)
+
     episodes = gh.List(gh.NonNull(Episode), description='卡包列表', required=True)
 
     def resolve_episodes(self, info):
         return models.Episode.objects.all().order_by('sort', 'id')
+
+    episode = gh.Field(Episode, sku=gh.String(required=True, description="SKU"), description='卡包')
+
+    def resolve_episode(self, info, sku):
+        return models.Episode.objects.get(sku=sku)
