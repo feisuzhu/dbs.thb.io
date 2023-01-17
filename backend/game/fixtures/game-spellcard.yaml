@@ -11,7 +11,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -27,7 +27,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -44,7 +44,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -60,7 +60,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -77,7 +77,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -94,7 +94,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -111,7 +111,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -127,7 +127,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -143,7 +143,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -160,7 +160,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -176,7 +176,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -192,7 +192,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -208,7 +208,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 24
@@ -225,7 +225,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -241,7 +241,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -257,7 +257,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -274,7 +274,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -290,7 +290,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -306,7 +306,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -325,7 +325,7 @@
     intensity: 0
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -341,7 +341,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -357,7 +357,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -374,7 +374,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -390,7 +390,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -407,7 +407,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -424,7 +424,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -441,7 +441,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -457,7 +457,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -473,7 +473,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -489,7 +489,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -506,7 +506,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -522,7 +522,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -538,7 +538,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -554,7 +554,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 12
@@ -573,7 +573,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -590,7 +590,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -607,7 +607,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -623,7 +623,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -639,7 +639,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -655,7 +655,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -672,7 +672,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -688,7 +688,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -704,7 +704,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -720,7 +720,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -737,7 +737,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -754,7 +754,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -771,7 +771,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -787,7 +787,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -803,7 +803,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -819,7 +819,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -835,7 +835,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -851,7 +851,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -867,7 +867,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 15
@@ -884,7 +884,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -900,7 +900,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -917,7 +917,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -934,7 +934,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -951,7 +951,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -968,7 +968,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -984,7 +984,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 14
@@ -1001,7 +1001,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1017,7 +1017,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1033,7 +1033,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1050,7 +1050,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1067,7 +1067,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1084,7 +1084,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1100,7 +1100,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1117,7 +1117,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -1134,7 +1134,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1150,7 +1150,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1166,7 +1166,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1182,7 +1182,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1198,7 +1198,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 7
@@ -1215,7 +1215,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1231,7 +1231,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1247,7 +1247,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -1264,7 +1264,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1281,7 +1281,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1297,7 +1297,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1313,7 +1313,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1330,7 +1330,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1346,7 +1346,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1363,7 +1363,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1379,7 +1379,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1395,7 +1395,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1411,7 +1411,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 9
@@ -1428,7 +1428,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 9
@@ -1445,7 +1445,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 9
@@ -1462,7 +1462,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -1480,7 +1480,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -1497,7 +1497,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1513,7 +1513,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1529,7 +1529,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1545,7 +1545,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1561,7 +1561,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1577,7 +1577,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1593,7 +1593,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1609,7 +1609,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -1626,7 +1626,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 9
@@ -1643,7 +1643,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 9
@@ -1660,7 +1660,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1676,7 +1676,7 @@
     intensity: 0
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1692,7 +1692,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -1709,7 +1709,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1725,7 +1725,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1741,7 +1741,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1757,7 +1757,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1773,7 +1773,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1789,7 +1789,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -1806,7 +1806,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1822,7 +1822,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1838,7 +1838,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1854,7 +1854,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1870,7 +1870,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1886,7 +1886,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1902,7 +1902,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1918,7 +1918,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -1935,7 +1935,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -1952,7 +1952,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -1971,7 +1971,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -1987,7 +1987,7 @@
     intensity: 500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2003,7 +2003,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -2021,7 +2021,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2037,7 +2037,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2053,7 +2053,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -2070,7 +2070,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 12
@@ -2088,7 +2088,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2104,7 +2104,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -2121,7 +2121,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 1
@@ -2138,7 +2138,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 7
@@ -2155,7 +2155,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2171,7 +2171,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2187,7 +2187,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2203,7 +2203,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2219,7 +2219,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -2238,7 +2238,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 12
@@ -2256,7 +2256,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -2273,7 +2273,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 12
@@ -2291,7 +2291,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 12
@@ -2309,7 +2309,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -2326,7 +2326,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2342,7 +2342,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2358,7 +2358,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2375,7 +2375,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -2392,7 +2392,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2408,7 +2408,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2424,7 +2424,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -2441,7 +2441,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -2458,7 +2458,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2474,7 +2474,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2491,7 +2491,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2508,7 +2508,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2525,7 +2525,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2541,7 +2541,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2557,7 +2557,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2573,7 +2573,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2589,7 +2589,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2605,7 +2605,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2621,7 +2621,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2637,7 +2637,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2653,7 +2653,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2670,7 +2670,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -2687,7 +2687,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2703,7 +2703,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2720,7 +2720,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2737,7 +2737,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -2754,7 +2754,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2770,7 +2770,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2786,7 +2786,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2802,7 +2802,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2818,7 +2818,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -2835,7 +2835,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -2852,7 +2852,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -2869,7 +2869,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -2886,7 +2886,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2902,7 +2902,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2918,7 +2918,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2934,7 +2934,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2950,7 +2950,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2966,7 +2966,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2982,7 +2982,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -2998,7 +2998,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -3015,7 +3015,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -3032,7 +3032,7 @@
     intensity: 4000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 27
@@ -3049,7 +3049,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3065,7 +3065,7 @@
     intensity: 500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3081,7 +3081,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 22
@@ -3098,7 +3098,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3114,7 +3114,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3130,7 +3130,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 20
@@ -3147,7 +3147,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3163,7 +3163,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 20
@@ -3181,7 +3181,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 21
@@ -3198,7 +3198,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3214,7 +3214,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 22
@@ -3232,7 +3232,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3248,7 +3248,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3264,7 +3264,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3280,7 +3280,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3296,7 +3296,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 19
@@ -3313,7 +3313,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3329,7 +3329,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -3346,7 +3346,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 23
@@ -3363,7 +3363,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 22
@@ -3381,7 +3381,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3397,7 +3397,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3413,7 +3413,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3429,7 +3429,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3445,7 +3445,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3461,7 +3461,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -3478,7 +3478,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -3495,7 +3495,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -3514,7 +3514,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -3531,7 +3531,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3547,7 +3547,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3563,7 +3563,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3579,7 +3579,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3595,7 +3595,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3611,7 +3611,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3627,7 +3627,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3643,7 +3643,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3659,7 +3659,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -3676,7 +3676,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3692,7 +3692,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3708,7 +3708,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -3725,7 +3725,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3741,7 +3741,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -3758,7 +3758,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3774,7 +3774,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3790,7 +3790,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3806,7 +3806,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3823,7 +3823,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3840,7 +3840,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3857,7 +3857,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3874,7 +3874,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -3891,7 +3891,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -3908,7 +3908,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3924,7 +3924,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3941,7 +3941,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -3958,7 +3958,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -3974,7 +3974,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -3991,7 +3991,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4007,7 +4007,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4023,7 +4023,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4039,7 +4039,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -4056,7 +4056,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 10
@@ -4073,7 +4073,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 10
@@ -4090,7 +4090,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -4107,7 +4107,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4123,7 +4123,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4139,7 +4139,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -4156,7 +4156,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 10
@@ -4173,7 +4173,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4189,7 +4189,7 @@
     intensity: 6000
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -4207,7 +4207,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4223,7 +4223,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4239,7 +4239,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -4256,7 +4256,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4272,7 +4272,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4288,7 +4288,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -4307,7 +4307,7 @@
     intensity: 500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 10
@@ -4324,7 +4324,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 10
@@ -4341,7 +4341,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4357,7 +4357,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -4374,7 +4374,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -4391,7 +4391,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4407,7 +4407,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4423,7 +4423,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4439,7 +4439,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4455,7 +4455,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4472,7 +4472,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4489,7 +4489,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4506,7 +4506,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4523,7 +4523,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4539,7 +4539,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4555,7 +4555,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4571,7 +4571,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4587,7 +4587,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4604,7 +4604,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4620,7 +4620,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4637,7 +4637,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4653,7 +4653,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -4670,7 +4670,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4688,7 +4688,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4704,7 +4704,7 @@
     intensity: 500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4720,7 +4720,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 16
@@ -4738,7 +4738,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4754,7 +4754,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4770,7 +4770,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4786,7 +4786,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4802,7 +4802,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4818,7 +4818,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4834,7 +4834,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4850,7 +4850,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4866,7 +4866,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4882,7 +4882,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4898,7 +4898,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4914,7 +4914,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4930,7 +4930,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4946,7 +4946,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4962,7 +4962,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4978,7 +4978,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -4994,7 +4994,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5010,7 +5010,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5026,7 +5026,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5042,7 +5042,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5058,7 +5058,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5074,7 +5074,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5091,7 +5091,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5108,7 +5108,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5125,7 +5125,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5142,7 +5142,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5159,7 +5159,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5176,7 +5176,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5192,7 +5192,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -5209,7 +5209,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5225,7 +5225,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5241,7 +5241,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5257,7 +5257,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5273,7 +5273,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5289,7 +5289,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5305,7 +5305,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -5322,7 +5322,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 13
@@ -5339,7 +5339,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5355,7 +5355,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5372,7 +5372,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5390,7 +5390,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5406,7 +5406,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5423,7 +5423,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5439,7 +5439,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5455,7 +5455,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5472,7 +5472,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5488,7 +5488,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5505,7 +5505,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5522,7 +5522,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5539,7 +5539,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5556,7 +5556,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5572,7 +5572,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5588,7 +5588,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5605,7 +5605,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -5622,7 +5622,7 @@
     intensity: 0
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5638,7 +5638,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -5656,7 +5656,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5672,7 +5672,7 @@
     intensity: 1500
     faq: 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5688,7 +5688,7 @@
     intensity: 3000
     faq: 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5704,7 +5704,7 @@
     intensity: 0
     faq: 发动本陷阱后，无论是否发动成功。仍然可以选择继续宣言相杀。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5720,7 +5720,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 1
@@ -5737,7 +5737,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 1
@@ -5754,7 +5754,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 1
@@ -5771,7 +5771,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5787,7 +5787,7 @@
     intensity: 1000
     faq: 发动效果不是宣言。效果的发动时点为攻击阶段的空余时点。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5803,7 +5803,7 @@
     intensity: 2000
     faq: 结算后生效，防止所有伤害。但不包括扣减或调整体力。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5819,7 +5819,7 @@
     intensity: 500
     faq: 选择的3张符卡明示于你的决斗区。本卡效果发发动后，你可以检视你的卡组，若没有3张或更多战力为1000的符卡，效果发动失败。将卡组洗切后放回。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 2
@@ -5836,7 +5836,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 2
@@ -5853,7 +5853,7 @@
     intensity: 1000
     faq: 卡组至少有3张符卡才能发动效果。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5869,7 +5869,7 @@
     intensity: 2000
     faq: 本卡结算后生效，必发效果。对方不得以任何方式使用符力区的符卡，包括翻面，横置，弃置，除外等等效果。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5885,7 +5885,7 @@
     intensity: 3000
     faq: 选发效果，由玩家自行决定移出的数量。先将符卡移出游戏，之后增加战力。移出符卡不是发动本卡的需要。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 1
@@ -5902,7 +5902,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5918,7 +5918,7 @@
     intensity: 1000
     faq: 攻击阶段宣言本卡在结算后也会生效，效果持续至对方一下回合结束之前。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -5935,7 +5935,7 @@
     intensity: 0
     faq: 若本卡发动失败，你仍然可以继续宣言相杀。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5951,7 +5951,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 2
@@ -5968,7 +5968,7 @@
     intensity: 0
     faq: 使符卡获得的效果是必发效果。
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -5984,7 +5984,7 @@
     intensity: 2500
     faq: 如果本卡被破坏或者卡面效果无效，依然可以发动再次宣言的效果。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -6001,7 +6001,7 @@
     intensity: 0
     faq: 只要你的灵梦C技能生效就可以发动效果。灵能结界的效果只要你在防御阶段宣言了第一张战斗符卡就生效，不需要造成反制伤害。
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6017,7 +6017,7 @@
     intensity: 2500
     faq: 横置对方角色区符卡时选发效果，对方不能灵能解放，你不能宣言灵梦以外角色符卡是必发效果。
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -6034,7 +6034,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6050,7 +6050,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 28
@@ -6067,7 +6067,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 28
@@ -6084,7 +6084,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 28
@@ -6101,7 +6101,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 28
@@ -6118,7 +6118,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6134,7 +6134,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6150,7 +6150,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 28
@@ -6167,7 +6167,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6183,7 +6183,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -6200,7 +6200,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6216,7 +6216,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6232,7 +6232,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6248,7 +6248,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6264,7 +6264,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6280,7 +6280,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6297,7 +6297,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6314,7 +6314,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6331,7 +6331,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6347,7 +6347,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6363,7 +6363,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6379,7 +6379,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6395,7 +6395,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6412,7 +6412,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -6429,7 +6429,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -6446,7 +6446,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6462,7 +6462,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6479,7 +6479,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -6496,7 +6496,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6512,7 +6512,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6528,7 +6528,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 11
@@ -6545,7 +6545,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6561,7 +6561,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6577,7 +6577,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6593,7 +6593,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6609,7 +6609,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6625,7 +6625,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6642,7 +6642,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6659,7 +6659,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6676,7 +6676,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6694,7 +6694,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6710,7 +6710,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -6727,7 +6727,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6743,7 +6743,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6759,7 +6759,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6775,7 +6775,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6791,7 +6791,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6807,7 +6807,7 @@
     intensity: 500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6824,7 +6824,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -6841,7 +6841,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6857,7 +6857,7 @@
     intensity: 500
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 3
@@ -6874,7 +6874,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 8
@@ -6891,7 +6891,7 @@
     intensity: 0
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6907,7 +6907,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6923,7 +6923,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6939,7 +6939,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -6956,7 +6956,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6972,7 +6972,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -6988,7 +6988,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7004,7 +7004,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7020,7 +7020,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7036,7 +7036,7 @@
     intensity: 3000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 4
@@ -7053,7 +7053,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 7
@@ -7070,7 +7070,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 7
@@ -7087,7 +7087,7 @@
     intensity: 1000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7103,7 +7103,7 @@
     intensity: 3500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 7
@@ -7120,7 +7120,7 @@
     intensity: 2000
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 5
@@ -7138,7 +7138,7 @@
     intensity: 0
     faq: ''
     basic_constraint: CENTER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7154,7 +7154,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 25
@@ -7171,7 +7171,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7187,7 +7187,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7203,7 +7203,7 @@
     intensity: 500
     faq: ''
     basic_constraint: HYPER
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7219,7 +7219,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 6
@@ -7236,7 +7236,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7252,7 +7252,7 @@
     intensity: 0
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits: []
 - model: game.spellcard
@@ -7268,7 +7268,7 @@
     intensity: 1500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -7286,7 +7286,7 @@
     intensity: 2500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 17
@@ -7303,7 +7303,7 @@
     intensity: 500
     faq: ''
     basic_constraint: SUPPORT
-    state: NORMAL
+    hidden: false
     sort: 0
     traits:
     - 18
@@ -7506,7 +7506,7 @@
     line: '-'
     illustrator: 3
     image: card/SN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 2
@@ -7518,7 +7518,7 @@
     line: '-'
     illustrator: 3
     image: card/SN-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 3
@@ -7530,7 +7530,7 @@
     line: '-'
     illustrator: 4
     image: card/SN-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 4
@@ -7542,7 +7542,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 5
@@ -7554,7 +7554,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 6
@@ -7566,7 +7566,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 7
@@ -7578,7 +7578,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 8
@@ -7590,7 +7590,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 9
@@ -7602,7 +7602,7 @@
     line: '-'
     illustrator: 1
     image: card/SN-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 10
@@ -7614,7 +7614,7 @@
     line: '-'
     illustrator: 6
     image: card/SN-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 11
@@ -7626,7 +7626,7 @@
     line: '-'
     illustrator: 6
     image: card/SN-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 12
@@ -7638,7 +7638,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 13
@@ -7650,7 +7650,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 14
@@ -7662,7 +7662,7 @@
     line: '-'
     illustrator: 3
     image: card/SN-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 15
@@ -7674,7 +7674,7 @@
     line: '-'
     illustrator: 6
     image: card/SN-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 16
@@ -7686,7 +7686,7 @@
     line: '-'
     illustrator: 6
     image: card/SN-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 17
@@ -7698,7 +7698,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 18
@@ -7710,7 +7710,7 @@
     line: '-'
     illustrator: 5
     image: card/SN-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 19
@@ -7722,7 +7722,7 @@
     line: '-'
     illustrator: 6
     image: card/SN-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 20
@@ -7734,7 +7734,7 @@
     line: '-'
     illustrator: 7
     image: card/SN-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 21
@@ -7746,7 +7746,7 @@
     line: '-'
     illustrator: 8
     image: card/MK-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 22
@@ -7758,7 +7758,7 @@
     line: '-'
     illustrator: 9
     image: card/MK-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 23
@@ -7770,7 +7770,7 @@
     line: '-'
     illustrator: 10
     image: card/MK-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 24
@@ -7782,7 +7782,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 25
@@ -7794,7 +7794,7 @@
     line: '-'
     illustrator: 5
     image: card/MK-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 26
@@ -7806,7 +7806,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 27
@@ -7818,7 +7818,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 28
@@ -7830,7 +7830,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 29
@@ -7842,7 +7842,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 30
@@ -7854,7 +7854,7 @@
     line: '-'
     illustrator: 5
     image: card/MK-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 31
@@ -7866,7 +7866,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 32
@@ -7878,7 +7878,7 @@
     line: '-'
     illustrator: 5
     image: card/MK-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 33
@@ -7890,7 +7890,7 @@
     line: '-'
     illustrator: 2
     image: card/MK-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 34
@@ -7902,7 +7902,7 @@
     line: '-'
     illustrator: 5
     image: card/MK-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 35
@@ -7914,7 +7914,7 @@
     line: '-'
     illustrator: 11
     image: card/MK-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 36
@@ -7926,7 +7926,7 @@
     line: '-'
     illustrator: 12
     image: card/MK-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 37
@@ -7938,7 +7938,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 38
@@ -7950,7 +7950,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 39
@@ -7962,7 +7962,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 40
@@ -7974,7 +7974,7 @@
     line: '-'
     illustrator: 6
     image: card/MK-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 41
@@ -7986,7 +7986,7 @@
     line: '-'
     illustrator: 13
     image: card/KN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 42
@@ -7998,7 +7998,7 @@
     line: '-'
     illustrator: 3
     image: card/KN-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 43
@@ -8010,7 +8010,7 @@
     line: '-'
     illustrator: 10
     image: card/KN-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 44
@@ -8022,7 +8022,7 @@
     line: '-'
     illustrator: 5
     image: card/KN-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 45
@@ -8034,7 +8034,7 @@
     line: '-'
     illustrator: 5
     image: card/KN-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 46
@@ -8046,7 +8046,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 47
@@ -8058,7 +8058,7 @@
     line: '-'
     illustrator: 14
     image: card/KN-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 48
@@ -8070,7 +8070,7 @@
     line: '-'
     illustrator: 15
     image: card/KN-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 49
@@ -8082,7 +8082,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 50
@@ -8094,7 +8094,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 51
@@ -8106,7 +8106,7 @@
     line: '-'
     illustrator: 15
     image: card/KN-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 52
@@ -8118,7 +8118,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 53
@@ -8130,7 +8130,7 @@
     line: '-'
     illustrator: 16
     image: card/KN-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 54
@@ -8142,7 +8142,7 @@
     line: '-'
     illustrator: 2
     image: card/KN-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 55
@@ -8154,7 +8154,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 56
@@ -8166,7 +8166,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 57
@@ -8178,7 +8178,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 58
@@ -8190,7 +8190,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 59
@@ -8202,7 +8202,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 60
@@ -8214,7 +8214,7 @@
     line: '-'
     illustrator: 6
     image: card/KN-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 61
@@ -8226,7 +8226,7 @@
     line: '-'
     illustrator: 3
     image: card/MS-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 62
@@ -8238,7 +8238,7 @@
     line: '-'
     illustrator: 3
     image: card/MS-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 63
@@ -8250,7 +8250,7 @@
     line: '-'
     illustrator: 10
     image: card/MS-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 64
@@ -8262,7 +8262,7 @@
     line: '-'
     illustrator: 17
     image: card/MS-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 65
@@ -8274,7 +8274,7 @@
     line: '-'
     illustrator: 5
     image: card/MS-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 66
@@ -8286,7 +8286,7 @@
     line: '-'
     illustrator: 5
     image: card/MS-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 67
@@ -8298,7 +8298,7 @@
     line: '-'
     illustrator: 3
     image: card/MS-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 68
@@ -8310,7 +8310,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 69
@@ -8322,7 +8322,7 @@
     line: '-'
     illustrator: 5
     image: card/MS-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 70
@@ -8334,7 +8334,7 @@
     line: '-'
     illustrator: 5
     image: card/MS-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 71
@@ -8346,7 +8346,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 72
@@ -8358,7 +8358,7 @@
     line: '-'
     illustrator: 10
     image: card/MS-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 73
@@ -8370,7 +8370,7 @@
     line: '-'
     illustrator: 18
     image: card/MS-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 74
@@ -8382,7 +8382,7 @@
     line: '-'
     illustrator: 10
     image: card/MS-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 75
@@ -8394,7 +8394,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 76
@@ -8406,7 +8406,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 77
@@ -8418,7 +8418,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 78
@@ -8430,7 +8430,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 79
@@ -8442,7 +8442,7 @@
     line: '-'
     illustrator: 10
     image: card/MS-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 80
@@ -8454,7 +8454,7 @@
     line: '-'
     illustrator: 19
     image: card/MS-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 81
@@ -8466,7 +8466,7 @@
     line: '-'
     illustrator: 6
     image: card/MS-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 82
@@ -8478,7 +8478,7 @@
     line: '-'
     illustrator: 7
     image: card/MS-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 83
@@ -8490,7 +8490,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 84
@@ -8502,7 +8502,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 85
@@ -8514,7 +8514,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 86
@@ -8526,7 +8526,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 87
@@ -8538,7 +8538,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 88
@@ -8550,7 +8550,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 89
@@ -8562,7 +8562,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 90
@@ -8574,7 +8574,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 91
@@ -8586,7 +8586,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 92
@@ -8598,7 +8598,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 93
@@ -8610,7 +8610,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 94
@@ -8622,7 +8622,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 95
@@ -8634,7 +8634,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 96
@@ -8646,7 +8646,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 97
@@ -8658,7 +8658,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 98
@@ -8670,7 +8670,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 99
@@ -8682,7 +8682,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 100
@@ -8694,7 +8694,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 101
@@ -8706,7 +8706,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 102
@@ -8718,7 +8718,7 @@
     line: '-'
     illustrator: 6
     image: card/UU-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 103
@@ -8730,7 +8730,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 104
@@ -8742,7 +8742,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 105
@@ -8754,7 +8754,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 106
@@ -8766,7 +8766,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 107
@@ -8778,7 +8778,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 108
@@ -8790,7 +8790,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 109
@@ -8802,7 +8802,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 110
@@ -8814,7 +8814,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 111
@@ -8826,7 +8826,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 112
@@ -8838,7 +8838,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 113
@@ -8850,7 +8850,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 114
@@ -8862,7 +8862,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 115
@@ -8874,7 +8874,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 116
@@ -8886,7 +8886,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 117
@@ -8898,7 +8898,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 118
@@ -8910,7 +8910,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 119
@@ -8922,7 +8922,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 120
@@ -8934,7 +8934,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 121
@@ -8946,7 +8946,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 122
@@ -8958,7 +8958,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 123
@@ -8970,7 +8970,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 124
@@ -8982,7 +8982,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 125
@@ -8994,7 +8994,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 126
@@ -9006,7 +9006,7 @@
     line: '-'
     illustrator: 21
     image: card/KGY-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 127
@@ -9018,7 +9018,7 @@
     line: '-'
     illustrator: 11
     image: card/KGY-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 128
@@ -9030,7 +9030,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 129
@@ -9042,7 +9042,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 130
@@ -9054,7 +9054,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 131
@@ -9066,7 +9066,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 132
@@ -9078,7 +9078,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 133
@@ -9090,7 +9090,7 @@
     line: '-'
     illustrator: 5
     image: card/KGY-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 134
@@ -9102,7 +9102,7 @@
     line: '-'
     illustrator: 22
     image: card/KGY-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 135
@@ -9114,7 +9114,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 136
@@ -9126,7 +9126,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 137
@@ -9138,7 +9138,7 @@
     line: '-'
     illustrator: 15
     image: card/KGY-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 138
@@ -9150,7 +9150,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 139
@@ -9162,7 +9162,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 140
@@ -9174,7 +9174,7 @@
     line: '-'
     illustrator: 3
     image: card/KGY-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 141
@@ -9186,7 +9186,7 @@
     line: '-'
     illustrator: 14
     image: card/KGY-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 142
@@ -9198,7 +9198,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 143
@@ -9210,7 +9210,7 @@
     line: '-'
     illustrator: 20
     image: card/KGY-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 144
@@ -9222,7 +9222,7 @@
     line: '-'
     illustrator: 23
     image: card/KGY-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 145
@@ -9234,7 +9234,7 @@
     line: '-'
     illustrator: 24
     image: card/KGY-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 146
@@ -9246,7 +9246,7 @@
     line: '-'
     illustrator: 25
     image: card/KGY-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 147
@@ -9258,7 +9258,7 @@
     line: '-'
     illustrator: 7
     image: card/YM-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 148
@@ -9270,7 +9270,7 @@
     line: '-'
     illustrator: 9
     image: card/YM-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 149
@@ -9282,7 +9282,7 @@
     line: '-'
     illustrator: 2
     image: card/YM-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 150
@@ -9294,7 +9294,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 151
@@ -9306,7 +9306,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 152
@@ -9318,7 +9318,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 153
@@ -9330,7 +9330,7 @@
     line: '-'
     illustrator: 26
     image: card/YM-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 154
@@ -9342,7 +9342,7 @@
     line: '-'
     illustrator: 11
     image: card/YM-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 155
@@ -9354,7 +9354,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 156
@@ -9366,7 +9366,7 @@
     line: '-'
     illustrator: 13
     image: card/YM-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 157
@@ -9378,7 +9378,7 @@
     line: '-'
     illustrator: 17
     image: card/YM-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 158
@@ -9390,7 +9390,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 159
@@ -9402,7 +9402,7 @@
     line: '-'
     illustrator: 18
     image: card/YM-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 160
@@ -9414,7 +9414,7 @@
     line: '-'
     illustrator: 5
     image: card/YM-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 161
@@ -9426,7 +9426,7 @@
     line: '-'
     illustrator: 2
     image: card/YM-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 162
@@ -9438,7 +9438,7 @@
     line: '-'
     illustrator: 19
     image: card/YM-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 163
@@ -9450,7 +9450,7 @@
     line: '-'
     illustrator: 27
     image: card/YM-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 164
@@ -9462,7 +9462,7 @@
     line: '-'
     illustrator: 28
     image: card/YM-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 165
@@ -9474,7 +9474,7 @@
     line: '-'
     illustrator: 1
     image: card/YM-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 166
@@ -9486,7 +9486,7 @@
     line: '-'
     illustrator: 9
     image: card/YM-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 167
@@ -9498,7 +9498,7 @@
     line: '-'
     illustrator: 6
     image: card/MR-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 168
@@ -9510,7 +9510,7 @@
     line: '-'
     illustrator: 6
     image: card/MR-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 169
@@ -9522,7 +9522,7 @@
     line: '-'
     illustrator: 6
     image: card/MR-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 170
@@ -9534,7 +9534,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 171
@@ -9546,7 +9546,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 172
@@ -9558,7 +9558,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 173
@@ -9570,7 +9570,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 174
@@ -9582,7 +9582,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 175
@@ -9594,7 +9594,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 176
@@ -9606,7 +9606,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 177
@@ -9618,7 +9618,7 @@
     line: '-'
     illustrator: 19
     image: card/MR-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 178
@@ -9630,7 +9630,7 @@
     line: '-'
     illustrator: 4
     image: card/MR-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 179
@@ -9642,7 +9642,7 @@
     line: '-'
     illustrator: 28
     image: card/MR-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 180
@@ -9654,7 +9654,7 @@
     line: '-'
     illustrator: 6
     image: card/MR-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 181
@@ -9666,7 +9666,7 @@
     line: '-'
     illustrator: 1
     image: card/MR-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 182
@@ -9678,7 +9678,7 @@
     line: '-'
     illustrator: 29
     image: card/MR-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 183
@@ -9690,7 +9690,7 @@
     line: '-'
     illustrator: 6
     image: card/MR-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 184
@@ -9702,7 +9702,7 @@
     line: '-'
     illustrator: 5
     image: card/MR-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 185
@@ -9714,7 +9714,7 @@
     line: '-'
     illustrator: 15
     image: card/MR-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 186
@@ -9726,7 +9726,7 @@
     line: '-'
     illustrator: 1
     image: card/MR-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 187
@@ -9738,7 +9738,7 @@
     line: '-'
     illustrator: 29
     image: card/MQ-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 188
@@ -9750,7 +9750,7 @@
     line: '-'
     illustrator: 18
     image: card/MQ-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 189
@@ -9762,7 +9762,7 @@
     line: '-'
     illustrator: 11
     image: card/MQ-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 190
@@ -9774,7 +9774,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 191
@@ -9786,7 +9786,7 @@
     line: '-'
     illustrator: 6
     image: card/MQ-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 192
@@ -9798,7 +9798,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 193
@@ -9810,7 +9810,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 194
@@ -9822,7 +9822,7 @@
     line: '-'
     illustrator: 30
     image: card/MQ-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 195
@@ -9834,7 +9834,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 196
@@ -9846,7 +9846,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 197
@@ -9858,7 +9858,7 @@
     line: '-'
     illustrator: 6
     image: card/MQ-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 198
@@ -9870,7 +9870,7 @@
     line: '-'
     illustrator: 3
     image: card/MQ-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 199
@@ -9882,7 +9882,7 @@
     line: '-'
     illustrator: 6
     image: card/MQ-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 200
@@ -9894,7 +9894,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 201
@@ -9906,7 +9906,7 @@
     line: '-'
     illustrator: 30
     image: card/MQ-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 202
@@ -9918,7 +9918,7 @@
     line: '-'
     illustrator: 6
     image: card/MQ-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 203
@@ -9930,7 +9930,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 204
@@ -9942,7 +9942,7 @@
     line: '-'
     illustrator: 5
     image: card/MQ-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 205
@@ -9954,7 +9954,7 @@
     line: '-'
     illustrator: 6
     image: card/MQ-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 206
@@ -9966,7 +9966,7 @@
     line: '-'
     illustrator: 1
     image: card/MQ-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 207
@@ -9978,7 +9978,7 @@
     line: '-'
     illustrator: 3
     image: card/RS-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 208
@@ -9990,7 +9990,7 @@
     line: '-'
     illustrator: 3
     image: card/RS-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 209
@@ -10002,7 +10002,7 @@
     line: '-'
     illustrator: 10
     image: card/RS-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 210
@@ -10014,7 +10014,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 211
@@ -10026,7 +10026,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 212
@@ -10038,7 +10038,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 213
@@ -10050,7 +10050,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 214
@@ -10062,7 +10062,7 @@
     line: '-'
     illustrator: 15
     image: card/RS-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 215
@@ -10074,7 +10074,7 @@
     line: '-'
     illustrator: 15
     image: card/RS-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 216
@@ -10086,7 +10086,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 217
@@ -10098,7 +10098,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 218
@@ -10110,7 +10110,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 219
@@ -10122,7 +10122,7 @@
     line: '-'
     illustrator: 11
     image: card/RS-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 220
@@ -10134,7 +10134,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 221
@@ -10146,7 +10146,7 @@
     line: '-'
     illustrator: 31
     image: card/RS-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 222
@@ -10158,7 +10158,7 @@
     line: '-'
     illustrator: 4
     image: card/RS-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 223
@@ -10170,7 +10170,7 @@
     line: '-'
     illustrator: 26
     image: card/RS-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 224
@@ -10182,7 +10182,7 @@
     line: '-'
     illustrator: 15
     image: card/RS-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 225
@@ -10194,7 +10194,7 @@
     line: '-'
     illustrator: 32
     image: card/RS-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 226
@@ -10206,7 +10206,7 @@
     line: '-'
     illustrator: 5
     image: card/RS-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 227
@@ -10218,7 +10218,7 @@
     line: '-'
     illustrator: 1
     image: card/RS-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 228
@@ -10230,7 +10230,7 @@
     line: '-'
     illustrator: 2
     image: card/RS-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 229
@@ -10242,7 +10242,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 230
@@ -10254,7 +10254,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 231
@@ -10266,7 +10266,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 232
@@ -10278,7 +10278,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 233
@@ -10290,7 +10290,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 234
@@ -10302,7 +10302,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 235
@@ -10314,7 +10314,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 236
@@ -10326,7 +10326,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 237
@@ -10338,7 +10338,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 238
@@ -10350,7 +10350,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 239
@@ -10362,7 +10362,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 240
@@ -10374,7 +10374,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 241
@@ -10386,7 +10386,7 @@
     line: '-'
     illustrator: 6
     image: card/CRN-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 242
@@ -10398,7 +10398,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 243
@@ -10410,7 +10410,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 244
@@ -10422,7 +10422,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 245
@@ -10434,7 +10434,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 246
@@ -10446,7 +10446,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 247
@@ -10458,7 +10458,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 248
@@ -10470,7 +10470,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 249
@@ -10482,7 +10482,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 250
@@ -10494,7 +10494,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 251
@@ -10506,7 +10506,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 252
@@ -10518,7 +10518,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 253
@@ -10530,7 +10530,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 254
@@ -10542,7 +10542,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 255
@@ -10554,7 +10554,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 256
@@ -10566,7 +10566,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 257
@@ -10578,7 +10578,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 258
@@ -10590,7 +10590,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 259
@@ -10602,7 +10602,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 260
@@ -10614,7 +10614,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 261
@@ -10626,7 +10626,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 262
@@ -10638,7 +10638,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 263
@@ -10650,7 +10650,7 @@
     line: '-'
     illustrator: 6
     image: card/REM-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 264
@@ -10662,7 +10662,7 @@
     line: '-'
     illustrator: 6
     image: card/LUN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 265
@@ -10674,7 +10674,7 @@
     line: '-'
     illustrator: 6
     image: card/LUN-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 266
@@ -10686,7 +10686,7 @@
     line: '-'
     illustrator: 6
     image: card/LUN-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 267
@@ -10698,7 +10698,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 268
@@ -10710,7 +10710,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 269
@@ -10722,7 +10722,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 270
@@ -10734,7 +10734,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 271
@@ -10746,7 +10746,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 272
@@ -10758,7 +10758,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 273
@@ -10770,7 +10770,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 274
@@ -10782,7 +10782,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 275
@@ -10794,7 +10794,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 276
@@ -10806,7 +10806,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 277
@@ -10818,7 +10818,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 278
@@ -10830,7 +10830,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 279
@@ -10842,7 +10842,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 280
@@ -10854,7 +10854,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 281
@@ -10866,7 +10866,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 282
@@ -10878,7 +10878,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 283
@@ -10890,7 +10890,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 284
@@ -10902,7 +10902,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 285
@@ -10914,7 +10914,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 286
@@ -10926,7 +10926,7 @@
     line: '-'
     illustrator: 6
     image: card/ERN-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 287
@@ -10938,7 +10938,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-000.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 288
@@ -10950,7 +10950,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 289
@@ -10962,7 +10962,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 290
@@ -10974,7 +10974,7 @@
     line: '-'
     illustrator: 33
     image: card/SYS-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 291
@@ -10986,7 +10986,7 @@
     line: '-'
     illustrator: 17
     image: card/SYS-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 292
@@ -10998,7 +10998,7 @@
     line: '-'
     illustrator: 8
     image: card/SYS-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 293
@@ -11010,7 +11010,7 @@
     line: '-'
     illustrator: 26
     image: card/SYS-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 294
@@ -11022,7 +11022,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 295
@@ -11034,7 +11034,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 296
@@ -11046,7 +11046,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 297
@@ -11058,7 +11058,7 @@
     line: '-'
     illustrator: 8
     image: card/SYS-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 298
@@ -11070,7 +11070,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 299
@@ -11082,7 +11082,7 @@
     line: '-'
     illustrator: 3
     image: card/SYS-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 300
@@ -11094,7 +11094,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 301
@@ -11106,7 +11106,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 302
@@ -11118,7 +11118,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 303
@@ -11130,7 +11130,7 @@
     line: '-'
     illustrator: 1
     image: card/SYS-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 304
@@ -11142,7 +11142,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 305
@@ -11154,7 +11154,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 306
@@ -11166,7 +11166,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 307
@@ -11178,7 +11178,7 @@
     line: '-'
     illustrator: 5
     image: card/SYS-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 308
@@ -11190,7 +11190,7 @@
     line: '-'
     illustrator: 1
     image: card/LW-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 309
@@ -11202,7 +11202,7 @@
     line: '-'
     illustrator: 26
     image: card/LW-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 310
@@ -11214,7 +11214,7 @@
     line: '-'
     illustrator: 14
     image: card/ML-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 311
@@ -11226,7 +11226,7 @@
     line: '-'
     illustrator: 34
     image: card/DMN-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 312
@@ -11238,7 +11238,7 @@
     line: '-'
     illustrator: 15
     image: card/KKR-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 313
@@ -11250,7 +11250,7 @@
     line: '-'
     illustrator: 3
     image: card/BB-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 314
@@ -11262,7 +11262,7 @@
     line: '-'
     illustrator: 34
     image: card/SLK-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 315
@@ -11274,7 +11274,7 @@
     line: '-'
     illustrator: 34
     image: card/SK-003SP.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 316
@@ -11286,7 +11286,7 @@
     line: '-'
     illustrator: 35
     image: card/YK-010SP.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 317
@@ -11298,7 +11298,7 @@
     line: '-'
     illustrator: 36
     image: card/REM-001SP.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 318
@@ -11310,7 +11310,7 @@
     line: '-'
     illustrator: 34
     image: card/REM-009SP.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 319
@@ -11322,7 +11322,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-010SP.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 320
@@ -11334,7 +11334,7 @@
     line: '-'
     illustrator: 13
     image: card/RM-015PR.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 321
@@ -11346,7 +11346,7 @@
     line: '-'
     illustrator: 3
     image: card/ALC-002PR.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 322
@@ -11358,7 +11358,7 @@
     line: '-'
     illustrator: 6
     image: card/FLD-016PR.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 323
@@ -11370,7 +11370,7 @@
     line: '-'
     illustrator: 15
     image: card/RS-004PR.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 324
@@ -11382,7 +11382,7 @@
     line: '-'
     illustrator: 35
     image: card/RS-014PR.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 325
@@ -11394,7 +11394,7 @@
     line: '-'
     illustrator: 6
     image: card/FRY-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 326
@@ -11406,7 +11406,7 @@
     line: '-'
     illustrator: 6
     image: card/FRY-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 327
@@ -11418,7 +11418,7 @@
     line: '-'
     illustrator: 6
     image: card/FRY-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 328
@@ -11430,7 +11430,7 @@
     line: '-'
     illustrator: 6
     image: card/STR-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 329
@@ -11442,7 +11442,7 @@
     line: '-'
     illustrator: 6
     image: card/STR-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 330
@@ -11454,7 +11454,7 @@
     line: '-'
     illustrator: 6
     image: card/STR-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 331
@@ -11466,7 +11466,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 332
@@ -11478,7 +11478,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 333
@@ -11490,7 +11490,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 334
@@ -11502,7 +11502,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 335
@@ -11514,7 +11514,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 336
@@ -11526,7 +11526,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 337
@@ -11538,7 +11538,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 338
@@ -11550,7 +11550,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 339
@@ -11562,7 +11562,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 340
@@ -11574,7 +11574,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 341
@@ -11586,7 +11586,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 342
@@ -11598,7 +11598,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 343
@@ -11610,7 +11610,7 @@
     line: '-'
     illustrator: 6
     image: card/SNY-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 344
@@ -11622,7 +11622,7 @@
     line: 这里，是梦开始的地方。
     illustrator: 3
     image: card/RM-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 345
@@ -11634,7 +11634,7 @@
     line: 勿谓言之不预。
     illustrator: 3
     image: card/RM-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 346
@@ -11646,7 +11646,7 @@
     line: '-'
     illustrator: 34
     image: card/RM-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 347
@@ -11658,7 +11658,7 @@
     line: '-'
     illustrator: 5
     image: card/RM-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 348
@@ -11670,7 +11670,7 @@
     line: '-'
     illustrator: 17
     image: card/RM-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 349
@@ -11682,7 +11682,7 @@
     line: '-'
     illustrator: 5
     image: card/RM-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 350
@@ -11694,7 +11694,7 @@
     line: '-'
     illustrator: 15
     image: card/RM-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 351
@@ -11706,7 +11706,7 @@
     line: '-'
     illustrator: 26
     image: card/RM-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 352
@@ -11718,7 +11718,7 @@
     line: '-'
     illustrator: 6
     image: card/RM-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 353
@@ -11730,7 +11730,7 @@
     line: '-'
     illustrator: 5
     image: card/RM-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 354
@@ -11742,7 +11742,7 @@
     line: '-'
     illustrator: 5
     image: card/RM-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 355
@@ -11754,7 +11754,7 @@
     line: '-'
     illustrator: 3
     image: card/RM-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 356
@@ -11766,7 +11766,7 @@
     line: '-'
     illustrator: 5
     image: card/RM-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 357
@@ -11778,7 +11778,7 @@
     line: '-'
     illustrator: 3
     image: card/RM-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 358
@@ -11790,7 +11790,7 @@
     line: '-'
     illustrator: 13
     image: card/RM-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 359
@@ -11802,7 +11802,7 @@
     line: '-'
     illustrator: 13
     image: card/RM-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 360
@@ -11814,7 +11814,7 @@
     line: '-'
     illustrator: 3
     image: card/RM-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 361
@@ -11826,7 +11826,7 @@
     line: '-'
     illustrator: 17
     image: card/RM-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 362
@@ -11838,7 +11838,7 @@
     line: '-'
     illustrator: 37
     image: card/RM-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 363
@@ -11850,7 +11850,7 @@
     line: '-'
     illustrator: 10
     image: card/RM-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 364
@@ -11862,7 +11862,7 @@
     line: '-'
     illustrator: 6
     image: card/RM-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 365
@@ -11874,7 +11874,7 @@
     line: '-'
     illustrator: 18
     image: card/RM-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 366
@@ -11886,7 +11886,7 @@
     line: '-'
     illustrator: 16
     image: card/SUI-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 367
@@ -11898,7 +11898,7 @@
     line: '-'
     illustrator: 2
     image: card/SUI-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 368
@@ -11910,7 +11910,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 369
@@ -11922,7 +11922,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 370
@@ -11934,7 +11934,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 371
@@ -11946,7 +11946,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 372
@@ -11958,7 +11958,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 373
@@ -11970,7 +11970,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 374
@@ -11982,7 +11982,7 @@
     line: '-'
     illustrator: 38
     image: card/SUI-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 375
@@ -11994,7 +11994,7 @@
     line: '-'
     illustrator: 21
     image: card/SUI-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 376
@@ -12006,7 +12006,7 @@
     line: '-'
     illustrator: 3
     image: card/SUI-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 377
@@ -12018,7 +12018,7 @@
     line: '-'
     illustrator: 5
     image: card/SUI-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 378
@@ -12030,7 +12030,7 @@
     line: '-'
     illustrator: 7
     image: card/ALC-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 379
@@ -12042,7 +12042,7 @@
     line: '-'
     illustrator: 3
     image: card/ALC-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 380
@@ -12054,7 +12054,7 @@
     line: '-'
     illustrator: 39
     image: card/ALC-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 381
@@ -12066,7 +12066,7 @@
     line: '-'
     illustrator: 26
     image: card/ALC-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 382
@@ -12078,7 +12078,7 @@
     line: '-'
     illustrator: 26
     image: card/ALC-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 383
@@ -12090,7 +12090,7 @@
     line: '-'
     illustrator: 26
     image: card/ALC-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 384
@@ -12102,7 +12102,7 @@
     line: '-'
     illustrator: 11
     image: card/ALC-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 385
@@ -12114,7 +12114,7 @@
     line: '-'
     illustrator: 3
     image: card/ALC-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 386
@@ -12126,7 +12126,7 @@
     line: '-'
     illustrator: 15
     image: card/ALC-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 387
@@ -12138,7 +12138,7 @@
     line: '-'
     illustrator: 2
     image: card/ALC-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 388
@@ -12150,7 +12150,7 @@
     line: '-'
     illustrator: 26
     image: card/ALC-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 389
@@ -12162,7 +12162,7 @@
     line: '-'
     illustrator: 14
     image: card/ALC-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 390
@@ -12174,7 +12174,7 @@
     line: '-'
     illustrator: 18
     image: card/ALC-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 391
@@ -12186,7 +12186,7 @@
     line: '-'
     illustrator: 6
     image: card/ALC-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 392
@@ -12198,7 +12198,7 @@
     line: '-'
     illustrator: 26
     image: card/ALC-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 393
@@ -12210,7 +12210,7 @@
     line: '-'
     illustrator: 14
     image: card/ALC-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 394
@@ -12222,7 +12222,7 @@
     line: '-'
     illustrator: 4
     image: card/ALC-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 395
@@ -12234,7 +12234,7 @@
     line: '-'
     illustrator: 3
     image: card/ALC-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 396
@@ -12246,7 +12246,7 @@
     line: '-'
     illustrator: 34
     image: card/ALC-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 397
@@ -12258,7 +12258,7 @@
     line: '-'
     illustrator: 40
     image: card/ALC-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 398
@@ -12270,7 +12270,7 @@
     line: '-'
     illustrator: 3
     image: card/ALC-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 399
@@ -12282,7 +12282,7 @@
     line: '-'
     illustrator: 41
     image: card/YK-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 400
@@ -12294,7 +12294,7 @@
     line: '-'
     illustrator: 8
     image: card/YK-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 401
@@ -12306,7 +12306,7 @@
     line: '-'
     illustrator: 8
     image: card/YK-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 402
@@ -12318,7 +12318,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 403
@@ -12330,7 +12330,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 404
@@ -12342,7 +12342,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 405
@@ -12354,7 +12354,7 @@
     line: '-'
     illustrator: 2
     image: card/YK-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 406
@@ -12366,7 +12366,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 407
@@ -12378,7 +12378,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 408
@@ -12390,7 +12390,7 @@
     line: '-'
     illustrator: 8
     image: card/YK-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 409
@@ -12402,7 +12402,7 @@
     line: '-'
     illustrator: 8
     image: card/YK-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 410
@@ -12414,7 +12414,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 411
@@ -12426,7 +12426,7 @@
     line: '-'
     illustrator: 42
     image: card/YK-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 412
@@ -12438,7 +12438,7 @@
     line: '-'
     illustrator: 43
     image: card/YK-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 413
@@ -12450,7 +12450,7 @@
     line: '-'
     illustrator: 38
     image: card/YK-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 414
@@ -12462,7 +12462,7 @@
     line: '-'
     illustrator: 1
     image: card/YK-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 415
@@ -12474,7 +12474,7 @@
     line: '-'
     illustrator: 26
     image: card/YK-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 416
@@ -12486,7 +12486,7 @@
     line: '-'
     illustrator: 8
     image: card/YK-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 417
@@ -12498,7 +12498,7 @@
     line: '-'
     illustrator: 5
     image: card/YK-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 418
@@ -12510,7 +12510,7 @@
     line: '-'
     illustrator: 44
     image: card/YK-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 419
@@ -12522,7 +12522,7 @@
     line: '-'
     illustrator: 28
     image: card/SK-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 420
@@ -12534,7 +12534,7 @@
     line: '-'
     illustrator: 28
     image: card/SK-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 421
@@ -12546,7 +12546,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 422
@@ -12558,7 +12558,7 @@
     line: '-'
     illustrator: 27
     image: card/SK-004.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 423
@@ -12570,7 +12570,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-005.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 424
@@ -12582,7 +12582,7 @@
     line: '-'
     illustrator: 33
     image: card/SK-006.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 425
@@ -12594,7 +12594,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-007.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 426
@@ -12606,7 +12606,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-008.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 427
@@ -12618,7 +12618,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-009.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 428
@@ -12630,7 +12630,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-010.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 429
@@ -12642,7 +12642,7 @@
     line: '-'
     illustrator: 16
     image: card/SK-011.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 430
@@ -12654,7 +12654,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-012.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 431
@@ -12666,7 +12666,7 @@
     line: '-'
     illustrator: 13
     image: card/SK-013.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 432
@@ -12678,7 +12678,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-014.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 433
@@ -12690,7 +12690,7 @@
     line: '-'
     illustrator: 9
     image: card/SK-015.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 434
@@ -12702,7 +12702,7 @@
     line: '-'
     illustrator: 45
     image: card/SK-016.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 435
@@ -12714,7 +12714,7 @@
     line: '-'
     illustrator: 26
     image: card/SK-017.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 436
@@ -12726,7 +12726,7 @@
     line: '-'
     illustrator: 4
     image: card/SK-018.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 437
@@ -12738,7 +12738,7 @@
     line: '-'
     illustrator: 26
     image: card/SK-019.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 438
@@ -12750,7 +12750,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-020.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 439
@@ -12762,7 +12762,7 @@
     line: '-'
     illustrator: 5
     image: card/SK-021.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 440
@@ -12774,7 +12774,7 @@
     line: '-'
     illustrator: 46
     image: card/SK-022.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 441
@@ -12786,7 +12786,7 @@
     line: '-'
     illustrator: 6
     image: card/LTY-001.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 442
@@ -12798,7 +12798,7 @@
     line: '-'
     illustrator: 6
     image: card/LTY-002.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
 - model: game.version
   pk: 443
@@ -12810,5 +12810,5 @@
     line: '-'
     illustrator: 6
     image: card/LTY-003.jpg
-    state: NORMAL
+    hidden: false
     sort: 0
