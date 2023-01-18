@@ -4,11 +4,11 @@
       <header class="page-header">
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <div class="logo text-center text-md-start"><a href="/"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
+            <div class="col-lg-4">
+              <div class="logo text-center text-lg-start"><a href="/"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
             </div>
-            <div class="col-md"></div>
-            <div class="text-center text-md-end col-md-4">
+            <div class="col-lg"></div>
+            <div class="text-center text-lg-end col-lg-4">
               <OutboundLinks />
               <MainMenu flavor="header" />
             </div>

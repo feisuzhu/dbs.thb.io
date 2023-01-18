@@ -10,15 +10,13 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.3",
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/vue-fontawesome": "^3.0.2",
     "@popperjs/core": "^2.11.6",
     "@vue/apollo-components": "^4.0.0-alpha.20",
     "@vue/apollo-option": "^4.0.0-alpha.20",
     "bootstrap": "^5.2.3",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
+    "vite-svg-loader": "^4.0.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
