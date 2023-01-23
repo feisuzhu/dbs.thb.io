@@ -45,7 +45,7 @@ class CharacterAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ('角色', {
-            'fields': (('sku', 'dummy', 'hidden', 'sort'), ('title', 'build'))
+            'fields': (('sku', 'hidden', 'sort'), ('title', 'build'))
         }),
     )
 

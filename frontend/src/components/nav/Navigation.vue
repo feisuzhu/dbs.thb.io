@@ -25,7 +25,7 @@ nav {
   font-size: 16pt;
   color: white;
 
-  a, .icon {
+  a, i {
     color: white;
     display: block;
     width: calc($nav-height - 16px);
