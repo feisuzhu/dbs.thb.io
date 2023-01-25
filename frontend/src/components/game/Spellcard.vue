@@ -1,8 +1,8 @@
 <template>
-  spellcard
 </template>
 
 <script setup>
+import GameCard from './GameCard.vue'
 const props = defineProps({
   card: {
     type: Object,
@@ -10,5 +10,5 @@ const props = defineProps({
 });
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 </style>

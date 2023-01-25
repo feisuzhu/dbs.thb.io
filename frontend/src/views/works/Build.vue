@@ -31,7 +31,7 @@
             <Character :card="ch" />
           </div>
           <div class="col-lg-6 twin-center" v-for="(sc, i) in data.build.spellcards" :key="'spellcard-' + i">
-            <Spellcard :card="ch" />
+            <Spellcard :card="ch" :build="data.build" />
           </div>
         </div>
       </div>

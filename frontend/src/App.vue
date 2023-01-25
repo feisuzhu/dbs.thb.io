@@ -22,18 +22,15 @@ import Footer from '@/components/header/Footer.vue'
 
   .twin-center {
     @include media-breakpoint-up(lg) {
-      &:nth-child(even) {
-        text-align: left;
-        & > div {
-            float: left;
-        }
-      }
-      &:nth-child(odd) {
-        text-align: right;
-        & > div {
-            float: right;
-        }
-      }
+      &:nth-child(even) > div { float: left; }
+      &:nth-child(odd) > div { float: right; }
+    }
+  }
+
+  .twin-center-text {
+    @include media-breakpoint-up(lg) {
+      &:nth-child(even) { text-align: left; }
+      &:nth-child(odd)  { text-align: right; }
     }
     @include media-breakpoint-down(lg) {
       text-align: center;

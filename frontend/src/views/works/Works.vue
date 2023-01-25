@@ -7,7 +7,7 @@
           <div class="col"><h5>按构筑查询</h5></div>
         </div>
         <div class="row">
-          <div class="col-lg-6 twin-center" v-for="(build, i) in data.builds" :key="i">
+          <div class="col-lg-6 twin-center-text" v-for="(build, i) in data.builds" :key="i">
             <router-link :to="'/build/' + build.sku" v-if="!build.dummy">
               <img class="work-image" :src="build.image" :alt="build.name">
             </router-link>
@@ -18,7 +18,7 @@
           <div class="col"><h5>按卡包查询</h5></div>
         </div>
         <div class="row">
-          <div class="col-lg-6 twin-center" v-for="(episode, i) in data.episodes" :key="i">
+          <div class="col-lg-6 twin-center-text" v-for="(episode, i) in data.episodes" :key="i">
             <router-link :to="'/episode/' + episode.sku" v-if="!episode.dummy">
               <img class="work-image" :src="episode.image" :alt="episode.name">
             </router-link>

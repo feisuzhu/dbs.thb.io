@@ -15,8 +15,8 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/graphql': 'http://localhost:8000',
-      '/uploads': 'http://localhost:8000',
+      '/graphql': 'http://127.0.0.1:8000',
+      '/uploads': 'http://127.0.0.1:8000',
     },
   },
 })
