@@ -124,6 +124,11 @@ class ExtendedConstraint(DjangoObjectType):
         model = models.ExtendedConstraint
 
 
+class Version(Filtering, DjangoObjectType):
+    class Meta:
+        model = models.Version
+
+
 class Spellcard(Navigation, Filtering, DjangoObjectType):
     class Meta:
         model = models.Spellcard

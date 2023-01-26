@@ -42,11 +42,13 @@ class Illustrator(models.Model):
 class Rarity(models.TextChoices):
     UC  = "UC", "UC"
     C   = "C", "C"
+    N   = "N", "N"
     R   = "R", "R"
     SR  = "SR", "SR"
     SSR = "SSR", "SSR"
     ST  = "ST", "ST"
     S   = "S", "S"
+    SP  = "SP", "SP"
 
 
 class Character(models.Model):
