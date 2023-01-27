@@ -39,9 +39,10 @@
 
     img.work-image {
       display: inline-block;
-      width: $work-img-width;
-      height: $work-img-height;
+      max-width: 100%;
+      max-height: $work-img-height;
       margin: 12px 0;
+      object-fit: contain;
       border-radius: 8px;
     }
 
