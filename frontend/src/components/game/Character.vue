@@ -5,7 +5,7 @@
     </template>
 
     <template #content>
-      <h4>{{ card.title }}</h4>
+      <SVGText class="title" :text="`「${card.title}」`" />
       <template v-for="sk in card.skills">
         <span class="tag" :class="sk.type.toLowerCase()">{{ sk.type }}：{{ sk.name }}</span>
         <p class="text resizable">{{ sk.description }}</p>
@@ -16,6 +16,7 @@
 
 <script setup>
 import GameCard from './GameCard.vue'
+import SVGText from './SVGText.vue'
 const props = defineProps({
   card: {
     type: Object,

@@ -186,7 +186,7 @@ class Spellcard(models.Model):
     cost         = models.IntegerField(default=0, verbose_name="消耗", help_text="消耗")
     effect       = models.TextField(verbose_name="效果", help_text="效果")
     intensity    = models.IntegerField(default=0, verbose_name="强度", help_text="强度")
-    traits       = models.ManyToManyField(Trait, verbose_name="特性", help_text="特性", related_name="spellcards")
+    traits       = models.ManyToManyField(Trait, verbose_name="特性", help_text="特性", related_name="spellcards", blank=True)
     faq          = models.TextField(verbose_name="FAQ", help_text="FAQ", blank=True)
 
     basic_constraint = models.CharField(max_length=50, verbose_name="基本约束", help_text="基本约束", choices=BasicConstraint.choices)

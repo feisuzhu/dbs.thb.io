@@ -246,9 +246,9 @@ const vi = ref(0);
           flex: 0 1 auto;
         }
 
-        h4 {
-          text-align: center;
-          font-weight: bold;
+        .title {
+          width: 100%;
+          height: 36px;
           margin: 8px auto;
         }
 
@@ -261,7 +261,7 @@ const vi = ref(0);
           font-size: $font-sz;
           font-weight: bold;
           margin: 8px auto;
-          padding: 5px 16px;
+          padding: 4px 16px 6px 16px;
           border-radius: 3px;
         }
       }

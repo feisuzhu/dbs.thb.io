@@ -10,10 +10,10 @@
             <icon-chevrons-left />
           </router-link>
         </div>
-        <div class="col-3 text-center d-lg-none">
+        <div class="col-3 text-center d-md-none">
           <div class="sku">{{ data?.build.sku }}</div>
         </div>
-        <div class="col-4 nav-build-image text-center d-none d-lg-block">
+        <div class="col-auto nav-build-image text-center d-none d-md-block" style="width: 379px;">
           <img class="nav-build-image" :src="data?.build.image" :alt="data?.build.name">
         </div>
         <div class="col-auto text-end">
@@ -31,7 +31,7 @@
             <Character :card="ch" />
           </div>
           <div class="col-lg-6 twin-center" v-for="(sc, i) in data.build.spellcards" :key="'spellcard-' + i">
-            <Spellcard :card="ch" :build="data.build" />
+            <Spellcard :card="sc" :build="data.build" />
           </div>
         </div>
       </div>
@@ -127,6 +127,12 @@ const buildQuery = gql`
         basicConstraint
         extendedConstraints {
           type effect
+        }
+        versions {
+          version
+          rarity image line
+          illustrator { name }
+          episode { sku name }
         }
       }
       prev { sku }
