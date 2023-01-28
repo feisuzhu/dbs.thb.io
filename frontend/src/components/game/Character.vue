@@ -8,7 +8,7 @@
       <SVGText class="title" :text="`「${card.title}」`" />
       <template v-for="sk in card.skills">
         <span class="tag" :class="sk.type.toLowerCase()">{{ sk.type }}：{{ sk.name }}</span>
-        <p class="text resizable">{{ sk.description }}</p>
+        <p tabindex=0>{{ sk.description }}</p>
       </template>
     </template>
   </GameCard>
@@ -23,16 +23,3 @@ const props = defineProps({
   }
 });
 </script>
-
-<style lang="scss" scoped>
-  .tag {
-    flex: 0 0 auto;
-  }
-  .game-card .text {
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-</style>

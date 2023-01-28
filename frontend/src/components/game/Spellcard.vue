@@ -21,7 +21,7 @@
           </tbody>
         </table>
       </div>
-      <div class="content" v-if="card.extendedConstraints">
+      <div tabindex=0 class="content resizable" v-if="card.extendedConstraints?.length > 0">
         <table class="detail extended-constraints">
           <tbody>
             <tr v-for="ec in card.extendedConstraints">
@@ -30,9 +30,15 @@
           </tbody>
         </table>
       </div>
-      <div class="resizable content">
-        <p class="effect">{{ card.effect }}</p>
+      <!--
+      <div class="resizable content" v-if="card.extendedConstraints?.length == 1">
+        <div class="detail extended-constraints" v-for="ec in card.extendedConstraints">
+          <p class="detail-header">{{ ec.type }}</p>
+          <p>{{ ec.effect }}</p>
+        </div>
       </div>
+      -->
+      <p tabindex=0>{{ card.effect }}</p>
     </template>
   </GameCard>
 </template>
@@ -67,18 +73,12 @@ const props = defineProps({
 
   .extended-constraints {
     color: red;
+    p {
+      margin: 0 5px;
+    }
   }
 
   .emphasis {
     color: red;
-  }
-
-  .effect {
-    margin: 5px 0 0 0;
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 </style>

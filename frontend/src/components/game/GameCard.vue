@@ -236,6 +236,12 @@ const vi = ref(0);
         width: calc(100% - $hpad);
         height: 100%;
         padding: 6px;
+        /* overflow: hidden; */
+
+        * {
+          transition: flex 0.1s ease-in-out;
+        }
+
 
         & > * {
           display: flex;
@@ -244,12 +250,13 @@ const vi = ref(0);
 
         & > .resizable {
           flex: 0 1 auto;
+          min-height: 0;
         }
 
         .title {
           width: 100%;
           height: 36px;
-          margin: 8px auto;
+          margin: 8px auto 3px auto;
         }
 
         .tag {
@@ -261,8 +268,23 @@ const vi = ref(0);
           font-size: $font-sz;
           font-weight: bold;
           margin: 8px auto;
-          padding: 4px 16px 6px 16px;
+          padding: 5px 16px;
           border-radius: 3px;
+        }
+
+        & > p {
+          text-align: left;
+          margin: 5px;
+          overflow: hidden;
+          font-size: 18px;
+        }
+
+        p[tabindex], div[tabindex] {
+          overflow: hidden;
+          flex: 0 1 auto;
+          &:focus {
+            flex: 0 0 auto;
+          }
         }
       }
     }
