@@ -18,6 +18,10 @@
               <td class="detail-header">华丽度</td><td :class="{ emphasis: card.gorgeousness > 5 }">{{ card.gorgeousness }}</td>
               <td class="detail-header">灵力消耗</td><td>{{ card.cost }}</td>
             </tr>
+            <tr v-if="card.type.isAttack">
+              <td class="detail-header">原始战力</td><td :class="{ emphasis: card.gorgeousness > 5 }">{{ card.intensity }}</td>
+              <td class="detail-header">伤害类型</td><td>{{ card.type.name }}</td>
+            </tr>
           </tbody>
         </table>
       </div>
