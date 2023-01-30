@@ -14,7 +14,7 @@
           <div class="sku">{{ data?.build.sku }}</div>
         </div>
         <div class="col-auto nav-build-image text-center d-none d-md-block" style="width: 379px;">
-          <img class="nav-build-image" :src="data?.build.image" :alt="data?.build.name">
+          <img :src="data?.build.image" :alt="data?.build.name">
         </div>
         <div class="col-auto text-end">
           <i class="no-more" v-if="!data?.build.next">
@@ -31,7 +31,7 @@
             <Character :card="ch" />
           </div>
           <div class="col-lg-6 twin-center" v-for="(sc, i) in data.build.spellcards" :key="'spellcard-' + i">
-            <Spellcard :card="sc" :build="data.build" />
+            <Spellcard :card="sc" />
           </div>
         </div>
       </div>
@@ -44,9 +44,11 @@
     .sku {
       transform: translate(0, -3px);
     }
+
     .no-more {
       color: #555;
     }
+
     .nav-build-image {
       position: relative;
 
@@ -63,25 +65,9 @@
   }
 
   .build-content-list {
-    $work-img-width: 378px;
-    $work-img-height: 124px;
-
     margin-top: 20px;
-
-    img.work-image {
-      display: inline-block;
-      width: $work-img-width;
-      height: $work-img-height;
-      margin: 12px 0;
-      border-radius: 8px;
-    }
-
-    h5 {
-        text-align: center;
-        margin: 16px 0 8px;
-        font-weight: bold;
-    }
   }
+
 </style>
 
 <script setup>
@@ -113,21 +99,20 @@ const buildQuery = gql`
       }
       spellcards {
         sku title
+        gorgeousness cost intensity
         type {
           name description bgcolor isAttack
         }
-        gorgeousness
-        cost
-        effect
-        intensity
         traits {
           name description bgcolor
         }
+        effect
         faq
         basicConstraint
         extendedConstraints {
           type effect
         }
+        build { sku name }
         versions {
           version
           rarity image line

@@ -24,8 +24,8 @@ const width = computed(() => {
 
 <style lang="scss" scoped>
   svg text {
-    dominant-baseline:middle;
-    text-anchor:middle;
+    dominant-baseline: middle;
+    text-anchor: middle;
     font-size: 16px;
     font-weight: bold;
   }

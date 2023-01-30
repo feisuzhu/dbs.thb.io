@@ -1,5 +1,5 @@
 <template>
-  <GameCard :card="card" :build="build">
+  <GameCard :card="card">
     <template #tags>
       <template v-if="card.type.isAttack">
         <span :style="`background-color: ${card.type.bgcolor};`" class="tag">{{ card.type.name }}：{{ card.intensity }}</span>
@@ -10,7 +10,7 @@
 
     <template #content>
       <SVGText class="title" :text="card.title" />
-      <span class="tag" :class="card.basicConstraint.toLowerCase()">{{ build.name }}:{{ card.basicConstraint }}</span>
+      <span class="tag" :class="card.basicConstraint.toLowerCase()">{{ card.build.name }}:{{ card.basicConstraint }}</span>
       <div class="content">
         <table class="detail">
           <tbody>
@@ -51,7 +51,6 @@
 import GameCard from './GameCard.vue'
 import SVGText from './SVGText.vue'
 const props = defineProps({
-  build: { type: Object },
   card: { type: Object },
 });
 </script>

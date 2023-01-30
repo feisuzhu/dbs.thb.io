@@ -136,7 +136,7 @@ class CharacterVersion(models.Model):
     image       = models.ImageField(upload_to="card", verbose_name="立绘", help_text="立绘")
     illustrator = models.ForeignKey(Illustrator, on_delete=models.PROTECT, verbose_name="画师", help_text="画师", related_name='characters')
     line        = models.CharField(max_length=200, verbose_name="牌语", help_text="牌语")
-    episode     = models.ForeignKey(Episode, on_delete=models.PROTECT, verbose_name="卡包", help_text="卡包", blank=True, null=True, related_name="characters")
+    episode     = models.ForeignKey(Episode, on_delete=models.PROTECT, verbose_name="卡包", help_text="卡包", blank=True, null=True, related_name="character_versions")
 
     hidden = models.BooleanField(default=False, verbose_name="隐藏", help_text="隐藏")
     sort   = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
@@ -226,7 +226,7 @@ class Version(models.Model):
     spellcard   = models.ForeignKey(Spellcard, on_delete=models.CASCADE, verbose_name="符卡", help_text="符卡", related_name="versions")
     version     = models.CharField(max_length=50, verbose_name="版本", help_text="版本", default="经典")
     rarity      = models.CharField(max_length=50, verbose_name="稀有度", help_text="稀有度", choices=Rarity.choices)
-    episode     = models.ForeignKey(Episode, on_delete=models.CASCADE, verbose_name="卡包", help_text="卡包", blank=True, null=True)
+    episode     = models.ForeignKey(Episode, on_delete=models.CASCADE, verbose_name="卡包", help_text="卡包", blank=True, null=True, related_name="spellcard_versions")
     line        = models.CharField(max_length=200, verbose_name="牌语", help_text="牌语")
     illustrator = models.ForeignKey(Illustrator, on_delete=models.PROTECT, verbose_name="画师", help_text="画师", related_name="spellcards")
     image       = models.ImageField(upload_to="card", verbose_name="立绘", help_text="立绘")
