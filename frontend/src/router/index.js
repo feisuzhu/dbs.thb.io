@@ -5,8 +5,6 @@ const router = createRouter({
   routes: [
     {path: '/',             component: import('@/views/landing/Landing.vue')},
     {path: '/works',        component: import('@/views/works/Works.vue')},
-    {path: '/build/:sku',   component: import('@/views/works/Build.vue')},
-    {path: '/episode/:sku', component: import('@/views/works/Episode.vue')},
     {path: '/about',        component: import('@/views/About.vue')},
     {path: '/blogs',        component: import('@/views/BlogList.vue')},
     {path: '/blog/:id',     component: import('@/views/Blog.vue')},
@@ -15,6 +13,7 @@ const router = createRouter({
     {path: '/list/:id',     component: import('@/views/List.vue')},
     {path: '/rules',        component: import('@/views/Rules.vue')},
     {path: '/story',        component: import('@/views/Story.vue')},
+    {path: '/:colType(build|episode)/:sku',   component: import('@/views/works/Collection.vue')},
   ]
 })
 
