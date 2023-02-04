@@ -1,7 +1,6 @@
 <template>
   <div class="game-card">
     <div class="scaler">
-      <img class="card-image" :src="card.versions[vi].image" alt="">
       <div class="padding"></div>
       <div class="header row" :class="'rarity-' + card.versions[vi].rarity.toLowerCase()">
         <div class="h-pad"></div>
@@ -13,7 +12,9 @@
       <div class="info">
         <div class="body">
           <div class="left">
-            <div class="v-pad"></div>
+            <div class="card-image">
+              <img :src="card.versions[vi].image" alt="">
+            </div>
             <div class="meta">
               <p class="pad"></p>
               <p>画师：{{ card.versions[vi].illustrator.name }}</p>
@@ -61,7 +62,6 @@ const vi = ref(0);
     $footer-height: 36px;
     $radius: 15px;
     $frame-aspect-ratio: 1.2744;
-    $card-aspect-ratio: 0.71313;
     $hpad: 46%;
 
     position: relative;
@@ -81,43 +81,19 @@ const vi = ref(0);
       top: 0;
       left: 0;
       transform-origin: top left;
-      width: calc(100% * var(--card-scale-factor));
-      height: calc(100% * var(--card-scale-factor));
-      transform: scale(calc(1/var(--card-scale-factor)));
+      width: calc(100% * var(--factor));
+      height: calc(100% * var(--factor));
+      transform: scale(calc(1/var(--factor)));
 
-      --card-scale-factor: 1;
-
-      @include media-breakpoint-only(xxl) {
-        --card-scale-factor: 1;
-      }
-
-      @include media-breakpoint-only(xl) {
-        --card-scale-factor: 1.1;
-      }
-
-      @include media-breakpoint-only(lg) {
-        --card-scale-factor: 1.35;
-      }
-
-      @include media-breakpoint-only(md) {
-        --card-scale-factor: 1;
-      }
-
-      @include media-breakpoint-only(sm) {
-        --card-scale-factor: 1.2;
-      }
-
-      @include media-breakpoint-only(xs) {
-        --card-scale-factor: 1.3;
-      }
-
-      @media (max-width: 480px) {
-        --card-scale-factor: 1.5;
-      }
-
-      @media (max-width: 425px) {
-        --card-scale-factor: 1.7;
-      }
+      --factor: 1;
+      @include media-breakpoint-only(xxl) { --factor: 1;    }
+      @include media-breakpoint-only(xl)  { --factor: 1.1;  }
+      @include media-breakpoint-only(lg)  { --factor: 1.35; }
+      @include media-breakpoint-only(md)  { --factor: 1;    }
+      @include media-breakpoint-only(sm)  { --factor: 1.2;  }
+      @include media-breakpoint-only(xs)  { --factor: 1.3;  }
+      @media (max-width: 480px)           { --factor: 1.5;  }
+      @media (max-width: 425px)           { --factor: 1.7;  }
     }
 
     .padding {
@@ -184,11 +160,15 @@ const vi = ref(0);
     }
 
     .card-image {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      height: calc(100% - $footer-height - $meta-height);
-      border-radius: 15px;
+      height: calc(100% - $meta-height);
+
+      img {
+        max-width: 100%;
+        max-height: calc(100% + $img-offs-y + $header-height);
+        border-radius: $radius;
+        transform: translate(-$img-offs-x, -$img-offs-y - $header-height);
+      }
+
     }
 
     .body {
