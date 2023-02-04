@@ -83,6 +83,12 @@ class Build(Navigation, Filtering, DjangoObjectType):
     class Meta:
         model = models.Build
 
+    first_entity = gh.Field('game.schema.Card', description='第一个实体卡')
+
+    def resolve_first_entity(self, info):
+        entity = self.characters.first() or self.spellcards.first()
+        return entity
+
 
 class Illustrator(DjangoObjectType):
     class Meta:
@@ -108,6 +114,12 @@ class Episode(Navigation, Filtering, DjangoObjectType):
     class Meta:
         model = models.Episode
 
+    first_entity = gh.Field('game.schema.Card', description='第一个实体卡')
+
+    def resolve_first_entity(self, info):
+        entity = self.characters.first() or self.spellcards.first()
+        return entity
+
 
 class Trait(DjangoObjectType):
     class Meta:
@@ -132,6 +144,11 @@ class Version(Filtering, DjangoObjectType):
 class Spellcard(Navigation, Filtering, DjangoObjectType):
     class Meta:
         model = models.Spellcard
+
+
+class Card(gh.Union):
+    class Meta:
+        types = (Character, Spellcard)
 
 
 class GameQuery(gh.ObjectType):

@@ -429,6 +429,15 @@
   dependencies:
     "@vue/apollo-option" "^4.0.0-alpha.20"
 
+"@vue/apollo-composable@^4.0.0-beta.1":
+  version "4.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@vue/apollo-composable/-/apollo-composable-4.0.0-beta.1.tgz#ef7181503785c464bfddb8025870d24b5c8813af"
+  integrity sha512-WjyePUFYft7dZMNrO63DuP5bsl1AO1SKhfy688r2HXlyrCQAxvfRXOiPqnPzhmRn7kyWTKfrwwhkFJfnSq7vyA==
+  dependencies:
+    throttle-debounce "^3.0.1"
+    ts-essentials "^9.1.2"
+    vue-demi "^0.13.1"
+
 "@vue/apollo-option@^4.0.0-alpha.20":
   version "4.0.0-alpha.20"
   resolved "https://registry.npmmirror.com/@vue/apollo-option/-/apollo-option-4.0.0-alpha.20.tgz#469da22cd5925dc8d1b6089c087d0a89f39855ef"
@@ -1859,6 +1868,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+ts-essentials@^9.1.2:
+  version "9.3.0"
+  resolved "https://registry.npmmirror.com/ts-essentials/-/ts-essentials-9.3.0.tgz#7e639c1a76b1805c3c60d6e1b5178da2e70aea02"
+  integrity sha512-XeiCboEyBG8UqXZtXl59bWEi4ZgOqRsogFDI6WDGIF1LmzbYiAkIwjkXN6zZWWl4re/lsOqMlYfe8KA0XiiEPw==
+
 ts-invariant@^0.10.3:
   version "0.10.3"
   resolved "https://registry.npmmirror.com/ts-invariant/-/ts-invariant-0.10.3.tgz#3e048ff96e91459ffca01304dbc7f61c1f642f6c"
@@ -1922,6 +1936,11 @@ vite@^3.2.4:
     rollup "^2.79.1"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-demi@^0.13.1:
+  version "0.13.11"
+  resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
+  integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
 
 vue-eslint-parser@^9.0.1:
   version "9.1.0"

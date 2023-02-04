@@ -117,7 +117,8 @@ import gql from 'graphql-tag'
 const landingQuery = gql`
 query Landing {
   landing {
-    id smallSlogan bigSlogan
+    id
+    smallSlogan bigSlogan
     slides {
       id image url
     }

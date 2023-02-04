@@ -1,7 +1,18 @@
 <template>
-  <Navigation />
   <ApolloQuery :query="worksQuery" tag="">
     <template v-slot="{ result: { data, error }, isLoading }">
+      <nav class="sticky-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-auto">
+              <a href="#" @click="$router.back()">
+                <icon-delete-left />
+              </a>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </nav>
       <div class="container works-list" v-if="!isLoading">
         <div class="row">
           <div class="col"><h5>按构筑查询</h5></div>
@@ -55,7 +66,7 @@
 </style>
 
 <script setup>
-import Navigation from '@/components/nav/Navigation.vue'
+import IconDeleteLeft from '@/assets/fa-delete-left.svg?component'
 import gql from 'graphql-tag'
 
 const worksQuery = gql`

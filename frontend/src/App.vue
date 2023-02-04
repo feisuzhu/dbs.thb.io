@@ -36,4 +36,40 @@ import Footer from '@/components/header/Footer.vue'
       text-align: center;
     }
   }
+
+  nav {
+    $nav-height: 48px;
+
+    background-color: #1e1e1e;
+    height: $nav-height;
+    line-height: $nav-height;
+    font-family: "404";
+    font-size: 16pt;
+    color: white;
+
+    a, i {
+      color: white;
+      display: block;
+      width: calc($nav-height - 16px);
+      height: $nav-height;
+      text-align: center;
+      font-size: calc($nav-height / 2);
+      vertical-align: middle;
+
+      svg {
+        padding: 12px 0;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        path {
+          fill: currentColor;
+        }
+      }
+    }
+
+    a:hover {
+      color: white;
+    }
+  }
+
 </style>
