@@ -10,14 +10,11 @@ const router = createRouter({
     { path: '/:colType(build|episode)/:col/:type(character|spellcard)/:sku',
       component: import('@/views/card/Card.vue') },
 
-    {path: '/about',    component: import('@/views/About.vue')},
-    {path: '/blogs',    component: import('@/views/BlogList.vue')},
-    {path: '/blog/:id', component: import('@/views/Blog.vue')},
-    {path: '/library',  component: import('@/views/Library.vue')},
-    {path: '/list',     component: import('@/views/List.vue')},
-    {path: '/list/:id', component: import('@/views/List.vue')},
-    {path: '/rules',    component: import('@/views/Rules.vue')},
-    {path: '/story',    component: import('@/views/Story.vue')},
+    // {path: '/about',    component: import('@/views/About.vue')},
+    // {path: '/blogs',    component: import('@/views/BlogList.vue')},
+    // {path: '/blog/:id', component: import('@/views/Blog.vue')},
+    // {path: '/rules',    component: import('@/views/Rules.vue')},
+    // {path: '/story',    component: import('@/views/Story.vue')},
   ]
 })
 
