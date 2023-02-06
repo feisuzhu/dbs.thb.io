@@ -78,7 +78,6 @@ const nextCardLink = computed(() => {
   let idx = cards.value.findIndex(v => v[1] == props.card);
   if(idx == -1) return null;
   if(idx >= cards.value.length - 1) return null;
-  console.log('nextCardLink', idx, cards.value[idx], cards.value[idx + 1]);
   let [type, sku] = cards.value[idx + 1];
   if (type == null) return null;
   return `/build/${props.build}/${type.toLowerCase()}/${sku}`;

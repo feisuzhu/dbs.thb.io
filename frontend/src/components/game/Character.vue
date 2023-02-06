@@ -19,7 +19,7 @@ import GameCard from './GameCard.vue'
 import SVGText from './SVGText.vue'
 const props = defineProps({
   card: {
-    type: Object,
+    type: String,
   }
 });
 </script>

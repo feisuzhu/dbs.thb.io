@@ -14,12 +14,12 @@
           <div class="left">
             <div class="card-image">
               <img :src="card.versions[vi].image" alt="">
-            </div>
-            <div class="meta">
-              <p class="pad"></p>
-              <p>画师：{{ card.versions[vi].illustrator.name }}</p>
-              <p v-if="card.versions[vi].episode">从 {{ card.versions[vi].episode.sku }} 获得</p>
-              <p class="pad"></p>
+              <div class="meta">
+                <p class="pad"></p>
+                <p>画师：{{ card.versions[vi].illustrator.name }}</p>
+                <p v-if="card.versions[vi].episode">从 {{ card.versions[vi].episode.sku }} 获得</p>
+                <p class="pad"></p>
+              </div>
             </div>
           </div>
           <div class="right">
@@ -55,20 +55,20 @@ const vi = ref(0);
   @import "bootstrap/scss/mixins";
 
   .game-card {
-    $img-offs-x: 10px;
-    $img-offs-y: 25px;
-    $header-height: 54px;
-    $meta-height: 64px;
-    $footer-height: 36px;
-    $radius: 15px;
-    $frame-aspect-ratio: 1.2744;
-    $hpad: 46%;
+    --img-offs-x: 10px;
+    --img-offs-y: 25px;
+    --header-height: 54px;
+    --meta-height: 64px;
+    --footer-height: 36px;
+    --r: 15px;
+
+    --hpad: 46%;
 
     position: relative;
     display: block;
     margin: 15px 0px;
     width: 100%;
-    aspect-ratio: $frame-aspect-ratio;
+    aspect-ratio: 1.2744;
 
     .support   { background-color: #868f97; }
     .center    { background-color: #009504; }
@@ -97,29 +97,29 @@ const vi = ref(0);
     }
 
     .padding {
-      height: $img-offs-y;
+      height: var(--img-offs-y);
     }
 
     .h-pad {
-      width: $hpad;
+      width: var(--hpad);
     }
 
     .info {
       display: block;
-      width: calc(100% - $img-offs-x);
-      height: calc(100% - $img-offs-y - $header-height);
+      width: calc(100% - var(--img-offs-x));
+      height: calc(100% - var(--img-offs-y) - var(--header-height));
       box-shadow: 2px 2px 8px #ccc;
-      border-radius: 0 0 $radius $radius;
-      margin: 0px 0px 0px $img-offs-x;
+      border-radius: 0 0 var(--r) var(--r);
+      margin: 0px 0px 0px var(--img-offs-x);
     }
 
     .header {
       position: relative;
       z-index: -1;
-      height: $header-height;
-      margin: 0 0px 0px $img-offs-x;
+      height: var(--header-height);
+      margin: 0 0px 0px var(--img-offs-x);
       background-color: #a2dfff;
-      border-radius: $radius $radius 0 0;
+      border-radius: var(--r) var(--r) 0 0;
       text-align: right;
 
       .rarity {
@@ -129,7 +129,7 @@ const vi = ref(0);
         right: 0;
         z-index: -1;
         font-size: 76px;
-        line-height: $header-height;
+        line-height: var(--header-height);
         font-family: "404";
         color: white;
         user-select: none;
@@ -149,7 +149,7 @@ const vi = ref(0);
         line-height: $font-sz;
         font-size: $font-sz;
         font-weight: bold;
-        margin: calc(($header-height - $font-sz - 5px * 2)/2) 3px;
+        margin: calc((var(--header-height) - $font-sz - 5px * 2)/2) 3px;
         padding: 5px 10px;
         border-radius: 3px;
       }
@@ -159,61 +159,62 @@ const vi = ref(0);
       &.rarity-sr { background-color: #ffee9e; }
     }
 
-    .card-image {
-      height: calc(100% - $meta-height);
-
-      img {
-        max-width: 100%;
-        max-height: calc(100% + $img-offs-y + $header-height);
-        border-radius: $radius;
-        transform: translate(-$img-offs-x, -$img-offs-y - $header-height);
-      }
-
-    }
-
     .body {
       display: flex;
-      height: calc(100% - $footer-height);
+      height: calc(100% - var(--footer-height));
       box-shadow: -2px 0px 5px white;
       background-color: #f7f7f7;
 
       .left {
         display: flex;
         flex-direction: column;
-        width: $hpad;
+        width: var(--hpad);
         height: 100%;
+        transform: translate(calc(var(--img-offs-x) * -1), calc((var(--img-offs-y) + var(--header-height)) * -1));
+
+        .card-image {
+          height: calc(100% - var(--meta-height));
+
+          img {
+            max-width: 100%;
+            max-height: calc(100% + var(--img-offs-y) + var(--header-height));
+            border-radius: var(--r);
+          }
+          .meta {
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            vertical-align: middle;
+            height: var(--meta-height);
+
+            transform: translateX(var(--img-offs-x));
+            p {
+              margin: 0;
+              flex: 0 0 auto;
+              text-align: center;
+              color: #717171;
+
+              &.pad {
+                flex: 1 0 auto;
+              }
+            }
+          }
+        }
 
         .v-pad {
           display: flex;
-          height: calc(100% - $meta-height);
+          height: calc(100% - var(--meta-height));
           width: 100%;
         }
 
-        .meta {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          height: $meta-height;
-          vertical-align: middle;
-
-          p {
-            margin: 0;
-            flex: 0 0 auto;
-            text-align: center;
-            color: #717171;
-
-            &.pad {
-              flex: 1 0 auto;
-            }
-          }
-
-        }
       }
 
       .right {
         display: flex;
         flex-direction: column;
-        width: calc(100% - $hpad);
+        width: calc(100% - var(--hpad));
         height: 100%;
         padding: 6px;
         /* overflow: hidden; */
@@ -270,15 +271,15 @@ const vi = ref(0);
     }
 
     .footer {
-      height: $footer-height;
+      height: var(--footer-height);
       background-color: #dfdfdf;
       margin: 0px;
-      border-radius: 0 0 $radius $radius;
+      border-radius: 0 0 var(--r) var(--r);
       z-index: -10;
 
       .tab {
         font-size: 20px;
-        line-height: $footer-height;
+        line-height: var(--footer-height);
         background-color: #c0c0c0;
         padding: 0px 36px;
         border-radius: 0 0 12px 12px;
@@ -302,7 +303,7 @@ const vi = ref(0);
 
       .sku {
         font-size: 18px;
-        line-height: $footer-height;
+        line-height: var(--footer-height);
         font-weight: bold;
         color: #a0a0a0;
       }

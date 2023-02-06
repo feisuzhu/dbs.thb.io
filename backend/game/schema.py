@@ -172,3 +172,6 @@ class GameQuery(gh.ObjectType):
     build      = gh.Field(Build, sku=gh.String(required=True, description="SKU"), description='构筑', resolver=_root_get)
     episodes   = gh.List(gh.NonNull(Episode), description='卡包列表', required=True, resolver=_root_list)
     episode    = gh.Field(Episode, sku=gh.String(required=True, description="SKU"), description='卡包', resolver=_root_get)
+
+    character = gh.Field(Character, sku=gh.String(required=True, description="SKU"), description='角色', resolver=_root_get)
+    spellcard = gh.Field(Spellcard, sku=gh.String(required=True, description="SKU"), description='符卡', resolver=_root_get)
