@@ -7,6 +7,7 @@
             <icon-delete-left />
           </a>
         </div>
+        <div class="col-auto card-name">擦科个东方</div>
         <div class="col" style="padding: 0"></div>
         <div class="col-auto text-end">
           <i class="no-more" v-if="!prevCollectionLink">
@@ -75,6 +76,7 @@ import IconChevronsRight from '@/assets/chevrons-right.svg?component';
 
 const props = defineProps({
   sku: { type: String, required: true, },
+  name: { type: String, required: true, },
   prevCollectionLink: { type: String, required: true, },
   nextCollectionLink: { type: String, required: true, },
   prevCardLink: { type: String, required: true, },

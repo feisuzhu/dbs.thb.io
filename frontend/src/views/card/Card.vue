@@ -40,24 +40,64 @@ import _ from 'lodash'
       --factor: 1;
     }
 
-    .h-pad { margin-right: $image-info-gap; }
-
     .card-image img { width: 100%; }
 
-    .body {
-      .right {
-        align-items: start;
-        margin-left: $image-info-gap;
+    @include media-breakpoint-up(md) {
+      .h-pad { margin-right: $image-info-gap; }
 
-        .title { display: none; }
+      .body {
+        .right {
+          align-items: start;
+          margin-left: $image-info-gap;
 
-        .title-text {
-          font-size: 24px;
-          font-weight: bold;
-          margin: 12px 0 6px 0;
+          .title { display: none; }
+
+          .title-text {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 12px 0 6px 0;
+          }
+          .tag {
+            margin: 16px 0 6px 0;
+          }
         }
-        .tag {
-          margin: 16px 0 6px 0;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      .h-pad { width: 15px; }
+
+      .body {
+        display: block;
+
+        .left {
+          width: 100%;
+          flex: 0 0 auto;
+          transform: none;
+          img {
+            padding: 10px;
+            border-radius: 30px;
+          }
+        }
+        .right {
+          width: 100%;
+          flex: 0 0 auto;
+          padding: 0 10px;
+          .title-text { display: none; }
+        }
+      }
+
+      .meta {
+        display: none;
+      }
+
+      .secondary-meta {
+        display: flex;
+        padding: 0 10px;
+        align-items: start;
+        text-align: left;
+        p {
+          font-size: 14px;
         }
       }
     }

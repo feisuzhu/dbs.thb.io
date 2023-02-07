@@ -14,17 +14,13 @@
           <div class="left">
             <div class="card-image">
               <img :src="card.versions[vi].image" alt="">
-              <div class="meta">
-                <p class="pad"></p>
-                <p>画师：{{ card.versions[vi].illustrator.name }}</p>
-                <p v-if="card.versions[vi].episode">从 {{ card.versions[vi].episode.sku }} 获得</p>
-                <p class="pad"></p>
-              </div>
+              <Meta :version="card.versions[vi]" />
             </div>
           </div>
           <div class="right">
             <slot name="content"></slot>
           </div>
+          <Meta class="secondary-meta" :version="card.versions[vi]" />
         </div>
         <div class="footer row">
           <div v-for="(v, i) in card.versions" class="col-auto tab" :class="{current: i == vi}">
@@ -39,6 +35,7 @@
 </template>
 
 <script setup>
+import Meta from './Meta.vue'
 import { ref } from 'vue'
 const props = defineProps({
   card: {
@@ -180,27 +177,6 @@ const vi = ref(0);
             max-height: calc(100% + var(--img-offs-y) + var(--header-height));
             border-radius: var(--r);
           }
-          .meta {
-            width: 100%;
-
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            vertical-align: middle;
-            height: var(--meta-height);
-
-            transform: translateX(var(--img-offs-x));
-            p {
-              margin: 0;
-              flex: 0 0 auto;
-              text-align: center;
-              color: #717171;
-
-              &.pad {
-                flex: 1 0 auto;
-              }
-            }
-          }
         }
 
         .v-pad {
@@ -307,6 +283,15 @@ const vi = ref(0);
         font-weight: bold;
         color: #a0a0a0;
       }
+    }
+
+    .meta {
+      height: var(--meta-height);
+      transform: translateX(var(--img-offs-x));
+    }
+
+    .secondary-meta {
+      display: none;
     }
   }
 </style>

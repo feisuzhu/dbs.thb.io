@@ -1,5 +1,6 @@
 <template>
   <Navigation :sku="card"
+              :name="name"
               :prevCollectionLink="prevCollectionLink"
               :nextCollectionLink="nextCollectionLink"
               :prevCardLink="prevCardLink"
@@ -17,6 +18,7 @@ import Navigation from './Navigation.vue'
 const props = defineProps({
   episode: { type: String, required: true },
   card:    { type: String, required: true },
+  name:    { type: String, required: true },
 });
 
 
