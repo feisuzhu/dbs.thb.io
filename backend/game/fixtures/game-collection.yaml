@@ -1,4 +1,4 @@
-- model: game.build
+- model: game.collection
   pk: 1
   fields:
     sku: RM
@@ -8,7 +8,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 2
   fields:
     sku: MS
@@ -18,7 +18,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 3
   fields:
     sku: SK
@@ -28,7 +28,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 4
   fields:
     sku: YM
@@ -38,7 +38,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 5
   fields:
     sku: YK
@@ -48,7 +48,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 6
   fields:
     sku: ALC
@@ -58,7 +58,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 7
   fields:
     sku: REM
@@ -68,7 +68,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 8
   fields:
     sku: UU
@@ -78,7 +78,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 9
   fields:
     sku: RS
@@ -88,7 +88,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 10
   fields:
     sku: KGY
@@ -98,7 +98,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 11
   fields:
     sku: KN
@@ -108,7 +108,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 12
   fields:
     sku: MK
@@ -118,7 +118,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 13
   fields:
     sku: ERN
@@ -128,7 +128,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 14
   fields:
     sku: MQ
@@ -138,7 +138,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 15
   fields:
     sku: FLD
@@ -148,7 +148,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 16
   fields:
     sku: CRN
@@ -158,7 +158,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 17
   fields:
     sku: MR
@@ -168,7 +168,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 18
   fields:
     sku: SUI
@@ -178,7 +178,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 19
   fields:
     sku: SN
@@ -188,7 +188,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 20
   fields:
     sku: SNY
@@ -198,7 +198,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 21
   fields:
     sku: LUN
@@ -208,7 +208,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 22
   fields:
     sku: STR
@@ -218,7 +218,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 23
   fields:
     sku: LTY
@@ -228,7 +228,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 24
   fields:
     sku: FRY
@@ -238,7 +238,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 25
   fields:
     sku: SYS
@@ -248,7 +248,7 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.build
+- model: game.collection
   pk: 26
   fields:
     sku: SP
@@ -258,8 +258,8 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.episode
-  pk: 1
+- model: game.collection
+  pk: 1001
   fields:
     sku: RP01
     name: 再启 Resurrection
@@ -268,8 +268,8 @@
     dummy: false
     hidden: false
     sort: 0
-- model: game.episode
-  pk: 2
+- model: game.collection
+  pk: 1002
   fields:
     sku: NEXT_PACK
     name: 敬请期待
@@ -278,3 +278,87 @@
     dummy: true
     hidden: false
     sort: 100000
+- model: game.build
+  pk: 1
+  fields: {}
+- model: game.build
+  pk: 2
+  fields: {}
+- model: game.build
+  pk: 3
+  fields: {}
+- model: game.build
+  pk: 4
+  fields: {}
+- model: game.build
+  pk: 5
+  fields: {}
+- model: game.build
+  pk: 6
+  fields: {}
+- model: game.build
+  pk: 7
+  fields: {}
+- model: game.build
+  pk: 8
+  fields: {}
+- model: game.build
+  pk: 9
+  fields: {}
+- model: game.build
+  pk: 10
+  fields: {}
+- model: game.build
+  pk: 11
+  fields: {}
+- model: game.build
+  pk: 12
+  fields: {}
+- model: game.build
+  pk: 13
+  fields: {}
+- model: game.build
+  pk: 14
+  fields: {}
+- model: game.build
+  pk: 15
+  fields: {}
+- model: game.build
+  pk: 16
+  fields: {}
+- model: game.build
+  pk: 17
+  fields: {}
+- model: game.build
+  pk: 18
+  fields: {}
+- model: game.build
+  pk: 19
+  fields: {}
+- model: game.build
+  pk: 20
+  fields: {}
+- model: game.build
+  pk: 21
+  fields: {}
+- model: game.build
+  pk: 22
+  fields: {}
+- model: game.build
+  pk: 23
+  fields: {}
+- model: game.build
+  pk: 24
+  fields: {}
+- model: game.build
+  pk: 25
+  fields: {}
+- model: game.build
+  pk: 26
+  fields: {}
+- model: game.episode
+  pk: 1001
+  fields: {}
+- model: game.episode
+  pk: 1002
+  fields: {}

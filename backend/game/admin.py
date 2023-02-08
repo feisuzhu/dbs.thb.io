@@ -21,15 +21,15 @@ class IllustratorAdmin(admin.ModelAdmin):
     ordering = ('name',)
 
 
-# class CharacterSkill(models.Model):
-class CharacterVersionInline(admin.TabularInline):
-    model = models.CharacterVersion
+# class Skill(models.Model):
+class SkillInline(admin.TabularInline):
+    model = models.Skill
     extra = 1
 
 
-# class CharacterSkill(models.Model):
-class CharacterSkillInline(admin.TabularInline):
-    model = models.CharacterSkill
+# class SpellcardVersion(models.Model):
+class VersionInline(admin.TabularInline):
+    model = models.Version
     extra = 1
 
 
@@ -39,7 +39,7 @@ class CharacterAdmin(admin.ModelAdmin):
     list_display = ('id', 'sku', 'title', 'build', 'hidden', 'sort')
     list_filter = ('versions__rarity', 'versions__illustrator', 'build', 'hidden')
     search_fields = ('title', 'versions__illustrator', 'build')
-    inlines = [CharacterVersionInline, CharacterSkillInline]
+    inlines = [VersionInline, SkillInline]
     ordering = ('sort',)
     sort_order = 15
 
@@ -59,6 +59,11 @@ class EpisodeAdmin(admin.ModelAdmin):
     ordering = ('sort',)
     sort_order = 40
 
+
+# class Collection(models.Model):
+class CollectionAdmin(admin.ModelAdmin):
+    pass
+
 # class Trait(models.Model):
 @admin.register(models.Trait)
 class TraitAdmin(admin.ModelAdmin):
@@ -77,13 +82,6 @@ class TypeAdmin(admin.ModelAdmin):
     search_fields = ()
     ordering = ('name',)
     sort_order = 50
-
-
-# class SpellcardVersion(models.Model):
-class VersionInline(admin.TabularInline):
-    model = models.Version
-    extra = 1
-
 
 class ExtendedConstraintInline(admin.TabularInline):
     model = models.ExtendedConstraint
