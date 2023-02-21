@@ -38,7 +38,7 @@ class VersionInline(admin.TabularInline):
 class CharacterAdmin(admin.ModelAdmin):
     list_display = ('id', 'sku', 'title', 'build', 'hidden', 'sort')
     list_filter = ('versions__rarity', 'versions__illustrator', 'build', 'hidden')
-    search_fields = ('title', 'versions__illustrator', 'build')
+    search_fields = ('title', 'versions__illustrator', 'build', 'faq')
     inlines = [VersionInline, SkillInline]
     ordering = ('sort',)
     sort_order = 15

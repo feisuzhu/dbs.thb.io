@@ -250,7 +250,6 @@
     cost: 1
     effect: 本卡结算完毕后，将本卡明置于你符力区右侧第一位。如已存在符卡，替代之。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -261,7 +260,6 @@
     cost: 3
     effect: 若展示符卡华丽度为「无」或「5」华丽度，本卡战力X2，且获得“破坏”特性。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -273,7 +271,6 @@
     cost: 0
     effect: 攻击阶段，可发动此状态：你立即回复500点体力。回合结束阶段，将本卡明置于你符力区左侧第一位。如该位置已存在符卡，替代之。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -284,7 +281,6 @@
     cost: 1
     effect: 若展示符卡的华丽度为「3」或「4」，你可抽一张卡。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -296,7 +292,6 @@
     cost: 2
     effect: 若展示符卡的华丽度为「1」或「2」，你可将弃牌区一张战斗符卡明置于你符力区左侧第一位。如该位置已存在符卡，替代之。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -308,7 +303,6 @@
     cost: 3
     effect: 若展示符卡华丽度为「4」或「5」，你可将你弃牌区一张战斗符卡明置于你符力区右侧第一位。如该位置已存在符卡，替代之。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -320,7 +314,6 @@
     cost: 2
     effect: 宣言本卡时，你可查看你卡组顶的三张符卡，然后按任意顺序放回卡组顶。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -331,7 +324,6 @@
     cost: 3
     effect: 本卡结算后，你可从卡组中展示2张带有“奇迹”特性的符卡，并分别置于你的华丽区左侧第一位和右侧第一位。如该位置已有符卡，替代之。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -342,7 +334,6 @@
     cost: 2
     effect: 若展示符卡华丽度为「4」，本卡战力+1000：若不为「4」，你失去1000点体力。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -354,7 +345,6 @@
     cost: 3
     effect: 本卡设置完毕后，你可以从卡组展示一张延时道具卡加入手牌，并洗切卡组。本卡在场时，你装备区的其他卡片无法被破坏、弃置或移出游戏。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -365,7 +355,6 @@
     cost: 3
     effect: 当你受到一次大于2000点的弹幕伤害时，可发动此陷阱：你回复3000点体力，并抽1张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -376,7 +365,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组中展示一张华丽度为「3」的符卡并加入手牌，然后将卡组洗切。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -387,7 +375,6 @@
     cost: 1
     effect: 若展示符卡华丽度为「3」、「4」或「5」，你可执行如下效果：你可以指定你符力区的两张明置的符卡，令他们的华丽度分别改为「1」和「5」。该效果持续至本回合结束。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 24
@@ -399,7 +386,6 @@
     cost: 3
     effect: 你不可以消耗符力以宣言本卡。宣言本卡后，崩坏你所有已消耗的灵珠。本卡结算完毕后，你可立即无消耗宣言你符力区任意一张明置的战斗符卡。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -410,7 +396,6 @@
     cost: 1
     effect: 本卡命中后，你可将本卡明置于你符力区左侧第一位或右侧第一位。若该位置已存在符卡，替代之。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -421,7 +406,6 @@
     cost: 0
     effect: 宣言本卡时，须将你角色区除了「东风谷早苗」以外的其他角色卡全部弃置：你每以此法弃置一个角色，你对对手造成1000点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -433,7 +417,6 @@
     cost: 3
     effect: 如果八坂神奈子参战，本卡结算后你可令八坂神奈子进入CENTER状态。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -444,7 +427,6 @@
     cost: 2
     effect: 如果洩矢诹访子参战，本卡结算后，你可令洩矢诹访子进入CENTER状态。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -455,7 +437,6 @@
     cost: 0
     effect: 本卡不可通常宣言，若展示符卡华丽度为「无」或「5」，本卡获得“破坏”特性；若展示符卡华丽度为「2」或「3」或「4」，本卡获得“狂视”特性。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -469,7 +450,6 @@
     cost: 1
     effect: 攻击阶段开始时，你可发动此状态：本回合对方发动的所有符卡消耗灵力+1。
     intensity: 0
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -480,7 +460,6 @@
     cost: 2
     effect: 本卡命中后，你本回合宣言藤原妹红符卡时，该符卡战力+500。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -491,7 +470,6 @@
     cost: 3
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）攻击阶段，你可以消耗2点灵力，并将本卡移出。若如此做，对双方造成2000点特殊伤害。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -503,7 +481,6 @@
     cost: 1
     effect: 宣言本卡时，若你体力低于3000点，本卡战力+1500。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -514,7 +491,6 @@
     cost: 1
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -526,7 +502,6 @@
     cost: 2
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -538,7 +513,6 @@
     cost: 3
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -550,7 +524,6 @@
     cost: 2
     effect: 当对阵符卡为体术符卡时，你对对方造成1000点弹幕伤害
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -561,7 +534,6 @@
     cost: 2
     effect: 如果本卡被用于相杀或被相杀，你受到1000点弹幕伤害
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -572,7 +544,6 @@
     cost: 0
     effect: 本卡命中后，你可以额外消耗2点灵力，对对方造成1500点弹幕伤害
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -583,7 +554,6 @@
     cost: 1
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）宣言本卡后，本回合你宣言“涅槃”特性的符卡时，对自己造成额外500点弹幕伤害。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -595,7 +565,6 @@
     cost: 2
     effect: 攻击阶段开始时发动，本回合内，你受到的所有伤害改为体力的回复
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -606,7 +575,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组中展示一张具有“涅槃”特性的符卡，并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -617,7 +585,6 @@
     cost: 3
     effect: 宣言本卡时或战斗结算时，对阵符卡的特性无效。&#10;宣言本卡时，立即切换至藤原妹红CENTER状态，并将你场上至多8张符卡移出游戏。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -628,7 +595,6 @@
     cost: 0
     effect: （神宝：当本卡从弃牌堆或宣言区被移出时，你可从隙间将任一张“难题加入手牌。涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 12
@@ -642,7 +608,6 @@
     cost: 1
     effect: （连击：本卡命中时，你可将弃牌堆一张相同华丽度的符卡置于宣言区顶。）当本卡被相杀时，你可从卡组中展示一张「凤翼天翔」并加入手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -654,7 +619,6 @@
     cost: 0
     effect: 宣言本卡后，回复1点灵力，且防止你受到的所有伤害直到本回合结束。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -666,7 +630,6 @@
     cost: 2
     effect: 回合开始时发动，本回合你宣言的所有符卡在结算后除外
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -677,7 +640,6 @@
     cost: 2
     effect: 本卡战力增加X点，X为你隙间内涅槃特性符卡的数量X500，且X至多为5
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -688,7 +650,6 @@
     cost: 1
     effect: 本卡命中后，你可以无消耗宣言一张蓬莱「凯风快晴 -Fujiyama Volcano-」
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -699,7 +660,6 @@
     cost: 3
     effect: 本卡结算后，本回合你的所有炎符耗灵-1，且无视华丽度限制。
     intensity: 3000
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 15
@@ -711,7 +671,6 @@
     cost: 1
     effect: 本卡命中时，你可以从卡组展示一张“终符「幻想天皇」”加入手牌
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -722,7 +681,6 @@
     cost: 3
     effect: 本卡结算完毕后，你可按任意顺序重新排列你宣言区的符卡
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -733,7 +691,6 @@
     cost: 2
     effect: 本卡结算完毕后，你可选择一张你符力区卡片与本卡替换。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -744,7 +701,6 @@
     cost: 1
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -756,7 +712,6 @@
     cost: 2
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -768,7 +723,6 @@
     cost: 3
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -780,7 +734,6 @@
     cost: 1
     effect: 宣言本卡时，你可以额外消耗一点灵力，将你弃牌堆的一张战斗符卡置于你宣言区顶或移出游戏。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -791,7 +744,6 @@
     cost: 3
     effect: 你的手牌上限+2，装备区上限+2.（你仅可同时装备1个“三种神器”）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -802,7 +754,6 @@
     cost: 3
     effect: 每回合一次，你可以将你弃牌区一张无痕特性的符卡加入手牌
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -813,7 +764,6 @@
     cost: 3
     effect: 每回合一次，你可以将你隙间内一张符卡加入手牌
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -824,7 +774,6 @@
     cost: 3
     effect: 防御阶段，当你受到一次大于1000点的伤害时：对对手造成500点弹幕伤害。（你仅可同时装备1个“三种神器”
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -835,7 +784,6 @@
     cost: 1
     effect: 本卡结算后，你可以将卡组一张无痕特性符卡展示并加入手牌，并将卡组洗切
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -846,7 +794,6 @@
     cost: 3
     effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）本卡进入隙间时，可将一张“无痕”特性的符卡置于你宣言区底部。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 15
@@ -858,7 +805,6 @@
     cost: 2
     effect: 本卡结算后，你可以立即无消耗宣言你隙间内任意一张符卡。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -869,7 +815,6 @@
     cost: 1
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你隙间区没有符卡，本卡战力+500。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -881,7 +826,6 @@
     cost: 2
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你宣言区没有符卡，本卡战力+500
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -893,7 +837,6 @@
     cost: 2
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）宣言本卡后，将你弃牌区或华丽区一张符卡移出游戏
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 14
@@ -905,7 +848,6 @@
     cost: 0
     effect: 你可以将你隙间内的所有符卡加入你华丽区并随意调整排序。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -917,7 +859,6 @@
     cost: 2
     effect: 将对方卡组顶5张牌弃置
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -928,7 +869,6 @@
     cost: 2
     effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）本卡结算后，你可以将对方宣言区的符卡随意排序
     intensity: 2000
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 14
@@ -940,7 +880,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡时，本卡战力+1500
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -951,7 +890,6 @@
     cost: 3
     effect: 攻击阶段宣言本卡时，本卡战力+2000。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -962,7 +900,6 @@
     cost: 3
     effect: 本卡位于你宣言区顶部时，华丽度始终视为2
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -974,7 +911,6 @@
     cost: 2
     effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -986,7 +922,6 @@
     cost: 1
     effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -998,7 +933,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合，你宣言的所有魔理沙战斗符卡在宣言时战力+500。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1009,7 +943,6 @@
     cost: 1
     effect: 攻击阶段宣言本卡时，若你弃牌堆有3张或更多“魔符”，本卡获得“诱导”特性。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -1021,7 +954,6 @@
     cost: 2
     effect: 本卡结算完毕后，你可从卡组中展示一张“魔符”并弃置之。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1033,7 +965,6 @@
     cost: 4
     effect: 对手相杀本卡时，须额外支付1点灵力。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1044,7 +975,6 @@
     cost: 0
     effect: 攻击阶段，当你宣言的一张不带有“贯通”特性的魔理沙战斗符卡命中时，可发动此陷阱：对对手造成1000点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1055,7 +985,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组展示一张“恋符”、“恋心”、“恋心”、“恋风”或“邪恋”并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1066,7 +995,6 @@
     cost: 3
     effect: 防御阶段，若本卡被对阵符卡击破：本卡结算完毕后，结束当前回合。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1077,7 +1005,6 @@
     cost: 2
     effect: 防御阶段，本卡造成的伤害不可被防止。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 7
@@ -1089,7 +1016,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行：横置一张你宣言区的魔理沙符卡。每如此做，视为你宣言了一张战力为500且具有“贯通”特性的魔理沙弹幕符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1100,7 +1026,6 @@
     cost: 2
     effect: 本卡命中时，你可将你宣言区的一张横置符卡加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1111,7 +1036,6 @@
     cost: 0
     effect: 宣言本卡后，弃置双方符力区、宣言区全部卡片，随后，令对手崩坏1枚灵珠。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -1123,7 +1047,6 @@
     cost: 2
     effect: 攻击阶段，你可将位于宣言区的本卡弃置。你每如此做，你弃置对手宣言区的一张牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -1135,7 +1058,6 @@
     cost: 2
     effect: 当本卡从你弃牌堆被移出游戏时，你可回复1点灵力或抽1张牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1146,7 +1068,6 @@
     cost: 1
     effect: 防御阶段，当对方宣言一张体术符卡时，可发动此陷阱：破坏该符卡，并对双方造成2000点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1157,7 +1078,6 @@
     cost: 1
     effect: 攻击阶段，你可将宣言区的本卡弃置。若如此做，你可立即从手牌不消耗灵力宣言一张“Master Spark”
     intensity: 1000
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 3
@@ -1169,7 +1089,6 @@
     cost: 1
     effect: 宣言本卡时，你可以从卡组展示两张“星符”，由对手选择其一加入你的手牌，然后你弃置剩余的。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1180,7 +1099,6 @@
     cost: 3
     effect: 本卡命中后，你可以将你弃牌区所有「SPARK」符卡洗回卡组。防御阶段开始时，你可以将宣言区的本卡移出游戏。若如此做，你从卡组展示一张「MasterSpark」并加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -1192,7 +1110,6 @@
     cost: 1
     effect: 攻击阶段，本卡命中时：你可从卡组展示一张“死蝶”，将之加入手牌或置于你的符力区。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1203,7 +1120,6 @@
     cost: 2
     effect: 当本卡从手牌被弃置时：你可以将你卡组顶的一张卡置于你符力区或加入手牌。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1214,7 +1130,6 @@
     cost: 0
     effect: 宣言本卡时：若对手体力值大于0，令对手扣减500体力。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1225,7 +1140,6 @@
     cost: 1
     effect: ''
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 9
@@ -1237,7 +1151,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 9
@@ -1249,7 +1162,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 9
@@ -1261,7 +1173,6 @@
     cost: 1
     effect: 八云紫参战时，本卡战力+500。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -1274,7 +1185,6 @@
     cost: 2
     effect: 当本卡于宣言区被横置时，将卡组中一张含有“灵”字的幽幽子或紫的符卡加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1286,7 +1196,6 @@
     cost: 0
     effect: 当你造成一次弹幕伤害时，可发动此陷阱：将你弃牌堆一张带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡置于你符力区。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1297,7 +1206,6 @@
     cost: 1
     effect: 防御阶段开始时，可发动此状态：本回合内，每当对手宣言战力不小于1000的符卡时，令其扣减500点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1308,7 +1216,6 @@
     cost: 1
     effect: 宣言本卡时，展示你卡组顶三张牌，将一张枯萎特性的符卡加入手牌，并将剩余卡片弃置。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1319,7 +1226,6 @@
     cost: 2
     effect: 本卡不可被战力小于3000的符卡相杀。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1330,7 +1236,6 @@
     cost: 2
     effect: 攻击阶段，可发动此状态：你指定对手当前场上的一张角色卡；直到该角色卡离场为止，每个回合结束阶段，对手须扣减500点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1341,7 +1246,6 @@
     cost: 0
     effect: 你具有枯萎特性的符卡从卡组被弃置时，可发动此陷阱：扣减对手1500点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1352,7 +1256,6 @@
     cost: 3
     effect: 攻击阶段宣言本卡时，从卡组中找出任意种不同的幽幽子符卡并展示，再从你弃牌堆找出等量张数的相同符卡并展示，随后将所有展示的卡片移出；你每移出一种符卡，本卡战力+1000。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1363,7 +1266,6 @@
     cost: 0
     effect: 宣言本卡后，你可无视“需要”发动西行寺幽幽子的符卡；且对手不可回复体力，直到本局游戏结束。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -1375,7 +1277,6 @@
     cost: 2
     effect: 本卡从卡组被弃置时，你回复一点灵力，对手失去一点灵力。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 9
@@ -1387,7 +1288,6 @@
     cost: 3
     effect: 本卡从卡组被弃置时，对对手造成500点弹幕伤害。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 9
@@ -1399,7 +1299,6 @@
     cost: 0
     effect: 攻击阶段你即将受到一次伤害时，可发动此陷阱：防止此伤害，将你卡组顶两张卡片置于你的符力区或弃置。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1410,7 +1309,6 @@
     cost: 0
     effect: 攻击阶段开始时，可发动此状态：你可从弃牌堆直接发动卡名中带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡；每当你以此法发动符卡时，灵力消耗至少为1。
     intensity: 0
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -1421,7 +1319,6 @@
     cost: 3
     effect: 本卡战力+X*500。（X=对手符力区卡片数量，且至多为5）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -1433,7 +1330,6 @@
     cost: 3
     effect: 宣言本卡时，你每有一枚「血」标记，本卡战力+1000。当本卡最终战力不小于3000时，本卡获得破坏特性。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1444,7 +1340,6 @@
     cost: 1
     effect: 当对手对你造成一次伤害时，可发动此陷阱：弃置对手一张手牌，且你获得一枚「血」标记。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1455,7 +1350,6 @@
     cost: 1
     effect: 宣言本卡时，你可弃置一枚「血」标记。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1466,7 +1360,6 @@
     cost: 2
     effect: 宣言本卡时，你可弃置一枚「血」标记。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1477,7 +1370,6 @@
     cost: 3
     effect: 宣言本卡时，你可弃置一枚「血」标记。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1488,7 +1380,6 @@
     cost: 2
     effect: （本卡命中时，你可弃置对手一张符力区或装备区的卡片。）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -1500,7 +1391,6 @@
     cost: 1
     effect: 战斗阶段开始时，可发动此状态：本回合，每当你的「血」标记发生变化时，你可以进行一次角色区切换。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1511,7 +1401,6 @@
     cost: 3
     effect: 当你需消耗一次灵力时，你可将本卡从装备区弃置，并回复两点灵力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1522,7 +1411,6 @@
     cost: 0
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1533,7 +1421,6 @@
     cost: 0
     effect: 战斗阶段开始时，可发动此状态：本回合，双方角色不可发动即时道具卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1544,7 +1431,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组展示一张芙兰朵露的带有禁忌的符卡并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1555,7 +1441,6 @@
     cost: 3
     effect: 攻击阶段，你可以横置位于宣言区的本卡。若你这么做，你获得一枚「血」标记。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1566,7 +1451,6 @@
     cost: 2
     effect: 防御阶段宣言本卡时，对对手造成500点弹幕伤害，且你获得一枚「血」标记。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1577,7 +1461,6 @@
     cost: 3
     effect: 本卡战力+X*500。（X=你宣言本卡所弃置的手牌数量）当该X不小于5时，本卡获得破坏特性。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1589,7 +1472,6 @@
     cost: 0
     effect: 宣言本卡后，终止当前的所有结算，结束此阶段，然后进入你的攻击阶段。（跳过回合开始和准备阶段）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -1601,7 +1483,6 @@
     cost: 0
     effect: 你每有1000点体力，宣言本卡消耗灵力+1。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -1615,7 +1496,6 @@
     cost: 1
     effect: 宣言本卡时，你可以额外消耗一点灵力，然后你选择令本卡获得以下三种特性中的一种：「诱导」、「贯通」、「破坏」。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1626,7 +1506,6 @@
     cost: 2
     effect: 战斗阶段限一次，宣言本卡后，将你手牌数量补至与本回合开始时相同。在这个效果发动后，本回合结束时你须弃置你的所有手牌。
     intensity: 500
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -1637,7 +1516,6 @@
     cost: 2
     effect: 宣言本卡时，你可以指定对手宣言区的一张战斗符卡，令本卡战力+X。（X=指定符卡的原始战力）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -1650,7 +1528,6 @@
     cost: 2
     effect: ''
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1661,7 +1538,6 @@
     cost: 2
     effect: 本卡结算完毕后，若你没有手牌，你抽一张卡。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1672,7 +1548,6 @@
     cost: 5
     effect: 本卡命中时，你可从卡组展示一张“难题”并加入手牌。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -1684,7 +1559,6 @@
     cost: 0
     effect: 本卡命中时，你可将弃牌堆或宣言区的另一张“神宝”移出游戏。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 12
@@ -1697,7 +1571,6 @@
     cost: 1
     effect: 战斗阶段开始时，可发动此状态：本回合，你每当你的一张辉夜符卡进入宣言区，你可抽一张卡或回复1点灵力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1708,7 +1581,6 @@
     cost: 1
     effect: 本卡被除外时，你可以将弃牌区一张难题加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1720,7 +1592,6 @@
     cost: 2
     effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 1
@@ -1732,7 +1603,6 @@
     cost: 3
     effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 7
@@ -1744,7 +1614,6 @@
     cost: 4
     effect: 宣言本卡时，你回复500点体力
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1755,7 +1624,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。本卡被移出游戏时，你可抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1766,7 +1634,6 @@
     cost: 1
     effect: 防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。本卡被移出游戏时，你对对手造成500点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1777,7 +1644,6 @@
     cost: 1
     effect: 当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：令对手扣减与该伤害值相等的体力。本卡被移出游戏时，你回复500点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1788,7 +1654,6 @@
     cost: 0
     effect: 宣言本卡时，你可以将隙间内一张神宝送入墓地，并使本卡增加500点战力。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1802,7 +1667,6 @@
     cost: 0
     effect: 防御阶段宣言本卡时，本卡战力+1500。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 12
@@ -1815,7 +1679,6 @@
     cost: 3
     effect: 防御阶段宣言本卡时，你可以失去500点体力，并破坏对阵符卡。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 3
@@ -1827,7 +1690,6 @@
     cost: 0
     effect: 防御阶段，本卡击破对阵符卡时，对对手造成1000点特殊伤害。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 12
@@ -1840,7 +1702,6 @@
     cost: 0
     effect: 宣言本卡时，你回复1000点体力
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 12
@@ -1853,7 +1714,6 @@
     cost: 0
     effect: 宣言本卡时，获得本局游戏胜利。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -1865,7 +1725,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时，你可以将隙间一张「新难题」加入手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1876,7 +1735,6 @@
     cost: 0
     effect: 本卡的华丽度视为你当前宣言区顶部符卡的华丽度且至少为1；当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1887,7 +1745,6 @@
     cost: 4
     effect: 本卡结算完毕后及本卡被移出游戏时，你可以从卡组中将一张“永夜返”移出游戏。
     intensity: 2500
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -1899,7 +1756,6 @@
     effect: 对阵符卡战力-1500点。宣言区的本卡视为一张「难题」符卡。本卡被移出游戏时，你可选择一项执行：1.移出一张对手场上角色卡以外的符卡。2.移出双方弃牌堆的各一张符卡，你抽一张卡。
       3.将你隙间5张「蓬莱的树海」以外的符卡返回卡组，若你如此做，你再依次执行上述两项。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1911,7 +1767,6 @@
     cost: 2
     effect: 本卡结算完毕后，你可选择一项执行：1.将你宣言区的一张符卡替换为你弃牌堆一张相同华丽度的符卡。2.将你弃牌堆一张符卡替换为你隙间的一张符卡。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1922,7 +1777,6 @@
     cost: 3
     effect: 本卡在场时，对手装备区所有在场永续道具卡的持续效果失效。当你宣言的一张辉夜符卡被击破时，你可将道具区明置的本卡置入你的宣言区顶部。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1933,7 +1787,6 @@
     cost: 1
     effect: 攻击阶段，本卡命中后，本回合你宣言的下一张“未来永劫斩”不需消耗灵力。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1945,7 +1798,6 @@
     cost: 2
     effect: 本卡命中后，追加2500点体术伤害。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -1957,7 +1809,6 @@
     cost: 2
     effect: 当对手发动一张状态或陷阱符卡时，可发动此陷阱：破坏之，然后对对手造成1000点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -1968,7 +1819,6 @@
     cost: 1
     effect: ''
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -1980,7 +1830,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -1992,7 +1841,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -2004,7 +1852,6 @@
     cost: 0
     effect: 攻击阶段，可发动此状态：本回合内，你宣言的下一张妖梦的战斗符卡消耗灵力加倍，原始战力加倍。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2015,7 +1862,6 @@
     cost: 1
     effect: 攻击阶段，你可消耗一点灵力，并将本卡置于你的宣言区底部。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2026,7 +1872,6 @@
     cost: 2
     effect: 若你当前华丽度为4，你仍可以宣言本卡。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2037,7 +1882,6 @@
     cost: 2
     effect: 攻击阶段，本卡战力值+X*500。（X=你当前总华丽度-你此回合开始时总华丽度，且至多为5）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2048,7 +1892,6 @@
     cost: 3
     effect: 本卡战力+X*500。（X为当前场上你与对手总华丽度之差，且至多为9）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2059,7 +1902,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组中展示一张连击特性的符卡并加入手卡。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2070,7 +1912,6 @@
     cost: 1
     effect: 战斗阶段开始时，可发动此状态：本回合宣言的所有妖梦战斗符卡原始战力*2。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2081,7 +1922,6 @@
     cost: 2
     effect: 攻击阶段开始时，可发动此状态：你可将弃牌堆任意张不同华丽度的妖梦战斗符卡按由小到大的顺序依次横置于你的宣言区顶部，然后结束本回合。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2092,7 +1932,6 @@
     cost: 2
     effect: 以本卡相杀时，若对阵符卡不具有高速特性，破坏之，并对对手造成500点特殊伤害。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -2104,7 +1943,6 @@
     cost: 0
     effect: 本卡结算完毕后，对对手造成一次与对阵符卡原始战力相同的体术伤害。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -2116,7 +1954,6 @@
     cost: 1
     effect: 攻击阶段，你可将宣言区的本卡弃置，并从弃牌堆将一张妖梦的弹幕符卡加入手卡。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2127,7 +1964,6 @@
     cost: 3
     effect: 当本卡被移出时，你可从弃牌堆将一张“人符”及一张“人鬼”加入手卡。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -2139,7 +1975,6 @@
     cost: 3
     effect: 你宣言区内每有一张“冥想斩”，宣言本卡耗灵-1。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -2151,7 +1986,6 @@
     cost: 3
     effect: 攻击阶段限一次，你可从你弃牌堆宣言本卡。
     intensity: 3500
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 5
@@ -2163,7 +1997,6 @@
     cost: 1
     effect: 本卡命中后，本回合，你宣言的体术符卡战力+500。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2174,7 +2007,6 @@
     cost: 3
     effect: 本卡命中后，本回合，你宣言的下一张战斗符卡不可被对手相杀。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2185,7 +2017,6 @@
     cost: 3
     effect: 你的宣言区若存在2种或更多的「彩符」或「华符」，宣言本卡消耗灵力-1，且本卡获得“稳定”特性。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2196,7 +2027,6 @@
     cost: 1
     effect: 当你受到一次弹幕伤害时，可发动此陷阱：令该伤害-500，且你抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2207,7 +2037,6 @@
     cost: 1
     effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2219,7 +2048,6 @@
     cost: 2
     effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2231,7 +2059,6 @@
     cost: 3
     effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2243,7 +2070,6 @@
     cost: 1
     effect: 若本卡造成了弹幕伤害，你可从卡组中展示一张「彩符」并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2255,7 +2081,6 @@
     cost: 1
     effect: 防御阶段开始时，可发动此状态，本回合每当对手即将对你造成一次伤害时，对手需选择一项：1.失去一点灵力。2.防止此伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2266,7 +2091,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组展示一张红美玲的“武魂”特性的符卡并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2277,7 +2101,6 @@
     cost: 2
     effect: 战斗阶段开始时，可发动此状态：本回合，每当你宣言一张体术符卡时，对对手造成500点体术伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2288,7 +2111,6 @@
     cost: 3
     effect: 对阵符卡战力-1000，且无效化其所有卡面效果和特性。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2299,7 +2121,6 @@
     cost: 1
     effect: 本卡命中后，本回合，你不可宣言任何体术符卡。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2310,7 +2131,6 @@
     cost: 2
     effect: 当你处于「猛虎内劲」状态时，本卡战力X2，并获得反制特性。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2321,7 +2141,6 @@
     cost: 2
     effect: 当你宣言的一张红美铃体术符卡被相杀时，可发动此陷阱：该符卡战力+1500。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2332,7 +2151,6 @@
     cost: 0
     effect: 弃置对手宣言区的所有符卡，然后你回复X×500点体力，本卡战力+X×500。（X为你弃置对手宣言区符卡的数量）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -2344,7 +2162,6 @@
     cost: 2
     effect: 本卡命中后，可明置于你装备区。你可将本卡明置于你装备区的本卡，视为一张气符「星脉弹」
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2356,7 +2173,6 @@
     cost: 3
     effect: 攻击阶段宣言本卡时，本卡战力-2000。
     intensity: 4000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 27
@@ -2368,7 +2184,6 @@
     cost: 0
     effect: 宣言本卡后，对双方各造成500点体术伤害
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2379,7 +2194,6 @@
     cost: 1
     effect: 本卡结算完毕后，你获得状态：你发动「太极芳波」宣言符卡消耗灵力-1，但至少须消耗一点灵力。直到该回合结束
     intensity: 500
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -2390,7 +2204,6 @@
     cost: 1
     effect: （五行：火。宣言时，须明置你符力区一张具有火属性的五行符卡；被明置于符力区时，对对手造成500点弹幕伤害。命中时，展示一张水属性五行符卡加入手牌。）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 22
@@ -2402,7 +2215,6 @@
     cost: 3
     effect: 战斗阶段，若对手在你宣言本卡后，宣言了超过2张战斗符卡。回合结束时，你对对手造成2000点弹幕伤害。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2413,7 +2225,6 @@
     cost: 1
     effect: 本卡在每个战斗阶段内只可宣言一次。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2424,7 +2235,6 @@
     cost: 2
     effect: （五行：水。宣言时，须明置你符力区一张具有水属性的五行符卡；被明置于符力区时，你回复1点灵力。命中时，展示一张木属性五行符卡加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 20
@@ -2436,7 +2246,6 @@
     cost: 1
     effect: 本卡结算完毕后，本回合你宣言的下一张带有“五行”特性的符卡，宣言时可将其具有的一种五行属性视为另一五行属性。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2447,7 +2256,6 @@
     cost: 2
     effect: （五行：火。水。宣言时，须明置你符力区一张具有火属性或水属性的五行符卡。被明置于符力区时，你对对手造成500点弹幕伤害，并回复1点灵力。命中时，展示一张水属性和一张木属性五行符卡加入手牌。）
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 20
@@ -2460,7 +2268,6 @@
     cost: 3
     effect: （五行：木。宣言时，须明置你符力区一张具有木属性的五行符卡；被明置于符力区时，你抽一张卡。命中时，展示一张金属性五行符卡加入手牌。）
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 21
@@ -2472,7 +2279,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：你宣言的所有帕秋莉战斗符卡特性无效。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2483,7 +2289,6 @@
     cost: 2
     effect: （五行：火。宣言时，须明置你符力区一张具有火属性的五行符卡。被明置于符力区时，对对手造成500点弹幕伤害。命中时，展示一张水属性五行特性符卡并加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 22
@@ -2496,7 +2301,6 @@
     cost: 2
     effect: 当本卡被加入你手牌时，你可以选择展示并弃置本卡；若如此做，展示你卡组中2张具有“五行”特性的符卡并置于你符力区。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2507,7 +2311,6 @@
     cost: 2
     effect: 攻击阶段开始时，可发动此状态：本回合，每当你宣言的一张帕秋莉战斗符卡命中时，你可展示卡组中一张“五行”特性的符卡加入手牌。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2518,7 +2321,6 @@
     cost: 3
     effect: 本卡结算完毕后，对手须选择一项执行：1.弃置一张战力不小于1500的战斗符卡。2.你对其造成1500点体术伤害。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2529,7 +2331,6 @@
     cost: 1
     effect: 当对手宣言一张战斗符卡时，可发动此陷阱：无效化该符卡的卡面技能效果。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2540,7 +2341,6 @@
     cost: 2
     effect: （五行：金。宣言时，须明置你符力区一张具有金属性的五行符卡；被明置于符力区时，对手须弃置一张手牌。命中时，展示一张土属性五行特性符卡加入手牌。）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 19
@@ -2552,7 +2352,6 @@
     cost: 1
     effect: 宣言本卡时，你可以展示你卡组中具有“五行”特性的一张符卡，并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2563,7 +2362,6 @@
     cost: 0
     effect: 宣言本卡后，你获得此效果至本回合结束：你宣言帕秋莉符卡的发动需要均改为「将你弃牌堆一张具有“五行”特性的符卡移出游戏，并回复500点体力」。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -2575,7 +2373,6 @@
     cost: 1
     effect: （五行：土。宣言时，须明置你符力区一张具有土属性的五行符卡；被明置于符力区时，你弃置对手宣言区一张卡。命中时，展示一张火属性五行符卡并加入手牌。）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 23
@@ -2587,7 +2384,6 @@
     cost: 3
     effect: （五行：火。土。宣言时，须明置你符力区一张具有火属性或土属性的五行符卡。被明置于符力区时，你对对手造成500点弹幕伤害，并弃置对手宣言区一张卡。命中时，展示一张水属性和一张火属性五行符卡加入手牌。）
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 22
@@ -2600,7 +2396,6 @@
     cost: 3
     effect: 本卡结算完毕后，重置你宣言区、符力区所有符卡。
     intensity: 3500
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -2611,7 +2406,6 @@
     cost: 2
     effect: 本卡结算完毕后，你可将你宣言区一张具有“五行”特性的符卡移至你符力区
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2622,7 +2416,6 @@
     cost: 1
     effect: 攻击阶段，当本卡命中后，你可弃置对手一张手牌；若本卡被完全相杀，你可从卡组中展示一张“丧心疮痍”并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2633,7 +2426,6 @@
     cost: 3
     effect: 宣言本卡时，对手须弃置一张手牌。本卡命中时，你弃可置对手符力区一张牌。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2644,7 +2436,6 @@
     cost: 1
     effect: 本卡结算完毕后，对手须选择弃置1张手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2655,7 +2446,6 @@
     cost: 1
     effect: ''
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 13
@@ -2667,7 +2457,6 @@
     cost: 2
     effect: ''
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 13
@@ -2679,7 +2468,6 @@
     cost: 3
     effect: ''
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 13
@@ -2693,7 +2481,6 @@
 
       展示并加入手牌。'
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -2705,7 +2492,6 @@
     cost: 2
     effect: 攻击阶段开始时发动：本局游戏，你宣言的带有狂视特性的符卡战力增加500点。这个效果可以叠加。当你的角色区拥有3张生药「国士无双之药」时，弃置这些符卡并对双方造成2000点弹幕伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2716,7 +2502,6 @@
     cost: 0
     effect: 当对手弃置一张手牌时发动，你可以弃置至少一张手牌，并破坏对手道具区一张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2727,7 +2512,6 @@
     cost: 2
     effect: 防御阶段开始时发动：本回合内，对手不可消耗灵珠。你可以把墓地的本卡除外，弃置对手符力区一张符卡
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2738,7 +2522,6 @@
     cost: 2
     effect: 攻击阶段开始时发动：本回合内，对手不可弃置符力区卡片。你可以把墓地的本卡除外，令对手失去一点灵力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2749,7 +2532,6 @@
     cost: 1
     effect: 宣言本卡时，你可于卡组中展示一张具有狂视特性的符卡，并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2760,7 +2542,6 @@
     cost: 0
     effect: 对手失去最后一点灵力或失去最后一张手牌时，可发动此陷阱：令对手一颗灵珠崩坏,并对其造成500点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2771,7 +2552,6 @@
     cost: 2
     effect: 本卡战力+X*500（X为对手当前手牌数量，且X至多为6）。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2782,7 +2562,6 @@
     cost: 2
     effect: 本卡结算后，你可查看你卡组顶的X张卡片，并将其中任意张卡片覆盖于你的符力区，其余加入手牌。[X=（5-对手卡牌数量）]，这个效果一回合只能发动一次。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2793,7 +2572,6 @@
     cost: 0
     effect: 本卡结算后，双方弃置全部手牌，并各自抽一张牌。如果双方弃置的符卡数量总和大于9张，则你可以额外抽1张牌并回复1点灵力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -2805,7 +2583,6 @@
     cost: 1
     effect: 当本卡从手牌被弃置时，你可抽一张卡。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2816,7 +2593,6 @@
     cost: 2
     effect: 当本卡从手牌被弃置时，你可回复一点灵力。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2827,7 +2603,6 @@
     cost: 2
     effect: 宣言本卡时，对手须将手牌补至或弃至3张。本卡被相杀时，战力+1500。
     intensity: 1500
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 13
@@ -2839,7 +2614,6 @@
     cost: 3
     effect: 每当对手弃置一次手牌时：对对手造成500点弹幕伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2850,7 +2624,6 @@
     cost: 3
     effect: 若铃仙处于CENTER状态，当本卡被你弃置或被完全相杀而进入弃牌堆时：你可以弃置X张手牌，并将对手场上X张符卡破坏。当你受到一次体术伤害时，你可将弃牌堆的本卡除外：令该伤害减少1000点。
     intensity: 3000
-    faq: ''
     basic_constraint: CENTER
     traits:
     - 13
@@ -2862,7 +2635,6 @@
     cost: 3
     effect: 若铃仙处于CENTER状态，本卡于手牌被送入墓地时，你可以弃置对手一张手牌；若铃仙发动 Hyper 时，本卡获得狂视特性。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2873,7 +2645,6 @@
     cost: 1
     effect: 攻击阶段，若本卡被完全相杀，对手在本回合内宣言的符卡战力-500。本卡命中后，你可展示你卡组中一张“冰符”并将之加入手牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2884,7 +2655,6 @@
     cost: 3
     effect: 战斗阶段限一次，本卡战力+X*500（X为你宣言区具有冻结特性的符卡数量）
     intensity: 2000
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -2895,7 +2665,6 @@
     cost: 1
     effect: 本卡命中后，对手不可使用角色技能，直至回合结束。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -2907,7 +2676,6 @@
     cost: 1
     effect: ''
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -2919,7 +2687,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -2931,7 +2698,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -2943,7 +2709,6 @@
     cost: 3
     effect: 攻击阶段，你可以从弃牌堆宣言本卡
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -2955,7 +2720,6 @@
     cost: 2
     effect: 本卡结算后，对手发动其装备区卡片时，消耗灵力*2，直到该回合结束。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -2967,7 +2731,6 @@
     cost: 3
     effect: 对阵符卡为体术符卡时：本卡结算完毕后，对对手造成1000点体术伤害。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -2978,7 +2741,6 @@
     cost: 2
     effect: 宣言本卡时，你可选择弃置你宣言区的所有冻结特性的符卡，若你以此法弃置了两张或更多符卡，本卡失去「冻结」特性。若你弃置了五张或更多符卡，额外获得：本卡战力+1000。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -2990,7 +2752,6 @@
     cost: 0
     effect: 本卡结算完毕后，你获得此效果直至本局游戏结束：你以冻结特性的符卡宣言相杀时，令对阵符卡战力归零并回复500点生命。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -3002,7 +2763,6 @@
     cost: 2
     effect: 若你宣言区带有冻结特性的符卡数量不为3或4，或你本回合已宣言过「冰块」，你须受到1500点体术伤害。
     intensity: 3500
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -3013,7 +2773,6 @@
     cost: 2
     effect: 崩坏双方各1枚灵珠。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -3025,7 +2784,6 @@
     cost: 1
     effect: 本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3036,7 +2794,6 @@
     cost: 3
     effect: 攻击阶段，你可消耗三点灵力，并弃置手牌中的本卡。若你如此做，视为你连续宣言了3张“红符「Scarlet Shoot」”。
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3047,7 +2804,6 @@
     cost: 0
     effect: 当你的「血」标记达到上限时，可发动此陷阱：对对手造成1500点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3058,7 +2814,6 @@
     cost: 1
     effect: 本卡命中后，本回合你宣言的下一张汲引特性的符卡，消耗灵力-1。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -3070,7 +2825,6 @@
     cost: 2
     effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 10
@@ -3082,7 +2836,6 @@
     cost: 3
     effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 10
@@ -3094,7 +2847,6 @@
     cost: 2
     effect: （本卡不可被对手的陷阱卡响应。）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -3106,7 +2858,6 @@
     cost: 0
     effect: 防御阶段，当你宣言一张符卡，且该卡完全相杀对阵符卡时，可发动此陷阱：将该符卡置于你的宣言区底部，并且你获得一枚「血」标记。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3117,7 +2868,6 @@
     cost: 1
     effect: 当对手体力值不大于500时；宣言本卡时，不消耗灵力，不受华丽度限制；且本卡获得「贯通」与「高速」特性。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3128,7 +2878,6 @@
     cost: 1
     effect: 若本卡被完全相杀，你可从卡组中展示一张「夜符」或「夜王」并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -3140,7 +2889,6 @@
     cost: 1
     effect: ''
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 10
@@ -3152,7 +2900,6 @@
     cost: 1
     effect: 攻击阶段开始时，你可发动此状态：本回合你可执行以下行动至多5次：扣减500点体力，抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3163,7 +2910,6 @@
     cost: 1
     effect: 对手灵力区每有一颗未崩坏的灵珠，本卡战力须-1000。
     intensity: 6000
-    faq: ''
     basic_constraint: CENTER
     traits:
     - 3
@@ -3176,7 +2922,6 @@
     cost: 2
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3187,7 +2932,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：你每次回复体力时，回复体力值*2。该状态持续至本回合结束。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3198,7 +2942,6 @@
     cost: 0
     effect: 宣言本卡后，你回复500+X点体力。（X=对阵符卡原始战力-500，且至少为0）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -3210,7 +2953,6 @@
     cost: 3
     effect: 攻击阶段限一次，宣言本卡时你可查看卡组顶5张卡片，将其中任意数量设置于你的装备区或符力区，其余加入手牌。且在此效果发动后，下次抽卡阶段，你至多抽1张卡。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3221,7 +2963,6 @@
     cost: 2
     effect: 宣言本卡后，本回合对手宣言的所有弹幕符卡原始战力-500。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3232,7 +2973,6 @@
     cost: 3
     effect: 攻击阶段，宣言本卡时消耗灵力-X，战力+X*500。（X=你本回合已宣言的蕾米莉亚「夜符」的数量）
     intensity: 1500
-    faq: ''
     basic_constraint: CENTER
     traits:
     - 4
@@ -3246,7 +2986,6 @@
     cost: 1
     effect: 宣言本卡时，你可将「血」标记调整至1-4中任意一个数字。
     intensity: 500
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 10
@@ -3258,7 +2997,6 @@
     cost: 3
     effect: 攻击阶段，本卡战力+X。（X=本回合你扣减的体力值）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 10
@@ -3270,7 +3008,6 @@
     cost: 2
     effect: 宣言本卡时，你可以扣减1000点体力，使本卡获得「汲饮」「贯通」特性。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3281,7 +3018,6 @@
     cost: 2
     effect: 如果露娜切露德参战，本卡在结算后返回你的手牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3293,7 +3029,6 @@
     cost: 1
     effect: 本卡命中后，你可以使对方道具区一张卡返回其手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -3305,7 +3040,6 @@
     cost: 2
     effect: 如果对阵符卡是弹幕符卡，本卡战力+3000
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3316,7 +3050,6 @@
     cost: 2
     effect: 宣言本卡时，回复1000点体力。若此时你的体力低于对手，本卡战力+1500。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3327,7 +3060,6 @@
     cost: 2
     effect: 宣言本卡时，本卡战力+X（X=双方当前的体力差值。且X至多为5000）
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3338,7 +3070,6 @@
     cost: 3
     effect: 宣言本卡时，你可弃置你宣言区X张未横置的符卡，本卡战力+X*1000点，且X至多为3
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3349,7 +3080,6 @@
     cost: 1
     effect: ''
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3361,7 +3091,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3373,7 +3102,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3385,7 +3113,6 @@
     cost: 2
     effect: 宣言本卡时，如果你的宣言区没有符卡，本卡获得贯通，连击特性。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3397,7 +3124,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合，你每造成1500点伤害，可将你弃牌堆一张永琳的战斗符卡置于你的宣言区顶。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3408,7 +3134,6 @@
     cost: 3
     effect: 宣言本卡时，将你的体力调整为3000。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3419,7 +3144,6 @@
     cost: 0
     effect: 防御阶段开始时，可发动此状态：本回合，对手宣言的符卡失去贯通特性。你可以弃置两张战斗符卡，视为宣言了一张战力为X的弹幕符卡（X=两卡原始战力之和）。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3430,7 +3154,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组中将一张带有药引特性的符卡展示并加入手牌，之后将卡组洗切。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3441,7 +3164,6 @@
     cost: 2
     effect: 本卡结算后，直到回合结束，对方不能将任何符卡除外。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3453,7 +3175,6 @@
     cost: 3
     effect: 防御阶段，战斗结算时，可发动此陷阱：对手宣言的符卡战力减至0点，且你回复X点体力。（X=该符卡的原始战力）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3464,7 +3185,6 @@
     cost: 1
     effect: 本卡结算后，你可以支付1000点生命并从卡组中将一张永琳的非战斗符卡加入手牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 16
@@ -3476,7 +3196,6 @@
     cost: 2
     effect: 宣言本卡时，将你宣言区顶部与底部的符卡互相交换位置。并对对方造成X点弹幕伤害，X为交换的两张符卡的华丽度差值X500。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3487,7 +3206,6 @@
     cost: 0
     effect: 宣言本卡后，将本卡置于你宣言区顶部。然后弃置双方卡组顶各5张卡片。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -3499,7 +3217,6 @@
     cost: 2
     effect: 宣言本卡时，你可以支付X点生命（必须是500的倍数），使本卡的战力增加X点。(X至多为8）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3512,7 +3229,6 @@
 
       本回合你每回复1000点生命，你额外回复500点生命，并且抽一张牌或回复1点灵力。'
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3523,7 +3239,6 @@
     cost: 3
     effect: 宣言本卡时，直到本卡结算完毕，你受到的所有非特殊伤害由对方承受。
     intensity: 500
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -3534,7 +3249,6 @@
     cost: 3
     effect: 本卡结算后，若你的生命值不大于4000，则你可以在你的生命低于2000点时，额外进行一次”灵能解放”
     intensity: 3500
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 16
@@ -3547,7 +3261,6 @@
     effect: 战斗阶段开始时发动，你选择一项执行：1.横置对手当前处于CENTER状态的一名角色。2.将对手一张不带有 HYPER 技能的一名横置角色弃置，并禁止其
       SUPPORT 技能的发动。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3558,7 +3271,6 @@
     cost: 1
     effect: 当对手发动一张即时道具卡时发动：抵消该道具卡的作用效果。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3569,7 +3281,6 @@
     cost: 0
     effect: 攻击阶段发动，你选择一项执行：1.回复2点灵力。2.修复1枚崩坏的灵珠。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3580,7 +3291,6 @@
     cost: 0
     effect: 攻击阶段发动：将你符力区的所有卡片返回手牌，并执行一次额外的设置阶段。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3591,7 +3301,6 @@
     cost: 1
     effect: 攻击阶段发动：你宣言的下一张战斗符卡无视华丽度限制。&#10;若该符卡华丽度不大于2，你可额外消耗1点灵力，令其获得“贯通”特性。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3602,7 +3311,6 @@
     cost: 2
     effect: 当对手发动一张陷阱符卡或状态符卡时可发动：破坏之。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3613,7 +3321,6 @@
     cost: 0
     effect: 当你即将受到一次伤害时发动：抵消500点伤害。若本卡抵消了一张战斗符卡的伤害，该符卡即使命中也不可进入宣言区。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3624,7 +3331,6 @@
     cost: 3
     effect: 本卡在场时，你受到的所有弹幕伤害-500点。当你即将受到一次弹幕伤害时，你可将装备区的本卡移出游戏：若如此做，防止此伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3635,7 +3341,6 @@
     cost: 2
     effect: 攻击阶段发动，你可以选择一项执行：1.受到1000点特殊伤害 2.失去2点灵力。防御阶段，当你受到一次伤害后，你可将弃牌区的本卡移出游戏：若如此做，你回复500点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3646,7 +3351,6 @@
     cost: 1
     effect: 攻击阶段发动：把你弃牌堆至多五张不同华丽度的战斗符卡返回卡组洗切，然后展示你卡组顶的符卡，若为战斗符卡，将之置于宣言区顶或加入手牌，否则，弃置并重复展示流程。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3657,7 +3361,6 @@
     cost: 3
     effect: 本卡在场时，防御阶段，你受到的所有体术伤害-500点。当你即将受到一次体术伤害时，你可将装备区的本卡移出游戏：若如此做，防止此伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3668,7 +3371,6 @@
     cost: 0
     effect: 攻击阶段发动：你回复1000点体力。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3679,7 +3381,6 @@
     cost: 1
     effect: 攻击阶段发动：你抽两张牌。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3690,7 +3391,6 @@
     cost: 3
     effect: 本卡设置完毕后，你可从卡组中展示一张角色卡并横置于角色区。攻击阶段开始时，你可以将装备区的本卡移出游戏：若如此做，你可从卡组中展示一张延时道具卡设置于你的装备区。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3701,7 +3401,6 @@
     cost: 0
     effect: 当你即将造成一次伤害时发动，防止此伤害，并选择一项执行：1.令对手弃置一张手牌。2.破坏对手装备区或符力区一张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3712,7 +3411,6 @@
     cost: 3
     effect: 本卡在场时，每当你回复灵力时，灵力回复量+1.
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3723,7 +3421,6 @@
     cost: 3
     effect: 本卡在场时：准备阶段抽卡时，你至少抽2张卡；当你使用「伊吹之瓢」时，你额外抽一张卡；你的装备区可额外设置一张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3734,7 +3431,6 @@
     cost: 3
     effect: 本卡在场时，攻击阶段，每当你宣言一张战斗符卡时，你可发动：令符卡的战力+1500点，且该符卡的战力至多造成500点伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3745,7 +3441,6 @@
     cost: 3
     effect: 本卡在场时，攻击阶段，每当对手宣言相杀时，若对阵符卡战力大于你的进攻符卡，令你的进攻符卡战力改为X(X=对阵符卡的原始战力）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3756,7 +3451,6 @@
     cost: 2
     effect: 当你受到一次伤害时可发动此道具：&#10;在本次伤害结算完毕后，你回复X点体力（X=该伤害值）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3767,7 +3461,6 @@
     cost: 1
     effect: 战斗阶段，对手获得一次手牌时发动：&#10;令对手选择一项：1.弃置获得的所有手牌。2.失去2点灵力，并崩坏1个灵珠。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3778,7 +3471,6 @@
     cost: 1
     effect: 防御阶段宣言本卡时，你可从卡组展示一张战力不大于500的符卡并加入手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3790,7 +3482,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡时，你可从卡组展示一张战力不小于2500的符卡并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3802,7 +3493,6 @@
     cost: 2
     effect: 本卡击破对阵符卡后，直到你的下一个攻击阶段开始，对手不可发动任何角色技能。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3814,7 +3504,6 @@
     cost: 2
     effect: 本卡命中时，令对手崩坏一颗灵珠。本卡被击破时，你可抽一张卡。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3826,7 +3515,6 @@
     cost: 3
     effect: 本卡命中后，你可从手牌不消耗灵力、无视华丽度宣言秦心的一张「喜符」、「怒符」或「忧符」。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3838,7 +3526,6 @@
     effect: 攻击阶段宣言本卡时，你可弃置手牌一张华丽度为 X 的卡片，令本卡获得下列特性：X=1 诱导，X=2 高速，X=3 破坏，X=4 扭曲，X=5
       贯通。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3850,7 +3537,6 @@
     cost: 3
     effect: 本卡命中后，对手宣言的下一张战斗符卡战力为0，直到本回合结束。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3861,7 +3547,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -3873,7 +3558,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行如下行动：横置你宣言区的一张符卡，然后抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3884,7 +3568,6 @@
     cost: 1
     effect: 本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3895,7 +3578,6 @@
     cost: 1
     effect: 当对手体力值不大于500时；宣言本卡时，不消耗灵力，不受华丽度限制；且本卡获得「贯通」与「高速」特性。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3906,7 +3588,6 @@
     cost: 0
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3917,7 +3598,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你每宣言一张灵梦的诱导特性符卡时，从卡组抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3928,7 +3608,6 @@
     cost: 1
     effect: 宣言本卡时，你可弃置你符力区的X个「人偶」。若如此做，令本卡战力+1000×X（X至多为4）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3939,7 +3618,6 @@
     cost: 0
     effect: 宣言本卡后，终止当前的所有结算，结束此阶段，然后进入你的攻击阶段。（跳过回合开始和准备阶段）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -3951,7 +3629,6 @@
     cost: 1
     effect: ''
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 13
@@ -3963,7 +3640,6 @@
     cost: 2
     effect: 本卡战力+X*500（X为对手当前手牌数量，且X至多为6）。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3974,7 +3650,6 @@
     cost: 0
     effect: 宣言本卡时，你回复一点灵力；若大妖精在场，你额外回复500点体力。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -3986,7 +3661,6 @@
     cost: 3
     effect: 战斗阶段开始时发动，每当你回复灵力时，你可以回复500点体力。当你受到大于1000点的伤害时，那次伤害减少至500点，本卡被破坏。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -3999,7 +3673,6 @@
 
       当大妖精离场时，你须弃置本卡和其上的永续道具卡。这个状态效果持续至游戏结束。'
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4010,7 +3683,6 @@
     cost: 1
     effect: 如果斯塔萨菲雅参战，本卡在结算后返回你的手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4022,7 +3694,6 @@
     cost: 3
     effect: 本卡结算后，你可以使对方随机一张手牌返回其卡组顶部。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4033,7 +3704,6 @@
     cost: 3
     effect: 如果对阵符卡时体术符卡，本卡战力+1000
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4044,7 +3714,6 @@
     cost: 1
     effect: 攻击阶段，你可以把宣言区的本卡弃置。从卡组中将一张羽心特性的符卡加入手牌（这个效果在这张卡加入宣言区的当回合不能发动）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4056,7 +3725,6 @@
     cost: 2
     effect: 本卡结算后，你受到1000点弹幕伤害。
     intensity: 3500
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -4067,7 +3735,6 @@
     cost: 3
     effect: 本卡结算后，你可以将你弃牌区一张 日符「Aggressive Light」 加入手牌
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4079,7 +3746,6 @@
     cost: 1
     effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4091,7 +3757,6 @@
     cost: 2
     effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4103,7 +3768,6 @@
     cost: 3
     effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4115,7 +3779,6 @@
     cost: 2
     effect: 本卡被宣言相杀时，你可以回复1点灵力。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4126,7 +3789,6 @@
     cost: 3
     effect: 本卡被宣言相杀时，你可以抽一张牌。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4137,7 +3799,6 @@
     cost: 2
     effect: 宣言本卡时，你可以将手牌一张角色卡横置于角色区。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4149,7 +3810,6 @@
     cost: 1
     effect: 宣言本卡时，你可以将你角色区一张符卡返回手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18
@@ -4161,7 +3821,6 @@
     cost: 1
     effect: 当你宣言一张战斗符卡时发动，你可以将对方华丽区或弃牌区一张符卡除外。本回合，对方如果宣言与那张卡华丽度相同符卡，那张卡的卡面效果无效，战力归0.
     intensity: 0
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -4172,7 +3831,6 @@
     cost: 0
     effect: 宣言本卡时，你可以将对方道具区，符力区，手牌各一张符卡破坏。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -4185,7 +3843,6 @@
     cost: 1
     effect: 宣言本卡时，你可以查看对方道具区，符力区和手牌的全部符卡，并选择其中一张除外。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4196,7 +3853,6 @@
     cost: 1
     effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1点灵力。
     intensity: 1500
-    faq: 先检索，再回复灵力。检索效果可选发动，回复灵力必发效果。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4207,7 +3863,6 @@
     cost: 3
     effect: 攻击阶段，当本卡被相杀时，你可令对手选择一项：1.失去2点灵力 2.受到1500点特殊伤害。
     intensity: 3000
-    faq: 被宣言相杀时发动，优先于对阵符卡宣言时效果，先结算，因此不会被对阵符卡效果无效化。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4218,7 +3873,6 @@
     cost: 2
     effect: 防御阶段，对方宣言一张战斗符卡时，可发动此陷阱：防止该符卡对你造成的所有伤害。
     intensity: 0
-    faq: 发动本陷阱后，无论是否发动成功。仍然可以选择继续宣言相杀。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4229,7 +3883,6 @@
     cost: 1
     effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 1
@@ -4241,7 +3894,6 @@
     cost: 2
     effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 1
@@ -4253,7 +3905,6 @@
     cost: 3
     effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 1
@@ -4265,7 +3916,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你宣言的灵梦符卡均获“诱导”特性。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4276,7 +3926,6 @@
     cost: 1
     effect: 攻击阶段，你可消耗1点灵力，将手牌中的本卡替换为你宣言区、弃牌堆或隙间的任意一张（本卡以外的另一种）“梦想封印”符卡。
     intensity: 1000
-    faq: 发动效果不是宣言。效果的发动时点为攻击阶段的空余时点。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4287,7 +3936,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡后，你获得效果：防止你即将收到的任何伤害。此效果持续至该攻击阶段结束。
     intensity: 2000
-    faq: 结算后生效，防止所有伤害。但不包括扣减或调整体力。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4298,7 +3946,6 @@
     cost: 1
     effect: 本卡结算完毕后，你可展示你卡组3张战力为1000的战斗符卡，由对方从中选择其一加入你的手牌，其余返回卡组洗切。
     intensity: 500
-    faq: 选择的3张符卡明示于你的决斗区。本卡效果发发动后，你可以检视你的卡组，若没有3张或更多战力为1000的符卡，效果发动失败。将卡组洗切后放回。
     basic_constraint: SUPPORT
     traits:
     - 2
@@ -4310,7 +3957,6 @@
     cost: 1
     effect: （诱导：本卡命中后，对对手造成1000点特殊伤害）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 2
@@ -4322,7 +3968,6 @@
     cost: 1
     effect: 宣言本卡时，你可查看你卡组顶的三张卡，展示其中一张并加入手牌，然后将其余卡片依次置于你卡组底。
     intensity: 1000
-    faq: 卡组至少有3张符卡才能发动效果。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4333,7 +3978,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡后，令对手获得状态：不可消耗符力，直到该阶段结束。
     intensity: 2000
-    faq: 本卡结算后生效，必发效果。对方不得以任何方式使用符力区的符卡，包括翻面，横置，弃置，除外等等效果。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4344,7 +3988,6 @@
     cost: 3
     effect: 防御阶段宣言本卡时，你可以将弃牌区X张“梦符”移出游戏；你每用此法移出一张“梦符”本卡战力+500。
     intensity: 3000
-    faq: 选发效果，由玩家自行决定移出的数量。先将符卡移出游戏，之后增加战力。移出符卡不是发动本卡的需要。
     basic_constraint: SUPPORT
     traits:
     - 1
@@ -4356,7 +3999,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你每宣言一张灵梦的诱导特性符卡时，从卡组抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4367,7 +4009,6 @@
     cost: 0
     effect: 本卡结算完毕后，横置进入对手宣言区顶部，且不可被弃置；在对手的攻击阶段结束时，将本卡移出游戏。
     intensity: 1000
-    faq: 攻击阶段宣言本卡在结算后也会生效，效果持续至对方一下回合结束之前。
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -4379,7 +4020,6 @@
     cost: 1
     effect: 防御阶段，当对手宣言一张弹幕符卡时，可发动此陷阱：你不可相杀此符卡，并令该符卡战力-1500，然后对对手造成500点弹幕伤害。
     intensity: 0
-    faq: 若本卡发动失败，你仍然可以继续宣言相杀。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4390,7 +4030,6 @@
     cost: 2
     effect: （诱导：本卡命中后，对对手造成1000点特殊伤害）
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 2
@@ -4402,7 +4041,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有灵梦战斗符卡失去特性以外的原有技能；且被对手相杀时，将其战力改为X+500（X为对阵符卡战力）
     intensity: 0
-    faq: 使符卡获得的效果是必发效果。
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -4413,7 +4051,6 @@
     cost: 3
     effect: 攻击阶段限一次，若本卡未命中而进入弃牌堆后，你可以弃置一张手牌，若如此做，你从弃牌堆无消耗宣言一张“天霸风神脚”。
     intensity: 2500
-    faq: 如果本卡被破坏或者卡面效果无效，依然可以发动再次宣言的效果。
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -4425,7 +4062,6 @@
     cost: 3
     effect: 本卡在场时，每当你发动“行云流水”或“灵能结界”，你可回复1点灵力，并对对手造成500点弹幕伤害。
     intensity: 0
-    faq: 只要你的灵梦C技能生效就可以发动效果。灵能结界的效果只要你在防御阶段宣言了第一张战斗符卡就生效，不需要造成反制伤害。
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4436,7 +4072,6 @@
     cost: 2
     effect: 本卡结算完毕后，你可横置对手场上的一张角色卡；本回合，对手不可执行灵能解放，你不可发动灵梦以外角色的符卡。（有羽心特性的或系统卡除外）
     intensity: 2500
-    faq: 横置对方角色区符卡时选发效果，对方不能灵能解放，你不能宣言灵梦以外角色符卡是必发效果。
     basic_constraint: CENTER
     traits:
     - 4
@@ -4448,7 +4083,6 @@
     cost: 1
     effect: 本卡战斗结算时，你可将你弃牌堆至多2张符卡移出游戏。每移出一张符卡，本卡战力+500
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4459,7 +4093,6 @@
     cost: 3
     effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡战力+X×500（X=你隙间中带有“鬼”字的符卡数，且最多为5）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 28
@@ -4471,7 +4104,6 @@
     cost: 2
     effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡命中后，你可立即从宣言区无消耗再次宣言本卡。若如此做，在此次结算完毕后，将本卡移出游戏。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 28
@@ -4483,7 +4115,6 @@
     cost: 1
     effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 28
@@ -4495,7 +4126,6 @@
     cost: 3
     effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡战力+X×500（X=你隙间中带有“鬼”字的符卡数，且最多为5）
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 28
@@ -4507,7 +4137,6 @@
     cost: 2
     effect: 本卡命中后，对手失去一点灵力，然后你抽一张卡。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4518,7 +4147,6 @@
     cost: 2
     effect: 对手战斗符卡命中后发动：该符卡不可进入宣言区，且你选择1.对手失去3点灵力；2.弃置对手至多3张符力区卡片
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4529,7 +4157,6 @@
     cost: 2
     effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。） 本卡结算完毕后，本回合内，双方宣言的弹幕符卡战力-1000
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 28
@@ -4541,7 +4168,6 @@
     cost: 1
     effect: 攻击阶段开始时发动：本回合，你宣言的所有符卡获得“萃集”特性。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4552,7 +4178,6 @@
     cost: 0
     effect: 将你弃牌堆任意数量符卡移出游戏
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -4564,7 +4189,6 @@
     cost: 1
     effect: 你宣言区每存在一张“四天王奥义”，本卡战力×2.
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4575,7 +4199,6 @@
     cost: 3
     effect: 攻击阶段结束时限一次：你可弃置一张手牌，对对手造成500点特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4586,7 +4209,6 @@
     cost: 1
     effect: 宣言本卡时，你可弃置你符力区的一个「人偶」。若如此做，本卡战力+1000，并获得“反制”特性。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4597,7 +4219,6 @@
     cost: 1
     effect: 宣言本卡时，你可弃置你符力区的X个「人偶」。若如此做，令本卡战力+1000×X（X至多为4）
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4608,7 +4229,6 @@
     cost: 0
     effect: 防御阶段，对方宣言一张战力不小于2500点的符卡时，可发动此陷阱：你将手牌中任意数量的「人偶」置于你符力区，并竖置你符力区的所有「人偶」。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4619,7 +4239,6 @@
     cost: 1
     effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 11
@@ -4631,7 +4250,6 @@
     cost: 2
     effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 11
@@ -4643,7 +4261,6 @@
     cost: 3
     effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 11
@@ -4655,7 +4272,6 @@
     cost: 1
     effect: 宣言本卡时，将你弃牌区一张「人偶」符卡置于你符力区。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4666,7 +4282,6 @@
     cost: 0
     effect: 本卡命中后，你可将弃牌区一张「人形」或「人偶」符卡加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4677,7 +4292,6 @@
     cost: 0
     effect: 攻击阶段开始时，可发动此状态：在此攻击阶段内，你可不限次数执行以下动作：弃置一个你符力区的「人偶」，视为你宣言了一张战力为500的爱丽丝体术符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4688,7 +4302,6 @@
     cost: 1
     effect: 战斗阶段开始时，可发动此状态：本回合内，你不可发动道具卡；你符力区每有一个「人偶」被弃置时，你可抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4699,7 +4312,6 @@
     cost: 2
     effect: 宣言本卡时，展示你卡组顶的一张卡并加入手牌；若展示卡为「人偶」，本卡战力+1000。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 11
@@ -4711,7 +4323,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡时，你可查看对手装备区和符力区，展示其中一张卡并弃置之。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -4723,7 +4334,6 @@
     cost: 1
     effect: 本卡战力+X×500（X=本回合，宣言本卡前你被弃置的「人偶」之数量）本卡的最终战力不高于5000。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -4735,7 +4345,6 @@
     cost: 1
     effect: 战斗阶段开始时，可发动此状态：每当你符力区一个竖置「人偶」被弃置时，防止该弃置，改为横置该卡。这个效果被发动三次后，弃置本卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4746,7 +4355,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组中展示一张爱丽丝的「人形」符卡，并加入手牌。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 11
@@ -4758,7 +4366,6 @@
     cost: 0
     effect: 宣言本卡时，你须弃置所有手牌和你符力区的所有「人偶」。下个战斗阶段开始时，你可将你弃牌堆的任意张「人偶」符卡置于你符力区，或加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -4770,7 +4377,6 @@
     cost: 1
     effect: 当本卡被体术符卡、或具有“高速”特性的符卡击破时：对对手造成1500点特殊伤害。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4781,7 +4387,6 @@
     cost: 2
     effect: 当本卡被弹幕符卡相杀时，本卡战力+X（X=对阵符卡的最终战力）。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4792,7 +4397,6 @@
     cost: 2
     effect: 本卡结算完毕后，爱丽丝恢复CENTER状态。
     intensity: 2500
-    faq: ''
     basic_constraint: HYPER
     traits:
     - 11
@@ -4804,7 +4408,6 @@
     cost: 1
     effect: 回合开始时，可发动此陷阱：竖置你宣言区的所有符卡。你每以此法竖置一张符卡，你可弃置对手宣言区一张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4815,7 +4418,6 @@
     cost: 2
     effect: 每回合限一次，本卡结算完毕后，你可从你卡组、符力区、手牌中各弃置至多一张「人偶」符卡，并对对手造成1000×X点弹幕伤害。（X=你以此法弃置的「人偶」之数量）
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4826,7 +4428,6 @@
     cost: 1
     effect: 当本卡击破了一张弹幕符卡时：你可抽一张卡，或令对手受到500点弹幕伤害。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4837,7 +4438,6 @@
     cost: 3
     effect: 当本卡击破了一张弹幕符卡时：令对手受到1000点弹幕伤害，并将对阵符卡移入你的宣言区底部。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4848,7 +4448,6 @@
     cost: 2
     effect: 当你的一张战斗符卡命中后，你可立即不消耗灵力、无视华丽度限制宣言本卡；本卡命中后，可竖置一张你宣言区的符卡。
     intensity: 2000
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -4859,7 +4458,6 @@
     cost: 1
     effect: ''
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -4871,7 +4469,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -4883,7 +4480,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -4895,7 +4491,6 @@
     cost: 2
     effect: 西行寺幽幽子参战时，本卡战力+500。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -4908,7 +4503,6 @@
     cost: 3
     effect: 宣言本卡后，你可将你宣言区的一张华丽度为X的符卡横置，并将对手宣言区一张华丽度同为X的战斗符卡置于你的宣言区底部。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4919,7 +4513,6 @@
     cost: 2
     effect: 本卡战力+X*500（X=你宣言区横置符卡数，X至多为5）。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -4931,7 +4524,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行如下行动：横置你宣言区的一张符卡，然后抽一张卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4942,7 +4534,6 @@
     cost: 1
     effect: 当一张战斗符卡命中时，可发动此陷阱：竖置你宣言区两张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4953,7 +4544,6 @@
     cost: 1
     effect: 你可从卡组中展示一张具有扭曲特性的符卡并加入手牌。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4964,7 +4554,6 @@
     cost: 0
     effect: 当你横置一次你宣言区的符卡时，横置本卡：你获得如下技能：当你对对手造成一次伤害时，追加一次X*500（X为该次横置符卡的数量）的弹幕伤害。在这个效果被触发后，弃置本卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4975,7 +4564,6 @@
     cost: 1
     effect: 宣言本卡时，展示你卡组顶一张卡片：若为战斗符卡，将之弃置并竖置你宣言区一张符卡；若不为战斗符卡，将之加入手牌。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -4986,7 +4574,6 @@
     cost: 1
     effect: 宣言本卡不受华丽度限制。
     intensity: 500
-    faq: ''
     basic_constraint: CENTER
     traits:
     - 8
@@ -4998,7 +4585,6 @@
     cost: 0
     effect: 竖置你宣言区至多5张符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -5010,7 +4596,6 @@
     cost: 1
     effect: 宣言本卡时，你可从卡组展示一张战力为500的八云紫符卡并加入手牌。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5021,7 +4606,6 @@
     cost: 1
     effect: 攻击阶段宣言本卡时，你可从卡组展示一张战力为2000的八云紫符卡或八云蓝符卡，并加入手牌。
     intensity: 500
-    faq: ''
     basic_constraint: CENTER
     traits:
     - 3
@@ -5033,7 +4617,6 @@
     cost: 1
     effect: 若你以「镜花水月」消耗灵力宣言本卡，本卡战力+500。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 8
@@ -5045,7 +4628,6 @@
     cost: 1
     effect: 攻击阶段开始时，可发动此状态：「镜花水月」描述永久改为：战斗阶段限一次，当你需消耗灵力时，你可横置一张宣言区符卡代替此次灵力消耗。
     intensity: 0
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -5056,7 +4638,6 @@
     cost: 1
     effect: 若本卡为该回合你宣言的第一张或最后一张战斗符卡，本回合结束时，你对对手造成500点特殊伤害。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5067,7 +4648,6 @@
     cost: 3
     effect: 若本卡为该回合你宣言的第一张战斗符卡，本回合结束时，你对对手造成1000点特殊伤害。
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5078,7 +4658,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -5090,7 +4669,6 @@
     cost: 0
     effect: 攻击阶段，当你宣言的一张咲夜战斗符卡命中时，可发动此陷阱：你选择一项执行：1.弃置对手一张符力区或装备区的卡片。2.令对手弃置一张手卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5101,7 +4679,6 @@
     cost: 1
     effect: 攻击阶段，当你宣言的咲夜战斗符卡命中时，可发动此陷阱：你宣言的下一张咲夜战斗符卡获得贯通特性且宣言不受华丽度限制。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5112,7 +4689,6 @@
     cost: 2
     effect: 当你即将受到一次伤害时，发动此陷阱：防止此伤害。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5123,7 +4699,6 @@
     cost: 0
     effect: 攻击阶段开始时，可发动此状态：本回合你宣言的十六夜咲夜符卡获得破坏特性，直至回合结束。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5134,7 +4709,6 @@
     cost: 2
     effect: 攻击阶段，你可将宣言区的本卡横置。每当你执行上述动作后，你可从你弃牌堆展示一张「幻符」或「幻葬」并加入手卡。
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5145,7 +4719,6 @@
     cost: 3
     effect: ''
     intensity: 3000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 4
@@ -5157,7 +4730,6 @@
     cost: 1
     effect: ''
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 7
@@ -5169,7 +4741,6 @@
     cost: 2
     effect: ''
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 7
@@ -5181,7 +4752,6 @@
     cost: 1
     effect: 宣言本卡后，你可从卡组展示一张咲夜的陷阱符卡，并加入手卡；然后，你可将一张手卡设置于你的装备区。
     intensity: 1000
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5192,7 +4762,6 @@
     cost: 3
     effect: ''
     intensity: 3500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 7
@@ -5204,7 +4773,6 @@
     cost: 2
     effect: ''
     intensity: 2000
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 5
@@ -5217,7 +4785,6 @@
     cost: 2
     effect: 当对手失去最后一张手卡时，可发动此陷阱：终止当前的所有结算。随后，你将一张手卡中的咲夜战斗符卡置于你宣言区顶部，并对对手造成一次与该符卡原始战力相等的特殊伤害。
     intensity: 0
-    faq: ''
     basic_constraint: CENTER
     traits: []
 - model: game.spellcard
@@ -5228,7 +4795,6 @@
     cost: 0
     effect: 你选择一项执行：1.令你攻击阶段的所有咲夜的战斗符卡附带破坏特性。2.令你防御阶段的所有咲夜的战斗符卡附带反制特性。无论选择哪一项，这个效果将持续至本局游戏结束。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 25
@@ -5240,7 +4806,6 @@
     cost: 2
     effect: 回合结束时，可发动此陷阱：对对手造成X点特殊伤害。（X=本回合你宣言的咲夜战斗符卡数量*500）
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5251,7 +4816,6 @@
     cost: 2
     effect: 当本卡被击破时，或从弃牌堆被移出游戏时，你可对对手造成500点特殊伤害。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5262,7 +4826,6 @@
     cost: 2
     effect: 攻击阶段宣言本卡时，你可将手卡中的一张咲夜战斗符卡暗扣于决斗区；当本卡战斗结算时，你可选择一项执行：1.展示并弃置该符卡，令本卡战力+X。（X=该符卡的原始战力）2.将该符卡返回手卡，并回复三点灵力。
     intensity: 500
-    faq: ''
     basic_constraint: HYPER
     traits: []
 - model: game.spellcard
@@ -5273,7 +4836,6 @@
     cost: 3
     effect: 若「蕾米莉亚」、「芙兰朵露」、「帕秋莉」、「红美铃」当中任一角色参战，本卡命中后，你可弃置对手一张手卡。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 6
@@ -5285,7 +4847,6 @@
     cost: 0
     effect: 当对手发动带有「回复灵力」或「抽卡」效果的符卡时，可发动此陷阱：破坏该符卡。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5296,7 +4857,6 @@
     cost: 2
     effect: 当场上有符卡被移出游戏时，可发动此陷阱：将对手角色区的一张卡片移出游戏，直至本回合结束。
     intensity: 0
-    faq: ''
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -5307,7 +4867,6 @@
     cost: 2
     effect: 本卡结算完毕后，对方宣言的下一张符卡耗灵+1。
     intensity: 1500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -5320,7 +4879,6 @@
     cost: 2
     effect: 本卡命中后，对方装备区的卡全部除外。
     intensity: 2500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 17
@@ -5332,7 +4890,6 @@
     cost: 2
     effect: 对方角色区每有一个人物，本卡战力加1000点。
     intensity: 500
-    faq: ''
     basic_constraint: SUPPORT
     traits:
     - 18

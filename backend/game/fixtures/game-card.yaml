@@ -4,6 +4,7 @@
     sku: SN-001
     title: 秘术「GrayThaumaturgy」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -12,6 +13,7 @@
     sku: SN-002
     title: 秘术「忘却之祭仪」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -20,6 +22,7 @@
     sku: SN-003
     title: 神德「五谷丰穰米之浴」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -28,6 +31,7 @@
     sku: SN-004
     title: 奇迹「白昼的客星」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -36,6 +40,7 @@
     sku: SN-005
     title: 奇迹「客星闪耀之夜」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -44,6 +49,7 @@
     sku: SN-006
     title: 奇迹「客星辉煌之夜」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -52,6 +58,7 @@
     sku: SN-007
     title: 开海「割海成路之日」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -60,6 +67,7 @@
     sku: SN-008
     title: 准备「Summon Takeminakata」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -68,6 +76,7 @@
     sku: SN-009
     title: 神签「暴乱神签连掷」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -76,6 +85,7 @@
     sku: SN-010
     title: 祈愿「守护商业繁荣」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -84,6 +94,7 @@
     sku: SN-011
     title: 蛙符「诡伪蟾蜍」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -92,6 +103,7 @@
     sku: SN-012
     title: 准备「呼唤神风的星之仪式」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -100,6 +112,7 @@
     sku: SN-013
     title: 奇迹「空中落物的奇迹」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -108,6 +121,7 @@
     sku: SN-014
     title: 开海「摩西之奇迹」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -116,6 +130,7 @@
     sku: SN-015
     title: 奇迹「弘安的神风」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -124,6 +139,7 @@
     sku: SN-016
     title: 蛇符「神代大蛇」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -132,6 +148,7 @@
     sku: SN-017
     title: 准备「乾神召来」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -140,6 +157,7 @@
     sku: SN-018
     title: 准备「坤神召来」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -148,6 +166,7 @@
     sku: SN-019
     title: 奇迹「Miracle Fruit」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -156,6 +175,7 @@
     sku: SN-020
     title: 秘法「九字切」
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -164,6 +184,7 @@
     sku: MK-001
     title: 时效「月岩笠的诅咒」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -172,6 +193,7 @@
     sku: MK-002
     title: 蓬莱「凯风快晴 -Fujiyama Volcano-」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -180,6 +202,7 @@
     sku: MK-003
     title: 不灭「不死鸟之尾」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -188,6 +211,7 @@
     sku: MK-004
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -196,6 +220,7 @@
     sku: MK-005
     title: 藤原「灭罪寺院伤」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -204,6 +229,7 @@
     sku: MK-006
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -212,6 +238,7 @@
     sku: MK-007
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -220,6 +247,7 @@
     sku: MK-008
     title: 「少女施工中……」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -228,6 +256,7 @@
     sku: MK-009
     title: 「少女施工中……」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -236,6 +265,7 @@
     sku: MK-010
     title: 不死「徐福时空」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -244,6 +274,7 @@
     sku: MK-011
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -252,6 +283,7 @@
     sku: MK-012
     title: 虚人「无」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -260,6 +292,7 @@
     sku: MK-013
     title: 灭罪「正直者之死」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -268,6 +301,7 @@
     sku: MK-014
     title: 蓬莱「瑞江浦岛子与五色的瑞龟」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -276,6 +310,7 @@
     sku: MK-015
     title: 不死「火鸟 -凤翼天翔-」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -284,6 +319,7 @@
     sku: MK-016
     title: 「RESURRECTION」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -292,6 +328,7 @@
     sku: MK-017
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -300,6 +337,7 @@
     sku: MK-018
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -308,6 +346,7 @@
     sku: MK-019
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -316,6 +355,7 @@
     sku: MK-020
     title: 「少女施工中」
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -324,6 +364,7 @@
     sku: KN-001
     title: 始符「EPHEMERALITY 137」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -332,6 +373,7 @@
     sku: KN-002
     title: 虚史「幻想乡传说」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -340,6 +382,7 @@
     sku: KN-003
     title: 终符「幻想天皇」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -348,6 +391,7 @@
     sku: KN-004
     title: 野符「武烈的危机」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -356,6 +400,7 @@
     sku: KN-005
     title: 野符「将门的危机」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -364,6 +409,7 @@
     sku: KN-006
     title: 野符「义满的危机」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -372,6 +418,7 @@
     sku: KN-007
     title: 产灵「FIRST PYRAMID」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -380,6 +427,7 @@
     sku: KN-008
     title: 国符「三种神器之 剑」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -388,6 +436,7 @@
     sku: KN-009
     title: 国符「三种神器之 玉」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -396,6 +445,7 @@
     sku: KN-010
     title: 国符「三种神器之 乡」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -404,6 +454,7 @@
     sku: KN-011
     title: 国符「三种神器之 镜」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -412,6 +463,7 @@
     sku: KN-012
     title: 未来「高天原」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -420,6 +472,7 @@
     sku: KN-013
     title: 旧史「旧秘境史 -OLD HISTORY-」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -428,6 +481,7 @@
     sku: KN-014
     title: 转世「一条归桥」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -436,6 +490,7 @@
     sku: KN-015
     title: 葵符「水户的光圀」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -444,6 +499,7 @@
     sku: KN-016
     title: 倭符「邪马台国」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -452,6 +508,7 @@
     sku: KN-017
     title: 新史「新幻想史 -现代史-」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -460,6 +517,7 @@
     sku: KN-018
     title: 「日出国之天子」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -468,6 +526,7 @@
     sku: KN-019
     title: 光符「天照」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -476,6 +535,7 @@
     sku: KN-020
     title: 「似有似无的净化」
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -484,6 +544,7 @@
     sku: MS-001
     title: 恋符「Master Spark」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -492,6 +553,7 @@
     sku: MS-002
     title: 魔炮「Final Spark」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -500,6 +562,7 @@
     sku: MS-003
     title: 恋符「Non-Directional Laser」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -508,6 +571,7 @@
     sku: MS-004
     title: 光符「Earthlight-Ray」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -516,6 +580,7 @@
     sku: MS-005
     title: 光符「Luminous Strike」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -524,6 +589,7 @@
     sku: MS-006
     title: 仪符「Orrery's Sun」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -532,6 +598,7 @@
     sku: MS-007
     title: 魔符「Milky Way」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -540,6 +607,7 @@
     sku: MS-008
     title: 魔符「Stardust Reveiry」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -548,6 +616,7 @@
     sku: MS-009
     title: 魔符「Ultimate Short Wave」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -556,6 +625,7 @@
     sku: MS-010
     title: 星符「Gravity Beat」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -564,6 +634,7 @@
     sku: MS-011
     title: 星符「Meteoric Shower」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -572,6 +643,7 @@
     sku: MS-012
     title: 星符「Escape Velocity」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -580,6 +652,7 @@
     sku: MS-013
     title: 星符「Dragon Meteor」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -588,6 +661,7 @@
     sku: MS-014
     title: 天仪「Orrenrie's Solar System」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -596,6 +670,7 @@
     sku: MS-015
     title: 流光「Shooting Echo」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -604,6 +679,7 @@
     sku: MS-016
     title: 彗星「Blazing Star」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -612,6 +688,7 @@
     sku: MS-017
     title: 光击「Shoot the Moon」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -620,6 +697,7 @@
     sku: MS-018
     title: 星符「Eccentric Asteroid」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -628,6 +706,7 @@
     sku: MS-019
     title: 魔废「Deep Ecological Bomb」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -636,6 +715,7 @@
     sku: MS-020
     title: 邪恋「容易命中的Master spark」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -644,6 +724,7 @@
     sku: MS-021
     title: 星符「Satellite Illusion」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -652,6 +733,7 @@
     sku: MS-022
     title: 恋符「Wide Master」
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -660,6 +742,7 @@
     sku: UU-001
     title: 死符「Ghastly Dream」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -668,6 +751,7 @@
     sku: UU-002
     title: 死蝶「华胥的永眠」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -676,6 +760,7 @@
     sku: UU-003
     title: 灵符「无寿之梦」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -684,6 +769,7 @@
     sku: UU-004
     title: 亡乡「亡我乡 -宿罪-」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -692,6 +778,7 @@
     sku: UU-005
     title: 亡舞「生者必灭之理 -死蝶-」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -700,6 +787,7 @@
     sku: UU-006
     title: 幽曲「Repository Of Hirokawa -亡灵-」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -708,6 +796,7 @@
     sku: UU-007
     title: 灵蝶「蝶之羽风暂留此世」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -716,6 +805,7 @@
     sku: UU-008
     title: 华灵「Swallowtail Butterfly」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -724,6 +814,7 @@
     sku: UU-009
     title: 冥符「黄泉平坂行路」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -732,6 +823,7 @@
     sku: UU-010
     title: 幽雅「死亡的诱蛾灯」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -740,6 +832,7 @@
     sku: UU-011
     title: 樱符「西行樱吹雪」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -748,6 +841,7 @@
     sku: UU-012
     title: 樱符「Sense of Cherry Blossom」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -756,6 +850,7 @@
     sku: UU-013
     title: 寿命「通向无寿国的期票」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -764,6 +859,7 @@
     sku: UU-014
     title: 幽符「冥界Mysterious Spot」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -772,6 +868,7 @@
     sku: UU-015
     title: 符牒「死蝶之舞」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -780,6 +877,7 @@
     sku: UU-016
     title: 「死蝶浮月」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -788,6 +886,7 @@
     sku: UU-017
     title: 亡乡「亡我乡 -无道之路-」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -796,6 +895,7 @@
     sku: UU-018
     title: 亡舞「生者必灭之理 -毒蛾-」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -804,6 +904,7 @@
     sku: UU-019
     title: 死符「醉生梦死」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -812,6 +913,7 @@
     sku: UU-020
     title: 「紫色的彼岸乃迟到的光辉」
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -820,6 +922,7 @@
     sku: FLD-001
     title: 禁忌「Catadioptric」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -828,6 +931,7 @@
     sku: FLD-002
     title: 禁忌「Forbidden Fruit」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -836,6 +940,7 @@
     sku: FLD-003
     title: 禁忌「Cranberry Trap」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -844,6 +949,7 @@
     sku: FLD-004
     title: 禁忌「Black Cat」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -852,6 +958,7 @@
     sku: FLD-005
     title: 禁忌「Under a Ladder」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -860,6 +967,7 @@
     sku: FLD-006
     title: 禁忌「Destroy Impulse」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -868,6 +976,7 @@
     sku: FLD-007
     title: 禁弹「Border Interception」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -876,6 +985,7 @@
     sku: FLD-008
     title: 禁忌「Soul Switching」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -884,6 +994,7 @@
     sku: FLD-009
     title: 禁忌「Treif Gifts」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -892,6 +1003,7 @@
     sku: FLD-010
     title: 禁忌「Kagome Kagome」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -900,6 +1012,7 @@
     sku: FLD-011
     title: 禁忌「被禁止的游戏」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -908,6 +1021,7 @@
     sku: FLD-012
     title: 禁忌「Broken Teddy」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -916,6 +1030,7 @@
     sku: FLD-013
     title: 禁忌「Bird in Cage」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -924,6 +1039,7 @@
     sku: FLD-014
     title: 禁忌「Untouchables」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -932,6 +1048,7 @@
     sku: FLD-015
     title: 禁弹「Starbow Break」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -940,6 +1057,7 @@
     sku: FLD-016
     title: QED「495年的波纹」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -948,6 +1066,7 @@
     sku: FLD-017
     title: 禁忌「Laevatein」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -956,6 +1075,7 @@
     sku: FLD-018
     title: 禁忌「Friday the 13th」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -964,6 +1084,7 @@
     sku: FLD-019
     title: 禁弹「刻着过去的钟表」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -972,6 +1093,7 @@
     sku: FLD-020
     title: 禁忌「恋之迷宫」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -980,6 +1102,7 @@
     sku: FLD-021
     title: 禁忌「Soul puncture」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -988,6 +1111,7 @@
     sku: FLD-022
     title: 禁忌「Psychic Scream」
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -996,6 +1120,7 @@
     sku: KGY-001
     title: 难题「蓬莱的弹枝 虹色的弹幕」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1004,6 +1129,7 @@
     sku: KGY-002
     title: 神宝「蓬莱的玉枝 梦色之乡」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1012,6 +1138,7 @@
     sku: KGY-003
     title: 「永夜返 上弦月」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1020,6 +1147,7 @@
     sku: KGY-004
     title: 难题「龙颈之玉 五色的弹丸」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1028,6 +1156,7 @@
     sku: KGY-005
     title: 难题「佛御石之钵 不碎的意志」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1036,6 +1165,7 @@
     sku: KGY-006
     title: 难题「火鼠的皮衣 不躁之心」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1044,6 +1174,7 @@
     sku: KGY-007
     title: 难题「燕的子安贝 永命线」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1052,6 +1183,7 @@
     sku: KGY-008
     title: 「永夜返 子时」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1060,6 +1192,7 @@
     sku: KGY-009
     title: 「永夜返 丑时」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1068,6 +1201,7 @@
     sku: KGY-010
     title: 「永夜返 寅时」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1076,6 +1210,7 @@
     sku: KGY-011
     title: 神宝「耀眼的龙玉」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1084,6 +1219,7 @@
     sku: KGY-012
     title: 神宝「佛体的金刚玉」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1092,6 +1228,7 @@
     sku: KGY-013
     title: 新难题「Mysterium」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1100,6 +1237,7 @@
     sku: KGY-014
     title: 神宝「火蜥蜴之盾」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1108,6 +1246,7 @@
     sku: KGY-015
     title: 神宝「无限的生命之泉」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1116,6 +1255,7 @@
     sku: KGY-016
     title: 「永夜返 光明之世」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1124,6 +1264,7 @@
     sku: KGY-017
     title: 「永夜返 初月」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1132,6 +1273,7 @@
     sku: KGY-018
     title: 新难题「艾哲赤石」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1140,6 +1282,7 @@
     sku: KGY-019
     title: 新难题「金阁寺的一枚天井」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1148,6 +1291,7 @@
     sku: KGY-020
     title: 「蓬莱的树海」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1156,6 +1300,7 @@
     sku: KGY-021
     title: 「永夜返 待宵」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1164,6 +1309,7 @@
     sku: KGY-022
     title: 新难题「月的钛铁矿」
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1172,6 +1318,7 @@
     sku: YM-001
     title: 人符「现世斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1180,6 +1327,7 @@
     sku: YM-002
     title: 人鬼「未来永劫斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1188,6 +1336,7 @@
     sku: YM-003
     title: 天星剑「宛若涅槃寂静」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1196,6 +1345,7 @@
     sku: YM-004
     title: 幽鬼剑「妖童饿鬼之断食」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1204,6 +1354,7 @@
     sku: YM-005
     title: 狱界剑「二百由旬之一闪」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1212,6 +1363,7 @@
     sku: YM-006
     title: 畜趣剑「无为无策的冥罚」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1220,6 +1372,7 @@
     sku: YM-007
     title: 魂符「幽冥的苦轮」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1228,6 +1381,7 @@
     sku: YM-008
     title: 剑伎「樱花闪闪」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1236,6 +1390,7 @@
     sku: YM-009
     title: 断命剑「冥想斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1244,6 +1399,7 @@
     sku: YM-010
     title: 转生剑「円心流转斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1252,6 +1408,7 @@
     sku: YM-011
     title: 六道剑「一念无量劫」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1260,6 +1417,7 @@
     sku: YM-012
     title: 人智剑「天女返」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1268,6 +1426,7 @@
     sku: YM-013
     title: 魂魄「幽明求闻持聪明之法」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1276,6 +1435,7 @@
     sku: YM-014
     title: 人界剑「悟入幻想」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1284,6 +1444,7 @@
     sku: YM-015
     title: 狱神剑「业风神闪斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1292,6 +1453,7 @@
     sku: YM-016
     title: 空观剑「六根清净斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1300,6 +1462,7 @@
     sku: YM-017
     title: 断想剑「草木成佛斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1308,6 +1471,7 @@
     sku: YM-018
     title: 修罗剑「现世妄执」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1316,6 +1480,7 @@
     sku: YM-019
     title: 断灵剑「迷津慈航斩」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1324,6 +1489,7 @@
     sku: YM-020
     title: 天上剑「天人亦五衰」
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1332,6 +1498,7 @@
     sku: MR-001
     title: 华符「芳华绚烂」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1340,6 +1507,7 @@
     sku: MR-002
     title: 华符「彩光莲华掌」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1348,6 +1516,7 @@
     sku: MR-003
     title: 彩华「虹色太极拳」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1356,6 +1525,7 @@
     sku: MR-004
     title: 气符「星脉弹」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1364,6 +1534,7 @@
     sku: MR-005
     title: 彩符「彩雨」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1372,6 +1543,7 @@
     sku: MR-006
     title: 彩符「极彩沛雨」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1380,6 +1552,7 @@
     sku: MR-007
     title: 彩翔「飞花落叶」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1388,6 +1561,7 @@
     sku: MR-008
     title: 彩御「凌波微步」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1396,6 +1570,7 @@
     sku: MR-009
     title: 气符「金钟罩」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1404,6 +1579,7 @@
     sku: MR-010
     title: 彩符「彩光风铃」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1412,6 +1588,7 @@
     sku: MR-011
     title: 气符「猛虎内刭」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1420,6 +1597,7 @@
     sku: MR-012
     title: 炽击「大鹏坠击拳」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1428,6 +1606,7 @@
     sku: MR-013
     title: 极光「华严明星」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1436,6 +1615,7 @@
     sku: MR-014
     title: 虹符「烈虹真拳」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1444,6 +1624,7 @@
     sku: MR-015
     title: 气符「红寸劲」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1452,6 +1633,7 @@
     sku: MR-016
     title: 气符「地龙天龙脚」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1460,6 +1642,7 @@
     sku: MR-017
     title: 星气「星脉地转弹」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1468,6 +1651,7 @@
     sku: MR-018
     title: 彩符「彩光乱舞」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1476,6 +1660,7 @@
     sku: MR-019
     title: 击符「大鹏拳」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1484,6 +1669,7 @@
     sku: MR-020
     title: 幻符「华想梦葛」
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1492,6 +1678,7 @@
     sku: MQ-001
     title: 火符「Akiba Summer」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1500,6 +1687,7 @@
     sku: MQ-002
     title: 日符「Royal Flare」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1508,6 +1696,7 @@
     sku: MQ-003
     title: 水木符「Water Elf」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1516,6 +1705,7 @@
     sku: MQ-004
     title: 水符「Jellyfish Princess」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1524,6 +1714,7 @@
     sku: MQ-005
     title: 金土符「Ginger Gust」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1532,6 +1723,7 @@
     sku: MQ-006
     title: 水火符「Phlogistic Rain」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1540,6 +1732,7 @@
     sku: MQ-007
     title: 木符「Sylphy Horn」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1548,6 +1741,7 @@
     sku: MQ-008
     title: 日水符「Hydrogenous Prominence」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1556,6 +1750,7 @@
     sku: MQ-009
     title: 火符「Agni Radiance」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1564,6 +1759,7 @@
     sku: MQ-010
     title: 月木符「Satellite Himawari」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1572,6 +1768,7 @@
     sku: MQ-011
     title: 金木符「Elemental Harvester」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1580,6 +1777,7 @@
     sku: MQ-012
     title: 土金符「Emerald Megalopolis」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1588,6 +1786,7 @@
     sku: MQ-013
     title: 月符「Silent Selene」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1596,6 +1795,7 @@
     sku: MQ-014
     title: 金符「Metal Fatigue」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1604,6 +1804,7 @@
     sku: MQ-015
     title: 日木符「Photosynthesis」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1612,6 +1813,7 @@
     sku: MQ-016
     title: 火水木金土符「贤者之石」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1620,6 +1822,7 @@
     sku: MQ-017
     title: 土符「Lazy Trilithon」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1628,6 +1831,7 @@
     sku: MQ-018
     title: 火土符「Lava Cromlech」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1636,6 +1840,7 @@
     sku: MQ-019
     title: 日月符「Royal Diamond Ring」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1644,6 +1849,7 @@
     sku: MQ-020
     title: 月金符「Sunshine Reflector」
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1652,6 +1858,7 @@
     sku: RS-001
     title: 弱心「丧失丧意 -Demotivation-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1660,6 +1867,7 @@
     sku: RS-002
     title: 丧心「丧心疮痍 -Discarder-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1668,6 +1876,7 @@
     sku: RS-003
     title: 幻爆「近眼花火 -Star Mine-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1676,6 +1885,7 @@
     sku: RS-004
     title: 波符「赤眼催眠 -Mind Shaker-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1684,6 +1894,7 @@
     sku: RS-005
     title: 狂符「幻视调律 -Visionary Tuning-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1692,6 +1903,7 @@
     sku: RS-006
     title: 懒符「生神停止 -Idling Wave-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1700,6 +1912,7 @@
     sku: RS-007
     title: 散符「真实之月 -Invisible FullMoon-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1708,6 +1921,7 @@
     sku: RS-008
     title: 生药「国士无双之药」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1716,6 +1930,7 @@
     sku: RS-009
     title: 毒烟幕「瓦斯织物之玉」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1724,6 +1939,7 @@
     sku: RS-010
     title: 短视「超短脑波 -X Wave-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1732,6 +1948,7 @@
     sku: RS-011
     title: 长视「赤月下 -Inflect Moon-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1740,6 +1957,7 @@
     sku: RS-012
     title: 惑视「离圆花冠 -Corola Vision-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1748,6 +1966,7 @@
     sku: RS-013
     title: 狂夢「疯狂之夢 -Dream World-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1756,6 +1975,7 @@
     sku: RS-014
     title: 迫符「胁迫幻觉 -Obsessioner-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1764,6 +1984,7 @@
     sku: RS-015
     title: 散符「荣华之梦 -Luna Megalopolis- 」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1772,6 +1993,7 @@
     sku: RS-016
     title: 「幻胧月睨 -Lunatic Red Eyes-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1780,6 +2002,7 @@
     sku: RS-017
     title: 波符「月面波纹 -Luna Wave-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1788,6 +2011,7 @@
     sku: RS-018
     title: 散符「胧月花栞-Rocket in Mist-」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1796,6 +2020,7 @@
     sku: RS-019
     title: 幻弹「幻想视差（Bluff Barrage）」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1804,6 +2029,7 @@
     sku: RS-020
     title: 幻视「被害臆想 Cumulative Trauma」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1812,6 +2038,7 @@
     sku: RS-021
     title: 月眼「月兔远隔催眠术 Tele-Mesmerism 」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1820,6 +2047,7 @@
     sku: RS-022
     title: 波符「幻之月 Invisible Half Moon」
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1828,6 +2056,7 @@
     sku: CRN-001
     title: 冻符「Cold Divinity」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1836,6 +2065,7 @@
     sku: CRN-002
     title: 冰符「Ultimate Blizzard」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1844,6 +2074,7 @@
     sku: CRN-003
     title: 冻符「Perfect Freeze」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1852,6 +2083,7 @@
     sku: CRN-005
     title: 冻符「Minus K」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1860,6 +2092,7 @@
     sku: CRN-006
     title: 冰符「Fairy Spin」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1868,6 +2101,7 @@
     sku: CRN-007
     title: 冻符「Freeze Atmosphere」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1876,6 +2110,7 @@
     sku: CRN-008
     title: 冰符「Icicle Machine Gun」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1884,6 +2119,7 @@
     sku: CRN-010
     title: 吹冰「Ice Tornado」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1892,6 +2128,7 @@
     sku: CRN-011
     title: 冰符「Sword Freezer」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1900,6 +2137,7 @@
     sku: CRN-014
     title: 霜符「Frost Columns」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1908,6 +2146,7 @@
     sku: CRN-016
     title: 冰王「Frost King」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1916,6 +2155,7 @@
     sku: CRN-017
     title: 冰块「Great Crusher」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1924,6 +2164,7 @@
     sku: CRN-018
     title: 冷符「瞬间冷冻Beam」
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1932,6 +2173,7 @@
     sku: REM-001
     title: 红符「不夜城Red」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1940,6 +2182,7 @@
     sku: REM-002
     title: 红魔「Scarlet Devil」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1948,6 +2191,7 @@
     sku: REM-003
     title: 神鬼「Remilia Stalker」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1956,6 +2200,7 @@
     sku: REM-004
     title: 天罚「Star of David」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1964,6 +2209,7 @@
     sku: REM-005
     title: 冥符「红色的冥界」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1972,6 +2218,7 @@
     sku: REM-006
     title: 诅咒「Vlad Tepes的诅咒」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1980,6 +2227,7 @@
     sku: REM-007
     title: 夜符「Bombard Night」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1988,6 +2236,7 @@
     sku: REM-008
     title: 红蝙蝠「Vampirish Night」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -1996,6 +2245,7 @@
     sku: REM-009
     title: 必杀「Heart Break」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2004,6 +2254,7 @@
     sku: REM-010
     title: 夜符「Demon King Cradle」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2012,6 +2263,7 @@
     sku: REM-011
     title: 红符「Scarlet Shoot」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2020,6 +2272,7 @@
     sku: REM-012
     title: 「Millennium的吸血鬼」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2028,6 +2281,7 @@
     sku: REM-013
     title: 神枪「Spear The Gungnir」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2036,6 +2290,7 @@
     sku: REM-014
     title: 神罚「幼小的Demon Lord」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2044,6 +2299,7 @@
     sku: REM-015
     title: 神术「吸血鬼幻想」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2052,6 +2308,7 @@
     sku: REM-016
     title: 「Red Magic」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2060,6 +2317,7 @@
     sku: REM-017
     title: 红符「Scarlet Meister」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2068,6 +2326,7 @@
     sku: REM-018
     title: 狱符「千根针的针山」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2076,6 +2335,7 @@
     sku: REM-019
     title: 夜王「Dracula Cradle」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2084,6 +2344,7 @@
     sku: REM-020
     title: 命运「Miserable Fate」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2092,6 +2353,7 @@
     sku: REM-021
     title: 红符「Bloody Magic Square」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2100,6 +2362,7 @@
     sku: REM-022
     title: 夜符「Bad Lady Scramble」
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2108,6 +2371,7 @@
     sku: LUN-001
     title: 月符「Luna Cyclone」
     build: 21
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2116,6 +2380,7 @@
     sku: LUN-002
     title: 月光「Dark Stillness」
     build: 21
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2124,6 +2389,7 @@
     sku: LUN-003
     title: 光壁「Wall Break」
     build: 21
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2132,6 +2398,7 @@
     sku: ERN-001
     title: 苏活「生命游戏-Life Game-」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2140,6 +2407,7 @@
     sku: ERN-002
     title: 苏生「Rising Game」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2148,6 +2416,7 @@
     sku: ERN-003
     title: 秘术「天文密葬法」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2156,6 +2425,7 @@
     sku: ERN-004
     title: 药符「蝴蝶梦丸噩梦」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2164,6 +2434,7 @@
     sku: ERN-005
     title: 炼丹「水银之海」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2172,6 +2443,7 @@
     sku: ERN-006
     title: 银舞「法灸神针」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2180,6 +2452,7 @@
     sku: ERN-007
     title: 弓符「银月贯空」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2188,6 +2461,7 @@
     sku: ERN-008
     title: 覚神「神代的记忆」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2196,6 +2470,7 @@
     sku: ERN-009
     title: 禁薬「蓬莱之药」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2204,6 +2479,7 @@
     sku: ERN-010
     title: 操神「Omoikane Device」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2212,6 +2488,7 @@
     sku: ERN-011
     title: 「引药归经」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2220,6 +2497,7 @@
     sku: ERN-012
     title: 天丸「壶中的天地」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2228,6 +2506,7 @@
     sku: ERN-013
     title: 「天网蛛网捕蝶之法」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2236,6 +2515,7 @@
     sku: ERN-014
     title: 秘药「赎命天滴」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2244,6 +2524,7 @@
     sku: ERN-015
     title: 神符「天人的系谱」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2252,6 +2533,7 @@
     sku: ERN-016
     title: 天丸「壶中的大银河」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2260,6 +2542,7 @@
     sku: ERN-017
     title: 秘術「冥土追魂箭」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2268,6 +2551,7 @@
     sku: ERN-018
     title: 神脑「Omoikane Brain」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2276,6 +2560,7 @@
     sku: ERN-019
     title: 天咒「Apollo 13」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2284,6 +2569,7 @@
     sku: ERN-020
     title: 秘药「仙香玉兔」
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2292,6 +2578,7 @@
     sku: SYS-000
     title: 「灵异珠」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2300,6 +2587,7 @@
     sku: SYS-001
     title: 「灵击札」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2308,6 +2596,7 @@
     sku: SYS-002
     title: 「Magic Potion」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2316,6 +2605,7 @@
     sku: SYS-003
     title: 「Stop Watch」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2324,6 +2614,7 @@
     sku: SYS-004
     title: 「白楼剑」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2332,6 +2623,7 @@
     sku: SYS-005
     title: 「左扇」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2340,6 +2632,7 @@
     sku: SYS-006
     title: 「替身人偶」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2348,6 +2641,7 @@
     sku: SYS-007
     title: 「特制的遮阳伞」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2356,6 +2650,7 @@
     sku: SYS-008
     title: 「人魂灯」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2364,6 +2659,7 @@
     sku: SYS-009
     title: 「隔夜铜钱」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2372,6 +2668,7 @@
     sku: SYS-010
     title: 「龙鱼的羽衣」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2380,6 +2677,7 @@
     sku: SYS-011
     title: 「病气平癒守」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2388,6 +2686,7 @@
     sku: SYS-012
     title: 「伊吹之瓢」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2396,6 +2695,7 @@
     sku: SYS-013
     title: 「威风凛凛的笏板」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2404,6 +2704,7 @@
     sku: SYS-014
     title: 「符蚀药」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2412,6 +2713,7 @@
     sku: SYS-015
     title: 「Grimoire」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2420,6 +2722,7 @@
     sku: SYS-016
     title: 「星熊之杯」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2428,6 +2731,7 @@
     sku: SYS-017
     title: 「制御棒」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2436,6 +2740,7 @@
     sku: SYS-018
     title: 「龙星」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2444,6 +2749,7 @@
     sku: SYS-019
     title: 「Malicious Teaddy Bear」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2452,6 +2758,7 @@
     sku: SYS-020
     title: 「噬实史释」
     build: 25
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2460,6 +2767,7 @@
     sku: LW-001
     title: 欢声「Wonderful Rush」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2468,6 +2776,7 @@
     sku: LW-002
     title: 密语「Anemone Heart」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2476,6 +2785,7 @@
     sku: ML-001
     title: 鸟符「Mysterious Song」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2484,6 +2794,7 @@
     sku: DMN-001
     title: 恶意「Trick or Treat」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2492,6 +2803,7 @@
     sku: KKR-002
     title: 凭依「喜怒哀乐 Possession」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2500,6 +2812,7 @@
     sku: BB-001
     title: 弦乐「风暴Ensemble」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2508,6 +2821,7 @@
     sku: SLK-001
     title: 念力「Psycho Explosion」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2516,6 +2830,7 @@
     sku: SK-003SP
     title: 奇术「Eternal Meek」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2524,6 +2839,7 @@
     sku: YK-010SP
     title: 幻想「第一种永动机关」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2532,6 +2848,7 @@
     sku: REM-001SP
     title: 红符「不夜城Red」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2540,6 +2857,7 @@
     sku: REM-009SP
     title: 必杀「Heart Break」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2548,6 +2866,7 @@
     sku: FLD-010SP
     title: 禁忌「Kagome Kagome」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2556,6 +2875,7 @@
     sku: RM-015PR
     title: 「信仰心増大祈愿之仪」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2564,6 +2884,7 @@
     sku: ALC-002PR
     title: 魔操「Return inanimateness」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2572,6 +2893,7 @@
     sku: FLD-016PR
     title: QED「495年的波纹」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2580,6 +2902,7 @@
     sku: RS-004PR
     title: 波符「赤眼催眠 -Mind Shaker-」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2588,6 +2911,7 @@
     sku: RS-014PR
     title: 迫符「胁迫幻觉 -Obsessioner-」
     build: 26
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2596,6 +2920,7 @@
     sku: FRY-001
     title: 轻气「Breathing Lake」
     build: 24
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2604,6 +2929,7 @@
     sku: FRY-002
     title: 光合「Wild Germinate」
     build: 24
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2612,6 +2938,7 @@
     sku: FRY-003
     title: 光合「Energy Divertor」
     build: 24
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2620,6 +2947,7 @@
     sku: STR-001
     title: 星符「Twinkle Sapphire」
     build: 22
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2628,6 +2956,7 @@
     sku: STR-002
     title: 星光「Star Laser」
     build: 22
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2636,6 +2965,7 @@
     sku: STR-003
     title: 星粒「Star Piece Shower」
     build: 22
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2644,6 +2974,7 @@
     sku: SNY-001
     title: 日符「Aggressive Light」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2652,6 +2983,7 @@
     sku: SNY-002
     title: 阳光「Sunshine Blast」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2660,6 +2992,7 @@
     sku: SNY-003
     title: 光精「Diamond Ring」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2668,6 +3001,7 @@
     sku: SNY-004
     title: 光符「Rutile Flection」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2676,6 +3010,7 @@
     sku: SNY-005
     title: 光符「Triple Meteor」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2684,6 +3019,7 @@
     sku: SNY-006
     title: 光符「Extensive Meteor」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2692,6 +3028,7 @@
     sku: SNY-007
     title: 虹光「Prism Flash」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2700,6 +3037,7 @@
     sku: SNY-008
     title: 瞬光「Fatal Flash」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2708,6 +3046,7 @@
     sku: SNY-009
     title: 降光「Triple Light」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2716,6 +3055,7 @@
     sku: SNY-010
     title: 光精「Cross Diffusion」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2724,6 +3064,7 @@
     sku: SNY-011
     title: 日热「Ice Dissolver」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2732,6 +3073,7 @@
     sku: SNY-012
     title: 协力技「Fairy Overdrive」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2740,6 +3082,7 @@
     sku: SNY-013
     title: 空符「Elf in Canopy」
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2748,6 +3091,7 @@
     sku: RM-001
     title: 灵符「梦想妙珠」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2756,6 +3100,7 @@
     sku: RM-002
     title: 神灵「梦想封印」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2764,6 +3109,7 @@
     sku: RM-003
     title: 梦符「梦想亚空穴」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2772,6 +3118,7 @@
     sku: RM-004
     title: 梦符「封魔阵」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2780,6 +3127,7 @@
     sku: RM-005
     title: 梦符「二重结界」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2788,6 +3136,7 @@
     sku: RM-006
     title: 结界「扩散结界」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2796,6 +3145,7 @@
     sku: RM-007
     title: 灵符「梦想封印 円」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2804,6 +3154,7 @@
     sku: RM-008
     title: 灵符「梦想封印 散」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2812,6 +3163,7 @@
     sku: RM-009
     title: 灵符「梦想封印 集」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2820,6 +3172,7 @@
     sku: RM-010
     title: 珠符「明珠暗投」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2828,6 +3181,7 @@
     sku: RM-011
     title: 宝符「阴阳宝玉」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2836,6 +3190,7 @@
     sku: RM-012
     title: 祈愿「祛除厄运之祈愿」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2844,6 +3199,7 @@
     sku: RM-013
     title: 神技「八方鬼缚阵」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2852,6 +3208,7 @@
     sku: RM-014
     title: 梦境「二重大结界」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2860,6 +3217,7 @@
     sku: RM-015
     title: 「信仰心増大祈愿之仪」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2868,6 +3226,7 @@
     sku: RM-016
     title: 神技「八方龙杀阵」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2876,6 +3235,7 @@
     sku: RM-017
     title: 梦符「封魔亚空穴」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2884,6 +3244,7 @@
     sku: RM-018
     title: 宝具「阴阳鬼神玉」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2892,6 +3253,7 @@
     sku: RM-019
     title: 光灵「神灵宝珠」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2900,6 +3262,7 @@
     sku: RM-020
     title: 神技「天霸风神脚」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2908,6 +3271,7 @@
     sku: RM-021
     title: 回灵「梦想封印 侘」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2916,6 +3280,7 @@
     sku: RM-022
     title: 神灵「梦想封印 瞬」
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2924,6 +3289,7 @@
     sku: SUI-001
     title: 萃符「户隐山之投」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2932,6 +3298,7 @@
     sku: SUI-002
     title: 萃鬼「天手力男之投」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2940,6 +3307,7 @@
     sku: SUI-003
     title: 鬼火「超高密度燐火术」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2948,6 +3316,7 @@
     sku: SUI-005
     title: 火弹「元鬼玉」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2956,6 +3325,7 @@
     sku: SUI-007
     title: 火弹「鬼神燐火术」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2964,6 +3334,7 @@
     sku: SUI-008
     title: 醉神「鬼缚之术」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2972,6 +3343,7 @@
     sku: SUI-011
     title: 吐息「小鬼的深呼吸」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2980,6 +3352,7 @@
     sku: SUI-014
     title: 雾符「云集雾散」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2988,6 +3361,7 @@
     sku: SUI-015
     title: 鬼气「蒙蒙迷雾」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -2996,6 +3370,7 @@
     sku: SUI-016
     title: 「百万鬼夜行」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3004,6 +3379,7 @@
     sku: SUI-017
     title: 四天王奥义「三步坏废」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3012,6 +3388,7 @@
     sku: SUI-018
     title: 地狱「炼狱吐息」
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3020,6 +3397,7 @@
     sku: ALC-001
     title: 魔符「Artful Sacrifice」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3028,6 +3406,7 @@
     sku: ALC-002
     title: 魔操「Return inanimateness」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3036,6 +3415,7 @@
     sku: ALC-003
     title: 注力「Trip Wire」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3044,6 +3424,7 @@
     sku: ALC-004
     title: 苍符「博爱的法兰西人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3052,6 +3433,7 @@
     sku: ALC-005
     title: 红符「红发的荷兰人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3060,6 +3442,7 @@
     sku: ALC-006
     title: 暗符「雾之伦敦人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3068,6 +3451,7 @@
     sku: ALC-007
     title: 战符「Little Legion」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3076,6 +3460,7 @@
     sku: ALC-008
     title: 步兵「Suicide Squad」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3084,6 +3469,7 @@
     sku: ALC-009
     title: 人形「未来文乐」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3092,6 +3478,7 @@
     sku: ALC-010
     title: 人形「没有灵魂的Folk Dance」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3100,6 +3487,7 @@
     sku: ALC-011
     title: 咒符「上海人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3108,6 +3496,7 @@
     sku: ALC-012
     title: 侦符「Seeker Dolls」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3116,6 +3505,7 @@
     sku: ALC-013
     title: 战操「Dolls' War」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3124,6 +3514,7 @@
     sku: ALC-014
     title: 人形「Semi-Automaton」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3132,6 +3523,7 @@
     sku: ALC-015
     title: 白符「白垩的露西亚人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3140,6 +3532,7 @@
     sku: ALC-016
     title: 牺牲「Suicide Pact」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3148,6 +3541,7 @@
     sku: ALC-017
     title: 咒符「Straw Doll Kamikaze」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3156,6 +3550,7 @@
     sku: ALC-018
     title: 枪符「萌萌大千枪」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3164,6 +3559,7 @@
     sku: ALC-019
     title: 詛咒「蓬莱人偶」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3172,6 +3568,7 @@
     sku: ALC-020
     title: 赤符「Doll Mira Ceti」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3180,6 +3577,7 @@
     sku: ALC-021
     title: 人形「Lemmings' Parade」
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3188,6 +3586,7 @@
     sku: YK-001
     title: 境符「四重结界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3196,6 +3595,7 @@
     sku: YK-002
     title: 境界「充满魅力的四重结界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3204,6 +3604,7 @@
     sku: YK-003
     title: 式神「八云蓝」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3212,6 +3613,7 @@
     sku: YK-004
     title: 结界「梦与现的诅咒」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3220,6 +3622,7 @@
     sku: YK-005
     title: 结界「动与静的均衡」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3228,6 +3631,7 @@
     sku: YK-006
     title: 结界「光与暗的网孔」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3236,6 +3640,7 @@
     sku: YK-007
     title: 魑魅「二重黑死蝶」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3244,6 +3649,7 @@
     sku: YK-008
     title: 结界「客观结界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3252,6 +3658,7 @@
     sku: YK-009
     title: 外力「无限超高速飞行体」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3260,6 +3667,7 @@
     sku: YK-010
     title: 幻想「第一种永动机关」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3268,6 +3676,7 @@
     sku: YK-011
     title: 空饵「中毒性诱饵」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3276,6 +3685,7 @@
     sku: YK-012
     title: 境符「二次元与三次元之境界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3284,6 +3694,7 @@
     sku: YK-013
     title: 魔眼「Laplace之魔」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3292,6 +3703,7 @@
     sku: YK-014
     title: 光弹「多普勒效应」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3300,6 +3712,7 @@
     sku: YK-015
     title: 罔両「潜藏于禅寺之妖蝶」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3308,6 +3721,7 @@
     sku: YK-016
     title: 境符「色与空的境界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3316,6 +3730,7 @@
     sku: YK-017
     title: 罔两「直与曲的梦乡」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3324,6 +3739,7 @@
     sku: YK-018
     title: 式神「橙」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3332,6 +3748,7 @@
     sku: YK-019
     title: 空饵「狂躁高速飞行体」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3340,6 +3757,7 @@
     sku: YK-020
     title: 「人类与妖怪的境界」
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3348,6 +3766,7 @@
     sku: SK-001
     title: 幻符「杀人Dolls」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3356,6 +3775,7 @@
     sku: SK-002
     title: 幻葬「夜雾幻影杀人鬼」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3364,6 +3784,7 @@
     sku: SK-003
     title: 奇术「Eternal Meek」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3372,6 +3793,7 @@
     sku: SK-004
     title: 幻在「Clock Corpse」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3380,6 +3802,7 @@
     sku: SK-005
     title: 幻象「Luna Clock」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3388,6 +3811,7 @@
     sku: SK-006
     title: 银符「Perfect Maid」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3396,6 +3820,7 @@
     sku: SK-007
     title: 时符「Private Square」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3404,6 +3829,7 @@
     sku: SK-008
     title: 银符「Silver Bound」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3412,6 +3838,7 @@
     sku: SK-009
     title: 速符「Luminous Ricochet」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3420,6 +3847,7 @@
     sku: SK-010
     title: 奇术「Misdirection」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3428,6 +3856,7 @@
     sku: SK-011
     title: 伤符「Inscribe Red Soul」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3436,6 +3865,7 @@
     sku: SK-012
     title: 幻符「Indiscriminate」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3444,6 +3874,7 @@
     sku: SK-013
     title: 伤魂「Soul Sculpture」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3452,6 +3883,7 @@
     sku: SK-014
     title: 奇术「幻惑Misdirection」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3460,6 +3892,7 @@
     sku: SK-015
     title: 幻世「The World」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3468,6 +3901,7 @@
     sku: SK-016
     title: 幻术「My Knife Recursion」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3476,6 +3910,7 @@
     sku: SK-017
     title: 时符「Imaginary Vertical Time」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3484,6 +3919,7 @@
     sku: SK-018
     title: 伤符「Soul Dismemberment」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3492,6 +3928,7 @@
     sku: SK-019
     title: 时符「Changling Magic」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3500,6 +3937,7 @@
     sku: SK-020
     title: 奇术「Time Paradox」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3508,6 +3946,7 @@
     sku: SK-021
     title: 幻术「Check-Maid」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3516,6 +3955,7 @@
     sku: SK-022
     title: 时符「Mysterious Jack」
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3524,6 +3964,7 @@
     sku: LTY-001
     title: 寒符「Lingering Cold」
     build: 23
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3532,6 +3973,7 @@
     sku: LTY-002
     title: 冬符「Northern Winner」
     build: 23
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3540,6 +3982,7 @@
     sku: LTY-003
     title: 冬符「Flower Wither Away」
     build: 23
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3548,6 +3991,7 @@
     sku: C001
     title: 乐园的奇妙巫女
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3556,6 +4000,7 @@
     sku: C001-Alpha
     title: 自由奔放的人类
     build: 1
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3564,6 +4009,7 @@
     sku: C002
     title: 普通的黑白魔法使
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3572,6 +4018,7 @@
     sku: C002-Alpha
     title: 胆大心细的人类
     build: 2
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3580,6 +4027,7 @@
     sku: C003
     title: 完美而潇洒的从者
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3588,6 +4036,7 @@
     sku: C003-Alpha
     title: 危险的魔术师
     build: 3
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3596,6 +4045,7 @@
     sku: C004
     title: 半人半灵的庭师
     build: 4
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3604,6 +4054,7 @@
     sku: C005
     title: 潜藏于境界的妖怪
     build: 5
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3612,6 +4063,7 @@
     sku: C006
     title: 七色的人偶师
     build: 6
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3620,6 +4072,7 @@
     sku: C007
     title: 永远鲜红的幼月
     build: 7
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3628,6 +4081,7 @@
     sku: C008
     title: 华胥的亡灵
     build: 8
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3636,6 +4090,7 @@
     sku: C009
     title: 狂气的月兔
     build: 9
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3644,6 +4099,7 @@
     sku: C010
     title: 永远与须臾的罪人
     build: 10
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3652,6 +4108,7 @@
     sku: C011
     title: 历史与知识的半兽
     build: 11
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3660,6 +4117,7 @@
     sku: C012
     title: 蓬莱人之形
     build: 12
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3668,6 +4126,7 @@
     sku: C013
     title: 月之头脑
     build: 13
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3676,6 +4135,7 @@
     sku: C014
     title: 不动的大图书馆
     build: 14
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3684,6 +4144,7 @@
     sku: C015
     title: 恶魔之妹
     build: 15
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3692,6 +4153,7 @@
     sku: C016
     title: 湖上的冰精
     build: 16
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3700,6 +4162,7 @@
     sku: C017
     title: 色彩艳丽的门卫
     build: 17
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3708,6 +4171,7 @@
     sku: C018
     title: 小小的百鬼夜行
     build: 18
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3716,6 +4180,7 @@
     sku: C019
     title: 祭祀风的人类
     build: 19
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3724,6 +4189,7 @@
     sku: C020
     title: 闪耀的日之光
     build: 20
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3732,6 +4198,7 @@
     sku: C021
     title: 静谧的月之光
     build: 21
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3740,6 +4207,7 @@
     sku: C022
     title: 倾泻的星之光
     build: 22
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3748,6 +4216,7 @@
     sku: C023
     title: 寒冬的遗忘之物
     build: 23
+    faq: ''
     hidden: false
     sort: 0
 - model: game.card
@@ -3756,6 +4225,7 @@
     sku: C024
     title: 和煦的春之舞
     build: 24
+    faq: ''
     hidden: false
     sort: 0
 - model: game.version
@@ -9068,7 +9538,7 @@
     card: 443
     version: 经典
     rarity: ST
-    episode: null
+    episode: 1001
     line: '-'
     illustrator: 6
     image: card/LTY-003.jpg
@@ -9320,7 +9790,7 @@
     card: 10021
     version: 经典
     rarity: R
-    episode: null
+    episode: 1001
     line: 奔放不羁，嗜酒而拥怪力的鬼中天王。
     illustrator: 1
     image: card/C018.jpg

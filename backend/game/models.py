@@ -77,6 +77,7 @@ class Card(models.Model):
     sku   = models.CharField(max_length=50, verbose_name="SKU", help_text="SKU")
     title = models.CharField(max_length=50, verbose_name="称号", help_text="称号")
     build = models.ForeignKey(Build, on_delete=models.PROTECT, verbose_name="构筑", help_text="构筑", related_name="cards")
+    faq   = models.TextField(verbose_name="FAQ", help_text="FAQ", blank=True)
 
     hidden = models.BooleanField(default=False, verbose_name="隐藏", help_text="隐藏")
     sort   = models.IntegerField(default=0, verbose_name="排序", help_text="排序")
@@ -170,7 +171,6 @@ class Spellcard(Card):
     effect       = models.TextField(verbose_name="效果", help_text="效果")
     intensity    = models.IntegerField(default=0, verbose_name="强度", help_text="强度")
     traits       = models.ManyToManyField(Trait, verbose_name="特性", help_text="特性", related_name="spellcards", blank=True)
-    faq          = models.TextField(verbose_name="FAQ", help_text="FAQ", blank=True)
 
     basic_constraint = models.CharField(max_length=50, verbose_name="基本约束", help_text="基本约束", choices=BasicConstraint.choices)
 
