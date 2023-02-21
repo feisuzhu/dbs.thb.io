@@ -1,9 +1,14 @@
 <template>
-  <BuildNav :build="$route.params.col" :card="$route.params.sku" v-if="$route.params.colType == 'build'" />
-  <EpisodeNav :episode="$route.params.col" :card="$route.params.sku" v-if="$route.params.colType == 'episode'" />
-  <div class="container">
-    <Character :card="$route.params.sku" v-if="$route.params.type == 'character'" />
-    <Spellcard :card="$route.params.sku" v-if="$route.params.type == 'spellcard'" />
+  <Navigation :collection="$route.params.col" :card="$route.params.sku" />
+  <div class="container" v-if="!cardQuery.loading.value">
+    <Character :card="card" v-if="card.class == 'Character'" />
+    <Spellcard :card="card" v-if="card.class == 'Spellcard'" />
+    <div class="faq">
+      <div class="header">FAQ 与 轶事</div>
+      <div class="body">
+        {{ card.faq || "这张卡片暂不涉及特别的结算规则。" }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -14,14 +19,57 @@
 import { useQuery } from '@vue/apollo-composable'
 import { RouterLink, useRoute } from 'vue-router'
 import { computed } from 'vue'
-import BuildNav from './BuildNav.vue'
-import EpisodeNav from './EpisodeNav.vue'
+import Navigation from './Navigation.vue'
 import Character from './Character.vue'
 import Spellcard from './Spellcard.vue'
 import gql from 'graphql-tag'
-import _ from 'lodash'
 
-// { path: '/:col(build|episode)/:colsku/:typ(character|spellcard)/:sku',
+const route = useRoute();
+
+const cardQuery = useQuery(gql`
+  fragment VersionFields on Version {
+    version
+    rarity image line
+    illustrator { name }
+    episode { sku name }
+  }
+
+  query SpellcardQuery($sku: String!) {
+    card(sku: $sku) {
+      class: __typename
+      id sku title faq
+      ... on Character {
+        skills {
+          name type description
+        }
+        versions {
+          ...VersionFields
+        }
+      }
+      ... on Spellcard {
+        gorgeousness cost intensity
+        type {
+          name description bgcolor isAttack
+        }
+        traits {
+          name description bgcolor
+        }
+        effect
+        basicConstraint
+        extendedConstraints {
+          type effect
+        }
+        build { sku name }
+        versions {
+          ...VersionFields
+        }
+      }
+    }
+  }
+`, () => ({ sku: route.params.sku }));
+
+const card = computed(() => cardQuery.result?.value.card);
+
 </script>
 
 <style lang="scss">
@@ -100,6 +148,40 @@ import _ from 'lodash'
           font-size: 14px;
         }
       }
+    }
+  }
+
+  .faq {
+    --img-offs-x: 10px;
+    --img-offs-y: 25px;
+    --header-height: 48px;
+    --r: 15px;
+
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+
+    .header {
+      height: var(--header-height);
+      margin: 45px 0px 0px var(--img-offs-x);
+      padding: 0 0 0 20px;
+      background-color: #4e4e4e;
+      border-radius: var(--r) var(--r) 0 0;
+      color: white;
+      font-size: 20px;
+      line-height: var(--header-height);
+    }
+
+    .body {
+      display: block;
+      width: calc(100% - var(--img-offs-x));
+      min-height: 300px;
+      box-shadow: 2px 2px 8px #ccc;
+      border-radius: 0 0 var(--r) var(--r);
+      margin: 0px 0px 0px var(--img-offs-x);
+      box-shadow: 2px 2px 8px #ccc;
+      background-color: #f7f7f7;
+      padding: 20px;
     }
   }
 </style>

@@ -9,7 +9,20 @@ import './main.scss'
 
 import * as bootstrap from 'bootstrap'
 
-const cache = new InMemoryCache()
+const cache = new InMemoryCache({
+    // https://github.com/apollographql/apollo-client/issues/7648
+    possibleTypes: {
+        Card: [
+            "Character",
+            "Spellcard",
+        ],
+        Collection: [
+            "Build",
+            "Episode",
+        ]
+    }
+});
+
 const apolloClient = new ApolloClient({
   cache,
   uri: '/graphql',

@@ -7,7 +7,7 @@
             <icon-delete-left />
           </a>
         </div>
-        <div class="col-auto card-name">擦科个东方</div>
+        <div class="col-auto card-name">{{ card.title }}</div>
         <div class="col" style="padding: 0"></div>
         <div class="col-auto text-end">
           <i class="no-more" v-if="!prevCollectionLink">
@@ -26,7 +26,7 @@
           </router-link>
         </div>
         <div class="col-auto col-md-2 text-center">
-          <div class="sku">{{ sku }}</div>
+          <div class="sku">{{ card.sku }}</div>
         </div>
         <div class="col-auto text-end">
           <i class="no-more" v-if="!nextCardLink">
@@ -59,7 +59,7 @@
       color: #555;
     }
 
-    @media (max-width: 376px) {
+    @media (max-width: 600px) {
       .row > div {
         padding: 0 6px;
       }
@@ -74,12 +74,95 @@ import IconChevronRight from '@/assets/chevron-right.svg?component';
 import IconChevronsLeft from '@/assets/chevrons-left.svg?component';
 import IconChevronsRight from '@/assets/chevrons-right.svg?component';
 
+import { useQuery } from '@vue/apollo-composable'
+import { computed } from 'vue'
+import gql from 'graphql-tag'
+import _ from 'lodash'
+
 const props = defineProps({
-  sku: { type: String, required: true, },
-  name: { type: String, required: true, },
-  prevCollectionLink: { type: String, required: true, },
-  nextCollectionLink: { type: String, required: true, },
-  prevCardLink: { type: String, required: true, },
-  nextCardLink: { type: String, required: true, },
+  collection: { type: String, required: true },
+  card:  { type: String, required: true },
 });
+
+
+const navigationQuery = useQuery(gql`
+  query NavigationQuery($col: String!, $card: String!) {
+    collection(sku: $col) {
+      class: __typename
+      id
+      ... on Build {
+        cards {
+          class: __typename
+          sku
+        }
+      }
+      ... on Episode {
+      	versions {
+          card {
+            class: __typename
+            sku
+          }
+        }
+      }
+      prev {
+        sku
+        firstCard {
+          class: __typename
+          sku
+        }
+      }
+      next {
+        sku
+        firstCard {
+          class: __typename
+          sku
+        }
+      }
+    }
+    card(sku: $card) {
+      sku
+      title
+    }
+  }
+`, () => ({ col: props.collection,
+            card: props.card }));
+
+const col = computed(() => navigationQuery.loading.value ? {} : navigationQuery.result.value.collection);
+const card = computed(() => navigationQuery.loading.value ? {} : navigationQuery.result.value.card);
+const cards = computed(() => !col.value?.id ? [] : [null]
+                             .concat(col.value.cards?.map(v => v.sku) ?? [])
+                             .concat(col.value.versions?.map(v => v.card.sku) ?? [])
+                             .concat([null]));
+
+
+const prevCollectionLink = computed(() => {
+  if (col.value.prev == null) return null;
+  let { type, sku } = col.value.prev.firstCard;
+  return `/${col.value.prev.sku}/${sku}`;
+});
+
+const nextCollectionLink = computed(() => {
+  if (col.value.next == null) return null;
+  let { type, sku } = col.value.next.firstCard;
+  return `/${col.value.next.sku}/${sku}`;
+});
+
+const prevCardLink = computed(() => {
+  let idx = cards.value.findIndex(v => v == props.card);
+  if(idx == -1) return null;
+  if(idx <= 0) return null;
+  let sku = cards.value[idx - 1];
+  if(sku == null) return null;
+  return `/${props.collection}/${sku}`;
+});
+
+const nextCardLink = computed(() => {
+  let idx = cards.value.findIndex(v => v == props.card);
+  if(idx == -1) return null;
+  if(idx >= cards.value.length - 1) return null;
+  let sku = cards.value[idx + 1];
+  if(sku == null) return null;
+  return `/${props.collection}/${sku}`;
+});
+
 </script>

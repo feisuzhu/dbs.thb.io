@@ -19,7 +19,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6 twin-center-text" v-for="(build, i) in data.builds" :key="i">
-            <router-link :to="'/build/' + build.sku" v-if="!build.dummy">
+            <router-link :to="build.sku" v-if="!build.dummy">
               <img class="work-image" :src="build.image" :alt="build.name">
             </router-link>
             <img class="work-image" :src="build.image" :alt="build.name" v-else>
@@ -30,7 +30,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6 twin-center-text" v-for="(episode, i) in data.episodes" :key="i">
-            <router-link :to="'/episode/' + episode.sku" v-if="!episode.dummy">
+            <router-link :to="episode.sku" v-if="!episode.dummy">
               <img class="work-image" :src="episode.image" :alt="episode.name">
             </router-link>
             <img class="work-image" :src="episode.image" :alt="episode.name" v-else>
