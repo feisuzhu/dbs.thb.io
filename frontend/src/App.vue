@@ -38,11 +38,11 @@ import Footer from '@/components/header/Footer.vue'
   }
 
   nav {
-    $nav-height: 48px;
+    --nav-height: 48px;
 
     background-color: #1e1e1e;
-    height: $nav-height;
-    line-height: $nav-height;
+    height: var(--nav-height);
+    line-height: var(--nav-height);
     font-family: "404";
     font-size: 16pt;
     color: white;
@@ -50,10 +50,10 @@ import Footer from '@/components/header/Footer.vue'
     a, i {
       color: white;
       display: block;
-      width: calc($nav-height - 16px);
-      height: $nav-height;
+      width: calc(var(--nav-height) - 16px);
+      height: var(--nav-height);
       text-align: center;
-      font-size: calc($nav-height / 2);
+      font-size: calc(var(--nav-height) / 2);
       vertical-align: middle;
 
       svg {

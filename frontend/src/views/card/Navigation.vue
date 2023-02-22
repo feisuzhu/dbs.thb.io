@@ -1,13 +1,13 @@
 <template>
   <nav class="sticky-top">
     <div class="container">
-      <div class="row">
+      <div class="row flex-nowrap">
         <div class="col-auto">
           <a href="#" @click="$router.back()">
             <icon-delete-left />
           </a>
         </div>
-        <div class="col-auto card-name">{{ card.title }}</div>
+        <div class="d-none d-md-block col-auto card-name">{{ card.title }}</div>
         <div class="col" style="padding: 0"></div>
         <div class="col-auto text-end">
           <i class="no-more" v-if="!prevCollectionLink">
@@ -51,6 +51,12 @@
 
 <style lang="scss">
   nav {
+    .card-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: var(--nav-height);
+    }
     .sku {
       transform: translate(0, -3px);
     }
@@ -88,40 +94,26 @@ const props = defineProps({
 const navigationQuery = useQuery(gql`
   query NavigationQuery($col: String!, $card: String!) {
     collection(sku: $col) {
-      class: __typename
       id
       ... on Build {
-        cards {
-          class: __typename
-          sku
-        }
+        cards { sku }
       }
       ... on Episode {
       	versions {
-          card {
-            class: __typename
-            sku
-          }
+          card { sku }
         }
       }
       prev {
         sku
-        firstCard {
-          class: __typename
-          sku
-        }
+        firstCard { sku }
       }
       next {
         sku
-        firstCard {
-          class: __typename
-          sku
-        }
+        firstCard { sku }
       }
     }
     card(sku: $card) {
-      sku
-      title
+      sku title
     }
   }
 `, () => ({ col: props.collection,
