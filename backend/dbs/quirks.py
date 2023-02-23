@@ -68,6 +68,38 @@ def quirk_add_image_field_graphql_type():
     convert_django_field.register(models.ImageField)(convert_field_to_image)
 
 
+def quirk_add_martor_field_graphql_type():
+    import graphene as gh
+    from graphene_django.converter import convert_django_field
+    from django.utils.safestring import mark_safe
+    from martor.models import MartorField
+    from martor.utils import markdownify
+
+    class MarkdownFieldType(gh.Enum):
+        RENDERED = 1
+        RAW  = 2
+
+    def martor_resolver(root, info, type=MarkdownFieldType.RENDERED):
+        f = getattr(root, info.field_name)
+
+        if type == MarkdownFieldType.RENDERED:
+            return mark_safe(markdownify(f))
+        elif type == MarkdownFieldType.RAW:
+            return f
+        else:
+            raise Exception('Invalid markdown field type')
+
+    def convert_field_to_martor(field, registry=None):
+        return gh.Field(gh.String,
+            type=gh.Argument(MarkdownFieldType, description='渲染参数', required=True, default_value=MarkdownFieldType.RENDERED),
+            description=field.help_text and str(field.help_text),
+            required=not field.null,
+            resolver=martor_resolver,
+        )
+
+    convert_django_field.register(MartorField)(convert_field_to_martor)
+
+
 def apply_quirks():
     for n, f in list(globals().items()):
         if n.startswith('quirk_'):

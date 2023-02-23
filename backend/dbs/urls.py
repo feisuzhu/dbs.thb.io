@@ -24,12 +24,13 @@ from django.apps import apps
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path, re_path as url
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView
 
 # -- own --
 from .graphql import schema
+from page.views import markdown_uploader
 
 
 # -- code --
@@ -39,6 +40,11 @@ apps.get_app_config('auth').sort_order = 10
 urlpatterns = [
     path('graphql', csrf_exempt(GraphQLView.as_view(schema=schema, graphiql=True))),
     path("admin/", admin.site.urls),
+    url(
+        r'^martor/uploader/$',
+        markdown_uploader, name='markdown_uploader_page'
+    ),
+    path('martor/', include('martor.urls')),
 ]
 
 if settings.DEBUG:

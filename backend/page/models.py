@@ -3,6 +3,7 @@
 # -- stdlib --
 # -- third party --
 from django.db import models
+from martor import models as martor_models
 
 # -- own --
 
@@ -15,7 +16,7 @@ class Article(models.Model):
     slug       = models.SlugField(**_("Slug"), unique=True)
     category   = models.CharField(**_("分类"), max_length=100)
     title      = models.CharField(max_length=255, **_('标题'))
-    content    = models.TextField(**_('内容'))
+    content    = martor_models.MartorField(**_('内容'))
     created_at = models.DateTimeField(auto_now_add=True, **_('创建时间'))
     updated_at = models.DateTimeField(auto_now=True, **_('更新时间'))
 
@@ -153,7 +154,7 @@ class OutboundLink(models.Model):
 class Page(models.Model):
     id      = models.AutoField(primary_key=True)
     slug    = models.SlugField(**_('Slug'), unique=True)
-    content = models.TextField(**_('内容'))
+    content = martor_models.MartorField(**_('内容'))
 
     class Meta:
         verbose_name = '单页'
