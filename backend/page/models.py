@@ -8,7 +8,7 @@ from martor import models as martor_models
 # -- own --
 
 # -- code --
-_ = lambda s: {'help_text': s, 'verbose_name': s}
+_ = lambda s, s1 = None: { 'verbose_name': s, 'help_text': f'{s}（{s1}）' if s1 else s }
 
 
 class ArticleCategory(models.Model):
@@ -90,8 +90,8 @@ class InfoBlockButton(models.Model):
 
 
 class Landing(models.Model):
-    logo = models.ImageField(**_('Logo'), upload_to='page')
-    monologo = models.ImageField(**_('单色 Logo'), upload_to='page')
+    logo = models.ImageField(**_('Logo', '554x130'), upload_to='page')
+    monologo = models.ImageField(**_('单色 Logo', '554x130'), upload_to='page')
     small_slogan = models.CharField(max_length=255, **_('小号字 Slogan'))
     big_slogan = models.CharField(max_length=255, **_('大号字 Slogan'))
     footer = models.TextField(**_('页脚'))
@@ -107,7 +107,7 @@ class Landing(models.Model):
 class LandingWork(models.Model):
     id          = models.AutoField(primary_key=True)
     landing     = models.ForeignKey(Landing, on_delete=models.CASCADE, **_('首页'), related_name='works')
-    image       = models.ImageField(**_('图片'), upload_to='page')
+    image       = models.ImageField(**_('图片', '640x448'), upload_to='page')
     title       = models.CharField(max_length=255, **_('标题'))
     subtitle    = models.CharField(max_length=255, **_('副标题'))
     description = models.CharField(max_length=255, **_('描述'))
@@ -146,7 +146,7 @@ class LandingColumn(models.Model):
 class LandingSlide(models.Model):
     id      = models.AutoField(primary_key=True)
     landing = models.ForeignKey(Landing, on_delete=models.CASCADE, **_('首页'), related_name='slides')
-    image   = models.ImageField(**_('图片'), upload_to='page')
+    image   = models.ImageField(**_('图片', '1920x690'), upload_to='page')
     url     = models.CharField(max_length=255, **_('链接'))
     sort    = models.IntegerField(**_('排序'))
 
