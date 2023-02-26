@@ -11,10 +11,26 @@ from martor import models as martor_models
 _ = lambda s: {'help_text': s, 'verbose_name': s}
 
 
+class ArticleCategory(models.Model):
+    id     = models.AutoField(primary_key=True)
+    slug   = models.SlugField(**_("Slug"), unique=True)
+    name   = models.CharField(**_('名称'), max_length=100)
+    sort   = models.IntegerField(**_('排序'))
+    hidden = models.BooleanField(**_('隐藏'))
+
+    class Meta:
+        verbose_name = '文章分类'
+        verbose_name_plural = '文章分类'
+        ordering = ('sort', 'id')
+
+    def __str__(self):
+        return self.name
+
+
 class Article(models.Model):
     id         = models.AutoField(primary_key=True)
     slug       = models.SlugField(**_("Slug"), unique=True)
-    category   = models.CharField(**_("分类"), max_length=100)
+    category   = models.ForeignKey(ArticleCategory, on_delete=models.PROTECT, **_('分类'), related_name='articles')
     title      = models.CharField(max_length=255, **_('标题'))
     content    = martor_models.MartorField(**_('内容'))
     created_at = models.DateTimeField(auto_now_add=True, **_('创建时间'))
@@ -49,6 +65,7 @@ class InfoBlock(models.Model):
     class Meta:
         verbose_name = '信息卡片'
         verbose_name_plural = '信息卡片'
+        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.title
@@ -66,6 +83,7 @@ class InfoBlockButton(models.Model):
     class Meta:
         verbose_name = '信息卡片按钮'
         verbose_name_plural = '信息卡片按钮'
+        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.title
@@ -100,6 +118,7 @@ class LandingWork(models.Model):
     class Meta:
         verbose_name = '首页作品栏目'
         verbose_name_plural = '首页作品栏目'
+        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.title
@@ -118,6 +137,7 @@ class LandingColumn(models.Model):
     class Meta:
         verbose_name = '首页下方栏目'
         verbose_name_plural = '首页下方栏目'
+        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.title
@@ -133,6 +153,7 @@ class LandingSlide(models.Model):
     class Meta:
         verbose_name = '首页幻灯片'
         verbose_name_plural = '首页幻灯片'
+        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.url
@@ -149,16 +170,4 @@ class OutboundLink(models.Model):
     class Meta:
         verbose_name = '外链'
         verbose_name_plural = '外链'
-
-
-class Page(models.Model):
-    id      = models.AutoField(primary_key=True)
-    slug    = models.SlugField(**_('Slug'), unique=True)
-    content = martor_models.MartorField(**_('内容'))
-
-    class Meta:
-        verbose_name = '单页'
-        verbose_name_plural = '单页'
-
-    def __str__(self):
-        return self.slug
+        ordering = ('sort', 'id')

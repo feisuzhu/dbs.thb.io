@@ -10,6 +10,26 @@ from . import models
 
 
 # -- code --
+class ArticleCategory(DjangoObjectType):
+
+    class Meta:
+        model = models.ArticleCategory
+
+    articles = gh.List(gh.NonNull('page.schema.Article'), required=True, description="文章列表", reverse=gh.Boolean(default_value=False))
+
+    @staticmethod
+    def resolve_articles(root, info, reverse):
+        rev = '-' if reverse else ''
+        qs = root.articles.order_by(f'{rev}created_at')
+        return qs
+
+    article = gh.Field('page.schema.Article', slug=gh.String(required=True), description="文章")
+
+    @staticmethod
+    def resolve_article(root, info, slug):
+        return root.articles.filter(slug=slug).first()
+
+
 class Article(DjangoObjectType):
 
     class Meta:
@@ -64,61 +84,57 @@ class OutboundLink(DjangoObjectType):
         model = models.OutboundLink
 
 
-class Page(DjangoObjectType):
+def strip_ty(ty):
+    got_list = False
+    while True:
+        if ty.__class__.__name__ == 'GraphQLNonNull':
+            ty = ty.of_type
+        elif ty.__class__.__name__ == 'GraphQLList':
+            ty = ty.of_type
+            got_list = True
+        else:
+            return ty, got_list
 
-    class Meta:
-        model = models.Page
+
+@staticmethod
+def universal_get(root, info, **kwargs):
+    ty, got_list = strip_ty(info.return_type)
+    model = ty.graphene_type._meta.model
+
+    qs = model.objects.filter(**kwargs)
+    if hasattr(qs.model, 'hidden'):
+        qs = qs.filter(hidden=False)
+
+    if not got_list:
+        qs = qs.first()
+
+    return qs
 
 
 class PageQuery(gh.ObjectType):
 
-    landing = gh.Field(Landing, required=True, description="首页")
+    landing = gh.Field(Landing, required=True, description="首页", resolver=universal_get)
+    outbound_links = gh.List(gh.NonNull(OutboundLink), required=True, description="外链列表", resolver=universal_get)
 
-    def resolve_landing(self, info):
-        return models.Landing.objects.get()
+    articles = gh.List(gh.NonNull(Article), required=True, description="文章列表", reverse=gh.Boolean(default_value=False))
 
-    outbound_links = gh.List(
-        gh.NonNull(OutboundLink),
-        required=True,
-        description="外链列表",
-    )
-
-    def resolve_outbound_links(self, info):
-        return models.OutboundLink.objects.order_by('sort')
-
-    page = gh.Field(Page, description="页面", slug=gh.String(required=True))
-
-    def resolve_page(self, info, slug):
-        return models.Page.objects.filter(slug=slug).first()
-
-    articles = gh.List(
-        gh.NonNull(Article),
-        required=True,
-        description="文章列表",
-        category=gh.String(required=True),
-        reverse=gh.Boolean(default_value=False),
-    )
-
-    def resolve_articles(self, info, category, reverse):
+    def resolve_articles(self, info, reverse):
         rev = '-' if reverse else ''
-        qs = models.Article.objects.filter(category=category).order_by(f'{rev}created_at')
+        qs = models.Article.objects.filter(category__hidden=False).order_by(f'{rev}created_at')
         return qs
 
-    article_categories = gh.List(
-        gh.NonNull(gh.String),
-        required=True,
-        description="文章分类列表",
-    )
+    article_category = gh.Field(ArticleCategory, slug=gh.String(required=True), description="文章分类")
 
-    def resolve_article_categories(self, info):
-        return models.Article.objects.values_list('category', flat=True).distinct()
+    @staticmethod
+    def resolve_article_category(root, info, slug):
+        return models.ArticleCategory.objects.filter(slug=slug).first()
+
+    article_categories = gh.List(gh.NonNull(ArticleCategory), required=True, description="文章分类列表", resolver=universal_get)
 
     info_blocks = gh.List(
         gh.NonNull(InfoBlock),
         required=True,
         description="信息块列表",
         category=gh.Enum.from_enum(models.InfoBlockCategory)(required=True),
+        resolver=universal_get,
     )
-
-    def resolve_info_blocks(self, info, category):
-        return models.InfoBlock.objects.filter(category=category).order_by('sort')

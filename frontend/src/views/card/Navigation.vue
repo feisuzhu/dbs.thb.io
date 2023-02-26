@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row flex-nowrap">
         <div class="col-auto">
-          <a href="#" @click="$router.back()">
+          <a class="icon" href="#" @click="$router.back()">
             <icon-delete-left />
           </a>
         </div>
@@ -13,7 +13,7 @@
           <i class="no-more" v-if="!prevCollectionLink">
             <icon-chevrons-left />
           </i>
-          <router-link :to="prevCollectionLink" v-else>
+          <router-link class="icon" :to="prevCollectionLink" v-else>
             <icon-chevrons-left />
           </router-link>
         </div>
@@ -21,7 +21,7 @@
           <i class="no-more" v-if="!prevCardLink">
             <icon-chevron-left />
           </i>
-          <router-link :to="prevCardLink" v-else>
+          <router-link class="icon" :to="prevCardLink" v-else>
             <icon-chevron-left />
           </router-link>
         </div>
@@ -32,7 +32,7 @@
           <i class="no-more" v-if="!nextCardLink">
             <icon-chevron-right />
           </i>
-          <router-link :to="nextCardLink" v-else>
+          <router-link class="icon" :to="nextCardLink" v-else>
             <icon-chevron-right />
           </router-link>
         </div>
@@ -40,7 +40,7 @@
           <i class="no-more" v-if="!nextCollectionLink">
             <icon-chevrons-right />
           </i>
-          <router-link :to="nextCollectionLink" v-else>
+          <router-link class="icon" :to="nextCollectionLink" v-else>
             <icon-chevrons-right />
           </router-link>
         </div>

@@ -9,6 +9,14 @@ from . import models
 
 
 # -- code --
+@admin.register(models.ArticleCategory)
+class ArticleCategoryAdmin(admin.ModelAdmin):
+    list_display = ('id', 'slug', 'name', 'sort', 'hidden')
+    list_display_links = ('name',)
+    search_fields = ('name',)
+    sort_order = 20
+
+
 @admin.register(models.Article)
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ('id', 'slug', 'category', 'title', 'created_at', 'updated_at')
@@ -70,10 +78,3 @@ class OutboundLinkAdmin(admin.ModelAdmin):
             'fields': (('name', 'sort'), ('icon', 'mono'), 'url')
         }),
     )
-
-
-@admin.register(models.Page)
-class PageAdmin(admin.ModelAdmin):
-    list_display = ('id', 'slug')
-    search_fields = ('content',)
-    sort_order = 30

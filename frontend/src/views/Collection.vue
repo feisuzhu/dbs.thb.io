@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-auto">
-          <a href="#" @click="$router.back()">
+          <a class="icon" href="#" @click="$router.back()">
             <icon-delete-left />
           </a>
         </div>
@@ -12,7 +12,7 @@
           <i class="no-more" v-if="!col.prev">
             <icon-chevrons-left />
           </i>
-          <router-link :to="`/${col.prev.sku}`" @click="query.refetch() || true" v-else>
+          <router-link class="icon" :to="`/${col.prev.sku}`" @click="query.refetch() || true" v-else>
             <icon-chevrons-left />
           </router-link>
         </div>
@@ -26,7 +26,7 @@
           <i class="no-more" v-if="!col.next">
             <icon-chevrons-right />
           </i>
-          <router-link :to="`/${col.next.sku}`" v-else>
+          <router-link class="icon" :to="`/${col.next.sku}`" v-else>
             <icon-chevrons-right />
           </router-link>
         </div>

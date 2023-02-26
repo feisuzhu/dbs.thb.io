@@ -47,7 +47,7 @@ import Footer from '@/components/header/Footer.vue'
     font-size: 16pt;
     color: white;
 
-    a, i {
+    a.icon, i {
       color: white;
       display: block;
       width: calc(var(--nav-height) - 16px);

@@ -1,3 +1,4 @@
+import dayjs from 'dayjs'
 import { ApolloClient, InMemoryCache } from '@apollo/client/core'
 import { createApolloProvider } from '@vue/apollo-option'
 import VueApolloComponents from '@vue/apollo-components'
@@ -6,6 +7,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import './main.scss'
+
+import localizedFormat from 'dayjs/plugin/localizedFormat'
+import zh from 'dayjs/locale/zh-cn'
+dayjs.extend(localizedFormat)
+dayjs.locale(zh)
 
 import * as bootstrap from 'bootstrap'
 
