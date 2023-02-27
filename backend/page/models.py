@@ -3,6 +3,7 @@
 # -- stdlib --
 # -- third party --
 from django.db import models
+from django.utils import timezone
 from martor import models as martor_models
 
 # -- own --
@@ -32,8 +33,9 @@ class Article(models.Model):
     slug       = models.SlugField(**_("Slug"), unique=True)
     category   = models.ForeignKey(ArticleCategory, on_delete=models.PROTECT, **_('分类'), related_name='articles')
     title      = models.CharField(max_length=255, **_('标题'))
+    image      = models.ImageField(**_('图片', '1398x612'), upload_to='page', null=True, blank=True)
     content    = martor_models.MartorField(**_('内容'))
-    created_at = models.DateTimeField(auto_now_add=True, **_('创建时间'))
+    created_at = models.DateTimeField(default=timezone.now, **_('创建时间'))
     updated_at = models.DateTimeField(auto_now=True, **_('更新时间'))
 
     class Meta:

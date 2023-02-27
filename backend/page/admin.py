@@ -22,7 +22,7 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display = ('id', 'slug', 'category', 'title', 'created_at', 'updated_at')
     list_display_links = ('slug',)
     list_filter = ('category',)
-    search_fields = ('title', 'content')
+    search_fields = ('slug', 'title', 'content')
     sort_order = 20
 
 

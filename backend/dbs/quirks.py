@@ -49,6 +49,8 @@ def quirk_add_image_field_graphql_type():
 
     def image_resolver(root, info, type=ImagePathType.FULL):
         f = getattr(root, info.field_name)
+        if not f:
+            return None
 
         if type == ImagePathType.FULL:
             return f.url
@@ -76,14 +78,17 @@ def quirk_add_martor_field_graphql_type():
     from martor.utils import markdownify
 
     class MarkdownFieldType(gh.Enum):
+        RAW  = 0
         RENDERED = 1
-        RAW  = 2
+        EXCERPT = 2
 
     def martor_resolver(root, info, type=MarkdownFieldType.RENDERED):
         f = getattr(root, info.field_name)
 
         if type == MarkdownFieldType.RENDERED:
             return mark_safe(markdownify(f))
+        elif type == MarkdownFieldType.EXCERPT:
+            return f.encode('utf-8')[:500].decode('utf-8', 'ignore')
         elif type == MarkdownFieldType.RAW:
             return f
         else:
