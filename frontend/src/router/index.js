@@ -11,6 +11,8 @@ const router = createRouter({
     {path: '/articles',           component: import('@/views/article/ArticleList.vue')},
     {path: '/articles/:category', component: import('@/views/article/ArticleList.vue')},
 
+    {path: '/articles/:category/:slug', component: import('@/views/article/Article.vue')},
+
     // {path: '/about',    component: import('@/views/About.vue')},
     // {path: '/blogs',    component: import('@/views/BlogList.vue')},
     // {path: '/blog/:id', component: import('@/views/Blog.vue')},
