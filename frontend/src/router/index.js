@@ -13,6 +13,7 @@ const router = createRouter({
     {path: '/articles/:category/:slug', component: import('@/views/article/Article.vue')},
 
     {path: '/community',          component: import('@/views/community/Community.vue')},
+    {path: '/shop',               component: import('@/views/community/Shop.vue')},
 
     // {path: '/about',    component: import('@/views/About.vue')},
     // {path: '/blogs',    component: import('@/views/BlogList.vue')},

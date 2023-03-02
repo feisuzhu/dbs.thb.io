@@ -39,6 +39,14 @@
   @import "bootstrap/scss/mixins";
   .community-container {
     min-height: 80vh;
+    hr {
+        margin: 0;
+    }
+    @include media-breakpoint-up(md) {
+        hr:nth-child(4n+3), hr:nth-child(1) {
+        display: none !important;
+        }
+    }
   }
 
   .community-block {
@@ -111,14 +119,6 @@
       }
     }
   }
-  hr {
-    margin: 0;
-  }
-  @include media-breakpoint-up(md) {
-    hr:nth-child(4n+3), hr:nth-child(1) {
-      display: none !important;
-    }
-  }
 </style>
 
 <script setup>
@@ -133,7 +133,6 @@ const pageQuery = gql`
     infoBlocks(category: COMMUNITY) {
       type title subtitle
       description image
-      content
       buttons {
         title color url
       }
