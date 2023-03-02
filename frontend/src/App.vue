@@ -15,6 +15,10 @@ import Footer from '@/components/header/Footer.vue'
   @import "bootstrap/scss/variables";
   @import "bootstrap/scss/mixins";
 
+  html {
+    --dbs-red: #d00b01;
+  }
+
   @font-face {
     font-family: "404";
     src: url(@/assets/404-CAI978.ttf) format("truetype");

@@ -35,7 +35,7 @@ const headerQuery = gql`
 
 <style lang="scss">
 header.page-header {
-    border-top: 5px solid #d00b01;
+    border-top: 5px solid var(--dbs-red);
     padding: 36px 0 21px;
 
     .logo img {

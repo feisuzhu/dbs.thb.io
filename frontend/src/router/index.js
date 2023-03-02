@@ -10,8 +10,9 @@ const router = createRouter({
     {path: '/changelog',          component: import('@/views/rules/ChangeLog.vue')},
     {path: '/articles',           component: import('@/views/article/ArticleList.vue')},
     {path: '/articles/:category', component: import('@/views/article/ArticleList.vue')},
-
     {path: '/articles/:category/:slug', component: import('@/views/article/Article.vue')},
+
+    {path: '/community',          component: import('@/views/community/Community.vue')},
 
     // {path: '/about',    component: import('@/views/About.vue')},
     // {path: '/blogs',    component: import('@/views/BlogList.vue')},

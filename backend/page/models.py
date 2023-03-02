@@ -47,9 +47,9 @@ class Article(models.Model):
 
 
 class InfoBlockCategory(models.TextChoices):
-    SOCIAL_GROUP = 'SOCIAL_GROUP', "社群"
-    SHOP         = 'SHOP', "商店"
-    BUILD_SHARE  = 'BUILD_SHARE', "构筑分享"
+    COMMUNITY  = 'COMMUNITY', "社群"
+    SHOP       = 'SHOP', "商店"
+    DECK_SHARE = 'DECK_SHARE', "卡组分享"
 
 
 
@@ -61,7 +61,6 @@ class InfoBlock(models.Model):
     subtitle    = models.CharField(max_length=255, **_('副标题'))
     description = models.CharField(max_length=255, **_('描述'))
     image       = models.ImageField(**_('图片'), upload_to='page')
-    content     = models.TextField(**_('内容'))
     sort        = models.IntegerField(**_('排序'))
 
     class Meta:
@@ -77,7 +76,6 @@ class InfoBlockButton(models.Model):
     id    = models.AutoField(primary_key=True)
     block = models.ForeignKey(InfoBlock, on_delete=models.CASCADE, **_('信息卡片'), related_name='buttons')
     title = models.CharField(max_length=255, **_('标题'))
-    icon  = models.CharField(max_length=255, **_('图标'))
     color = models.CharField(max_length=255, **_('颜色'))
     url   = models.CharField(max_length=255, **_('链接'))
     sort  = models.IntegerField(**_('排序'))

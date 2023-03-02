@@ -52,7 +52,7 @@
 <style lang="scss">
 .landing a {
   text-decoration: none;
-  color: #d00b01;
+  color: var(--dbs-red);
   &:hover {
     text-decoration: underline;
   }
@@ -89,7 +89,7 @@
 
   img { border-radius: 5px; }
   .body { padding-top: 14px; }
-  .title { color: #d00b01; font-size: 17px; }
+  .title { color: var(--dbs-red); font-size: 17px; }
   .subtitle { color: #9d9d9d; font-style: italic; font-size: 12px; }
   .text { font-size: 12px; margin: 0; }
   a { font-size: 12px; }

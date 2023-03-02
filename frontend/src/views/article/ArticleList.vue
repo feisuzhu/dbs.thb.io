@@ -80,7 +80,7 @@
         @include media-breakpoint-up(sm) {
           margin-right: 10px;
         }
-        color: #d00b01;
+        color: var(--dbs-red);
         text-decoration: none;
 
         h3 {

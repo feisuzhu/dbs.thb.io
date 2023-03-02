@@ -33,7 +33,7 @@
         margin-right: 10px;
       }
       font-weight: bold;
-      color: #d00b01;
+      color: var(--dbs-red);
     }
 
     .date {
