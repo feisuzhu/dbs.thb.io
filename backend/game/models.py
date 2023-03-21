@@ -171,6 +171,7 @@ class Spellcard(Card):
     type         = models.ForeignKey(Type, on_delete=models.PROTECT, **_("类型"), related_name="spellcards")
     gorgeousness = models.IntegerField(default=0, **_("华丽度"))
     cost         = models.IntegerField(default=0, **_("消耗"))
+    lsc          = models.BooleanField(default=False, **_("终符"))
     effect       = models.TextField(**_("效果"))
     intensity    = models.IntegerField(default=0, **_("强度"))
     traits       = models.ManyToManyField(Trait, **_("特性"), related_name="spellcards", blank=True)

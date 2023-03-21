@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.1.4"
 graphene-django = "^3.0.0"
 pillow = "^9.3.0"
 django-model-utils = "^4.3.1"

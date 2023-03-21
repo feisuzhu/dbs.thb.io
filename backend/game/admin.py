@@ -105,7 +105,7 @@ class SpellcardAdmin(admin.ModelAdmin):
             'fields': (('sku', 'hidden', 'sort'), ('title', 'build'))
         }),
         ('游戏', {
-            'fields': (('type', 'cost', 'intensity'), ('basic_constraint', 'gorgeousness'), 'traits', 'effect', 'faq')
+            'fields': (('type', 'cost', 'lsc', 'intensity'), ('basic_constraint', 'gorgeousness'), 'traits', 'effect', 'faq')
         }),
     )
 
