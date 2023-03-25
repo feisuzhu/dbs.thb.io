@@ -13,7 +13,8 @@
         <div class="body">
           <div class="left">
             <div class="card-image">
-              <img :src="card.versions[vi].image" alt="">
+              <!--<img :src="card.versions[vi].image" alt="">-->
+              <PokemonCSSCard :img="card.versions[vi].image" />
               <Meta :version="card.versions[vi]" />
             </div>
           </div>
@@ -35,6 +36,7 @@
 </template>
 
 <script setup>
+import PokemonCSSCard from './pokemon-css/PokemonCSSCard.vue'
 import Meta from './Meta.vue'
 import { ref } from 'vue'
 const props = defineProps({
