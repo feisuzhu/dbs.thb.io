@@ -38,6 +38,7 @@ export function spring(value, opts = {}) {
   let task;
   let last_value = value;
   let target_value = value;
+  let next_value = value;
   let inv_mass = 1;
   let inv_mass_recovery_rate = 0;
   let cancel_task = false;
@@ -55,7 +56,7 @@ export function spring(value, opts = {}) {
       settled: true,
       dt: (now - last_time) * 60 / 1000
     };
-    const next_value = tick_spring(ctx, last_value, value, target_value);
+    next_value = tick_spring(ctx, last_value, value, target_value);
     last_time = now;
     last_value = value;
     value = next_value;

@@ -42,7 +42,7 @@
         </div>
       </div>
       -->
-      <p tabindex=0>{{ card.effect }}</p>
+      <p class="effect" tabindex=0>{{ card.effect }}</p>
     </template>
   </GameCard>
 </template>
@@ -57,7 +57,7 @@ const props = defineProps({
 
 <style lang="scss" scoped>
   .content {
-    font-size: 18px;
+    font-size: 1em;
   }
 
   .detail {

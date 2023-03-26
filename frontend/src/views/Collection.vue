@@ -12,7 +12,7 @@
           <i class="no-more" v-if="!col.prev">
             <icon-chevrons-left />
           </i>
-          <router-link class="icon" :to="`/${col.prev.sku}`" @click="query.refetch() || true" v-else>
+          <router-link class="icon" :to="`/${col.prev.sku}`" @click="collectionQuery.refetch() || true" v-else>
             <icon-chevrons-left />
           </router-link>
         </div>

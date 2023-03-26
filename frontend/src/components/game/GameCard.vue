@@ -1,35 +1,33 @@
 <template>
   <div class="game-card">
-    <div class="scaler">
-      <div class="padding"></div>
-      <div class="header row" :class="'rarity-' + card.versions[vi].rarity.toLowerCase()">
-        <div class="h-pad"></div>
-        <div class="col-auto">
-          <slot name="tags"></slot>
-        </div>
-        <div class="rarity">{{ card.versions[vi].rarity }}</div>
+    <div class="padding"></div>
+    <div class="header row" :class="'rarity-' + card.versions[vi].rarity.toLowerCase()">
+      <div class="h-pad"></div>
+      <div class="col-auto">
+        <slot name="tags"></slot>
       </div>
-      <div class="info">
-        <div class="body">
-          <div class="left">
-            <div class="card-image">
-              <!--<img :src="card.versions[vi].image" alt="">-->
-              <PokemonCSSCard :img="card.versions[vi].image" />
-              <Meta :version="card.versions[vi]" />
-            </div>
+      <div class="rarity">{{ card.versions[vi].rarity }}</div>
+    </div>
+    <div class="info">
+      <div class="body">
+        <div class="left">
+          <div class="card-image">
+            <!--<img :src="card.versions[vi].image" alt="">-->
+            <PokemonCSSCard :img="card.versions[vi].image" />
+            <Meta :version="card.versions[vi]" />
           </div>
-          <div class="right">
-            <slot name="content"></slot>
-          </div>
-          <Meta class="secondary-meta" :version="card.versions[vi]" />
         </div>
-        <div class="footer row">
-          <div v-for="(v, i) in card.versions" class="col-auto tab" :class="{current: i == vi}">
-            <button @click="vi = i">{{ v.version }}</button>
-          </div>
-          <div class="col"></div>
-          <div class="col-auto sku">{{ card.sku }}</div>
+        <div class="right">
+          <slot name="content"></slot>
         </div>
+        <Meta class="secondary-meta" :version="card.versions[vi]" />
+      </div>
+      <div class="footer row">
+        <div v-for="(v, i) in card.versions" class="col-auto tab" :class="{current: i == vi}">
+          <button @click="vi = i">{{ v.version }}</button>
+        </div>
+        <div class="col"></div>
+        <div class="col-auto sku">{{ card.sku }}</div>
       </div>
     </div>
   </div>
@@ -54,18 +52,27 @@ const vi = ref(0);
   @import "bootstrap/scss/mixins";
 
   .game-card {
-    --img-offs-x: 10px;
-    --img-offs-y: 25px;
-    --header-height: 54px;
-    --meta-height: 64px;
-    --footer-height: 36px;
-    --r: 15px;
+    font-size: 18px;
+
+    @include media-breakpoint-only(xxl) { font-size: 18px;   }
+    @include media-breakpoint-only(xl)  { font-size: 16px;   }
+    @include media-breakpoint-only(lg)  { font-size: 13px;   }
+    @include media-breakpoint-only(md)  { font-size: 18px;   }
+    @include media-breakpoint-only(sm)  { font-size: 15px;   }
+    @include media-breakpoint-only(xs)  { font-size: 2.5vw;  }
+
+    --img-offs-x: 0.56em;
+    --img-offs-y: 1.4em;
+    --header-height: 3em;
+    --meta-height: 3.5em;
+    --footer-height: 2em;
+    --r: 0.83em;
 
     --hpad: 46%;
 
     position: relative;
     display: block;
-    margin: 15px 0px;
+    margin: 0.83em 0px;
     width: 100%;
     aspect-ratio: 1.2744;
 
@@ -73,27 +80,6 @@ const vi = ref(0);
     .center    { background-color: #009504; }
     .hyper     { background-color: #950000; }
     .exclusive { background-color: #7d6e9f; }
-
-    .scaler {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform-origin: top left;
-      width: calc(100% * var(--factor));
-      height: calc(100% * var(--factor));
-      transform: scale(calc(1/var(--factor)));
-
-      --factor: 1;
-      @include media-breakpoint-only(xxl) { --factor: 1;    }
-      @include media-breakpoint-only(xl)  { --factor: 1.1;  }
-      @include media-breakpoint-only(lg)  { --factor: 1.35; }
-      @include media-breakpoint-only(md)  { --factor: 1;    }
-      @include media-breakpoint-only(sm)  { --factor: 1.2;  }
-      @include media-breakpoint-only(xs)  { --factor: 1.3;  }
-      @media (max-width: 480px)           { --factor: 1.5;  }
-      @media (max-width: 425px)           { --factor: 1.7;  }
-    }
 
     .padding {
       height: var(--img-offs-y);
@@ -127,8 +113,8 @@ const vi = ref(0);
         top: 0;
         right: 0;
         z-index: -1;
-        font-size: 76px;
-        line-height: var(--header-height);
+        font-size: 4.22222em;
+        line-height: 0.71em;
         font-family: "404";
         color: white;
         user-select: none;
@@ -141,15 +127,13 @@ const vi = ref(0);
       }
 
       .tag {
-        $font-sz: 18px;
-
         display: inline-block;
         color: white;
-        line-height: $font-sz;
-        font-size: $font-sz;
+        line-height: 1em;
+        font-size: 1em;
         font-weight: bold;
-        margin: calc((var(--header-height) - $font-sz - 5px * 2)/2) 3px;
-        padding: 5px 10px;
+        margin: calc((var(--header-height) - 1em - 0.28em * 2)/2) 3px;
+        padding: 0.28em 0.56em;
         border-radius: 3px;
       }
 
@@ -169,7 +153,10 @@ const vi = ref(0);
         flex-direction: column;
         width: var(--hpad);
         height: 100%;
-        transform: translate(calc(var(--img-offs-x) * -1), calc((var(--img-offs-y) + var(--header-height)) * -1));
+        /* transform: translate(calc(var(--img-offs-x) * -1), calc((var(--img-offs-y) + var(--header-height)) * -1)); */
+        margin-left: calc(var(--img-offs-x) * -1);
+        margin-right: calc(var(--img-offs-x));
+        margin-top: calc((var(--img-offs-y) + var(--header-height)) * -1);
 
         .card-image {
           height: calc(100% - var(--meta-height));
@@ -177,7 +164,7 @@ const vi = ref(0);
           img {
             max-width: 100%;
             max-height: calc(100% + var(--img-offs-y) + var(--header-height));
-            border-radius: var(--r);
+            /* border-radius: var(--r); */
           }
         }
 
@@ -214,20 +201,18 @@ const vi = ref(0);
 
         .title {
           width: 100%;
-          height: 36px;
-          margin: 8px auto 3px auto;
+          height: 2em;
+          margin: 0.5px auto 0.17em auto;
         }
 
         .tag {
-          $font-sz: 18px;
-
           display: inline-block;
           color: white;
-          line-height: $font-sz;
-          font-size: $font-sz;
+          line-height: 1em;
+          font-size: 1em;
           font-weight: bold;
-          margin: 8px auto;
-          padding: 5px 16px;
+          margin: 0.45em auto;
+          padding: 0.28em 1em;
           border-radius: 3px;
         }
 
@@ -235,7 +220,7 @@ const vi = ref(0);
           text-align: left;
           margin: 5px;
           overflow: hidden;
-          font-size: 18px;
+          font-size: 1em;
         }
 
         p[tabindex], div[tabindex] {
@@ -256,11 +241,11 @@ const vi = ref(0);
       z-index: -10;
 
       .tab {
-        font-size: 20px;
+        font-size: 1.11111em;
         line-height: var(--footer-height);
         background-color: #c0c0c0;
-        padding: 0px 36px;
-        border-radius: 0 0 12px 12px;
+        padding: 0px 1.8em;
+        border-radius: 0 0 0.6em 0.6em;
         color: #52575c;
         font-weight: bold;
 
@@ -280,7 +265,7 @@ const vi = ref(0);
       }
 
       .sku {
-        font-size: 18px;
+        font-size: 1em;
         line-height: var(--footer-height);
         font-weight: bold;
         color: #a0a0a0;

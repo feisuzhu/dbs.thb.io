@@ -69,6 +69,8 @@ const props = defineProps({
   },
 });
 
+const emit = defineEmits(['activate'])
+
 const randomSeed = {
   x: Math.random(),
   y: Math.random()
@@ -239,13 +241,14 @@ const reset = () => {
 };
 
 watch(activeCard, (value) => {
-  console.log('activeCard', value, randomId, value === randomId);
   if (value && value === randomId) {
     popover();
     active.value = true;
+    emit('activate', true);
   } else {
     retreat();
     active.value = false;
+    emit('activate', false);
   }
 });
 
@@ -336,6 +339,12 @@ onMounted(() => {
   // set the front image on mount so that
   // the lazyloading can work correctly
   lazy_img.value = props.img;
+  window.addEventListener('scroll', reposition);
+
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', reposition);
 });
 </script>
 
@@ -355,4 +364,12 @@ onMounted(() => {
 /*   --pointer-from-top: var(--pointer-from-center); */
 /*   --pointer-from-left: var(--pointer-from-center); */
 /* } */
+.pokemon-css-card {
+  position: relative;
+}
+
+.pokemon-css-card.active {
+  isolation: isolate;
+  z-index: 9999;
+}
 </style>
