@@ -36,8 +36,8 @@
   <div class="container collection-content-list" v-if="col">
     <div class="row">
       <div class="col-lg-6 twin-center" v-for="(c, i) in cards" :key="`card-${i}`">
-        <Character :card="c" v-if="c.class == 'Character'" />
-        <Spellcard :card="c" v-if="c.class == 'Spellcard'" />
+        <Character :card="c" v-if="c.class == 'Character'" @click="navigateToDetail(c)" />
+        <Spellcard :card="c" v-if="c.class == 'Spellcard'" @click="navigateToDetail(c)" />
       </div>
     </div>
   </div>
@@ -73,7 +73,7 @@
 </style>
 
 <script setup>
-import { RouterLink, useRoute } from 'vue-router'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
 import IconDeleteLeft from '@/assets/fa-delete-left.svg?component';
 import IconChevronLeft from '@/assets/chevron-left.svg?component';
 import IconChevronRight from '@/assets/chevron-right.svg?component';
@@ -86,6 +86,7 @@ import { computed } from 'vue'
 import { useQuery } from '@vue/apollo-composable'
 
 const route = useRoute();
+const router = useRouter();
 
 /* `, () => ({ col: props.collection, */
 /*             card: props.card })); */
@@ -153,4 +154,8 @@ const collectionQuery= useQuery(gql`
 
 const col = computed(() => collectionQuery.loading.value ? {} : collectionQuery.result.value.collection);
 const cards = computed(() => !collectionQuery.loading.value ? (col.value?.cards || col.value.versions.map(v => v.card)) : []);
+
+const navigateToDetail = (c) => {
+  router.push({ name: 'card', params: { col: route.params.sku, sku: c.sku } });
+}
 </script>

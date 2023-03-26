@@ -13,7 +13,7 @@
         <div class="left">
           <div class="card-image">
             <!--<img :src="card.versions[vi].image" alt="">-->
-            <PokemonCSSCard :img="card.versions[vi].image" />
+            <PokemonCSSCard :img="card.versions[vi].image" @clickOnActive="emit('click')" />
             <Meta :version="card.versions[vi]" />
           </div>
         </div>
@@ -37,13 +37,15 @@
 import PokemonCSSCard from './pokemon-css/PokemonCSSCard.vue'
 import Meta from './Meta.vue'
 import { ref } from 'vue'
+
 const props = defineProps({
-  card: {
-    type: Object,
-  }
+  card: { type: Object },
 });
 
+const emit = defineEmits(['click']);
+
 const vi = ref(0);
+import { useRouter } from 'vue-router'
 </script>
 
 <style lang="scss">
@@ -164,7 +166,6 @@ const vi = ref(0);
           img {
             max-width: 100%;
             max-height: calc(100% + var(--img-offs-y) + var(--header-height));
-            /* border-radius: var(--r); */
           }
         }
 

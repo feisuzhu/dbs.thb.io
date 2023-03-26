@@ -1,8 +1,8 @@
 <template>
   <Navigation :collection="$route.params.col" :card="$route.params.sku" />
   <div class="container" v-if="!cardQuery.loading.value">
-    <Character :card="card" v-if="card.class == 'Character'" />
-    <Spellcard :card="card" v-if="card.class == 'Spellcard'" />
+    <Character :card="card" v-if="card.class == 'Character'" @click="deactivate" />
+    <Spellcard :card="card" v-if="card.class == 'Spellcard'" @click="deactivate" />
     <div class="faq">
       <div class="header">FAQ 与 轶事</div>
       <div class="body">
@@ -23,6 +23,12 @@ import Navigation from './Navigation.vue'
 import Character from './Character.vue'
 import Spellcard from './Spellcard.vue'
 import gql from 'graphql-tag'
+import { activeCard } from '@/components/game/pokemon-css/helpers.js'
+
+// HACK
+const deactivate = () => {
+  activeCard.value = null;
+}
 
 const route = useRoute();
 

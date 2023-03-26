@@ -14,6 +14,7 @@
       <button
         class="pokemon-css-card__rotator"
         @click="activate"
+        @blur="deactivate"
         @pointermove="interact"
         @mouseout="interactEnd"
       >
@@ -69,7 +70,7 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(['activate'])
+const emit = defineEmits(['activate', 'clickOnActive'])
 
 const randomSeed = {
   x: Math.random(),
@@ -171,16 +172,25 @@ const interactEnd = (e, delay = 500) => {
 
 const activate = (e) => {
   if (activeCard.value && activeCard.value === randomId) {
+    emit('clickOnActive');
+    return;
+  }
+  activeCard.value = randomId;
+  resetBaseOrientation();
+};
+
+const deactivate = (e) => {
+  activeCard.value = '';
+};
+
+
+const toggleActivate = (e) => {
+  if (activeCard.value && activeCard.value === randomId) {
     activeCard.value = '';
   } else {
     activeCard.value = randomId;
     resetBaseOrientation();
   }
-};
-
-const deactivate = (e) => {
-  interactEnd();
-  activeCard.value = '';
 };
 
 const reposition = (e) => {
