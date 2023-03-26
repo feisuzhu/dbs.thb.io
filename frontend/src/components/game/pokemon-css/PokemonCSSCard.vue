@@ -332,7 +332,14 @@ const updateSprings = ( background, rotate, glare ) => {
 watch(activeCard, (value) => {
   if (value && value === randomId) {
     interacting.value = true;
-    orientate(orientation.value);
+    orientate(orientation);
+  }
+});
+
+watch(orientation, (value) => {
+  if (activeCard.value && activeCard.value === randomId) {
+    interacting.value = true;
+    orientate(orientation);
   }
 });
 

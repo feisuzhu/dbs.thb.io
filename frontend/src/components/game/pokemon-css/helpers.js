@@ -1,4 +1,4 @@
-import { ref } from 'vue';
+import { ref, reactive } from 'vue';
 
 export const activeCard = ref(null);
 
@@ -30,7 +30,7 @@ export const resetBaseOrientation = () => {
   baseOrientation = getRawOrientation();
 }
 
-export const orientation = ref(getOrientationObject());
+export const orientation = reactive(getOrientationObject());
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientation
 const handleOrientation = function(e) {
@@ -41,7 +41,7 @@ const handleOrientation = function(e) {
   }
 
   const o = getOrientationObject(e);
-  orientation.value = o;
+  Object.assign(orientation, o);
 };
 
 window.addEventListener("deviceorientation", handleOrientation, true);
