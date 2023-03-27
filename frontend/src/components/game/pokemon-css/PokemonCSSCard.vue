@@ -96,7 +96,7 @@ const lazy_img = ref('');
 let firstPop = true;
 let isVisible = document.visibilityState === "visible";
 
-const springInteractSettings = { stiffness: 0.066, damping: 0.25 };
+const springInteractSettings = { stiffness: 0.132, damping: 0.25 };
 const springPopoverSettings = { stiffness: 0.033, damping: 0.45 };
 let springRotate = spring({ x: 0, y: 0 }, springInteractSettings);
 let springGlare = spring({ x: 50, y: 50, o: 0 }, springInteractSettings);
@@ -141,8 +141,8 @@ const interact = (e) => {
     x: adjust(percent.x, 0, 100, 37, 63),
     y: adjust(percent.y, 0, 100, 33, 67),
   },{
-    x: round(-(center.x / 3.5)),
-    y: round(center.y / 2),
+    x: round(-(center.x / 7)),
+    y: round(center.y / 5),
   },{
     x: round(percent.x),
     y: round(percent.y),
@@ -152,8 +152,8 @@ const interact = (e) => {
 
 const interactEnd = (e, delay = 500) => {
   setTimeout(function () {
-    const snapStiff = 0.01;
-    const snapDamp = 0.06;
+    const snapStiff = 0.05;
+    const snapDamp = 0.09;
     interacting.value = false;
 
     springRotate.stiffness = snapStiff;
