@@ -8,12 +8,11 @@
     :data-subtypes="subtypes"
     :data-supertype="supertype"
     :data-rarity="rarity"
-    :data-gallery="gallery"
   >
     <div class="pokemon-css-card__translater">
       <button
         class="pokemon-css-card__rotator"
-        @click="activate"
+        @click="toggleActivate"
         @blur="deactivate"
         @pointermove="interact"
         @mouseout="interactEnd"
@@ -281,7 +280,7 @@ const dynamicStyles = computed(() => `
   --pointer-from-left: ${springGlare.values.x / 100};
   --card-opacity: ${springGlare.values.o};
   --rotate-x: ${springRotate.values.x + springRotateDelta.values.x}deg;
-  --rotate-y: ${springRotate.values.y + springRotateDelta.values.y}deg;
+  --rotate-y: ${-springRotate.values.y - springRotateDelta.values.y}deg;
   --background-x: ${springBackground.values.x}%;
   --background-y: ${springBackground.values.y}%;
   --card-scale: ${springScale.values.v};

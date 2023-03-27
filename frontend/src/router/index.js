@@ -22,7 +22,10 @@ const router = createRouter({
     // {path: '/story',    component: import('@/views/Story.vue')},
 
     {path: '/:sku',         component: import('@/views/Collection.vue')},
-    {path: '/:col/:sku',    component: import('@/views/card/Card.vue'), name: 'card'},
+
+    // {path: '/:col/:sku',    component: import('@/views/card/Card.vue'), name: 'card'},
+    //
+    { path: '/:pathMatch(.*)', redirect: '/' }
   ]
 })
 
