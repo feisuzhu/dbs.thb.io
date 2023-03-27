@@ -89,11 +89,6 @@ const card = computed(() => cardQuery.result?.value.card);
 
     aspect-ratio: unset;
 
-    .scaler {
-      position: unset;
-      --factor: 1;
-    }
-
     .card-image img { width: 100%; }
 
     @include media-breakpoint-up(md) {
@@ -127,11 +122,7 @@ const card = computed(() => cardQuery.result?.value.card);
         .left {
           width: 100%;
           flex: 0 0 auto;
-          transform: none;
-          img {
-            padding: 10px;
-            border-radius: 30px;
-          }
+          margin: 0;
         }
         .right {
           width: 100%;
