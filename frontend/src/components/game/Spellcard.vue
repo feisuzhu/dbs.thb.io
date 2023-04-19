@@ -1,5 +1,5 @@
 <template>
-  <GameCard :card="card">
+  <GameCard :card="card" back="/uploads/card/spellcard-back.jpg">
     <template #tags>
       <template v-if="card.type.isAttack">
         <span :style="`background-color: ${card.type.bgcolor};`" class="tag">{{ card.type.name }}：{{ card.intensity }}</span>

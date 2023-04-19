@@ -1,0 +1,144 @@
+- model: game.illustrator
+  pk: 1
+  fields:
+    name: 霏茶
+- model: game.illustrator
+  pk: 2
+  fields:
+    name: 镜_area
+- model: game.illustrator
+  pk: 3
+  fields:
+    name: inuko
+- model: game.illustrator
+  pk: 4
+  fields:
+    name: 千夜
+- model: game.illustrator
+  pk: 5
+  fields:
+    name: 索罗萌
+- model: game.illustrator
+  pk: 6
+  fields:
+    name: 派派
+- model: game.illustrator
+  pk: 7
+  fields:
+    name: 躲猫
+- model: game.illustrator
+  pk: 8
+  fields:
+    name: 吹风姬
+- model: game.illustrator
+  pk: 9
+  fields:
+    name: poppy
+- model: game.illustrator
+  pk: 10
+  fields:
+    name: shika
+- model: game.illustrator
+  pk: 11
+  fields:
+    name: 和茶
+- model: game.illustrator
+  pk: 12
+  fields:
+    name: aoi
+- model: game.illustrator
+  pk: 13
+  fields:
+    name: 青冥童子
+- model: game.illustrator
+  pk: 14
+  fields:
+    name: 天小二
+- model: game.illustrator
+  pk: 15
+  fields:
+    name: 紫夏
+- model: game.illustrator
+  pk: 16
+  fields:
+    name: Linko镜冷
+- model: game.illustrator
+  pk: 17
+  fields:
+    name: hacko
+- model: game.illustrator
+  pk: 18
+  fields:
+    name: Hysteria
+- model: game.illustrator
+  pk: 19
+  fields:
+    name: 落语
+- model: game.illustrator
+  pk: 20
+  fields:
+    name: 大鱼
+- model: game.illustrator
+  pk: 21
+  fields:
+    name: Ain
+- model: game.illustrator
+  pk: 22
+  fields:
+    name: 2p
+- model: game.illustrator
+  pk: 23
+  fields:
+    name: 包菜子
+- model: game.illustrator
+  pk: 24
+  fields:
+    name: 晨风
+- model: game.illustrator
+  pk: 25
+  fields:
+    name: 茼茼
+- model: game.illustrator
+  pk: 26
+  fields:
+    name: 冰琼
+- model: game.illustrator
+  pk: 27
+  fields:
+    name: HUG & clouble
+- model: game.illustrator
+  pk: 28
+  fields:
+    name: RainLan
+- model: game.illustrator
+  pk: 29
+  fields:
+    name: 深蓝杰克
+- model: game.illustrator
+  pk: 30
+  fields:
+    name: 真未
+- model: game.illustrator
+  pk: 31
+  fields:
+    name: 鹅鹅鹅
+- model: game.illustrator
+  pk: 32
+  fields:
+    name: 秃鸭-小宏
+- model: game.illustrator
+  pk: 33
+  fields:
+    name: SL
+- model: game.illustrator
+  pk: 34
+  fields:
+    name: PPC
+- model: game.illustrator
+  pk: 35
+  fields:
+    name: yeming
+- model: game.illustrator
+  pk: 36
+  fields:
+    name: yulong

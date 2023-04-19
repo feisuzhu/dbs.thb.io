@@ -64,15 +64,11 @@ class Illustrator(models.Model):
 
 
 class Rarity(models.TextChoices):
-    UC  = "UC", "UC"
-    C   = "C", "C"
     N   = "N", "N"
     R   = "R", "R"
     SR  = "SR", "SR"
     SSR = "SSR", "SSR"
-    ST  = "ST", "ST"
-    S   = "S", "S"
-    SP  = "SP", "SP"
+    PR  = "PR", "PR"
 
 
 class Card(models.Model):
@@ -96,7 +92,7 @@ class Card(models.Model):
 class Character(Card):
 
     class Meta:
-        verbose_name = "角色"
+        verbose_name = "角色卡"
         verbose_name_plural = verbose_name
 
     def __str__(self):
@@ -111,7 +107,7 @@ class SkillType(models.TextChoices):
 
 class Skill(models.Model):
     id          = models.AutoField(primary_key=True, **_("ID"))
-    character   = models.ForeignKey(Character, on_delete=models.CASCADE, **_("角色"), related_name="skills")
+    character   = models.ForeignKey(Character, on_delete=models.CASCADE, **_("角色卡"), related_name="skills")
     type        = models.CharField(max_length=50, **_("类型"), choices=SkillType.choices)
     name        = models.CharField(max_length=50, **_("名字"))
     description = models.TextField(**_("描述"))

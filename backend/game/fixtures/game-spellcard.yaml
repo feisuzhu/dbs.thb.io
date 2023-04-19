@@ -2,527 +2,373 @@
   pk: 1
   fields:
     name: 稳定
-    description: 防御阶段宣言本卡时，本卡战力+1000。
-    bgcolor: '#66ccff'
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 2
   fields:
     name: 诱导
-    description: 本卡命中时，对对手造成1000点特殊伤害。
-    bgcolor: '#66ccff'
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 3
   fields:
     name: 贯通
-    description: 本卡不可被相杀。本卡命中后，横置进入宣言区。
-    bgcolor: '#66ccff'
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 4
   fields:
     name: 高速
-    description: 本卡在攻击阶段不可被陷阱响应。
-    bgcolor: '#66ccff'
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 5
   fields:
-    name: 连击
-    description: 本卡命中时，可以将弃牌堆内一张华丽度相同的战斗符卡至于宣言区顶部。
-    bgcolor: '#66ccff'
+    name: 反制
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 6
   fields:
-    name: 破坏
-    description: 本卡命中时，你可以弃置对手一张符力区或装备区的卡片。
-    bgcolor: '#66ccff'
+    name: 连击
+    description: ''
+    bgcolor: ''
 - model: game.trait
   pk: 7
   fields:
-    name: 反制
-    description: 防御阶段，本卡击破对阵符卡后，战力盈余将对对手造成伤害。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 8
-  fields:
-    name: 扭曲
-    description: 攻击阶段，本卡离开决斗区后，横置于你宣言区顶部。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 9
-  fields:
-    name: 枯萎
-    description: 本卡结算完毕后，你须弃置卡组顶一张卡片。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 10
-  fields:
-    name: 汲饮
-    description: 攻击阶段，你每有一个「血」标记，本卡战力+500；本卡命中时，你回复500点体力
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 11
-  fields:
-    name: 伏兵
-    description: 本卡命中后，你可将本卡置于你的符力区。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 12
-  fields:
-    name: 神宝
-    description: 当本卡从弃牌堆或宣言区被移出游戏时，你可从隙间将任一张“难题”加入手牌。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 13
-  fields:
-    name: 狂视
-    description: 本卡命中时，对手须弃置一张手牌。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 14
-  fields:
-    name: 无痕
-    description: 本卡进入宣言区后，你可对你宣言区内的符卡进行一次任意排序。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 15
-  fields:
-    name: 涅槃
-    description: 本卡命中后，你可将本卡置于隙间。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 16
-  fields:
-    name: 药引
-    description: 双方宣言区存在X张本特性符卡时，每当双方各自的攻击阶段开始后，都须先弃置牌组顶的X张卡片。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 17
-  fields:
-    name: 冻结
-    description: 本卡被相杀时，将双方符卡战力归零，然后将本卡置于你宣言区顶部。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 18
-  fields:
-    name: 羽心
-    description: 你可以在本卡所属角色不参战的情况下宣言/发动本卡。
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 19
-  fields:
-    name: 五行/金
-    description: '宣言带有五行特性的符卡时，需明置符力区一张带有五行特性的同名符卡才可发动。
-
-      本卡被明置于符力区时，对手须弃置一张手牌。
-
-      本卡命中时，你展示一张土属性五行符卡加入手牌。'
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 20
-  fields:
-    name: 五行/水
-    description: '宣言带有五行特性的符卡时，需明置符力区一张带有五行特性的同名符卡才可发动。
-
-      本卡被明置于符力区时，你回复1点灵力。
-
-      本卡命中时，你展示一张木属性五行符卡加入手牌。'
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 21
-  fields:
-    name: 五行/木
-    description: '宣言带有五行特性的符卡时，需明置符力区一张带有五行特性的同名符卡才可发动。
-
-      本卡被明置于符力区时，你抽一张卡。
-
-      本卡命中时，你展示一张金属性五行符卡加入手牌。'
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 22
-  fields:
-    name: 五行/火
-    description: '宣言带有五行特性的符卡时，需明置符力区一张带有五行特性的同名符卡才可发动。
-
-      本卡被明置于符力区时，你对对手造成500点弹幕伤害。
-
-      本卡命中时，你展示一张水属性五行符卡加入手牌。'
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 23
-  fields:
-    name: 五行/土
-    description: '宣言带有五行特性的符卡时，需明置符力区一张带有五行特性的同名符卡才可发动。
-
-      本卡被明置于符力区时，你弃置对手宣言区的一张符卡。
-
-      本卡命中时，你展示一张火属性五行符卡加入手牌。'
-    bgcolor: '#66ccff'
-- model: game.trait
-  pk: 24
-  fields:
-    name: 奇迹
-    description: ''
-    bgcolor: ''
-- model: game.trait
-  pk: 25
-  fields:
-    name: 终符
-    description: ''
-    bgcolor: ''
-- model: game.trait
-  pk: 26
-  fields:
-    name: NULLITY
-    description: ''
-    bgcolor: ''
-- model: game.trait
-  pk: 27
-  fields:
-    name: 武魂
-    description: ''
-    bgcolor: ''
-- model: game.trait
-  pk: 28
-  fields:
-    name: 萃集
+    name: 削除
     description: ''
     bgcolor: ''
 - model: game.type
   pk: 1
   fields:
     name: 弹幕
-    description: 弹幕
-    bgcolor: '#008aff'
+    description: '#cccccc'
+    bgcolor: '#cccccc'
     is_attack: true
 - model: game.type
   pk: 2
   fields:
     name: 状态
-    description: ''
-    bgcolor: '#379d89'
+    description: '#cccccc'
+    bgcolor: '#cccccc'
     is_attack: false
 - model: game.type
   pk: 3
   fields:
-    name: 永续
-    description: ''
-    bgcolor: ''
-    is_attack: false
+    name: 体术
+    description: '#cccccc'
+    bgcolor: '#cccccc'
+    is_attack: true
 - model: game.type
   pk: 4
   fields:
     name: 陷阱
-    description: ''
-    bgcolor: '#5719f3'
+    description: '#cccccc'
+    bgcolor: '#cccccc'
     is_attack: false
 - model: game.type
   pk: 5
   fields:
-    name: 体术
-    description: 体术
-    bgcolor: '#ff0000'
-    is_attack: true
-- model: game.type
-  pk: 6
-  fields:
     name: 延时
-    description: ''
-    bgcolor: ''
+    description: '#cccccc'
+    bgcolor: '#cccccc'
     is_attack: false
 - model: game.type
   pk: 7
   fields:
     name: 特殊
-    description: ''
-    bgcolor: ''
-    is_attack: false
+    description: '#cccccc'
+    bgcolor: '#cccccc'
+    is_attack: true
 - model: game.type
   pk: 8
   fields:
-    name: 即时
-    description: ''
-    bgcolor: ''
+    name: 瞬时
+    description: '#cccccc'
+    bgcolor: '#cccccc'
     is_attack: false
-- model: game.spellcard
-  pk: 1
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 1
-    effect: 本卡结算完毕后，将本卡明置于你符力区右侧第一位。如已存在符卡，替代之。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 2
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 若展示符卡华丽度为「无」或「5」华丽度，本卡战力X2，且获得“破坏”特性。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 24
 - model: game.spellcard
   pk: 3
   fields:
-    type: 2
+    type: 1
     gorgeousness: 1
-    cost: 0
-    effect: 攻击阶段，可发动此状态：你立即回复500点体力。回合结束阶段，将本卡明置于你符力区左侧第一位。如该位置已存在符卡，替代之。
-    intensity: 0
+    cost: 1
+    lsc: false
+    effect: '【攻击阶段】【闭幕时】若命中：回复1点{灵力}。
+
+      【攻击阶段】【空闲时】若本卡在手牌中：将本卡与弃牌堆或华丽区中的1张「梦想封印」交换。'
+    intensity: 1500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 4
   fields:
     type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 若展示符卡的华丽度为「3」或「4」，你可抽一张卡。
-    intensity: 1000
+    gorgeousness: 5
+    cost: 3
+    lsc: false
+    effect: 【开幕时】若有对阵符卡：对对手造成500点{弹幕}伤害。直至本回合结束，封印对手场上的1张卡牌。
+    intensity: 3000
     basic_constraint: SUPPORT
-    traits:
-    - 24
+    traits: []
 - model: game.spellcard
   pk: 5
   fields:
     type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 若展示符卡的华丽度为「1」或「2」，你可将弃牌区一张战斗符卡明置于你符力区左侧第一位。如该位置已存在符卡，替代之。
-    intensity: 2000
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【稳定】（【防御阶段】【交战时】若击破对阵符卡：回复500点体力。）
+    intensity: 1500
     basic_constraint: SUPPORT
     traits:
-    - 24
+    - 1
 - model: game.spellcard
   pk: 6
   fields:
     type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 若展示符卡华丽度为「4」或「5」，你可将你弃牌区一张战斗符卡明置于你符力区右侧第一位。如该位置已存在符卡，替代之。
-    intensity: 3000
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: 【稳定】（【防御阶段】【交战时】若击破对阵符卡：回复500点体力。）
+    intensity: 2500
     basic_constraint: SUPPORT
     traits:
-    - 24
+    - 1
 - model: game.spellcard
   pk: 7
   fields:
     type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 宣言本卡时，你可查看你卡组顶的三张符卡，然后按任意顺序放回卡组顶。
-    intensity: 2000
+    gorgeousness: 3
+    cost: 3
+    lsc: false
+    effect: 【稳定】（【防御阶段】【交战时】若击破对阵符卡：回复500点体力。）
+    intensity: 3500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 1
 - model: game.spellcard
   pk: 8
   fields:
     type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡结算后，你可从卡组中展示2张带有“奇迹”特性的符卡，并分别置于你的华丽区左侧第一位和右侧第一位。如该位置已有符卡，替代之。
-    intensity: 1000
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: 【开幕时】查看牌堆顶的至多3张卡牌，将其中的1张加入手牌，并将其余卡牌返回牌堆洗切。
+    intensity: 2000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 9
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 若展示符卡华丽度为「4」，本卡战力+1000：若不为「4」，你失去1000点体力。
-    intensity: 2500
+    type: 2
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 【攻击阶段开始时】可发动：直至本回合结束，你发动的{灵力}费用不大于2的灵梦{战斗}符卡具有【诱导】，且你因【诱导】造成的伤害+500。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 24
+    traits: []
 - model: game.spellcard
   pk: 10
   fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡设置完毕后，你可以从卡组展示一张延时道具卡加入手牌，并洗切卡组。本卡在场时，你装备区的其他卡片无法被破坏、弃置或移出游戏。
-    intensity: 0
+    type: 1
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: 【固有】若本回合你已发动过「梦想封印」，你可无视华丽度限制发动本卡。
+    intensity: 2500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 11
   fields:
-    type: 4
-    gorgeousness: 0
-    cost: 3
-    effect: 当你受到一次大于2000点的弹幕伤害时，可发动此陷阱：你回复3000点体力，并抽1张卡。
-    intensity: 0
+    type: 1
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: '【诱导】（【攻击阶段】【闭幕时】若命中：对对手造成500点{弹幕}伤害。）
+
+      【攻击阶段】【闭幕时】若未命中：抽取1张卡牌。'
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 2
 - model: game.spellcard
   pk: 12
   fields:
     type: 1
     gorgeousness: 2
     cost: 1
-    effect: 宣言本卡时，你可从卡组中展示一张华丽度为「3」的符卡并加入手牌，然后将卡组洗切。
+    lsc: false
+    effect: 【诱导】（【攻击阶段】【闭幕时】若命中：对对手造成500点{弹幕}伤害。）
+    intensity: 1500
+    basic_constraint: SUPPORT
+    traits:
+    - 2
+- model: game.spellcard
+  pk: 13
+  fields:
+    type: 3
+    gorgeousness: 3
+    cost: 1
+    lsc: false
+    effect: '【固有&攻击阶段】本卡的{灵力}消耗+X，战力+1000*X（X为本回合你发动的神技「天霸风神脚」的数量，不包括本次）。
+
+      【攻击阶段】本卡因战斗即将被弃置或置于华丽区时：转变为将本卡明置加入手牌。
+
+      （锁）【攻击阶段结束时】若本卡在手牌中且明置：弃置本卡。'
     intensity: 1000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
-  pk: 13
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 1
-    effect: 若展示符卡华丽度为「3」、「4」或「5」，你可执行如下效果：你可以指定你符力区的两张明置的符卡，令他们的华丽度分别改为「1」和「5」。该效果持续至本回合结束。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 24
-- model: game.spellcard
   pk: 14
   fields:
-    type: 5
-    gorgeousness: 5
-    cost: 3
-    effect: 你不可以消耗符力以宣言本卡。宣言本卡后，崩坏你所有已消耗的灵珠。本卡结算完毕后，你可立即无消耗宣言你符力区任意一张明置的战斗符卡。
-    intensity: 3000
+    type: 4
+    gorgeousness: 0
+    cost: 2
+    lsc: false
+    effect: 【攻击阶段】你的灵梦{战斗}符卡的对阵符卡【发动时】，可发动：终止所有结算，并视为你无条件发动1张同名的灵梦{战斗}符卡。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 15
   fields:
     type: 1
-    gorgeousness: 3
+    gorgeousness: 1
     cost: 1
-    effect: 本卡命中后，你可将本卡明置于你符力区左侧第一位或右侧第一位。若该位置已存在符卡，替代之。
-    intensity: 1500
+    lsc: false
+    effect: 【开幕时】展示牌堆中1张与本卡不同名的「梦想封印」，将其加入手牌，并洗切牌堆。
+    intensity: 1000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 16
   fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡时，须将你角色区除了「东风谷早苗」以外的其他角色卡全部弃置：你每以此法弃置一个角色，你对对手造成1000点特殊伤害。
+    type: 5
+    gorgeousness: 0
+    cost: 2
+    lsc: false
+    effect: "【咏唱：3】。\n【战斗阶段限1次】你的「行云流水」或「灵能结界」结算完毕时，将本卡的【咏唱-1】：回复500点体力。直至本回合结束，封印对手符力区或华丽区中的1张卡牌。\n【咏唱即将归零时】将弃牌堆中1张与本卡不同名的「梦想封印」加入手牌。\n\n
+      咏唱3。\n战斗阶段限1次，你的「行云流水」或「灵能结界」结算完毕时，将本卡的咏唱-1：回复500点体力。直至本回合结束，封印对手符力区或华丽区中的1张卡牌。\n本卡的咏唱即将转变为0时：将弃牌堆中1张与本卡不同名的「梦想封印」加入手牌。"
     intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 25
+    traits: []
 - model: game.spellcard
   pk: 17
   fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 如果八坂神奈子参战，本卡结算后你可令八坂神奈子进入CENTER状态。
-    intensity: 3500
+    type: 4
+    gorgeousness: 0
+    cost: 2
+    lsc: false
+    effect: 【防御阶段】对手的{战斗}符卡【发动时】，可发动：直至其结算完毕，防止其对你造成的伤害。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 18
   fields:
-    type: 1
-    gorgeousness: 2
+    type: 3
+    gorgeousness: 4
     cost: 2
-    effect: 如果洩矢诹访子参战，本卡结算后，你可令洩矢诹访子进入CENTER状态。
-    intensity: 2500
+    lsc: false
+    effect: 【防御阶段】【闭幕时】将弃牌堆中的X张「梦符」移至隙间（X至多为8）：直至本回合结束，封印对手场上的X张卡牌。
+    intensity: 2000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 19
   fields:
     type: 1
-    gorgeousness: 3
-    cost: 0
-    effect: 本卡不可通常宣言，若展示符卡华丽度为「无」或「5」，本卡获得“破坏”特性；若展示符卡华丽度为「2」或「3」或「4」，本卡获得“狂视”特性。
-    intensity: 1500
+    gorgeousness: 4
+    cost: 2
+    lsc: false
+    effect: '【诱导】（【攻击阶段】【闭幕时】若命中：对对手造成500点{弹幕}伤害。）
+
+      【攻击阶段】【闭幕时】若本卡未命中：下一个【空闲时】，你可从弃牌堆中无条件发动1张宝符「阴阳宝玉」。'
+    intensity: 2000
     basic_constraint: SUPPORT
     traits:
-    - 3
-    - 24
-    - 26
+    - 2
 - model: game.spellcard
   pk: 20
   fields:
     type: 2
     gorgeousness: 0
     cost: 1
-    effect: 攻击阶段开始时，你可发动此状态：本回合对方发动的所有符卡消耗灵力+1。
+    lsc: false
+    effect: 【战斗阶段开始时】可发动：将弃牌堆中的1张「珠」或「玉」加入手牌。直至本回合结束，你获得『你的含有「珠」或「玉」的{战斗}符卡【发动时】：回复500点体力或令其战力+500』（※你不可重复获得此能力）。
     intensity: 0
-    basic_constraint: HYPER
+    basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 21
   fields:
     type: 1
-    gorgeousness: 3
+    gorgeousness: 5
     cost: 2
-    effect: 本卡命中后，你本回合宣言藤原妹红符卡时，该符卡战力+500。
-    intensity: 2000
-    basic_constraint: SUPPORT
+    lsc: false
+    effect: '【闭幕时】将对手CENTER位置的角色卡移至SUPPORT位置，并令其获得『（锁）本阶段结束时：将本卡移至CENTER位置』。
+
+      【攻击阶段】每局限1次，你的「梦想封印」【闭幕时】，若灵梦处于CENTER状态，弃置手牌中的本卡：对对手造成1000点{特殊}伤害。'
+    intensity: 2500
+    basic_constraint: CENTER
     traits: []
 - model: game.spellcard
   pk: 22
   fields:
-    type: 5
+    type: 1
     gorgeousness: 4
     cost: 3
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）攻击阶段，你可以消耗2点灵力，并将本卡移出。若如此做，对双方造成2000点特殊伤害。
-    intensity: 3000
+    lsc: false
+    effect: "【稳定】（【防御阶段】【交战时】若击破对阵符卡：回复500点体力。）\t\t\n【发动时】将弃牌堆中的X张「梦符」或「结界」移至隙间（X至多为3）：由「本卡战力+500」、「直至本卡结算完毕，防止你受到的非战斗伤害」与「回复1点灵力」之中，依次结算X个效果。"
+    intensity: 3500
     basic_constraint: SUPPORT
     traits:
-    - 15
+    - 1
 - model: game.spellcard
   pk: 23
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，若你体力低于3000点，本卡战力+1500。
-    intensity: 1000
-    basic_constraint: SUPPORT
+    type: 3
+    gorgeousness: 8
+    cost: 0
+    lsc: true
+    effect: '※额外费用：将体力转变为0。※发动需要：本局游戏中你未发动过终符。
+
+      【终符】（【固有】本卡不可被相杀，不可被终符以外的效果破坏，且可无视华丽度限制与不可被相杀效果发动。（锁）【发动时】破坏对阵符卡。）
+
+      （锁）【闭幕时】将本卡横置于对手的华丽区顶部，并将本卡封印。
+
+      （锁）【战斗阶段结束时】若本卡在对手的华丽区中：解除本卡的封印，并将本卡移至隙间。'
+    intensity: 0
+    basic_constraint: EXCLUSIVE
     traits: []
 - model: game.spellcard
   pk: 24
   fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 15
-- model: game.spellcard
-  pk: 25
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 15
-- model: game.spellcard
-  pk: 26
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 15
+    type: 2
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: '※额外费用：弃置符力区中的3张「梦」。
+
+      【战斗阶段开始时】可发动：你获得『【咏唱：7】。【战斗阶段结束时】若本回合你未受到过伤害：将此能力的【咏唱-1】。
+
+      【咏唱即将归零时】将对手的体力上限转变为0』（※你不可重复获得此能力）。'
+    intensity: 0
+    basic_constraint: CENTER
+    traits: []
 - model: game.spellcard
   pk: 27
   fields:
     type: 1
     gorgeousness: 3
     cost: 2
-    effect: 当对阵符卡为体术符卡时，你对对方造成1000点弹幕伤害
+    lsc: false
+    effect: 【攻击阶段】【开幕时】弃置牌堆顶的1张卡牌：本卡战力+1000。
     intensity: 2000
     basic_constraint: SUPPORT
     traits: []
@@ -530,9 +376,12 @@
   pk: 28
   fields:
     type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 如果本卡被用于相杀或被相杀，你受到1000点弹幕伤害
+    gorgeousness: 5
+    cost: 3
+    lsc: false
+    effect: '【攻击阶段】【开幕时】展示牌堆中的1张「Spark」，将其弃置，并洗切牌堆。若你如此做，对对手造成1000点{弹幕}伤害。
+
+      【固有】每局限1次，若牌堆中的剩余卡牌数不大于5，你可将牌堆中的全部卡牌移至隙间，以支付本卡的{灵力}消耗。'
     intensity: 3000
     basic_constraint: SUPPORT
     traits: []
@@ -540,116 +389,133 @@
   pk: 29
   fields:
     type: 1
-    gorgeousness: 2
-    cost: 0
-    effect: 本卡命中后，你可以额外消耗2点灵力，对对方造成1500点弹幕伤害
-    intensity: 500
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【贯通】（【固有&攻击阶段】本卡不可被相杀，且因战斗被置于华丽区的本卡需横置。）
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 3
 - model: game.spellcard
   pk: 30
   fields:
     type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）宣言本卡后，本回合你宣言“涅槃”特性的符卡时，对自己造成额外500点弹幕伤害。
+    gorgeousness: 3
+    cost: 2
+    lsc: false
+    effect: '【贯通】（【固有&攻击阶段】本卡不可被相杀，且因战斗被置于华丽区的本卡需横置。）
+
+      【攻击阶段】【空闲时】弃置华丽区中的本卡：弃置对手华丽区中的1张卡牌。'
     intensity: 1500
     basic_constraint: SUPPORT
     traits:
-    - 15
+    - 3
 - model: game.spellcard
   pk: 31
   fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段开始时发动，本回合内，你受到的所有伤害改为体力的回复
-    intensity: 0
+    type: 1
+    gorgeousness: 4
+    cost: 3
+    lsc: false
+    effect: '【贯通】（【固有&攻击阶段】本卡不可被相杀，且因战斗被置于华丽区的本卡需横置。）
+
+      【固有】华丽区顶部的本卡的华丽度视为2。'
+    intensity: 2000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 3
 - model: game.spellcard
   pk: 32
   fields:
-    type: 1
-    gorgeousness: 2
+    type: 2
+    gorgeousness: 0
     cost: 1
-    effect: 宣言本卡时，你可从卡组中展示一张具有“涅槃”特性的符卡，并加入手牌。
-    intensity: 1000
+    lsc: false
+    effect: 【战斗阶段开始时】可发动：你获得『【咏唱：3】。你的魔理沙{战斗}符卡【发动时】，将此能力的【咏唱-1】：令其战力+500』（※你不可重复获得此能力）。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 33
   fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 宣言本卡时或战斗结算时，对阵符卡的特性无效。&#10;宣言本卡时，立即切换至藤原妹红CENTER状态，并将你场上至多8张符卡移出游戏。
-    intensity: 500
+    type: 4
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: '【攻击阶段】你的不具有【贯通】的{战斗}符卡【闭幕时】，若其命中，可发动：对对手造成500点{特殊}伤害。
+
+      【战斗阶段限1次】本卡即将被移至隙间时：转变为将本卡暗置于装备区。'
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 34
   fields:
     type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: （神宝：当本卡从弃牌堆或宣言区被移出时，你可从隙间将任一张“难题加入手牌。涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: 弃牌堆中的本卡即将被移至隙间时：回复1点{灵力}或抽取1张卡牌。
     intensity: 2000
     basic_constraint: SUPPORT
-    traits:
-    - 12
-    - 15
-    - 26
+    traits: []
 - model: game.spellcard
   pk: 35
   fields:
     type: 1
-    gorgeousness: 4
+    gorgeousness: 2
     cost: 1
-    effect: （连击：本卡命中时，你可将弃牌堆一张相同华丽度的符卡置于宣言区顶。）当本卡被相杀时，你可从卡组中展示一张「凤翼天翔」并加入手牌。
-    intensity: 500
+    lsc: false
+    effect: 【开幕时】将弃牌堆中X张不同名的「星符」移至隙间（X至多为2）：回复500*X点体力。
+    intensity: 1500
     basic_constraint: SUPPORT
-    traits:
-    - 5
+    traits: []
 - model: game.spellcard
   pk: 36
   fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，回复1点灵力，且防止你受到的所有伤害直到本回合结束。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 37
-  fields:
-    type: 2
+    type: 4
     gorgeousness: 0
-    cost: 2
-    effect: 回合开始时发动，本回合你宣言的所有符卡在结算后除外
+    cost: 1
+    lsc: false
+    effect: 【防御阶段】对手的{体术}符卡【发动时】，若其无额外费用，可发动：将其破坏，并依次对双方造成1500点{特殊}伤害。
     intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
+  pk: 37
+  fields:
+    type: 3
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【开幕时】若你的华丽区、弃牌堆与隙间中存在「魔」或「星」的区域数不小于2：回复1点{灵力}或抽取1张卡牌。'
+    intensity: 2000
+    basic_constraint: SUPPORT
+    traits:
+    - 4
+- model: game.spellcard
   pk: 38
   fields:
     type: 1
-    gorgeousness: 1
-    cost: 2
-    effect: 本卡战力增加X点，X为你隙间内涅槃特性符卡的数量X500，且X至多为5
+    gorgeousness: 2
+    cost: 1
+    lsc: false
+    effect: 【固有】你可从场上无视华丽度限制发动本卡。
     intensity: 1000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 39
   fields:
-    type: 5
-    gorgeousness: 4
+    type: 1
+    gorgeousness: 3
     cost: 1
-    effect: 本卡命中后，你可以无消耗宣言一张蓬莱「凯风快晴 -Fujiyama Volcano-」
-    intensity: 1500
+    lsc: false
+    effect: 【开幕时】展示牌堆中的1张「恋」，将其加入手牌，并洗切牌堆。
+    intensity: 1000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
@@ -657,31 +523,40 @@
   fields:
     type: 1
     gorgeousness: 5
-    cost: 3
-    effect: 本卡结算后，本回合你的所有炎符耗灵-1，且无视华丽度限制。
+    cost: 2
+    lsc: false
+    effect: '※额外费用：将弃牌堆中2张不同名的「星符」移至隙间。
+
+      【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+
+      【固有&防御阶段】本卡造成的伤害不可被减少或防止。'
     intensity: 3000
-    basic_constraint: HYPER
+    basic_constraint: SUPPORT
     traits:
-    - 15
+    - 5
 - model: game.spellcard
   pk: 41
   fields:
     type: 1
     gorgeousness: 3
     cost: 1
-    effect: 本卡命中时，你可以从卡组展示一张“终符「幻想天皇」”加入手牌
+    lsc: false
+    effect: 【闭幕时】弃置华丽区中的1张{弹幕}符卡：对对手造成500点{弹幕}伤害。
     intensity: 1500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 42
   fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡结算完毕后，你可按任意顺序重新排列你宣言区的符卡
-    intensity: 3000
-    basic_constraint: SUPPORT
+    type: 5
+    gorgeousness: 0
+    cost: 1
+    lsc: false
+    effect: '【咏唱：3】。
+
+      【攻击阶段结束时】将弃牌堆或华丽区中的1张「魔」或「星」移至隙间，并将本卡的【咏唱-1】：回复1点{灵力}或抽取1张卡牌。'
+    intensity: 0
+    basic_constraint: CENTER
     traits: []
 - model: game.spellcard
   pk: 43
@@ -689,4396 +564,704 @@
     type: 1
     gorgeousness: 4
     cost: 2
-    effect: 本卡结算完毕后，你可选择一张你符力区卡片与本卡替换。
-    intensity: 2500
+    lsc: false
+    effect: '【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
+
+      【交战时】若被击破：将弃牌堆中1张与本卡不同名的「Spark」加入手牌。
+
+      手牌中的本卡被弃置时：将弃牌堆中1张与本卡不同名的「Spark」加入手牌。'
+    intensity: 2000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 6
 - model: game.spellcard
   pk: 44
   fields:
     type: 1
-    gorgeousness: 1
+    gorgeousness: 5
     cost: 1
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 14
-- model: game.spellcard
-  pk: 45
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 14
-- model: game.spellcard
-  pk: 46
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 14
-- model: game.spellcard
-  pk: 47
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，你可以额外消耗一点灵力，将你弃牌堆的一张战斗符卡置于你宣言区顶或移出游戏。
+    lsc: false
+    effect: '【固有】若魔理沙处于HYPER状态，你发动的本卡具有【贯通】。
+
+      【攻击阶段限1次】【空闲时】弃置华丽区中的本卡：本回合你发动的下一张恋符「Master Spark」无消耗且无视华丽度限制。'
     intensity: 500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
+  pk: 45
+  fields:
+    type: 3
+    gorgeousness: 5
+    cost: 3
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【固有&攻击阶段】若本卡被相杀且魔理沙处于CENTER状态，本卡造成的战斗伤害×2。
+
+      【开幕时】弃置手牌中的1张「Spark」：本卡战力+500*X（X为弃置卡牌的{灵力}费用）。'
+    intensity: 2500
+    basic_constraint: SUPPORT
+    traits:
+    - 4
+- model: game.spellcard
+  pk: 46
+  fields:
+    type: 3
+    gorgeousness: 3
+    cost: 3
+    lsc: false
+    effect: （锁）【防御阶段】【交战时】若被击破：直至本回合结束，对手不可发动符卡与不含（锁）的能力。
+    intensity: 1500
+    basic_constraint: CENTER
+    traits: []
+- model: game.spellcard
+  pk: 47
+  fields:
+    type: 3
+    gorgeousness: 5
+    cost: 0
+    lsc: true
+    effect: '※额外费用：将体力转变为0。※发动需要：本局游戏中你未发动过终符。
+
+      【终符】（【固有】本卡不可被相杀，不可被终符以外的效果破坏，且可无视华丽度限制与不可被相杀效果发动。（锁）【发动时】破坏对阵符卡。）
+
+      （锁）【开幕时】依次结算X次「依次弃置双方华丽区顶部的卡牌。然后，弃置对手符力区中的1张卡牌或令对手失去1点{灵力}」（X为你的华丽区中的卡牌数，且至多为3）。'
+    intensity: 0
+    basic_constraint: EXCLUSIVE
+    traits: []
+- model: game.spellcard
   pk: 48
   fields:
-    type: 3
-    gorgeousness: 0
+    type: 1
+    gorgeousness: 5
     cost: 3
-    effect: 你的手牌上限+2，装备区上限+2.（你仅可同时装备1个“三种神器”）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 49
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 每回合一次，你可以将你弃牌区一张无痕特性的符卡加入手牌
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 50
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 每回合一次，你可以将你隙间内一张符卡加入手牌
-    intensity: 0
+    lsc: false
+    effect: '【开幕时】令对阵符卡的战力-2000，并将弃牌堆中至多2张不同名的「Spark」返回牌堆洗切。
+
+      【交战时】若击破对阵符卡：展示牌堆中的1张「Master Spark」，将其加入手牌，并洗切牌堆。'
+    intensity: 2000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 51
   fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 防御阶段，当你受到一次大于1000点的伤害时：对对手造成500点弹幕伤害。（你仅可同时装备1个“三种神器”
-    intensity: 0
+    type: 1
+    gorgeousness: 2
+    cost: 1
+    lsc: false
+    effect: 【开幕时】你获得『【战斗阶段结束时】若本卡为本回合你发动的最后一张{战斗}符卡：对对手造成500点{特殊}伤害』。
+    intensity: 1500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 52
   fields:
     type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 本卡结算后，你可以将卡组一张无痕特性符卡展示并加入手牌，并将卡组洗切
-    intensity: 1000
+    gorgeousness: 4
+    cost: 3
+    lsc: false
+    effect: '【固有】若本卡为本回合你发动的第一张{战斗}符卡，本卡具有【削除】。
+
+      【开幕时】你获得『【战斗阶段结束时】若本卡为本回合你发动的最后一张{战斗}符卡：对对手造成1000点{特殊}伤害』。'
+    intensity: 3000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 53
   fields:
     type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （涅槃：攻击阶段，本卡命中后，你可将本卡移出游戏。）本卡进入隙间时，可将一张“无痕”特性的符卡置于你宣言区底部。
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits:
-    - 15
-- model: game.spellcard
-  pk: 54
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 本卡结算后，你可以立即无消耗宣言你隙间内任意一张符卡。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 55
-  fields:
-    type: 1
-    gorgeousness: 1
+    gorgeousness: 2
     cost: 1
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你隙间区没有符卡，本卡战力+500。
+    lsc: false
+    effect: '【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+
+      【固有】你可从装备区中发动本卡。'
     intensity: 1000
     basic_constraint: SUPPORT
     traits:
-    - 14
+    - 5
 - model: game.spellcard
-  pk: 56
+  pk: 54
   fields:
-    type: 1
-    gorgeousness: 4
+    type: 3
+    gorgeousness: 3
     cost: 2
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）如果你宣言区没有符卡，本卡战力+500
+    lsc: false
+    effect: '【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+
+      【开幕时】若对阵符卡的战力不小于2000：本卡战力+500。'
     intensity: 2000
     basic_constraint: SUPPORT
     traits:
-    - 14
+    - 5
+- model: game.spellcard
+  pk: 55
+  fields:
+    type: 3
+    gorgeousness: 4
+    cost: 3
+    lsc: false
+    effect: 【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+    intensity: 3000
+    basic_constraint: SUPPORT
+    traits:
+    - 5
+- model: game.spellcard
+  pk: 56
+  fields:
+    type: 5
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: '【咏唱：3】。
+
+      【攻击阶段】【空闲时】将本卡的【咏唱-1】：本回合你发动的下一张咲夜{战斗}符卡无视华丽度限制，且具有『【发动时】将本卡的伤害类型转变为{特殊}』。'
+    intensity: 0
+    basic_constraint: SUPPORT
+    traits: []
 - model: game.spellcard
   pk: 57
   fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）宣言本卡后，将你弃牌区或华丽区一张符卡移出游戏
-    intensity: 1500
+    type: 4
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 【防御阶段开始时】可发动：抽取X+1张卡牌（X为你的空{灵力}数），并将任意张手牌暗置于符力区与装备区的空位。下一个你的准备阶段开始时，你不可抽取卡牌。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 14
+    traits: []
 - model: game.spellcard
   pk: 58
   fields:
     type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 你可以将你隙间内的所有符卡加入你华丽区并随意调整排序。
-    intensity: 0
+    gorgeousness: 2
+    cost: 1
+    lsc: false
+    effect: 【发动时】若本回合你已发动过{陷阱}符卡：本卡战力+1000。
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits:
-    - 25
+    traits: []
 - model: game.spellcard
   pk: 59
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 将对方卡组顶5张牌弃置
-    intensity: 1000
+    type: 4
+    gorgeousness: 0
+    cost: 1
+    lsc: false
+    effect: 对手因符卡的效果即将「回复{灵力}」或「抽取卡牌」时，可发动：防止该「回复{灵力}」或「抽取卡牌」效果，并对对手造成500点{特殊}伤害。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 60
   fields:
     type: 1
-    gorgeousness: 4
+    gorgeousness: 2
     cost: 2
-    effect: （无痕：本卡进入宣言区后，你可重新排列你宣言区的卡片顺序）本卡结算后，你可以将对方宣言区的符卡随意排序
+    lsc: false
+    effect: '【开幕时】若本阶段有「幻」被置于你的弃牌堆：对对手造成500点{特殊}伤害。
+
+      【攻击阶段】【空闲时】横置华丽区中的本卡：将弃牌堆中的1张「幻」加入手牌。'
     intensity: 2000
-    basic_constraint: HYPER
-    traits:
-    - 14
+    basic_constraint: SUPPORT
+    traits: []
 - model: game.spellcard
   pk: 61
   fields:
     type: 1
     gorgeousness: 3
-    cost: 2
-    effect: 攻击阶段宣言本卡时，本卡战力+1500
-    intensity: 1500
+    cost: 1
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【攻击阶段】你的咲夜{战斗}符卡【发动时】，若本卡在弃牌堆中：将本卡加入手牌。
+
+      （锁）【战斗阶段结束时】若本卡在弃牌堆中：将本卡移至隙间。'
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 4
 - model: game.spellcard
   pk: 62
   fields:
     type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 攻击阶段宣言本卡时，本卡战力+2000。
-    intensity: 3000
+    gorgeousness: 2
+    cost: 2
+    lsc: false
+    effect: '【削除】（【攻击阶段】【闭幕时】若命中：弃置对手场上的1张卡牌。）
+
+      【固有&攻击阶段】若本卡被相杀，本卡造成的战斗伤害至多为500。'
+    intensity: 2500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 7
 - model: game.spellcard
   pk: 63
   fields:
     type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡位于你宣言区顶部时，华丽度始终视为2
-    intensity: 2000
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【开幕时】展示牌堆中的1张咲夜{陷阱}符卡，将其加入手牌，并洗切牌堆。然后，你可将1张手牌暗置于装备区。
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits:
-    - 3
+    traits: []
 - model: game.spellcard
   pk: 64
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
-    intensity: 1500
+    type: 4
+    gorgeousness: 0
+    cost: 1
+    lsc: false
+    effect: 【战斗阶段结束时】若本回合你发动的{战斗}符卡的数量不小于2，可发动：对对手造成1000点{特殊}伤害，并将弃牌堆或华丽区中的1张「奇术」加入手牌。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 3
+    traits: []
 - model: game.spellcard
   pk: 65
   fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: （贯通：本卡不可被相杀，本卡命中后，横置进入宣言区）
-    intensity: 1000
+    type: 4
+    gorgeousness: 0
+    cost: 2
+    lsc: false
+    effect: 你即将受到伤害时，可发动：防止该伤害。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 3
+    traits: []
 - model: game.spellcard
   pk: 66
   fields:
-    type: 2
+    type: 4
     gorgeousness: 0
     cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合，你宣言的所有魔理沙战斗符卡在宣言时战力+500。
+    lsc: false
+    effect: 你的原始战力不大于2000的咲夜{战斗}符卡【开幕时】，可发动：令其战力+1000，伤害类型转变为{特殊}，并获得【反制】。
     intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 67
   fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 攻击阶段宣言本卡时，若你弃牌堆有3张或更多“魔符”，本卡获得“诱导”特性。
-    intensity: 500
+    type: 3
+    gorgeousness: 3
+    cost: 2
+    lsc: false
+    effect: 【闭幕时】选择牌堆中的1张卡牌，将其与装备区中的1张卡牌交换，并洗切牌堆。
+    intensity: 2500
     basic_constraint: SUPPORT
-    traits:
-    - 3
+    traits: []
 - model: game.spellcard
   pk: 68
   fields:
-    type: 5
-    gorgeousness: 2
+    type: 1
+    gorgeousness: 3
     cost: 2
-    effect: 本卡结算完毕后，你可从卡组中展示一张“魔符”并弃置之。
-    intensity: 2000
+    lsc: false
+    effect: 【闭幕时】弃置对手符力区中的1张卡牌或令对手失去1点{灵力}。
+    intensity: 1500
     basic_constraint: SUPPORT
-    traits:
-    - 4
+    traits: []
 - model: game.spellcard
   pk: 69
   fields:
-    type: 1
-    gorgeousness: 4
-    cost: 4
-    effect: 对手相杀本卡时，须额外支付1点灵力。
-    intensity: 3500
+    type: 7
+    gorgeousness: 3
+    cost: 0
+    lsc: false
+    effect: '本卡因战斗即将被弃置或置于华丽区时：转变为将本卡明置于装备区。
+
+      【固有】若本卡在装备区中明置且咲夜处于CENTER状态，你可将弃牌堆中的1张咲夜{陷阱}符卡移至隙间，以将本卡视为该{陷阱}符卡发动。'
+    intensity: 500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 70
   fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段，当你宣言的一张不带有“贯通”特性的魔理沙战斗符卡命中时，可发动此陷阱：对对手造成1000点特殊伤害。
-    intensity: 0
+    type: 3
+    gorgeousness: 4
+    cost: 2
+    lsc: false
+    effect: '【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+
+      【固有】你可弃置装备区中的任意张「时」以支付本卡等量的{灵力}消耗。
+
+      【发动时】若支付本卡的消耗时弃置了装备区中的卡牌：将本卡的伤害类型转变为{特殊}。
+
+      【战斗阶段结束时】每局限1次，若咲夜处于CENTER状态且对手的剩余{灵力}数或手牌数为0，将手牌中的本卡置于华丽区顶部：对对手造成1500点{特殊}伤害。'
+    intensity: 2500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 5
 - model: game.spellcard
   pk: 71
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可从卡组展示一张“恋符”、“恋心”、“恋心”、“恋风”或“邪恋”并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
+    type: 3
+    gorgeousness: 3
+    cost: 0
+    lsc: true
+    effect: '※额外费用：将体力转变为0。※发动需要：本局游戏中你未发动过终符。
+
+      【终符】（【固有】本卡不可被相杀，不可被终符以外的效果破坏，且可无视华丽度限制与不可被相杀效果发动。（锁）【发动时】破坏对阵符卡。）
+
+      （锁）【闭幕时】本局游戏中，令咲夜获得CENTER技能「电光石火」『【固有&攻击阶段】你发动的咲夜{战斗}符卡具有【削除】。【战斗阶段限1次】你破坏或弃置对手的卡牌时：对对手造成1000点{特殊}伤害』。'
+    intensity: 500
+    basic_constraint: EXCLUSIVE
     traits: []
 - model: game.spellcard
   pk: 72
   fields:
-    type: 5
-    gorgeousness: 3
-    cost: 3
-    effect: 防御阶段，若本卡被对阵符卡击破：本卡结算完毕后，结束当前回合。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 73
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 防御阶段，本卡造成的伤害不可被防止。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 7
-- model: game.spellcard
-  pk: 74
-  fields:
-    type: 2
+    type: 4
     gorgeousness: 0
     cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行：横置一张你宣言区的魔理沙符卡。每如此做，视为你宣言了一张战力为500且具有“贯通”特性的魔理沙弹幕符卡。
+    lsc: false
+    effect: '※额外费用：将弃牌堆中的5张咲夜{陷阱}符卡移至隙间。
+
+      【固有】你可无视【高速】发动本卡。
+
+      {战斗}符卡结算流程中的【发动时】、【开幕时】、【交战时】或【闭幕时】，可发动：终止所有结算。'
     intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 75
   fields:
-    type: 1
+    type: 3
     gorgeousness: 2
-    cost: 2
-    effect: 本卡命中时，你可将你宣言区的一张横置符卡加入手牌。
-    intensity: 2000
+    cost: 1
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【攻击阶段】【闭幕时】若命中：本回合你发动的下一张「人」的{灵力}消耗-1。'
+    intensity: 1500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 4
 - model: game.spellcard
   pk: 76
   fields:
-    type: 5
+    type: 3
     gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，弃置双方符力区、宣言区全部卡片，随后，令对手崩坏1枚灵珠。
-    intensity: 0
+    cost: 2
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【攻击阶段】【闭幕时】若命中：对对手造成2000点{体术}伤害。'
+    intensity: 2000
     basic_constraint: SUPPORT
     traits:
-    - 25
+    - 4
 - model: game.spellcard
   pk: 77
   fields:
     type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 攻击阶段，你可将位于宣言区的本卡弃置。你每如此做，你弃置对手宣言区的一张牌。
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
     intensity: 1500
     basic_constraint: SUPPORT
     traits:
-    - 3
+    - 6
 - model: game.spellcard
   pk: 78
   fields:
     type: 1
     gorgeousness: 2
     cost: 2
-    effect: 当本卡从你弃牌堆被移出游戏时，你可回复1点灵力或抽1张牌。
-    intensity: 1500
+    lsc: false
+    effect: 【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
+    intensity: 2500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 6
 - model: game.spellcard
   pk: 79
   fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 防御阶段，当对方宣言一张体术符卡时，可发动此陷阱：破坏该符卡，并对双方造成2000点特殊伤害。
-    intensity: 0
+    type: 1
+    gorgeousness: 3
+    cost: 3
+    lsc: false
+    effect: 【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
+    intensity: 3500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 6
 - model: game.spellcard
   pk: 80
   fields:
     type: 1
-    gorgeousness: 5
+    gorgeousness: 2
     cost: 1
-    effect: 攻击阶段，你可将宣言区的本卡弃置。若如此做，你可立即从手牌不消耗灵力宣言一张“Master Spark”
-    intensity: 1000
-    basic_constraint: HYPER
-    traits:
-    - 3
+    lsc: false
+    effect: 【交战时】若被击破：将弃牌堆中的1张「人符」或「人鬼」加入手牌。
+    intensity: 1500
+    basic_constraint: SUPPORT
+    traits: []
 - model: game.spellcard
   pk: 81
   fields:
     type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可以从卡组展示两张“星符”，由对手选择其一加入你的手牌，然后你弃置剩余的。
-    intensity: 500
+    gorgeousness: 4
+    cost: 2
+    lsc: false
+    effect: 【闭幕时】将华丽区顶部的卡牌移至隙间：将弃牌堆中的1张妖梦{战斗}符卡置于华丽区顶部。
+    intensity: 2500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 82
   fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡命中后，你可以将你弃牌区所有「SPARK」符卡洗回卡组。防御阶段开始时，你可以将宣言区的本卡移出游戏。若如此做，你从卡组展示一张「MasterSpark」并加入手牌。
-    intensity: 2000
+    type: 8
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 【攻击阶段】【空闲时】可发动：弃置华丽区顶部的卡牌。若其为妖梦符卡，回复1点灵力。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 3
+    traits: []
 - model: game.spellcard
   pk: 83
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，本卡命中时：你可从卡组展示一张“死蝶”，将之加入手牌或置于你的符力区。
-    intensity: 1500
+    type: 8
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 你的华丽区中的卡牌即将被弃置时，可发动：将其中的1张转变为加入手牌。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 84
   fields:
-    type: 1
-    gorgeousness: 4
+    type: 3
+    gorgeousness: 3
     cost: 2
-    effect: 当本卡从手牌被弃置时：你可以将你卡组顶的一张卡置于你符力区或加入手牌。
-    intensity: 3000
+    lsc: false
+    effect: 【发动时】弃置华丽区中的1张卡牌：本卡战力+500。
+    intensity: 2000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 85
   fields:
-    type: 1
-    gorgeousness: 2
-    cost: 0
-    effect: 宣言本卡时：若对手体力值大于0，令对手扣减500体力。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 86
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 9
-- model: game.spellcard
-  pk: 87
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 9
-- model: game.spellcard
-  pk: 88
-  fields:
-    type: 1
-    gorgeousness: 3
+    type: 3
+    gorgeousness: 4
     cost: 3
-    effect: ''
+    lsc: false
+    effect: '【高速】（【固有】直至本卡结算完毕，对手不可发动{陷阱}符卡。）
+
+      【固有】若你的弃牌堆中「断」的数量不小于3，本卡的{灵力}消耗-1。'
     intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 9
-- model: game.spellcard
-  pk: 89
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 八云紫参战时，本卡战力+500。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-    - 9
-- model: game.spellcard
-  pk: 90
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 当本卡于宣言区被横置时，将卡组中一张含有“灵”字的幽幽子或紫的符卡加入手牌。
-    intensity: 2000
     basic_constraint: SUPPORT
     traits:
     - 4
 - model: game.spellcard
-  pk: 91
+  pk: 86
+  fields:
+    type: 3
+    gorgeousness: 3
+    cost: 2
+    lsc: false
+    effect: 【闭幕时】弃置华丽区中的1张卡牌。你可将手牌中的1张{战斗}符卡置于华丽区顶部。若你如此做，抽取1张卡牌。
+    intensity: 2000
+    basic_constraint: SUPPORT
+    traits: []
+- model: game.spellcard
+  pk: 87
+  fields:
+    type: 1
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【开幕时】展示牌堆中1张具有【连击】的符卡，将其加入手牌，并洗切牌堆。
+    intensity: 1000
+    basic_constraint: SUPPORT
+    traits: []
+- model: game.spellcard
+  pk: 88
   fields:
     type: 4
     gorgeousness: 0
-    cost: 0
-    effect: 当你造成一次弹幕伤害时，可发动此陷阱：将你弃牌堆一张带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡置于你符力区。
+    cost: 1
+    lsc: false
+    effect: '※额外费用：将弃牌堆中的X张「人」移至隙间（X至多为4）。
+
+      【防御阶段开始时】可发动：由「本回合造成的下一次伤害-1000」、「弃置1张手牌」、「弃置符力区中的1张卡牌」、「横置华丽区中的3张竖置卡牌」与「将牌堆顶的3张卡牌移至隙间」之中，令对手选择不同的X+1个效果结算。'
     intensity: 0
+    basic_constraint: SUPPORT
+    traits: []
+- model: game.spellcard
+  pk: 89
+  fields:
+    type: 4
+    gorgeousness: 0
+    cost: 1
+    lsc: false
+    effect: 对手的{状态}或{陷阱}符卡【发动时】，若其无额外费用，可发动：将其破坏，并对对手造成500点{特殊}伤害。
+    intensity: 0
+    basic_constraint: SUPPORT
+    traits: []
+- model: game.spellcard
+  pk: 90
+  fields:
+    type: 3
+    gorgeousness: 2
+    cost: 1
+    lsc: false
+    effect: 华丽区中的本卡即将被弃置时：将弃牌堆中的1张妖梦{弹幕}符卡加入手牌。
+    intensity: 1500
+    basic_constraint: SUPPORT
+    traits: []
+- model: game.spellcard
+  pk: 91
+  fields:
+    type: 1
+    gorgeousness: 3
+    cost: 1
+    lsc: false
+    effect: '【攻击阶段】【空闲时】若本卡在手牌中，支付{1}：将本卡置于华丽区顶部。
+
+      【战斗阶段限1次】华丽区中的本卡即将被弃置时：回复1000点体力。'
+    intensity: 1000
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 92
   fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 防御阶段开始时，可发动此状态：本回合内，每当对手宣言战力不小于1000的符卡时，令其扣减500点体力。
-    intensity: 0
+    type: 3
+    gorgeousness: 4
+    cost: 0
+    lsc: false
+    effect: '【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
+
+      【开幕时】将弃牌堆中的1张卡牌移至隙间；或将隙间中的1张卡牌返回牌堆洗切。'
+    intensity: 500
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 6
 - model: game.spellcard
   pk: 93
   fields:
     type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，展示你卡组顶三张牌，将一张枯萎特性的符卡加入手牌，并将剩余卡片弃置。
-    intensity: 1000
+    gorgeousness: 3
+    cost: 2
+    lsc: false
+    effect: '※额外费用：将弃牌堆中的1张「狱界剑」移至隙间。
+
+      【连击】（【攻击阶段】【闭幕时】若命中：将弃牌堆中1张相邻华丽度的符卡置于华丽区顶部。）
+
+      （锁）【防御阶段】【发动时】若对阵符卡不具有【高速】：将其破坏，并对对手造成500点{特殊}伤害。'
+    intensity: 2000
     basic_constraint: SUPPORT
-    traits: []
+    traits:
+    - 6
 - model: game.spellcard
   pk: 94
   fields:
-    type: 5
+    type: 3
     gorgeousness: 5
     cost: 2
-    effect: 本卡不可被战力小于3000的符卡相杀。
-    intensity: 2000
+    lsc: false
+    effect: '（锁）【开幕时】你的弃牌堆中每存在「鬼」、「狱」、「畜」、「人」、「修罗」与「天」中的1种，本卡战力+500。
+
+      【攻击阶段限1次】【闭幕时】若本卡的战力不小于3000：下一个【空闲时】，你可不计技能次数且无视角色状态限制发动1次「全身全灵」。'
+    intensity: 500
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 95
   fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段，可发动此状态：你指定对手当前场上的一张角色卡；直到该角色卡离场为止，每个回合结束阶段，对手须扣减500点体力。
+    type: 3
+    gorgeousness: 5
+    cost: 0
+    lsc: true
+    effect: '※额外费用：将体力转变为0。※发动需要：本局游戏中你未发动过终符。
+
+      【终符】（【固有】本卡不可被相杀，不可被终符以外的效果破坏，且可无视华丽度限制与不可被相杀效果发动。（锁）【发动时】破坏对阵符卡。）
+
+      【反制】（【固有&防御阶段】本卡的盈余战力会造成非致命的战斗伤害。）
+
+      （锁）【发动时】本卡战力+X（X为对阵符卡的原始战力）。'
     intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
+    basic_constraint: EXCLUSIVE
+    traits:
+    - 5
 - model: game.spellcard
   pk: 96
   fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 你具有枯萎特性的符卡从卡组被弃置时，可发动此陷阱：扣减对手1500点体力。
-    intensity: 0
-    basic_constraint: SUPPORT
+    type: 3
+    gorgeousness: 5
+    cost: 2
+    lsc: false
+    effect: '【开幕时】若你的总华丽度小于14：本卡获得『【闭幕时】将弃牌堆中至多2张不同名的含有「剑」的{战斗}符卡置于华丽区顶部』。
+
+      【固有】若你的总华丽度不小于14，你发动的本卡具有【高速】、【反制】，且战力+1500。'
+    intensity: 2000
+    basic_constraint: CENTER
     traits: []
 - model: game.spellcard
   pk: 97
   fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 攻击阶段宣言本卡时，从卡组中找出任意种不同的幽幽子符卡并展示，再从你弃牌堆找出等量张数的相同符卡并展示，随后将所有展示的卡片移出；你每移出一种符卡，本卡战力+1000。
-    intensity: 1000
+    type: 8
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 对手的{瞬时}符卡【发动时】，若其无额外费用，可发动：将其破坏。
+    intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 98
   fields:
-    type: 1
-    gorgeousness: 5
+    type: 8
+    gorgeousness: 0
     cost: 0
-    effect: 宣言本卡后，你可无视“需要”发动西行寺幽幽子的符卡；且对手不可回复体力，直到本局游戏结束。
+    lsc: false
+    effect: 【攻击阶段限1次】【空闲时】可发动：回复2点{灵力}。
     intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 25
+    traits: []
 - model: game.spellcard
   pk: 99
   fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡从卡组被弃置时，你回复一点灵力，对手失去一点灵力。
-    intensity: 2000
+    type: 8
+    gorgeousness: 0
+    cost: 0
+    lsc: false
+    effect: 【攻击阶段】【空闲时】可发动：将符力区中的全部卡牌返回手牌，并将任意张手牌暗置于符力区与装备区的空位。
+    intensity: 0
     basic_constraint: SUPPORT
-    traits:
-    - 9
+    traits: []
 - model: game.spellcard
   pk: 100
   fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡从卡组被弃置时，对对手造成500点弹幕伤害。
-    intensity: 3000
+    type: 3
+    gorgeousness: 1
+    cost: 1
+    lsc: false
+    effect: 【攻击阶段】【空闲时】若本卡在手牌中，支付{1}：将本卡置于华丽区顶部。
+    intensity: 1000
     basic_constraint: SUPPORT
-    traits:
-    - 9
+    traits: []
 - model: game.spellcard
   pk: 101
   fields:
-    type: 4
+    type: 8
     gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段你即将受到一次伤害时，可发动此陷阱：防止此伤害，将你卡组顶两张卡片置于你的符力区或弃置。
+    cost: 1
+    lsc: false
+    effect: 【攻击阶段限1次】【空闲时】可发动：抽取2张卡牌。
     intensity: 0
     basic_constraint: SUPPORT
     traits: []
 - model: game.spellcard
   pk: 102
   fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段开始时，可发动此状态：你可从弃牌堆直接发动卡名中带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡；每当你以此法发动符卡时，灵力消耗至少为1。
-    intensity: 0
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 103
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 本卡战力+X*500。（X=对手符力区卡片数量，且至多为5）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 104
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 宣言本卡时，你每有一枚「血」标记，本卡战力+1000。当本卡最终战力不小于3000时，本卡获得破坏特性。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 105
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 当对手对你造成一次伤害时，可发动此陷阱：弃置对手一张手牌，且你获得一枚「血」标记。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 106
-  fields:
-    type: 5
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡时，你可弃置一枚「血」标记。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 107
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，你可弃置一枚「血」标记。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 108
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 3
-    effect: 宣言本卡时，你可弃置一枚「血」标记。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 109
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: （本卡命中时，你可弃置对手一张符力区或装备区的卡片。）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 110
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段开始时，可发动此状态：本回合，每当你的「血」标记发生变化时，你可以进行一次角色区切换。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 111
-  fields:
-    type: 6
-    gorgeousness: 0
-    cost: 3
-    effect: 当你需消耗一次灵力时，你可将本卡从装备区弃置，并回复两点灵力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 112
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 0
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 113
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 战斗阶段开始时，可发动此状态：本回合，双方角色不可发动即时道具卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 114
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可从卡组展示一张芙兰朵露的带有禁忌的符卡并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 115
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 攻击阶段，你可以横置位于宣言区的本卡。若你这么做，你获得一枚「血」标记。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 116
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 防御阶段宣言本卡时，对对手造成500点弹幕伤害，且你获得一枚「血」标记。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 117
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡战力+X*500。（X=你宣言本卡所弃置的手牌数量）当该X不小于5时，本卡获得破坏特性。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 118
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，终止当前的所有结算，结束此阶段，然后进入你的攻击阶段。（跳过回合开始和准备阶段）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 119
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 0
-    effect: 你每有1000点体力，宣言本卡消耗灵力+1。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 3
-    - 4
-    - 6
-- model: game.spellcard
-  pk: 120
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，你可以额外消耗一点灵力，然后你选择令本卡获得以下三种特性中的一种：「诱导」、「贯通」、「破坏」。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 121
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 战斗阶段限一次，宣言本卡后，将你手牌数量补至与本回合开始时相同。在这个效果发动后，本回合结束时你须弃置你的所有手牌。
-    intensity: 500
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 122
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 宣言本卡时，你可以指定对手宣言区的一张战斗符卡，令本卡战力+X。（X=指定符卡的原始战力）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-    - 13
-- model: game.spellcard
-  pk: 123
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 2
-    effect: ''
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 124
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 2
-    effect: 本卡结算完毕后，若你没有手牌，你抽一张卡。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 125
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 5
-    effect: 本卡命中时，你可从卡组展示一张“难题”并加入手牌。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 126
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 本卡命中时，你可将弃牌堆或宣言区的另一张“神宝”移出游戏。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 12
-    - 26
-- model: game.spellcard
-  pk: 127
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段开始时，可发动此状态：本回合，你每当你的一张辉夜符卡进入宣言区，你可抽一张卡或回复1点灵力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 128
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 本卡被除外时，你可以将弃牌区一张难题加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 129
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 1
-- model: game.spellcard
-  pk: 130
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 防御阶段，本卡击破对阵符卡后，可置于你宣言区顶部。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 7
-- model: game.spellcard
-  pk: 131
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 4
-    effect: 宣言本卡时，你回复500点体力
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 132
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“高速”。本卡被移出游戏时，你可抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 133
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 防御阶段开始时，可发动此状态：本回合你宣言的所有辉夜符卡均获得特性“稳定”。本卡被移出游戏时，你对对手造成500点特殊伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 134
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 当你受到一次不超过2000点的非特殊伤害时，可发动此陷阱：令对手扣减与该伤害值相等的体力。本卡被移出游戏时，你回复500点体力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 135
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 0
-    effect: 宣言本卡时，你可以将隙间内一张神宝送入墓地，并使本卡增加500点战力。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-    - 12
-    - 26
-- model: game.spellcard
-  pk: 136
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 0
-    effect: 防御阶段宣言本卡时，本卡战力+1500。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 12
-    - 26
-- model: game.spellcard
-  pk: 137
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 防御阶段宣言本卡时，你可以失去500点体力，并破坏对阵符卡。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 3
-- model: game.spellcard
-  pk: 138
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 0
-    effect: 防御阶段，本卡击破对阵符卡时，对对手造成1000点特殊伤害。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 12
-    - 26
-- model: game.spellcard
-  pk: 139
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 0
-    effect: 宣言本卡时，你回复1000点体力
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 12
-    - 26
-- model: game.spellcard
-  pk: 140
-  fields:
-    type: 7
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡时，获得本局游戏胜利。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 141
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡时，你可从卡组展示一张“永夜返”并加入手牌。本卡被移出游戏时，你可以将隙间一张「新难题」加入手牌。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 142
-  fields:
-    type: 1
-    gorgeousness: 0
-    cost: 0
-    effect: 本卡的华丽度视为你当前宣言区顶部符卡的华丽度且至少为1；当本卡被移出游戏或从隙间加入手牌时，你回复1点灵力。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 143
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 4
-    effect: 本卡结算完毕后及本卡被移出游戏时，你可以从卡组中将一张“永夜返”移出游戏。
-    intensity: 2500
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 144
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 5
-    effect: 对阵符卡战力-1500点。宣言区的本卡视为一张「难题」符卡。本卡被移出游戏时，你可选择一项执行：1.移出一张对手场上角色卡以外的符卡。2.移出双方弃牌堆的各一张符卡，你抽一张卡。
-      3.将你隙间5张「蓬莱的树海」以外的符卡返回卡组，若你如此做，你再依次执行上述两项。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 145
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 本卡结算完毕后，你可选择一项执行：1.将你宣言区的一张符卡替换为你弃牌堆一张相同华丽度的符卡。2.将你弃牌堆一张符卡替换为你隙间的一张符卡。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 146
-  fields:
-    type: 3
-    gorgeousness: 2
-    cost: 3
-    effect: 本卡在场时，对手装备区所有在场永续道具卡的持续效果失效。当你宣言的一张辉夜符卡被击破时，你可将道具区明置的本卡置入你的宣言区顶部。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 147
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，本卡命中后，本回合你宣言的下一张“未来永劫斩”不需消耗灵力。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 148
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 2
-    effect: 本卡命中后，追加2500点体术伤害。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 149
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 当对手发动一张状态或陷阱符卡时，可发动此陷阱：破坏之，然后对对手造成1000点特殊伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 150
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 151
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 152
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 153
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段，可发动此状态：本回合内，你宣言的下一张妖梦的战斗符卡消耗灵力加倍，原始战力加倍。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 154
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 攻击阶段，你可消耗一点灵力，并将本卡置于你的宣言区底部。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 155
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 若你当前华丽度为4，你仍可以宣言本卡。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 156
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 攻击阶段，本卡战力值+X*500。（X=你当前总华丽度-你此回合开始时总华丽度，且至多为5）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 157
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡战力+X*500。（X为当前场上你与对手总华丽度之差，且至多为9）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 158
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡时，你可从卡组中展示一张连击特性的符卡并加入手卡。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 159
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段开始时，可发动此状态：本回合宣言的所有妖梦战斗符卡原始战力*2。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 160
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段开始时，可发动此状态：你可将弃牌堆任意张不同华丽度的妖梦战斗符卡按由小到大的顺序依次横置于你的宣言区顶部，然后结束本回合。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 161
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 以本卡相杀时，若对阵符卡不具有高速特性，破坏之，并对对手造成500点特殊伤害。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 162
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 0
-    effect: 本卡结算完毕后，对对手造成一次与对阵符卡原始战力相同的体术伤害。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 163
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，你可将宣言区的本卡弃置，并从弃牌堆将一张妖梦的弹幕符卡加入手卡。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 164
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 当本卡被移出时，你可从弃牌堆将一张“人符”及一张“人鬼”加入手卡。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 165
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: 你宣言区内每有一张“冥想斩”，宣言本卡耗灵-1。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 166
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 攻击阶段限一次，你可从你弃牌堆宣言本卡。
-    intensity: 3500
-    basic_constraint: HYPER
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 167
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡命中后，本回合，你宣言的体术符卡战力+500。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 168
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡命中后，本回合，你宣言的下一张战斗符卡不可被对手相杀。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 169
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 你的宣言区若存在2种或更多的「彩符」或「华符」，宣言本卡消耗灵力-1，且本卡获得“稳定”特性。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 170
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 当你受到一次弹幕伤害时，可发动此陷阱：令该伤害-500，且你抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 171
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 172
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 173
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: （武魂：本卡可在宣言时改为体术符卡；本卡无视「不可相杀」效果）
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 174
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 若本卡造成了弹幕伤害，你可从卡组中展示一张「彩符」并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 175
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 防御阶段开始时，可发动此状态，本回合每当对手即将对你造成一次伤害时，对手需选择一项：1.失去一点灵力。2.防止此伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 176
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可从卡组展示一张红美玲的“武魂”特性的符卡并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 177
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 战斗阶段开始时，可发动此状态：本回合，每当你宣言一张体术符卡时，对对手造成500点体术伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 178
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 3
-    effect: 对阵符卡战力-1000，且无效化其所有卡面效果和特性。
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 179
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 本卡命中后，本回合，你不可宣言任何体术符卡。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 180
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 2
-    effect: 当你处于「猛虎内劲」状态时，本卡战力X2，并获得反制特性。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 181
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 当你宣言的一张红美铃体术符卡被相杀时，可发动此陷阱：该符卡战力+1500。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 182
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 0
-    effect: 弃置对手宣言区的所有符卡，然后你回复X×500点体力，本卡战力+X×500。（X为你弃置对手宣言区符卡的数量）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 183
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡命中后，可明置于你装备区。你可将本卡明置于你装备区的本卡，视为一张气符「星脉弹」
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 184
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 攻击阶段宣言本卡时，本卡战力-2000。
-    intensity: 4000
-    basic_constraint: SUPPORT
-    traits:
-    - 27
-- model: game.spellcard
-  pk: 185
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 0
-    effect: 宣言本卡后，对双方各造成500点体术伤害
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 186
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 1
-    effect: 本卡结算完毕后，你获得状态：你发动「太极芳波」宣言符卡消耗灵力-1，但至少须消耗一点灵力。直到该回合结束
-    intensity: 500
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 187
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: （五行：火。宣言时，须明置你符力区一张具有火属性的五行符卡；被明置于符力区时，对对手造成500点弹幕伤害。命中时，展示一张水属性五行符卡加入手牌。）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 22
-- model: game.spellcard
-  pk: 188
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 战斗阶段，若对手在你宣言本卡后，宣言了超过2张战斗符卡。回合结束时，你对对手造成2000点弹幕伤害。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 189
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡在每个战斗阶段内只可宣言一次。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 190
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （五行：水。宣言时，须明置你符力区一张具有水属性的五行符卡；被明置于符力区时，你回复1点灵力。命中时，展示一张木属性五行符卡加入手牌。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 20
-- model: game.spellcard
-  pk: 191
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡结算完毕后，本回合你宣言的下一张带有“五行”特性的符卡，宣言时可将其具有的一种五行属性视为另一五行属性。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 192
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: （五行：火。水。宣言时，须明置你符力区一张具有火属性或水属性的五行符卡。被明置于符力区时，你对对手造成500点弹幕伤害，并回复1点灵力。命中时，展示一张水属性和一张木属性五行符卡加入手牌。）
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 20
-    - 22
-- model: game.spellcard
-  pk: 193
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: （五行：木。宣言时，须明置你符力区一张具有木属性的五行符卡；被明置于符力区时，你抽一张卡。命中时，展示一张金属性五行符卡加入手牌。）
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 21
-- model: game.spellcard
-  pk: 194
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：你宣言的所有帕秋莉战斗符卡特性无效。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 195
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: （五行：火。宣言时，须明置你符力区一张具有火属性的五行符卡。被明置于符力区时，对对手造成500点弹幕伤害。命中时，展示一张水属性五行特性符卡并加入手牌。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 22
-    - 23
-- model: game.spellcard
-  pk: 196
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 2
-    effect: 当本卡被加入你手牌时，你可以选择展示并弃置本卡；若如此做，展示你卡组中2张具有“五行”特性的符卡并置于你符力区。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 197
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段开始时，可发动此状态：本回合，每当你宣言的一张帕秋莉战斗符卡命中时，你可展示卡组中一张“五行”特性的符卡加入手牌。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 198
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡结算完毕后，对手须选择一项执行：1.弃置一张战力不小于1500的战斗符卡。2.你对其造成1500点体术伤害。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 199
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 当对手宣言一张战斗符卡时，可发动此陷阱：无效化该符卡的卡面技能效果。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 200
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 2
-    effect: （五行：金。宣言时，须明置你符力区一张具有金属性的五行符卡；被明置于符力区时，对手须弃置一张手牌。命中时，展示一张土属性五行特性符卡加入手牌。）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 19
-- model: game.spellcard
-  pk: 201
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可以展示你卡组中具有“五行”特性的一张符卡，并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 202
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，你获得此效果至本回合结束：你宣言帕秋莉符卡的发动需要均改为「将你弃牌堆一张具有“五行”特性的符卡移出游戏，并回复500点体力」。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 203
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: （五行：土。宣言时，须明置你符力区一张具有土属性的五行符卡；被明置于符力区时，你弃置对手宣言区一张卡。命中时，展示一张火属性五行符卡并加入手牌。）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 23
-- model: game.spellcard
-  pk: 204
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （五行：火。土。宣言时，须明置你符力区一张具有火属性或土属性的五行符卡。被明置于符力区时，你对对手造成500点弹幕伤害，并弃置对手宣言区一张卡。命中时，展示一张水属性和一张火属性五行符卡加入手牌。）
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits:
-    - 22
-    - 23
-- model: game.spellcard
-  pk: 205
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡结算完毕后，重置你宣言区、符力区所有符卡。
-    intensity: 3500
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 206
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 本卡结算完毕后，你可将你宣言区一张具有“五行”特性的符卡移至你符力区
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 207
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，当本卡命中后，你可弃置对手一张手牌；若本卡被完全相杀，你可从卡组中展示一张“丧心疮痍”并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 208
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: 宣言本卡时，对手须弃置一张手牌。本卡命中时，你弃可置对手符力区一张牌。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 209
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡结算完毕后，对手须选择弃置1张手牌。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 210
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 211
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 212
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 213
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: '本卡被从手牌弃置时，你可以将卡组一张2华丽的铃仙符卡
-
-      展示并加入手牌。'
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 214
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段开始时发动：本局游戏，你宣言的带有狂视特性的符卡战力增加500点。这个效果可以叠加。当你的角色区拥有3张生药「国士无双之药」时，弃置这些符卡并对双方造成2000点弹幕伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 215
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 当对手弃置一张手牌时发动，你可以弃置至少一张手牌，并破坏对手道具区一张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 216
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 防御阶段开始时发动：本回合内，对手不可消耗灵珠。你可以把墓地的本卡除外，弃置对手符力区一张符卡
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 217
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段开始时发动：本回合内，对手不可弃置符力区卡片。你可以把墓地的本卡除外，令对手失去一点灵力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 218
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可于卡组中展示一张具有狂视特性的符卡，并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 219
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 对手失去最后一点灵力或失去最后一张手牌时，可发动此陷阱：令对手一颗灵珠崩坏,并对其造成500点特殊伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 220
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡战力+X*500（X为对手当前手牌数量，且X至多为6）。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 221
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 本卡结算后，你可查看你卡组顶的X张卡片，并将其中任意张卡片覆盖于你的符力区，其余加入手牌。[X=（5-对手卡牌数量）]，这个效果一回合只能发动一次。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 222
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 本卡结算后，双方弃置全部手牌，并各自抽一张牌。如果双方弃置的符卡数量总和大于9张，则你可以额外抽1张牌并回复1点灵力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 223
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 当本卡从手牌被弃置时，你可抽一张卡。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 224
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 当本卡从手牌被弃置时，你可回复一点灵力。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 225
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 宣言本卡时，对手须将手牌补至或弃至3张。本卡被相杀时，战力+1500。
-    intensity: 1500
-    basic_constraint: HYPER
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 226
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 每当对手弃置一次手牌时：对对手造成500点弹幕伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 227
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 若铃仙处于CENTER状态，当本卡被你弃置或被完全相杀而进入弃牌堆时：你可以弃置X张手牌，并将对手场上X张符卡破坏。当你受到一次体术伤害时，你可将弃牌堆的本卡除外：令该伤害减少1000点。
-    intensity: 3000
-    basic_constraint: CENTER
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 228
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 3
-    effect: 若铃仙处于CENTER状态，本卡于手牌被送入墓地时，你可以弃置对手一张手牌；若铃仙发动 Hyper 时，本卡获得狂视特性。
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 229
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，若本卡被完全相杀，对手在本回合内宣言的符卡战力-500。本卡命中后，你可展示你卡组中一张“冰符”并将之加入手牌。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 230
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 战斗阶段限一次，本卡战力+X*500（X为你宣言区具有冻结特性的符卡数量）
-    intensity: 2000
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 231
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡命中后，对手不可使用角色技能，直至回合结束。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 232
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: ''
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 233
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 234
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 235
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 3
-    effect: 攻击阶段，你可以从弃牌堆宣言本卡
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 236
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡结算后，对手发动其装备区卡片时，消耗灵力*2，直到该回合结束。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 237
-  fields:
-    type: 5
-    gorgeousness: 1
-    cost: 3
-    effect: 对阵符卡为体术符卡时：本卡结算完毕后，对对手造成1000点体术伤害。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 238
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，你可选择弃置你宣言区的所有冻结特性的符卡，若你以此法弃置了两张或更多符卡，本卡失去「冻结」特性。若你弃置了五张或更多符卡，额外获得：本卡战力+1000。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 239
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 本卡结算完毕后，你获得此效果直至本局游戏结束：你以冻结特性的符卡宣言相杀时，令对阵符卡战力归零并回复500点生命。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 240
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 2
-    effect: 若你宣言区带有冻结特性的符卡数量不为3或4，或你本回合已宣言过「冰块」，你须受到1500点体术伤害。
-    intensity: 3500
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 241
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 崩坏双方各1枚灵珠。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 242
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 243
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 3
-    effect: 攻击阶段，你可消耗三点灵力，并弃置手牌中的本卡。若你如此做，视为你连续宣言了3张“红符「Scarlet Shoot」”。
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 244
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 当你的「血」标记达到上限时，可发动此陷阱：对对手造成1500点特殊伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 245
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 本卡命中后，本回合你宣言的下一张汲引特性的符卡，消耗灵力-1。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 246
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 2
-    effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 10
-- model: game.spellcard
-  pk: 247
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 3
-    effect: （攻击阶段，你每有一个「血」，本卡战力+500。命中时你回复500点体力。）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 10
-- model: game.spellcard
-  pk: 248
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （本卡不可被对手的陷阱卡响应。）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 249
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 防御阶段，当你宣言一张符卡，且该卡完全相杀对阵符卡时，可发动此陷阱：将该符卡置于你的宣言区底部，并且你获得一枚「血」标记。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 250
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 当对手体力值不大于500时；宣言本卡时，不消耗灵力，不受华丽度限制；且本卡获得「贯通」与「高速」特性。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 251
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 若本卡被完全相杀，你可从卡组中展示一张「夜符」或「夜王」并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 252
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 10
-- model: game.spellcard
-  pk: 253
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，你可发动此状态：本回合你可执行以下行动至多5次：扣减500点体力，抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 254
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 1
-    effect: 对手灵力区每有一颗未崩坏的灵珠，本卡战力须-1000。
-    intensity: 6000
-    basic_constraint: CENTER
-    traits:
-    - 3
-    - 4
-- model: game.spellcard
-  pk: 255
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 256
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：你每次回复体力时，回复体力值*2。该状态持续至本回合结束。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 257
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，你回复500+X点体力。（X=对阵符卡原始战力-500，且至少为0）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 258
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 3
-    effect: 攻击阶段限一次，宣言本卡时你可查看卡组顶5张卡片，将其中任意数量设置于你的装备区或符力区，其余加入手牌。且在此效果发动后，下次抽卡阶段，你至多抽1张卡。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 259
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 宣言本卡后，本回合对手宣言的所有弹幕符卡原始战力-500。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 260
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: 攻击阶段，宣言本卡时消耗灵力-X，战力+X*500。（X=你本回合已宣言的蕾米莉亚「夜符」的数量）
-    intensity: 1500
-    basic_constraint: CENTER
-    traits:
-    - 4
-    - 6
-    - 10
-- model: game.spellcard
-  pk: 261
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 1
-    effect: 宣言本卡时，你可将「血」标记调整至1-4中任意一个数字。
-    intensity: 500
-    basic_constraint: HYPER
-    traits:
-    - 10
-- model: game.spellcard
-  pk: 262
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 3
-    effect: 攻击阶段，本卡战力+X。（X=本回合你扣减的体力值）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 10
-- model: game.spellcard
-  pk: 263
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 宣言本卡时，你可以扣减1000点体力，使本卡获得「汲饮」「贯通」特性。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 264
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 如果露娜切露德参战，本卡在结算后返回你的手牌。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 265
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡命中后，你可以使对方道具区一张卡返回其手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 266
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 如果对阵符卡是弹幕符卡，本卡战力+3000
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 267
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，回复1000点体力。若此时你的体力低于对手，本卡战力+1500。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 268
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 宣言本卡时，本卡战力+X（X=双方当前的体力差值。且X至多为5000）
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 269
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 宣言本卡时，你可弃置你宣言区X张未横置的符卡，本卡战力+X*1000点，且X至多为3
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 270
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 271
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 272
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 273
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 宣言本卡时，如果你的宣言区没有符卡，本卡获得贯通，连击特性。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 274
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合，你每造成1500点伤害，可将你弃牌堆一张永琳的战斗符卡置于你的宣言区顶。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 275
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 3
-    effect: 宣言本卡时，将你的体力调整为3000。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 276
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 防御阶段开始时，可发动此状态：本回合，对手宣言的符卡失去贯通特性。你可以弃置两张战斗符卡，视为宣言了一张战力为X的弹幕符卡（X=两卡原始战力之和）。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 277
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可从卡组中将一张带有药引特性的符卡展示并加入手牌，之后将卡组洗切。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 278
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 本卡结算后，直到回合结束，对方不能将任何符卡除外。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 279
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 3
-    effect: 防御阶段，战斗结算时，可发动此陷阱：对手宣言的符卡战力减至0点，且你回复X点体力。（X=该符卡的原始战力）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 280
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 本卡结算后，你可以支付1000点生命并从卡组中将一张永琳的非战斗符卡加入手牌。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 281
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 宣言本卡时，将你宣言区顶部与底部的符卡互相交换位置。并对对方造成X点弹幕伤害，X为交换的两张符卡的华丽度差值X500。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 282
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 0
-    effect: 宣言本卡后，将本卡置于你宣言区顶部。然后弃置双方卡组顶各5张卡片。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 283
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，你可以支付X点生命（必须是500的倍数），使本卡的战力增加X点。(X至多为8）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 284
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: '防御阶段开始时发动，
-
-      本回合你每回复1000点生命，你额外回复500点生命，并且抽一张牌或回复1点灵力。'
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 285
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 宣言本卡时，直到本卡结算完毕，你受到的所有非特殊伤害由对方承受。
-    intensity: 500
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 286
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 本卡结算后，若你的生命值不大于4000，则你可以在你的生命低于2000点时，额外进行一次”灵能解放”
-    intensity: 3500
-    basic_constraint: HYPER
-    traits:
-    - 16
-- model: game.spellcard
-  pk: 287
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 2
-    effect: 战斗阶段开始时发动，你选择一项执行：1.横置对手当前处于CENTER状态的一名角色。2.将对手一张不带有 HYPER 技能的一名横置角色弃置，并禁止其
-      SUPPORT 技能的发动。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 288
-  fields:
     type: 8
     gorgeousness: 0
     cost: 1
-    effect: 当对手发动一张即时道具卡时发动：抵消该道具卡的作用效果。
+    lsc: false
+    effect: 【攻击阶段】【空闲时】可发动：将弃牌堆中任意张华丽度不同的{战斗}符卡返回牌堆洗切，并抽取1张卡牌。
     intensity: 0
     basic_constraint: SUPPORT
     traits: []
-- model: game.spellcard
-  pk: 289
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段发动，你选择一项执行：1.回复2点灵力。2.修复1枚崩坏的灵珠。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 290
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段发动：将你符力区的所有卡片返回手牌，并执行一次额外的设置阶段。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 291
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段发动：你宣言的下一张战斗符卡无视华丽度限制。&#10;若该符卡华丽度不大于2，你可额外消耗1点灵力，令其获得“贯通”特性。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 292
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 2
-    effect: 当对手发动一张陷阱符卡或状态符卡时可发动：破坏之。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 293
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 0
-    effect: 当你即将受到一次伤害时发动：抵消500点伤害。若本卡抵消了一张战斗符卡的伤害，该符卡即使命中也不可进入宣言区。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 294
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，你受到的所有弹幕伤害-500点。当你即将受到一次弹幕伤害时，你可将装备区的本卡移出游戏：若如此做，防止此伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 295
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 2
-    effect: 攻击阶段发动，你可以选择一项执行：1.受到1000点特殊伤害 2.失去2点灵力。防御阶段，当你受到一次伤害后，你可将弃牌区的本卡移出游戏：若如此做，你回复500点体力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 296
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段发动：把你弃牌堆至多五张不同华丽度的战斗符卡返回卡组洗切，然后展示你卡组顶的符卡，若为战斗符卡，将之置于宣言区顶或加入手牌，否则，弃置并重复展示流程。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 297
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，防御阶段，你受到的所有体术伤害-500点。当你即将受到一次体术伤害时，你可将装备区的本卡移出游戏：若如此做，防止此伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 298
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段发动：你回复1000点体力。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 299
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段发动：你抽两张牌。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 300
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡设置完毕后，你可从卡组中展示一张角色卡并横置于角色区。攻击阶段开始时，你可以将装备区的本卡移出游戏：若如此做，你可从卡组中展示一张延时道具卡设置于你的装备区。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 301
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 0
-    effect: 当你即将造成一次伤害时发动，防止此伤害，并选择一项执行：1.令对手弃置一张手牌。2.破坏对手装备区或符力区一张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 302
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，每当你回复灵力时，灵力回复量+1.
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 303
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时：准备阶段抽卡时，你至少抽2张卡；当你使用「伊吹之瓢」时，你额外抽一张卡；你的装备区可额外设置一张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 304
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，攻击阶段，每当你宣言一张战斗符卡时，你可发动：令符卡的战力+1500点，且该符卡的战力至多造成500点伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 305
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，攻击阶段，每当对手宣言相杀时，若对阵符卡战力大于你的进攻符卡，令你的进攻符卡战力改为X(X=对阵符卡的原始战力）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 306
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 2
-    effect: 当你受到一次伤害时可发动此道具：&#10;在本次伤害结算完毕后，你回复X点体力（X=该伤害值）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 307
-  fields:
-    type: 8
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段，对手获得一次手牌时发动：&#10;令对手选择一项：1.弃置获得的所有手牌。2.失去2点灵力，并崩坏1个灵珠。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 308
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 防御阶段宣言本卡时，你可从卡组展示一张战力不大于500的符卡并加入手牌。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 309
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 攻击阶段宣言本卡时，你可从卡组展示一张战力不小于2500的符卡并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 310
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡击破对阵符卡后，直到你的下一个攻击阶段开始，对手不可发动任何角色技能。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 311
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡命中时，令对手崩坏一颗灵珠。本卡被击破时，你可抽一张卡。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 312
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 本卡命中后，你可从手牌不消耗灵力、无视华丽度宣言秦心的一张「喜符」、「怒符」或「忧符」。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 313
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 攻击阶段宣言本卡时，你可弃置手牌一张华丽度为 X 的卡片，令本卡获得下列特性：X=1 诱导，X=2 高速，X=3 破坏，X=4 扭曲，X=5
-      贯通。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 314
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡命中后，对手宣言的下一张战斗符卡战力为0，直到本回合结束。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 315
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 316
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行如下行动：横置你宣言区的一张符卡，然后抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 317
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 1
-    effect: 本卡命中时，令对手崩坏一颗灵珠。若本卡被完全相杀时，你可展示你卡组中的一张“红魔「Scarlet Devil」”并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 318
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 当对手体力值不大于500时；宣言本卡时，不消耗灵力，不受华丽度限制；且本卡获得「贯通」与「高速」特性。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 319
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 0
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 320
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你每宣言一张灵梦的诱导特性符卡时，从卡组抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 321
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，你可弃置你符力区的X个「人偶」。若如此做，令本卡战力+1000×X（X至多为4）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 322
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡后，终止当前的所有结算，结束此阶段，然后进入你的攻击阶段。（跳过回合开始和准备阶段）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 323
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 13
-- model: game.spellcard
-  pk: 324
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡战力+X*500（X为对手当前手牌数量，且X至多为6）。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 325
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 0
-    effect: 宣言本卡时，你回复一点灵力；若大妖精在场，你额外回复500点体力。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 326
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 3
-    effect: 战斗阶段开始时发动，每当你回复灵力时，你可以回复500点体力。当你受到大于1000点的伤害时，那次伤害减少至500点，本卡被破坏。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 327
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: '攻击阶段发动：你可将你发动的下一张永续道具卡设置在本卡之上。以此法设置的永续道具卡同样视为存在于你的装备区。
-
-      当大妖精离场时，你须弃置本卡和其上的永续道具卡。这个状态效果持续至游戏结束。'
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 328
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 如果斯塔萨菲雅参战，本卡在结算后返回你的手牌。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 329
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 3
-    effect: 本卡结算后，你可以使对方随机一张手牌返回其卡组顶部。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 330
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 3
-    effect: 如果对阵符卡时体术符卡，本卡战力+1000
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 331
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 攻击阶段，你可以把宣言区的本卡弃置。从卡组中将一张羽心特性的符卡加入手牌（这个效果在这张卡加入宣言区的当回合不能发动）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 332
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 本卡结算后，你受到1000点弹幕伤害。
-    intensity: 3500
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 333
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 本卡结算后，你可以将你弃牌区一张 日符「Aggressive Light」 加入手牌
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 334
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 335
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 336
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 如果你的角色区有桑妮米尔克，斯塔萨菲雅和露娜切露德，每有一位本卡战力+500
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 337
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡被宣言相杀时，你可以回复1点灵力。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 338
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 3
-    effect: 本卡被宣言相杀时，你可以抽一张牌。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 339
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，你可以将手牌一张角色卡横置于角色区。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 340
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，你可以将你角色区一张符卡返回手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.spellcard
-  pk: 341
-  fields:
-    type: 4
-    gorgeousness: 2
-    cost: 1
-    effect: 当你宣言一张战斗符卡时发动，你可以将对方华丽区或弃牌区一张符卡除外。本回合，对方如果宣言与那张卡华丽度相同符卡，那张卡的卡面效果无效，战力归0.
-    intensity: 0
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 342
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 宣言本卡时，你可以将对方道具区，符力区，手牌各一张符卡破坏。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-    - 25
-- model: game.spellcard
-  pk: 343
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 1
-    effect: 宣言本卡时，你可以查看对方道具区，符力区和手牌的全部符卡，并选择其中一张除外。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 344
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 本卡命中时，你可从卡组展示一张“梦想封印”并加入手牌，然后你回复1点灵力。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 345
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 3
-    effect: 攻击阶段，当本卡被相杀时，你可令对手选择一项：1.失去2点灵力 2.受到1500点特殊伤害。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 346
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 防御阶段，对方宣言一张战斗符卡时，可发动此陷阱：防止该符卡对你造成的所有伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 347
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 1
-- model: game.spellcard
-  pk: 348
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 1
-- model: game.spellcard
-  pk: 349
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （稳定：防御阶段宣言本卡时，本卡战力+1000.）
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 1
-- model: game.spellcard
-  pk: 350
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你宣言的灵梦符卡均获“诱导”特性。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 351
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 攻击阶段，你可消耗1点灵力，将手牌中的本卡替换为你宣言区、弃牌堆或隙间的任意一张（本卡以外的另一种）“梦想封印”符卡。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 352
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 攻击阶段宣言本卡后，你获得效果：防止你即将收到的任何伤害。此效果持续至该攻击阶段结束。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 353
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 本卡结算完毕后，你可展示你卡组3张战力为1000的战斗符卡，由对方从中选择其一加入你的手牌，其余返回卡组洗切。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 2
-- model: game.spellcard
-  pk: 354
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: （诱导：本卡命中后，对对手造成1000点特殊伤害）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 2
-- model: game.spellcard
-  pk: 355
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡时，你可查看你卡组顶的三张卡，展示其中一张并加入手牌，然后将其余卡片依次置于你卡组底。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 356
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 2
-    effect: 攻击阶段宣言本卡后，令对手获得状态：不可消耗符力，直到该阶段结束。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 357
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 防御阶段宣言本卡时，你可以将弃牌区X张“梦符”移出游戏；你每用此法移出一张“梦符”本卡战力+500。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 1
-- model: game.spellcard
-  pk: 358
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你每宣言一张灵梦的诱导特性符卡时，从卡组抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 359
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 0
-    effect: 本卡结算完毕后，横置进入对手宣言区顶部，且不可被弃置；在对手的攻击阶段结束时，将本卡移出游戏。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 360
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 防御阶段，当对手宣言一张弹幕符卡时，可发动此陷阱：你不可相杀此符卡，并令该符卡战力-1500，然后对对手造成500点弹幕伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 361
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: （诱导：本卡命中后，对对手造成1000点特殊伤害）
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 2
-- model: game.spellcard
-  pk: 362
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你宣言的所有灵梦战斗符卡失去特性以外的原有技能；且被对手相杀时，将其战力改为X+500（X为对阵符卡战力）
-    intensity: 0
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 363
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 3
-    effect: 攻击阶段限一次，若本卡未命中而进入弃牌堆后，你可以弃置一张手牌，若如此做，你从弃牌堆无消耗宣言一张“天霸风神脚”。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-- model: game.spellcard
-  pk: 364
-  fields:
-    type: 3
-    gorgeousness: 0
-    cost: 3
-    effect: 本卡在场时，每当你发动“行云流水”或“灵能结界”，你可回复1点灵力，并对对手造成500点弹幕伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 365
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 本卡结算完毕后，你可横置对手场上的一张角色卡；本回合，对手不可执行灵能解放，你不可发动灵梦以外角色的符卡。（有羽心特性的或系统卡除外）
-    intensity: 2500
-    basic_constraint: CENTER
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 366
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 本卡战斗结算时，你可将你弃牌堆至多2张符卡移出游戏。每移出一张符卡，本卡战力+500
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 367
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 3
-    effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡战力+X×500（X=你隙间中带有“鬼”字的符卡数，且最多为5）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 28
-- model: game.spellcard
-  pk: 368
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡命中后，你可立即从宣言区无消耗再次宣言本卡。若如此做，在此次结算完毕后，将本卡移出游戏。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 28
-- model: game.spellcard
-  pk: 369
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 28
-- model: game.spellcard
-  pk: 370
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。）&#10;本卡战力+X×500（X=你隙间中带有“鬼”字的符卡数，且最多为5）
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 28
-- model: game.spellcard
-  pk: 371
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡命中后，对手失去一点灵力，然后你抽一张卡。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 372
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 对手战斗符卡命中后发动：该符卡不可进入宣言区，且你选择1.对手失去3点灵力；2.弃置对手至多3张符力区卡片
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 373
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （萃集：本卡命中后，可将其返回你的卡组；本卡被移出游戏时，你抽一张卡。） 本卡结算完毕后，本回合内，双方宣言的弹幕符卡战力-1000
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 28
-- model: game.spellcard
-  pk: 374
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时发动：本回合，你宣言的所有符卡获得“萃集”特性。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 375
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 0
-    effect: 将你弃牌堆任意数量符卡移出游戏
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 376
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 你宣言区每存在一张“四天王奥义”，本卡战力×2.
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 377
-  fields:
-    type: 3
-    gorgeousness: 2
-    cost: 3
-    effect: 攻击阶段结束时限一次：你可弃置一张手牌，对对手造成500点特殊伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 378
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，你可弃置你符力区的一个「人偶」。若如此做，本卡战力+1000，并获得“反制”特性。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 379
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，你可弃置你符力区的X个「人偶」。若如此做，令本卡战力+1000×X（X至多为4）
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 380
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 防御阶段，对方宣言一张战力不小于2500点的符卡时，可发动此陷阱：你将手牌中任意数量的「人偶」置于你符力区，并竖置你符力区的所有「人偶」。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 381
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 382
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 383
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: （伏兵：本卡命中后，可置于你的符力区；本卡明置于符力区时，视为一个「人偶」）
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 384
-  fields:
-    type: 5
-    gorgeousness: 2
-    cost: 1
-    effect: 宣言本卡时，将你弃牌区一张「人偶」符卡置于你符力区。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 385
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 0
-    effect: 本卡命中后，你可将弃牌区一张「人形」或「人偶」符卡加入手牌。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 386
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段开始时，可发动此状态：在此攻击阶段内，你可不限次数执行以下动作：弃置一个你符力区的「人偶」，视为你宣言了一张战力为500的爱丽丝体术符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 387
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段开始时，可发动此状态：本回合内，你不可发动道具卡；你符力区每有一个「人偶」被弃置时，你可抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 388
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 宣言本卡时，展示你卡组顶的一张卡并加入手牌；若展示卡为「人偶」，本卡战力+1000。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 389
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 攻击阶段宣言本卡时，你可查看对手装备区和符力区，展示其中一张卡并弃置之。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 390
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 1
-    effect: 本卡战力+X×500（X=本回合，宣言本卡前你被弃置的「人偶」之数量）本卡的最终战力不高于5000。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 391
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 战斗阶段开始时，可发动此状态：每当你符力区一个竖置「人偶」被弃置时，防止该弃置，改为横置该卡。这个效果被发动三次后，弃置本卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 392
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡时，你可从卡组中展示一张爱丽丝的「人形」符卡，并加入手牌。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 393
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 0
-    effect: 宣言本卡时，你须弃置所有手牌和你符力区的所有「人偶」。下个战斗阶段开始时，你可将你弃牌堆的任意张「人偶」符卡置于你符力区，或加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 394
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 当本卡被体术符卡、或具有“高速”特性的符卡击破时：对对手造成1500点特殊伤害。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 395
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 2
-    effect: 当本卡被弹幕符卡相杀时，本卡战力+X（X=对阵符卡的最终战力）。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 396
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 2
-    effect: 本卡结算完毕后，爱丽丝恢复CENTER状态。
-    intensity: 2500
-    basic_constraint: HYPER
-    traits:
-    - 11
-- model: game.spellcard
-  pk: 397
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 回合开始时，可发动此陷阱：竖置你宣言区的所有符卡。你每以此法竖置一张符卡，你可弃置对手宣言区一张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 398
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 2
-    effect: 每回合限一次，本卡结算完毕后，你可从你卡组、符力区、手牌中各弃置至多一张「人偶」符卡，并对对手造成1000×X点弹幕伤害。（X=你以此法弃置的「人偶」之数量）
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 399
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 当本卡击破了一张弹幕符卡时：你可抽一张卡，或令对手受到500点弹幕伤害。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 400
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 当本卡击破了一张弹幕符卡时：令对手受到1000点弹幕伤害，并将对阵符卡移入你的宣言区底部。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 401
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 当你的一张战斗符卡命中后，你可立即不消耗灵力、无视华丽度限制宣言本卡；本卡命中后，可竖置一张你宣言区的符卡。
-    intensity: 2000
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 402
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 403
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 404
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 405
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 西行寺幽幽子参战时，本卡战力+500。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-    - 9
-- model: game.spellcard
-  pk: 406
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: 宣言本卡后，你可将你宣言区的一张华丽度为X的符卡横置，并将对手宣言区一张华丽度同为X的战斗符卡置于你的宣言区底部。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 407
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡战力+X*500（X=你宣言区横置符卡数，X至多为5）。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 408
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：本回合你可不限次数执行如下行动：横置你宣言区的一张符卡，然后抽一张卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 409
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 当一张战斗符卡命中时，可发动此陷阱：竖置你宣言区两张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 410
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 你可从卡组中展示一张具有扭曲特性的符卡并加入手牌。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 411
-  fields:
-    type: 6
-    gorgeousness: 0
-    cost: 0
-    effect: 当你横置一次你宣言区的符卡时，横置本卡：你获得如下技能：当你对对手造成一次伤害时，追加一次X*500（X为该次横置符卡的数量）的弹幕伤害。在这个效果被触发后，弃置本卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 412
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 1
-    effect: 宣言本卡时，展示你卡组顶一张卡片：若为战斗符卡，将之弃置并竖置你宣言区一张符卡；若不为战斗符卡，将之加入手牌。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 413
-  fields:
-    type: 5
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡不受华丽度限制。
-    intensity: 500
-    basic_constraint: CENTER
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 414
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 0
-    effect: 竖置你宣言区至多5张符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 415
-  fields:
-    type: 1
-    gorgeousness: 5
-    cost: 1
-    effect: 宣言本卡时，你可从卡组展示一张战力为500的八云紫符卡并加入手牌。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 416
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 攻击阶段宣言本卡时，你可从卡组展示一张战力为2000的八云紫符卡或八云蓝符卡，并加入手牌。
-    intensity: 500
-    basic_constraint: CENTER
-    traits:
-    - 3
-- model: game.spellcard
-  pk: 417
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 若你以「镜花水月」消耗灵力宣言本卡，本卡战力+500。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits:
-    - 8
-- model: game.spellcard
-  pk: 418
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段开始时，可发动此状态：「镜花水月」描述永久改为：战斗阶段限一次，当你需消耗灵力时，你可横置一张宣言区符卡代替此次灵力消耗。
-    intensity: 0
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 419
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 1
-    effect: 若本卡为该回合你宣言的第一张或最后一张战斗符卡，本回合结束时，你对对手造成500点特殊伤害。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 420
-  fields:
-    type: 1
-    gorgeousness: 4
-    cost: 3
-    effect: 若本卡为该回合你宣言的第一张战斗符卡，本回合结束时，你对对手造成1000点特殊伤害。
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 421
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 422
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段，当你宣言的一张咲夜战斗符卡命中时，可发动此陷阱：你选择一项执行：1.弃置对手一张符力区或装备区的卡片。2.令对手弃置一张手卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 423
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 1
-    effect: 攻击阶段，当你宣言的咲夜战斗符卡命中时，可发动此陷阱：你宣言的下一张咲夜战斗符卡获得贯通特性且宣言不受华丽度限制。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 424
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 当你即将受到一次伤害时，发动此陷阱：防止此伤害。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 425
-  fields:
-    type: 2
-    gorgeousness: 0
-    cost: 0
-    effect: 攻击阶段开始时，可发动此状态：本回合你宣言的十六夜咲夜符卡获得破坏特性，直至回合结束。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 426
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 攻击阶段，你可将宣言区的本卡横置。每当你执行上述动作后，你可从你弃牌堆展示一张「幻符」或「幻葬」并加入手卡。
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 427
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 3
-    effect: ''
-    intensity: 3000
-    basic_constraint: SUPPORT
-    traits:
-    - 4
-- model: game.spellcard
-  pk: 428
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: ''
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 7
-- model: game.spellcard
-  pk: 429
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: ''
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 7
-- model: game.spellcard
-  pk: 430
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 1
-    effect: 宣言本卡后，你可从卡组展示一张咲夜的陷阱符卡，并加入手卡；然后，你可将一张手卡设置于你的装备区。
-    intensity: 1000
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 431
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: ''
-    intensity: 3500
-    basic_constraint: SUPPORT
-    traits:
-    - 7
-- model: game.spellcard
-  pk: 432
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: ''
-    intensity: 2000
-    basic_constraint: SUPPORT
-    traits:
-    - 5
-    - 7
-- model: game.spellcard
-  pk: 433
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 当对手失去最后一张手卡时，可发动此陷阱：终止当前的所有结算。随后，你将一张手卡中的咲夜战斗符卡置于你宣言区顶部，并对对手造成一次与该符卡原始战力相等的特殊伤害。
-    intensity: 0
-    basic_constraint: CENTER
-    traits: []
-- model: game.spellcard
-  pk: 434
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 0
-    effect: 你选择一项执行：1.令你攻击阶段的所有咲夜的战斗符卡附带破坏特性。2.令你防御阶段的所有咲夜的战斗符卡附带反制特性。无论选择哪一项，这个效果将持续至本局游戏结束。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 25
-- model: game.spellcard
-  pk: 435
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 回合结束时，可发动此陷阱：对对手造成X点特殊伤害。（X=本回合你宣言的咲夜战斗符卡数量*500）
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 436
-  fields:
-    type: 5
-    gorgeousness: 3
-    cost: 2
-    effect: 当本卡被击破时，或从弃牌堆被移出游戏时，你可对对手造成500点特殊伤害。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 437
-  fields:
-    type: 5
-    gorgeousness: 5
-    cost: 2
-    effect: 攻击阶段宣言本卡时，你可将手卡中的一张咲夜战斗符卡暗扣于决斗区；当本卡战斗结算时，你可选择一项执行：1.展示并弃置该符卡，令本卡战力+X。（X=该符卡的原始战力）2.将该符卡返回手卡，并回复三点灵力。
-    intensity: 500
-    basic_constraint: HYPER
-    traits: []
-- model: game.spellcard
-  pk: 438
-  fields:
-    type: 5
-    gorgeousness: 4
-    cost: 3
-    effect: 若「蕾米莉亚」、「芙兰朵露」、「帕秋莉」、「红美铃」当中任一角色参战，本卡命中后，你可弃置对手一张手卡。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 6
-- model: game.spellcard
-  pk: 439
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 0
-    effect: 当对手发动带有「回复灵力」或「抽卡」效果的符卡时，可发动此陷阱：破坏该符卡。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 440
-  fields:
-    type: 4
-    gorgeousness: 0
-    cost: 2
-    effect: 当场上有符卡被移出游戏时，可发动此陷阱：将对手角色区的一张卡片移出游戏，直至本回合结束。
-    intensity: 0
-    basic_constraint: SUPPORT
-    traits: []
-- model: game.spellcard
-  pk: 441
-  fields:
-    type: 1
-    gorgeousness: 2
-    cost: 2
-    effect: 本卡结算完毕后，对方宣言的下一张符卡耗灵+1。
-    intensity: 1500
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-    - 18
-- model: game.spellcard
-  pk: 442
-  fields:
-    type: 1
-    gorgeousness: 3
-    cost: 2
-    effect: 本卡命中后，对方装备区的卡全部除外。
-    intensity: 2500
-    basic_constraint: SUPPORT
-    traits:
-    - 17
-- model: game.spellcard
-  pk: 443
-  fields:
-    type: 1
-    gorgeousness: 1
-    cost: 2
-    effect: 对方角色区每有一个人物，本卡战力加1000点。
-    intensity: 500
-    basic_constraint: SUPPORT
-    traits:
-    - 18
-- model: game.extendedconstraint
-  pk: 1
-  fields:
-    spellcard: 33
-    type: 额外限制
-    effect: 限一张
-    sort: 0
-- model: game.extendedconstraint
-  pk: 2
-  fields:
-    spellcard: 36
-    type: 额外限制
-    effect: 弃置你的所有手牌
-    sort: 0
-- model: game.extendedconstraint
-  pk: 3
-  fields:
-    spellcard: 53
-    type: 额外限制
-    effect: 藤原妹红参战
-    sort: 0
-- model: game.extendedconstraint
-  pk: 4
-  fields:
-    spellcard: 54
-    type: 额外限制
-    effect: 你隙间存在6张或更多的非“神宝”符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 5
-  fields:
-    spellcard: 69
-    type: 额外限制
-    effect: 雾雨魔理沙Center
-    sort: 0
-- model: game.extendedconstraint
-  pk: 6
-  fields:
-    spellcard: 73
-    type: 额外限制
-    effect: 从你弃牌堆将2张“星符”移出游戏。
-    sort: 0
-- model: game.extendedconstraint
-  pk: 7
-  fields:
-    spellcard: 84
-    type: 额外限制
-    effect: 你弃牌堆存在5种或更多符卡名有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 8
-  fields:
-    spellcard: 95
-    type: 额外限制
-    effect: 弃置二张带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 9
-  fields:
-    spellcard: 102
-    type: 额外限制
-    effect: 弃置你符力区5种符卡名带有“死”、“灵”、“亡”、“幽”的幽幽子或紫的符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 10
-  fields:
-    spellcard: 112
-    type: 额外限制
-    effect: 对手符力区没有卡片
-    sort: 0
-- model: game.extendedconstraint
-  pk: 11
-  fields:
-    spellcard: 117
-    type: 额外限制
-    effect: 弃置你的手牌至剩一张。
-    sort: 0
-- model: game.extendedconstraint
-  pk: 12
-  fields:
-    spellcard: 123
-    type: 额外限制
-    effect: 你的符力区和道具区没有卡片
-    sort: 0
-- model: game.extendedconstraint
-  pk: 13
-  fields:
-    spellcard: 140
-    type: 额外限制
-    effect: 在你的隙间同时存在1、5种或更多的“难题”2、5种或更多的“永夜返”
-    sort: 0
-- model: game.extendedconstraint
-  pk: 14
-  fields:
-    spellcard: 159
-    type: 额外限制
-    effect: 将你宣言区中3张带有连击特性的符卡移出游戏
-    sort: 0
-- model: game.extendedconstraint
-  pk: 15
-  fields:
-    spellcard: 161
-    type: 额外限制
-    effect: 从你弃牌堆移出一张“狱界剑”
-    sort: 0
-- model: game.extendedconstraint
-  pk: 16
-  fields:
-    spellcard: 202
-    type: 额外限制
-    effect: 将你弃牌堆火、水、木、金、土属性的五行符卡各一张移出游戏
-    sort: 0
-- model: game.extendedconstraint
-  pk: 17
-  fields:
-    spellcard: 254
-    type: 额外限制
-    effect: 限一张
-    sort: 0
-- model: game.extendedconstraint
-  pk: 18
-  fields:
-    spellcard: 255
-    type: 额外限制
-    effect: 扣减1000点体力；或你此时体力值不大于3000
-    sort: 0
-- model: game.extendedconstraint
-  pk: 19
-  fields:
-    spellcard: 319
-    type: 额外限制
-    effect: 对手符力区没有卡片
-    sort: 0
-- model: game.extendedconstraint
-  pk: 20
-  fields:
-    spellcard: 342
-    type: 额外限制
-    effect: 斯塔萨菲雅和露娜切露德参战
-    sort: 0
-- model: game.extendedconstraint
-  pk: 21
-  fields:
-    spellcard: 343
-    type: 额外限制
-    effect: 将你角色区一张角色牌返回卡组。
-    sort: 0
-- model: game.extendedconstraint
-  pk: 22
-  fields:
-    spellcard: 361
-    type: 额外限制
-    effect: 从你的弃牌堆将一张“宝符”移出游戏
-    sort: 0
-- model: game.extendedconstraint
-  pk: 23
-  fields:
-    spellcard: 385
-    type: 额外限制
-    effect: 弃置你符力区的两个「人偶」
-    sort: 0
-- model: game.extendedconstraint
-  pk: 24
-  fields:
-    spellcard: 390
-    type: 额外限制
-    effect: 你的符力区没有符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 25
-  fields:
-    spellcard: 415
-    type: 额外限制
-    effect: 你一张无消耗的符卡命中后
-    sort: 0
-- model: game.extendedconstraint
-  pk: 26
-  fields:
-    spellcard: 418
-    type: 额外限制
-    effect: 你宣言区存在6张或更多符卡
-    sort: 0
-- model: game.extendedconstraint
-  pk: 27
-  fields:
-    spellcard: 431
-    type: 额外限制
-    effect: 从你弃牌堆移出一张「伤符」和一张「奇术」
-    sort: 0

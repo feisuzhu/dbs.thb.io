@@ -1,5 +1,5 @@
 <template>
-  <GameCard :card="card">
+  <GameCard :card="card" back="/uploads/card/character-back.jpg">
     <template #tags>
       <span style="background-color: black;" class="tag">角色卡</span>
     </template>

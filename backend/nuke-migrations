@@ -12,4 +12,4 @@ done
 export DJANGO_SUPERUSER_USERNAME=proton
 export DJANGO_SUPERUSER_PASSWORD=feisuzhu
 ./manage.py createsuperuser --email proton@proton.moe --noinput
-./manage.py loaddata page game-{collection,card,character,spellcard,others}
+./manage.py loaddata page game-{collection,card,character,spellcard,other}

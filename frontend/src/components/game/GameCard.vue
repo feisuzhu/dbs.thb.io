@@ -13,7 +13,7 @@
         <div class="left">
           <div class="card-image">
             <!--<img :src="card.versions[vi].image" alt="">-->
-            <PokemonCSSCard :img="card.versions[vi].image" @clickOnActive="emit('click')" />
+            <PokemonCSSCard :img="card.versions[vi].image" :back="back" @clickOnActive="emit('click')" />
             <Meta :version="card.versions[vi]" />
           </div>
         </div>
@@ -40,6 +40,7 @@ import { ref } from 'vue'
 
 const props = defineProps({
   card: { type: Object },
+  back: { type: String },
 });
 
 const emit = defineEmits(['click']);
