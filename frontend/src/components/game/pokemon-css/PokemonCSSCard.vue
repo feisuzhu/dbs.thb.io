@@ -19,7 +19,8 @@
       >
         <img class="pokemon-css-card__back" :src="back" />
         <div class="pokemon-css-card__front">
-          <img :src="lazy_img" @load="imageLoader" />
+          <!--<img :src="lazy_img" @load="imageLoader" /> giving up lazy loading-->
+          <img :src="img" @load="imageLoader" />
           <div class="pokemon-css-card__shine"></div>
           <div class="pokemon-css-card__glare"></div>
         </div>
