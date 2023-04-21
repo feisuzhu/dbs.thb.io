@@ -140,9 +140,11 @@ import { useRouter } from 'vue-router'
         border-radius: 3px;
       }
 
-      &.rarity-n  { background-color: #cfded2; }
-      &.rarity-r  { background-color: #a2dfff; }
-      &.rarity-sr { background-color: #ffee9e; }
+      &.rarity-n   { background-color: #cfded2; }
+      &.rarity-r   { background-color: #a2dfff; }
+      &.rarity-sr  { background-color: #ffee9e; }
+      &.rarity-ssr { background-color: #ffa1aa; }
+      &.rarity-pr  { background-color: #ff5868; }
     }
 
     .body {
