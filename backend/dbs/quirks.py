@@ -105,6 +105,22 @@ def quirk_add_martor_field_graphql_type():
     convert_django_field.register(MartorField)(convert_field_to_martor)
 
 
+def quirk_patch_graphehe_django_fields_issubclass():
+
+    def fake_issubclass(cls, other):
+        from graphene_django.types import DjangoObjectType
+        from game.schema import DjangoInterfaceType
+
+        if isinstance(other, type) and \
+            issubclass(cls, DjangoInterfaceType) and \
+            issubclass(other, DjangoObjectType):
+            return True
+        return issubclass(cls, other)
+
+    import graphene_django.fields
+    graphene_django.fields.issubclass = fake_issubclass
+
+
 def apply_quirks():
     for n, f in list(globals().items()):
         if n.startswith('quirk_'):
