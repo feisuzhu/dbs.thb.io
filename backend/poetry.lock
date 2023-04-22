@@ -224,7 +224,7 @@ test = ["coveralls", "futures", "mock", "pytest (>=2.7.3)", "pytest-benchmark", 
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -315,7 +315,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "8417ca16ada0e6e7811a9b0e05ba180ba9af873c9c075cbddca0b3a5fad970f9"
+content-hash = "4fdfe107c8667e82e0f7b5963b4cd1552adb507916be9ead7cf81c32b168028a"
 
 [metadata.files]
 aniso8601 = [

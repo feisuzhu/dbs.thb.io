@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN : && \
     apt-get update && \
     apt-get -y upgrade && \
-    apt-get install -y python3-pip locales libmariadb-dev libmariadb-dev-compat && \
+    apt-get install -y python3-pip locales libmariadb-dev libmariadb-dev-compat tzdata && \
     locale-gen zh_CN.UTF-8 && \
     pip install -U pip && \
     pip install -U poetry && \
