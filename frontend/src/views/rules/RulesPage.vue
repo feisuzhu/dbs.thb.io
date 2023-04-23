@@ -14,6 +14,11 @@
   .page-content {
     max-width: 900px;
     margin-top: 20px;
+    article {
+      img {
+        max-width: 100%;
+      }
+    }
   }
 </style>
 
