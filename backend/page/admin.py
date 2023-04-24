@@ -63,7 +63,7 @@ class LandingAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ('首页信息', {
-            'fields': (('logo', 'monologo'), 'footer')
+            'fields': (('logo', 'monologo'), 'footer', 'big_slogan', 'small_slogan')
         }),
     )
 
