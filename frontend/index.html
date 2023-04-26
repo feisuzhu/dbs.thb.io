@@ -2,6 +2,9 @@
 <html lang="zh-Hans">
   <head>
     <meta charset="utf-8">
+    <% if (env.NODE_ENV === 'production') { %>
+    <base href="https://mdf-best-cdn.thbattle.cn/">
+    <% } %>
     <title>DBS.Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -9,9 +12,6 @@
   </head>
   <body>
       <div id="app"></div>
-      <script type="text/javascript">
-          function require(v) { console.warn('REQUIRE ' + v); return []; }
-      </script>
       <script type="module" src="/src/main.js"></script>
   </body>
 </html>

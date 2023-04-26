@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import svgLoader from 'vite-svg-loader'
+import { createHtmlPlugin } from 'vite-plugin-html'
 
 // --------------------------
 // import basicSsl from '@vitejs/plugin-basic-ssl'
@@ -17,6 +18,16 @@ export default defineConfig({
     // --------------------------
     // basicSsl()
     // --------------------------
+    createHtmlPlugin({
+      minify: true,
+      entry: 'src/main.js',
+      template: 'index.html',
+      inject: {
+        data: {
+          env: process.env,
+        },
+      },
+    }),
   ],
   resolve: {
     alias: {
