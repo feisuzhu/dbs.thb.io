@@ -41,6 +41,9 @@ class Build(Collection):
 
 
 class Episode(Collection):
+    versions = models.ManyToManyField("Version", **_("卡牌版本"), related_name="episodes")
+
+    objects = InheritanceManager()
 
     class Meta:
         verbose_name = "卡包"
@@ -87,6 +90,9 @@ class Card(models.Model):
         verbose_name = "卡牌"
         verbose_name_plural = verbose_name
         ordering = ('sort', 'id')
+
+    def __str__(self):
+        return f'{self.build.name} - {self.title}'
 
 
 class Character(Card):
@@ -204,7 +210,6 @@ class Version(models.Model):
     card        = models.ForeignKey(Card, on_delete=models.CASCADE, **_("卡牌"), related_name="versions")
     version     = models.CharField(max_length=50, **_("版本"), default="经典")
     rarity      = models.CharField(max_length=50, **_("稀有度"), choices=Rarity.choices)
-    episode     = models.ForeignKey(Episode, on_delete=models.CASCADE, **_("卡包"), blank=True, null=True, related_name="versions")
     line        = models.CharField(max_length=200, **_("牌语"))
     illustrator = models.ForeignKey(Illustrator, on_delete=models.PROTECT, **_("画师"), related_name="spellcards")
     image       = models.ImageField(upload_to="card", **_("立绘", "630x876"))

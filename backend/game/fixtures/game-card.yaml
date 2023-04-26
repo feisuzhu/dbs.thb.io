@@ -922,7 +922,6 @@
     card: 1
     version: 经典
     rarity: R
-    episode: 1
     line: 看上去似乎很悠闲，实际上就是很悠闲。
     illustrator: 1
     image: card/RMC01.jpg
@@ -934,7 +933,6 @@
     card: 2
     version: 经典
     rarity: SR
-    episode: 1
     line: 「为什么她是人类而非妖怪呢？」「那就是DNA的问题了...」
     illustrator: 1
     image: card/RMC02.jpg
@@ -946,7 +944,6 @@
     card: 3
     version: 经典
     rarity: R
-    episode: 1
     line: 「这里，是梦开始的地方。」
     illustrator: 2
     image: card/RM001.jpg
@@ -958,7 +955,6 @@
     card: 4
     version: 经典
     rarity: SR
-    episode: 1
     line: 「勿谓言之不预。」
     illustrator: 2
     image: card/RM002.jpg
@@ -970,7 +966,6 @@
     card: 5
     version: 经典
     rarity: N
-    episode: 1
     line: 「你一个人也能算是阵吗？」
     illustrator: 3
     image: card/RM003.jpg
@@ -982,7 +977,6 @@
     card: 6
     version: 经典
     rarity: N
-    episode: 1
     line: 弹幕本身只是笔直的飞行着，别被骗了。
     illustrator: 4
     image: card/RM004.jpg
@@ -994,7 +988,6 @@
     card: 7
     version: 经典
     rarity: N
-    episode: 1
     line: 滴水不漏。
     illustrator: 2
     image: card/RM005.jpg
@@ -1006,7 +999,6 @@
     card: 8
     version: 经典
     rarity: N
-    episode: 1
     line: 于她而言，运气正是实力的一部分。
     illustrator: 5
     image: card/RM006.jpg
@@ -1018,7 +1010,6 @@
     card: 9
     version: 经典
     rarity: N
-    episode: 1
     line: 在发散的终点，静寂将会到访。
     illustrator: 6
     image: card/RM007.jpg
@@ -1030,7 +1021,6 @@
     card: 10
     version: 经典
     rarity: N
-    episode: 1
     line: 「那些灵符宛如具有意志一般…」
     illustrator: 7
     image: card/RM008.jpg
@@ -1042,7 +1032,6 @@
     card: 11
     version: 经典
     rarity: N
-    episode: 1
     line: 弃明投暗。
     illustrator: 8
     image: card/RM009.jpg
@@ -1054,7 +1043,6 @@
     card: 12
     version: 经典
     rarity: N
-    episode: 1
     line: 「这么大的玩意儿你平常藏在哪了？」
     illustrator: 8
     image: card/RM010.jpg
@@ -1066,7 +1054,6 @@
     card: 13
     version: 经典
     rarity: N
-    episode: 1
     line: 「回合结束时+1+1？你在说什么啊？」
     illustrator: 9
     image: card/RM011.jpg
@@ -1078,7 +1065,6 @@
     card: 14
     version: 经典
     rarity: N
-    episode: 1
     line: 对物理法则的无情扭曲。
     illustrator: 10
     image: card/RM012.jpg
@@ -1090,7 +1076,6 @@
     card: 15
     version: 经典
     rarity: R
-    episode: 1
     line: 最直接的直线胜负。
     illustrator: 7
     image: card/RM013.jpg
@@ -1102,7 +1087,6 @@
     card: 16
     version: 经典
     rarity: R
-    episode: 1
     line: 「能进能退，方能养生。」「就是懒吧！」
     illustrator: 11
     image: card/RM014.jpg
@@ -1114,7 +1098,6 @@
     card: 17
     version: 经典
     rarity: R
-    episode: 1
     line: 特别的擦弹技巧。
     illustrator: 10
     image: card/RM015.jpg
@@ -1126,7 +1109,6 @@
     card: 18
     version: 经典
     rarity: R
-    episode: 1
     line: 缚鬼之阵，亦可缚人。
     illustrator: 3
     image: card/RM016.jpg
@@ -1138,7 +1120,6 @@
     card: 19
     version: 经典
     rarity: R
-    episode: 1
     line: 「被砸到的话很痛，物理意义上的很痛。」
     illustrator: 4
     image: card/RM017.jpg
@@ -1150,7 +1131,6 @@
     card: 20
     version: 经典
     rarity: R
-    episode: 1
     line: 「那似乎是妖怪最讨厌的光芒。」
     illustrator: 12
     image: card/RM018.jpg
@@ -1162,7 +1142,6 @@
     card: 21
     version: 经典
     rarity: SR
-    episode: 1
     line: 被封印在灵梦时空之中。
     illustrator: 13
     image: card/RM019.jpg
@@ -1174,7 +1153,6 @@
     card: 22
     version: 经典
     rarity: SR
-    episode: 1
     line: 纯粹的防御也能瓦解对手的意志。
     illustrator: 2
     image: card/RM020.jpg
@@ -1186,7 +1164,6 @@
     card: 23
     version: 经典
     rarity: SR
-    episode: 1
     line: 「接招吧，吃我灭龙的一击！」
     illustrator: 3
     image: card/RM021.jpg
@@ -1198,7 +1175,6 @@
     card: 24
     version: 经典
     rarity: SSR
-    episode: 1
     line: 「假如这不是游戏的话，谁也无法取胜。」
     illustrator: 2
     image: card/RM022.jpg
@@ -1210,7 +1186,6 @@
     card: 25
     version: 经典
     rarity: R
-    episode: 1
     line: 天道酬勤。
     illustrator: 1
     image: card/MSC01.jpg
@@ -1222,7 +1197,6 @@
     card: 26
     version: 经典
     rarity: SR
-    episode: 1
     line: 「不考虑用用你家里堆的那些道具吗？」——森近霖之助
     illustrator: 1
     image: card/MSC02.jpg
@@ -1234,7 +1208,6 @@
     card: 27
     version: 经典
     rarity: R
-    episode: 1
     line: 「射击的时候要集中精神，温柔地对迷你八卦炉念咒文。」
     illustrator: 2
     image: card/MS001.jpg
@@ -1246,7 +1219,6 @@
     card: 28
     version: 经典
     rarity: SR
-    episode: 1
     line: 「瞄准那令人不快的目标，发射出去的就是恋爱的魔炮！」
     illustrator: 2
     image: card/MS002.jpg
@@ -1258,7 +1230,6 @@
     card: 29
     version: 经典
     rarity: N
-    episode: 1
     line: 「想尝尝星星的味道？」
     illustrator: 14
     image: card/MS003.jpg
@@ -1270,7 +1241,6 @@
     card: 30
     version: 经典
     rarity: N
-    episode: 1
     line: 「看起来好像在攻击自己一样。」
     illustrator: 4
     image: card/MS004.jpg
@@ -1282,7 +1252,6 @@
     card: 31
     version: 经典
     rarity: N
-    episode: 1
     line: 「虽然变豪华了，但还是似曾相识的招式。」
     illustrator: 9
     image: card/MS005.jpg
@@ -1294,7 +1263,6 @@
     card: 32
     version: 经典
     rarity: N
-    episode: 1
     line: 使魔太多会操纵不过来，所以不常使用。
     illustrator: 9
     image: card/MS006.jpg
@@ -1306,7 +1274,6 @@
     card: 33
     version: 经典
     rarity: N
-    episode: 1
     line: 「砸到魔法森林的花花草草也不好啊！」——爱丽丝
     illustrator: 15
     image: card/MS007.jpg
@@ -1318,7 +1285,6 @@
     card: 34
     version: 经典
     rarity: N
-    episode: 1
     line: 误入歧途。
     illustrator: 1
     image: card/MS008.jpg
@@ -1330,7 +1296,6 @@
     card: 35
     version: 经典
     rarity: N
-    episode: 1
     line: 「来一场星光浴吧！」
     illustrator: 2
     image: card/MS009.jpg
@@ -1342,7 +1307,6 @@
     card: 36
     version: 经典
     rarity: N
-    episode: 1
     line: 「小朋友们请勿模仿哦。」
     illustrator: 9
     image: card/MS010.jpg
@@ -1354,7 +1318,6 @@
     card: 37
     version: 经典
     rarity: N
-    episode: 1
     line: 与星尘同行。
     illustrator: 9
     image: card/MS011.jpg
@@ -1366,7 +1329,6 @@
     card: 38
     version: 经典
     rarity: N
-    episode: 1
     line: 「全方位无死角覆盖！」
     illustrator: 16
     image: card/MS012.jpg
@@ -1378,7 +1340,6 @@
     card: 39
     version: 经典
     rarity: R
-    episode: 1
     line: 柔情似水，佳期如梦，忍顾鹊桥归路。
     illustrator: 17
     image: card/MS013.jpg
@@ -1390,7 +1351,6 @@
     card: 40
     version: 经典
     rarity: R
-    episode: 1
     line: 「特攻降低2级？你在说什么啊？」
     illustrator: 13
     image: card/MS014.jpg
@@ -1402,7 +1362,6 @@
     card: 41
     version: 经典
     rarity: R
-    episode: 1
     line: 寂静宇宙中的光之回响。
     illustrator: 18
     image: card/MS015.jpg
@@ -1414,7 +1373,6 @@
     card: 42
     version: 经典
     rarity: R
-    episode: 1
     line: 「魔力涌上来了！」
     illustrator: 19
     image: card/MS016.jpg
@@ -1426,7 +1384,6 @@
     card: 43
     version: 经典
     rarity: R
-    episode: 1
     line: 「恋心是这么可怕的东西吗？」
     illustrator: 20
     image: card/MS017.jpg
@@ -1438,7 +1395,6 @@
     card: 44
     version: 经典
     rarity: R
-    episode: 1
     line: 「再动我就射击了！」
     illustrator: 12
     image: card/MS018.jpg
@@ -1450,7 +1406,6 @@
     card: 45
     version: 经典
     rarity: SR
-    episode: 1
     line: 飞蛾扑火，飞星掠日。
     illustrator: 2
     image: card/MS019.jpg
@@ -1462,7 +1417,6 @@
     card: 46
     version: 经典
     rarity: SR
-    episode: 1
     line: 「走为上策。」
     illustrator: 9
     image: card/MS020.jpg
@@ -1474,7 +1428,6 @@
     card: 47
     version: 经典
     rarity: SR
-    episode: 1
     line: 化身成星。
     illustrator: 6
     image: card/MS021.jpg
@@ -1486,7 +1439,6 @@
     card: 48
     version: 经典
     rarity: SSR
-    episode: 1
     line: 「扩散改造，完成！」
     illustrator: 20
     image: card/MS022.jpg
@@ -1498,7 +1450,6 @@
     card: 49
     version: 经典
     rarity: R
-    episode: 1
     line: 说她是女仆好呢，还是看孩子的好呢…
     illustrator: 18
     image: card/SKC01.jpg
@@ -1510,7 +1461,6 @@
     card: 50
     version: 经典
     rarity: SR
-    episode: 1
     line: 时间停止，对于扫除而言，确实是不可多得的绝技。
     illustrator: 1
     image: card/SKC02.jpg
@@ -1522,7 +1472,6 @@
     card: 51
     version: 经典
     rarity: R
-    episode: 1
     line: 「刀子密度：★★★★★」
     illustrator: 21
     image: card/SK001.jpg
@@ -1534,7 +1483,6 @@
     card: 52
     version: 经典
     rarity: SR
-    episode: 1
     line: 「你的葬身之地，将成为秘密。」
     illustrator: 21
     image: card/SK002.jpg
@@ -1546,7 +1494,6 @@
     card: 53
     version: 经典
     rarity: N
-    episode: 1
     line: 魔术的基本技巧。
     illustrator: 22
     image: card/SK003.jpg
@@ -1558,7 +1505,6 @@
     card: 54
     version: 经典
     rarity: N
-    episode: 1
     line: 「晚餐的食材有着落了呢。」
     illustrator: 22
     image: card/SK004.jpg
@@ -1570,7 +1516,6 @@
     card: 55
     version: 经典
     rarity: N
-    episode: 1
     line: 割裂灵魂的红色风暴。
     illustrator: 3
     image: card/SK005.jpg
@@ -1582,7 +1527,6 @@
     card: 56
     version: 经典
     rarity: N
-    episode: 1
     line: 「在表针转完一圈之前解决掉吧。」
     illustrator: 8
     image: card/SK006.jpg
@@ -1594,7 +1538,6 @@
     card: 57
     version: 经典
     rarity: N
-    episode: 1
     line: 预「支」未来。
     illustrator: 23
     image: card/SK007.jpg
@@ -1606,7 +1549,6 @@
     card: 58
     version: 经典
     rarity: N
-    episode: 1
     line: 潜藏于黑暗中的杀意。
     illustrator: 24
     image: card/SK008.jpg
@@ -1618,7 +1560,6 @@
     card: 59
     version: 经典
     rarity: N
-    episode: 1
     line: 「谁允许你瓶过了？」
     illustrator: 25
     image: card/SK009.jpg
@@ -1630,7 +1571,6 @@
     card: 60
     version: 经典
     rarity: N
-    episode: 1
     line: 刀子为什么反弹？不要在意那种细节。
     illustrator: 8
     image: card/SK010.jpg
@@ -1642,7 +1582,6 @@
     card: 61
     version: 经典
     rarity: N
-    episode: 1
     line: 「眼花缭乱了吗？」
     illustrator: 8
     image: card/SK011.jpg
@@ -1654,7 +1593,6 @@
     card: 62
     version: 经典
     rarity: N
-    episode: 1
     line: 「至少再消耗掉你一个Bomb才行！」
     illustrator: 26
     image: card/SK012.jpg
@@ -1666,7 +1604,6 @@
     card: 63
     version: 经典
     rarity: R
-    episode: 1
     line: 无差别攻击。
     illustrator: 27
     image: card/SK013.jpg
@@ -1678,7 +1615,6 @@
     card: 64
     version: 经典
     rarity: R
-    episode: 1
     line: 「你以为我是一把把捡回来的？」
     illustrator: 19
     image: card/SK014.jpg
@@ -1690,7 +1626,6 @@
     card: 65
     version: 经典
     rarity: R
-    episode: 1
     line: 「最后的魔术是——瞬间移动。」
     illustrator: 28
     image: card/SK015.jpg
@@ -1702,7 +1637,6 @@
     card: 66
     version: 经典
     rarity: R
-    episode: 1
     line: 「唔…量子力学，好怀念呀~」——东风谷早苗
     illustrator: 29
     image: card/SK016.jpg
@@ -1714,7 +1648,6 @@
     card: 67
     version: 经典
     rarity: R
-    episode: 1
     line: 此所谓偷梁换柱。
     illustrator: 30
     image: card/SK017.jpg
@@ -1726,7 +1659,6 @@
     card: 68
     version: 经典
     rarity: R
-    episode: 1
     line: 「对于挑战咲夜的人，每个时刻都像是延长为永恒。」
     illustrator: 31
     image: card/SK018.jpg
@@ -1738,7 +1670,6 @@
     card: 69
     version: 经典
     rarity: SR
-    episode: 1
     line: 「在我地盘这你就得听我的。」
     illustrator: 32
     image: card/SK019.jpg
@@ -1750,7 +1681,6 @@
     card: 70
     version: 经典
     rarity: SR
-    episode: 1
     line: 完美的谢幕。
     illustrator: 33
     image: card/SK020.jpg
@@ -1762,7 +1692,6 @@
     card: 71
     version: 经典
     rarity: SR
-    episode: 1
     line: 过去与未来同时映射于现在。
     illustrator: 6
     image: card/SK021.jpg
@@ -1774,7 +1703,6 @@
     card: 72
     version: 经典
     rarity: SSR
-    episode: 1
     line: 「然后——时间开始流动。」
     illustrator: 34
     image: card/SK022.jpg
@@ -1786,7 +1714,6 @@
     card: 73
     version: 经典
     rarity: R
-    episode: 1
     line: 冥界的庭师兼护卫兼剑术指导。
     illustrator: 1
     image: card/YMC01.jpg
@@ -1798,7 +1725,6 @@
     card: 74
     version: 经典
     rarity: SR
-    episode: 1
     line: 楼观可斩幽灵，白楼可斩迷惘。当然，两把皆可斩断活着的人类。
     illustrator: 1
     image: card/YMC02.jpg
@@ -1810,7 +1736,6 @@
     card: 75
     version: 经典
     rarity: R
-    episode: 1
     line: 「你是，人类呢，来得正好——」
     illustrator: 14
     image: card/YM001.jpg
@@ -1822,7 +1747,6 @@
     card: 76
     version: 经典
     rarity: SR
-    episode: 1
     line: 「不问人鬼，皆斩无赦。」
     illustrator: 33
     image: card/YM002.jpg
@@ -1834,7 +1758,6 @@
     card: 77
     version: 经典
     rarity: N
-    episode: 1
     line: 在冥界被斩杀，也未必能安息。
     illustrator: 25
     image: card/YM003.jpg
@@ -1846,7 +1769,6 @@
     card: 78
     version: 经典
     rarity: N
-    episode: 1
     line: 每天打扫这么大的庭院想必很辛苦。
     illustrator: 1
     image: card/YM004.jpg
@@ -1858,7 +1780,6 @@
     card: 79
     version: 经典
     rarity: N
-    episode: 1
     line: 白玉楼阶梯的尽头，只有一片寂静。
     illustrator: 35
     image: card/YM005.jpg
@@ -1870,7 +1791,6 @@
     card: 80
     version: 经典
     rarity: N
-    episode: 1
     line: 会思考的芦苇。
     illustrator: 22
     image: card/YM006.jpg
@@ -1882,7 +1802,6 @@
     card: 81
     version: 经典
     rarity: N
-    episode: 1
     line: 「我会战斗至留恋与执着消失为止。」
     illustrator: 26
     image: card/YM007.jpg
@@ -1894,7 +1813,6 @@
     card: 82
     version: 经典
     rarity: N
-    episode: 1
     line: 「变成四刀流了？」
     illustrator: 36
     image: card/YM008.jpg
@@ -1906,7 +1824,6 @@
     card: 83
     version: 经典
     rarity: N
-    episode: 1
     line: 「来，再斩一刀！」「嗯，再斩一刀。」
     illustrator: 17
     image: card/YM009.jpg
@@ -1918,7 +1835,6 @@
     card: 84
     version: 经典
     rarity: N
-    episode: 1
     line: 「总之，先砍下去再说。」
     illustrator: 13
     image: card/YM010.jpg
@@ -1930,7 +1846,6 @@
     card: 85
     version: 经典
     rarity: N
-    episode: 1
     line: 「换句话说就是「送你上西天斩」的意思吧。」
     illustrator: 3
     image: card/YM011.jpg
@@ -1942,7 +1857,6 @@
     card: 86
     version: 经典
     rarity: N
-    episode: 1
     line: 「自律已有成果，勤练带来力量。」
     illustrator: 23
     image: card/YM012.jpg
@@ -1954,7 +1868,6 @@
     card: 87
     version: 经典
     rarity: R
-    episode: 1
     line: 传说某位外界剑士的魔剑可斩杀飞燕。
     illustrator: 19
     image: card/YM013.jpg
@@ -1966,7 +1879,6 @@
     card: 88
     version: 经典
     rarity: R
-    episode: 1
     line: 「不要靠近我啊！」——比那名居天子
     illustrator: 33
     image: card/YM014.jpg
@@ -1978,7 +1890,6 @@
     card: 89
     version: 经典
     rarity: R
-    episode: 1
     line: 祸从口出。
     illustrator: 6
     image: card/YM015.jpg
@@ -1990,7 +1901,6 @@
     card: 90
     version: 经典
     rarity: R
-    episode: 1
     line: 庭师的本职工作。
     illustrator: 21
     image: card/YM016.jpg
@@ -2002,7 +1912,6 @@
     card: 91
     version: 经典
     rarity: R
-    episode: 1
     line: 伴随落樱起舞。
     illustrator: 29
     image: card/YM017.jpg
@@ -2014,7 +1923,6 @@
     card: 92
     version: 经典
     rarity: R
-    episode: 1
     line: 迷惘如阴魂不散。
     illustrator: 3
     image: card/YM018.jpg
@@ -2026,7 +1934,6 @@
     card: 93
     version: 经典
     rarity: SR
-    episode: 1
     line: 「把你手中的春，全部都交出来！」
     illustrator: 18
     image: card/YM019.jpg
@@ -2038,7 +1945,6 @@
     card: 94
     version: 经典
     rarity: SR
-    episode: 1
     line: 「再前进的话...即使你被大小姐杀掉，我也不管啦！」
     illustrator: 4
     image: card/YM020.jpg
@@ -2050,7 +1956,6 @@
     card: 95
     version: 经典
     rarity: SR
-    episode: 1
     line: 「妖怪所锻造的这把楼观剑，无法斩断的东西几乎没有！」
     illustrator: 12
     image: card/YM021.jpg
@@ -2062,7 +1967,6 @@
     card: 96
     version: 经典
     rarity: SSR
-    episode: 1
     line: 十四夜的月光摇曳于刀尖之上。
     illustrator: 2
     image: card/YM022.jpg
@@ -2074,7 +1978,6 @@
     card: 97
     version: 经典
     rarity: R
-    episode: 1
     line: 散发着灵力的纸片，或许能驱邪避鬼。
     illustrator: 1
     image: card/SYS001.jpg
@@ -2086,7 +1989,6 @@
     card: 98
     version: 经典
     rarity: R
-    episode: 1
     line: 「精选64味魔法之森的蘑菇熬煮而成，绝对好喝！」
     illustrator: 1
     image: card/SYS002.jpg
@@ -2098,7 +2000,6 @@
     card: 99
     version: 经典
     rarity: R
-    episode: 1
     line: 可以暂停时间的奇妙怀表，然而暂停时却不能攻击...
     illustrator: 28
     image: card/SYS003.jpg
@@ -2110,7 +2011,6 @@
     card: 100
     version: 经典
     rarity: R
-    episode: 1
     line: 一把能斩断迷惘的妖刀。
     illustrator: 4
     image: card/SYS004.jpg
@@ -2122,7 +2022,6 @@
     card: 101
     version: 经典
     rarity: R
-    episode: 1
     line: 能无限涌出烈酒的鬼之酒器。
     illustrator: 2
     image: card/SYS005.jpg
@@ -2134,7 +2033,6 @@
     card: 102
     version: 经典
     rarity: R
-    episode: 1
     line: 据说是江户时代的奢靡风气。
     illustrator: 1
     image: card/SYS006.jpg
@@ -2146,7 +2044,6 @@
     card: 25
     version: MSC01PR
     rarity: PR
-    episode: 1
     line: asdf
     illustrator: 8
     image: card/MSC01PR.jpg
@@ -2158,7 +2055,6 @@
     card: 1
     version: RMC01PR
     rarity: PR
-    episode: 1
     line: asdf
     illustrator: 8
     image: card/RMC01PR.jpg
@@ -2170,7 +2066,6 @@
     card: 49
     version: SKC01PR
     rarity: PR
-    episode: 1
     line: asdf
     illustrator: 8
     image: card/RKC01PR.jpg
@@ -2182,7 +2077,6 @@
     card: 73
     version: YMC01PR
     rarity: PR
-    episode: 1
     line: asdf
     illustrator: 8
     image: card/YMC01PR.jpg

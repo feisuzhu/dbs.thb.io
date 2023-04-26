@@ -2,17 +2,21 @@
   <div class="meta">
     <p class="pad"></p>
     <p>画师：{{ version.illustrator.name }}</p>
-    <p v-if="version.episode">从 {{ version.episode.sku }} 获得</p>
+    <p v-if="version.episodes.length">从 {{ episodes }} 获得</p>
     <p class="pad"></p>
   </div>
 </template>
 
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   version: {
     type: Object,
   }
 });
+
+const episodes = computed(() => props.version.episodes.map(e => e.sku).join(' / '));
 </script>
 
 <style lang="scss" scoped>

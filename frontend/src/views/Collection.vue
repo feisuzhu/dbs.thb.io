@@ -96,7 +96,7 @@ const collectionQuery= useQuery(gql`
     version
     rarity image line
     illustrator { name }
-    episode { sku name }
+    episodes { sku name }
   }
 
   fragment CardFields on Card {

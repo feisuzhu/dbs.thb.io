@@ -2,10 +2,8 @@
 
 rm db.sqlite3
 
-for i in `ls -d */migrations`; do
-    rm -rf $i/*;
-    touch $i/__init__.py
-done
+git checkout -- */migrations
+git clean -fxd */migrations
 
 ./manage.py makemigrations
 ./manage.py migrate

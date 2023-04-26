@@ -37,7 +37,7 @@ const cardQuery = useQuery(gql`
     version
     rarity image line
     illustrator { name }
-    episode { sku name }
+    episodes { sku name }
   }
 
   query SpellcardQuery($sku: String!) {

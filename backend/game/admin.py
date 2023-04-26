@@ -55,6 +55,7 @@ class CharacterAdmin(admin.ModelAdmin):
 class EpisodeAdmin(admin.ModelAdmin):
     list_display = ('id', 'sku', 'name', 'image', 'dummy', 'hidden', 'sort')
     list_filter = ()
+    filter_horizontal = ('versions',)
     search_fields = ('sku', 'name', 'intro')
     ordering = ('sort',)
     sort_order = 40
@@ -92,7 +93,7 @@ class ExtendedConstraintInline(admin.TabularInline):
 @admin.register(models.Spellcard)
 class SpellcardAdmin(admin.ModelAdmin):
     list_display = ('id', 'sku', 'build', 'title', 'type', 'gorgeousness', 'basic_constraint', 'has_extended_constraint', 'hidden', 'sort')
-    list_filter = ('build', 'type', 'gorgeousness', 'versions__illustrator', 'versions__rarity', 'versions__episode', 'traits__name')
+    list_filter = ('build', 'type', 'gorgeousness', 'versions__illustrator', 'versions__rarity', 'versions__episodes', 'traits__name')
     search_fields = ('title', 'effect', 'faq')
     filter_horizontal = ('traits',)
     ordering = ('sort',)
