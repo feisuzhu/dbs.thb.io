@@ -42,7 +42,7 @@
         </div>
       </div>
       -->
-      <p class="effect" tabindex=0>{{ card.effect }}</p>
+      <p class="effect" tabindex=0 v-html="card.effect"></p>
     </template>
   </GameCard>
 </template>

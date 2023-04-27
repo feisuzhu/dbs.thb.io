@@ -8,7 +8,7 @@
       <SVGText class="title" :text="`「${card.title}」`" />
       <template v-for="sk in card.skills">
         <span class="tag" :class="sk.type.toLowerCase()">{{ sk.type }}：{{ sk.name }}</span>
-        <p tabindex=0>{{ sk.description }}</p>
+        <p tabindex=0 v-html="sk.description"></p>
       </template>
     </template>
   </GameCard>
