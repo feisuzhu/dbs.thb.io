@@ -2,16 +2,25 @@
 <html lang="zh-Hans">
   <head>
     <meta charset="utf-8">
-    <% if (env.NODE_ENV === 'production') { %>
+    <% if (env.NODE_ENV === 'production' ) { %>
     <base href="https://mdf-best-cdn.thbattle.cn/">
     <% } %>
-    <title>DBS.Project</title>
+    <title>幻想梦斗符TCG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" property="og:description" content="本站是同人原创TCG企划幻想梦斗符的官方站点，提供符卡查询、规则指南、联系信息等功能。本站持续为关注幻想梦斗符企划以及其他东方同人企划的玩家提供最新情报。更多功能陆续开发中，敬请期待。">
+    <meta name="author" content="ProjectZephyr">
+    <meta name="keywords" content="幻想梦斗符,梦斗符,萌豆腐,梦豆腐,MDF,丝风计画,吹风姬">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mdf.best/">
+    <meta property="og:title" content="幻想梦斗符 TCG">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdf.best/">
+    <meta property="og:site_name" content="幻想梦斗符 - 公式站">
+    <meta property="og:locale" content="zh_CN">
   </head>
   <body>
-      <div id="app"></div>
-      <script type="module" src="/src/main.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <noscript><strong>本站需启用 JavaScript 来正常运行。请在您的浏览器设置中启用 JavaScript，然后刷新页面。</strong></noscript>
   </body>
 </html>
