@@ -383,10 +383,10 @@ onUnmounted(() => {
 /* } */
 .pokemon-css-card {
   position: relative;
+  isolation: isolate;
 }
 
 .pokemon-css-card.active {
-  isolation: isolate;
   z-index: 9999;
 }
 </style>

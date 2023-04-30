@@ -204,8 +204,8 @@ button.pokemon-css-card__rotator {
 
 .pokemon-css-card__back {
   background-color: var(--card-back);
-  -webkit-transform: rotateY(180deg) translateZ(1px);
-  transform: rotateY(180deg) translateZ(1px);
+  -webkit-transform: rotateY(0deg) translateZ(-1px) !important;
+  transform: rotateY(0deg) translateZ(-1px) !important;
   backface-visibility: visible;
 }
 
