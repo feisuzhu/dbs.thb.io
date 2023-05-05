@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <div class="logo text-center text-lg-start"><a :href="siteUrl"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
+              <div class="logo text-center text-lg-start"><a href="/"><img :src="isLoading ? '' : data.landing.logo" alt="" /></a></div>
             </div>
             <div class="col-lg"></div>
             <div class="text-center text-lg-end col-lg-4">
@@ -31,8 +31,6 @@ const headerQuery = gql`
     }
   }
 `;
-
-const siteUrl = process.env.NODE_ENV == "production" ? "https://mdf.best" : "/";
 
 </script>
 

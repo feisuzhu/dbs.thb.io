@@ -10,7 +10,7 @@
             </div>
             <div class="col-md order-md-2"></div>
             <div class="col-md-4 order-md-1 text-center text-md-start">
-              <div class="logo"><a :href="siteUrl"><img :src="isLoading ? '' : data.landing.monologo" alt="" /></a></div>
+              <div class="logo"><a href="/"><img :src="isLoading ? '' : data.landing.monologo" alt="" /></a></div>
               <pre class="text">{{ isLoading ? '' : data.landing.footer }}</pre>
             </div>
           </div>
@@ -33,8 +33,6 @@ const footerQuery = gql`
     }
   }
 `;
-
-const siteUrl = process.env.NODE_ENV == "production" ? "https://mdf.best" : "/";
 </script>
 
 <style lang="scss">

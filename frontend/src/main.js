@@ -31,7 +31,7 @@ const cache = new InMemoryCache({
 
 const apolloClient = new ApolloClient({
   cache,
-  uri: process.env.NODE_ENV == "production" ? 'https://mdf.best/graphql' : '/graphql',
+  uri: '/graphql',
 })
 
 const apolloProvider = createApolloProvider({
