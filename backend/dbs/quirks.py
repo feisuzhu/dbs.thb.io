@@ -39,20 +39,25 @@ def quirk_fix_autofield_graphql_type():
 
 
 def quirk_add_image_field_graphql_type():
-    import graphene as gh
-    from graphene_django.converter import convert_django_field
+    from django.conf import settings
     from django.db import models
+    from graphene_django.converter import convert_django_field
+    from urllib.parse import urljoin
+    import graphene as gh
 
     class ImagePathType(gh.Enum):
-        FULL = 1
-        RAW  = 2
+        ABSOLUTE = 1
+        RELATIVE = 2
+        RAW      = 3
 
-    def image_resolver(root, info, type=ImagePathType.FULL):
+    def image_resolver(root, info, type=ImagePathType.ABSOLUTE):
         f = getattr(root, info.field_name)
         if not f:
             return None
 
-        if type == ImagePathType.FULL:
+        if type == ImagePathType.ABSOLUTE:
+            return urljoin(settings.CDN_PREFIX, f.url)
+        elif type == ImagePathType.RELATIVE:
             return f.url
         elif type == ImagePathType.RAW:
             return f
@@ -61,7 +66,7 @@ def quirk_add_image_field_graphql_type():
 
     def convert_field_to_image(field, registry=None):
         return gh.Field(gh.String,
-            type=gh.Argument(ImagePathType, description='图片路径类型', required=True, default_value=ImagePathType.FULL),
+            type=gh.Argument(ImagePathType, description='图片路径类型', required=True, default_value=ImagePathType.ABSOLUTE),
             description=field.help_text and str(field.help_text),
             required=not field.null,
             resolver=image_resolver,
