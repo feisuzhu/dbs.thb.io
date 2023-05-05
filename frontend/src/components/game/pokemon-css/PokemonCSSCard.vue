@@ -207,8 +207,8 @@ const setCenter = () => {
   const view = document.documentElement; // get window/viewport size
 
   const delta = {
-    x: round(view.clientWidth / 2 - rect.x - rect.width / 2),
-    y: round(view.clientHeight / 2 - rect.y - rect.height / 2),
+    x: round(view.clientWidth / 2 - rect.x - rect.width * 2 / 2),
+    y: round(view.clientHeight / 2 - rect.y - rect.height * 2 / 2),
   };
   springTranslate.set({
     x: delta.x,
@@ -384,14 +384,13 @@ onUnmounted(() => {
 .pokemon-css-card {
   position: relative;
   isolation: isolate;
-  width: 200%;
-  height: 200%;
-  top: 0;
-  left: 0;
+  height: 100%;
 }
 
 .pokemon-css-card__translater {
   transform-origin: top left;
+  width: 200%;
+  height: 200%;
 }
 
 .pokemon-css-card.active {

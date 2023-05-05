@@ -150,6 +150,7 @@ import { useRouter } from 'vue-router'
     .body {
       display: flex;
       height: calc(100% - var(--footer-height));
+      /* height: 100%; */
       box-shadow: -2px 0px 5px white;
       background-color: #f7f7f7;
 
@@ -157,14 +158,15 @@ import { useRouter } from 'vue-router'
         display: flex;
         flex-direction: column;
         width: var(--hpad);
-        height: 100%;
+        height: calc(100% + 0.9em);
         /* transform: translate(calc(var(--img-offs-x) * -1), calc((var(--img-offs-y) + var(--header-height)) * -1)); */
         margin-left: calc(var(--img-offs-x) * -1);
         margin-right: calc(var(--img-offs-x));
         margin-top: calc((var(--img-offs-y) + var(--header-height)) * -1);
 
         .card-image {
-          height: calc(100% - var(--meta-height));
+          /* height: calc(100% - var(--meta-height)); */
+          height: 100%;
 
           img {
             max-width: 100%;
