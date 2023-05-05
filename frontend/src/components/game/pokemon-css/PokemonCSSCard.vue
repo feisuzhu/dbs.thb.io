@@ -223,7 +223,7 @@ const popover = () => {
   let scaleH = (window.innerHeight / rect.height) * 0.9 * 2;
   let scaleF = 2;
   setCenter();
-  if (firstPop) {
+  if (firstPop || true) {
     delay = 1000;
     springRotateDelta.set({
       x: 360,
