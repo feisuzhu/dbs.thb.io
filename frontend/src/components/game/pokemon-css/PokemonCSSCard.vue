@@ -219,9 +219,9 @@ const setCenter = () => {
 const popover = () => {
   const rect = thisCard.value.getBoundingClientRect(); // get element's size/position
   let delay = 100;
-  let scaleW = (window.innerWidth / rect.width) * 0.9;
-  let scaleH = (window.innerHeight / rect.height) * 0.9;
-  let scaleF = 1.75;
+  let scaleW = (window.innerWidth / rect.width) * 0.9 * 2;
+  let scaleH = (window.innerHeight / rect.height) * 0.9 * 2;
+  let scaleF = 2;
   setCenter();
   if (firstPop) {
     delay = 1000;
@@ -284,7 +284,7 @@ const dynamicStyles = computed(() => `
   --rotate-y: ${-springRotate.values.y - springRotateDelta.values.y}deg;
   --background-x: ${springBackground.values.x}%;
   --background-y: ${springBackground.values.y}%;
-  --card-scale: ${springScale.values.v};
+  --card-scale: ${springScale.values.v * 0.5};
   --translate-x: ${springTranslate.values.x}px;
   --translate-y: ${springTranslate.values.y}px;
 `);
@@ -384,6 +384,14 @@ onUnmounted(() => {
 .pokemon-css-card {
   position: relative;
   isolation: isolate;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+}
+
+.pokemon-css-card__translater {
+  transform-origin: top left;
 }
 
 .pokemon-css-card.active {
