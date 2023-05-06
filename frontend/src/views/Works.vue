@@ -15,7 +15,7 @@
       </nav>
       <div class="container works-list" v-if="!isLoading">
         <div class="row">
-          <div class="col"><h5>按构筑查询</h5></div>
+          <div class="col"><h5>按人物查询</h5></div>
         </div>
         <div class="row">
           <div class="col-lg-6 twin-center-text" v-for="(build, i) in data.builds" :key="i">

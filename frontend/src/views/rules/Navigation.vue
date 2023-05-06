@@ -11,7 +11,7 @@
           <a></a>
           <router-link to="/rules">规则说明</router-link>
           <router-link to="/vocabulary">用语参考</router-link>
-          <router-link to="/changelog">更新记录</router-link>
+          <router-link to="/faq">FAQ</router-link>
           <a class="d-none d-sm-block"></a>
         </div>
         <div class="col-auto">
