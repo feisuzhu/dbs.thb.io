@@ -15,6 +15,8 @@ const router = createRouter({
     {path: '/community',          component: () => import('@/views/community/Community.vue')},
     {path: '/shop',               component: () => import('@/views/community/Shop.vue')},
 
+    {path: '/:page(deck)',        component: () => import('@/views/community/CommunityPage.vue')},  // temporary page
+
     {path: '/:sku',               component: () => import('@/views/Collection.vue')},
 
     { path: '/:pathMatch(.*)', redirect: '/' }
