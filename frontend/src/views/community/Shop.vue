@@ -3,7 +3,7 @@
     <template v-slot="{ result: { data, error }, isLoading }">
       <Navigation />
       <div class="container shop-container">
-        <template v-for="info in Array(10).fill(data.infoBlocks).flat()" v-if="!isLoading && !error">
+        <template v-for="info in data.infoBlocks" v-if="!isLoading && !error">
           <hr>
           <div class="row shop-block">
             <div class="image col-12 col-md-5 order-md-2">
