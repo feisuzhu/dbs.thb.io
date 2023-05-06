@@ -141,6 +141,7 @@ const collectionQuery= useQuery(gql`
       }
       ... on Episode {
         versions {
+          ...VersionFields
           card {
             ...CardFields
           }
@@ -153,7 +154,7 @@ const collectionQuery= useQuery(gql`
 `, () => ({ sku: route.params.sku }));
 
 const col = computed(() => collectionQuery.loading.value ? {} : collectionQuery.result.value.collection);
-const cards = computed(() => !collectionQuery.loading.value ? (col.value?.cards || col.value.versions.map(v => v.card)) : []);
+const cards = computed(() => !collectionQuery.loading.value ? (col.value?.cards || col.value.versions.map(v => ({...v.card, versions: [v]}))) : []);
 
 const navigateToDetail = (c) => {
   router.push({ name: 'card', params: { col: route.params.sku, sku: c.sku } });
