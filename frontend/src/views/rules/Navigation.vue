@@ -9,9 +9,9 @@
         </div>
         <div class="col nav-links">
           <a></a>
-          <router-link to="/rules">规则说明</router-link>
-          <router-link to="/vocabulary">用语参考</router-link>
-          <router-link to="/faq">FAQ</router-link>
+          <router-link to="/rules">规则</router-link>
+          <router-link to="/vocabulary">用语</router-link>
+          <router-link to="/faq">常见问题</router-link>
           <a class="d-none d-sm-block"></a>
         </div>
         <div class="col-auto">

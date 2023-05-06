@@ -9,8 +9,8 @@
         </div>
         <div class="col nav-links">
           <a></a>
-          <router-link to="/community">在线社群</router-link>
-          <router-link to="/shop">店铺信息</router-link>
+          <router-link to="/community">社群</router-link>
+          <router-link to="/shop">店铺</router-link>
           <router-link to="/deck">卡组分享</router-link>
           <a class="d-none d-sm-block"></a>
         </div>
