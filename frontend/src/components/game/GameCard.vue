@@ -145,6 +145,7 @@ import { useRouter } from 'vue-router'
       &.rarity-sr  { background-color: #ffee9e; }
       &.rarity-ssr { background-color: #ffa1aa; }
       &.rarity-pr  { background-color: #ff5868; }
+      &.rarity-tr  { background-color: #ff813d; }
     }
 
     .body {

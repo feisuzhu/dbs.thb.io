@@ -72,6 +72,7 @@ class Rarity(models.TextChoices):
     SR  = "SR", "SR"
     SSR = "SSR", "SSR"
     PR  = "PR", "PR"
+    TR  = "TR", "TR"
 
 
 class Card(models.Model):
