@@ -390,7 +390,8 @@ onUnmounted(() => {
 .pokemon-css-card__translater {
   transform-origin: top left;
   width: 200%;
-  height: 200%;
+  /* Microsoft Edge displays it 4x the size (instead of 2x) if I specify both width and height to 200% */
+  /* height: 200%; */
 }
 
 .pokemon-css-card.active {
