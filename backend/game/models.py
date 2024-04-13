@@ -48,7 +48,6 @@ class Episode(Collection):
     class Meta:
         verbose_name = "卡包"
         verbose_name_plural = verbose_name
-        ordering = ('sort', 'id')
 
     def __str__(self):
         return self.name
@@ -222,7 +221,7 @@ class Version(models.Model):
         verbose_name = "卡牌版本"
         verbose_name_plural = verbose_name
         unique_together = [('card', 'version')]
-        ordering = ('sort', 'id')
+        ordering = ('card__sort', 'sort', 'id')
 
     def __str__(self):
         return f'{self.card} - {self.version} [{self.rarity}]'
