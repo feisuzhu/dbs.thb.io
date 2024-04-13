@@ -16,7 +16,7 @@
       <div class="container">
         <h5 class="section-title">作品一览</h5>
         <div class="row align-items-start">
-          <div class="col-md" v-for="work in data.landing.works" :key="work.id" v-if="!isLoading">
+          <div class="col-sm-6 col-lg-3" v-for="work in data.landing.works" :key="work.id" v-if="!isLoading">
             <div class="work-block">
               <img :src="work.image" class="card-img-top">
               <div class="body">
