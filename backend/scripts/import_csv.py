@@ -12,11 +12,12 @@ BASE = Path(__file__).parent
 from game import models
 import csv
 
-reader = csv.DictReader(open(BASE / 'E1.csv'))
+reader = csv.DictReader(open(BASE / 'EP03.csv'))
 
 
 with transaction.atomic():
     for ent in reader:
+        print(ent)
         build, _ = models.Build.objects.get_or_create(sku=ent['sku'].split('-')[0])
         ty, _ = models.Type.objects.get_or_create(name=ent['type1'])
 
@@ -29,7 +30,8 @@ with transaction.atomic():
             title=ent['title'],
             gorgeousness=ent['gor1'],
             cost=ent['cost'],
-            lsc=ent['lsc'],
+            # lsc=ent['lsc'],
+            lsc=0,
             effect=ent['effect'],
             intensity=ent['intensity'],
             basic_constraint=ent['con'],
