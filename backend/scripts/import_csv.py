@@ -19,6 +19,8 @@ with transaction.atomic():
     for ent in reader:
         print(ent)
         build, _ = models.Build.objects.get_or_create(sku=ent['sku'].split('-')[0])
+        build.hidden = True
+        build.save()
         ty, _ = models.Type.objects.get_or_create(name=ent['type1'])
 
         print(ent['sku'])
@@ -35,6 +37,7 @@ with transaction.atomic():
             effect=ent['effect'],
             intensity=ent['intensity'],
             basic_constraint=ent['con'],
+            hidden=True,
         )
 
         ill, _ = models.Illustrator.objects.get_or_create(name=ent['ill1'])

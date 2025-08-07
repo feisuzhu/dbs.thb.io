@@ -12,9 +12,9 @@ RUN : && \
     apt-get clean && rm -rf /var/lib/apt/lists/* && \
     :
 
-ADD poetry.lock pyproject.toml /backend/
+ADD poetry.lock pyproject.toml README.md /backend/
 WORKDIR /backend
-RUN poetry install --no-dev
+RUN poetry install
 COPY . /backend/
 
 ENV TERM=xterm \
